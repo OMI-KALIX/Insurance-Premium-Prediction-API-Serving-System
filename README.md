@@ -443,3 +443,11 @@ This project is fully deployed on Render.
 **OMKAR SAWANT**
 
 Building intelligent machine learning systems with scalable deployment architectures.
+---
+Dataset: **Health Insurance Dataset** by **Parth Patel**  
+Source: https://www.kaggle.com/datasets/patelparth3399/indian-insurance-premium-prediction-dataset 
+
+License: MIT
+
+Special thanks to the author for making the dataset publicly available.
+---
