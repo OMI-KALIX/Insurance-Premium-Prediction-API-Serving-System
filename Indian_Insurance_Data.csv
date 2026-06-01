@@ -1,0 +1,4001 @@
+age,weight,height,income_lpa,smoker,city,occupation,insurance_premium_category
+50,57,176,29.9,false,Agra,Factory Worker,Medium
+56,90,168,19.22,false,Allahabad,Businessman,Medium
+26,87,178,36.95,false,Srinagar,Sales Manager,Low
+34,73,162,14.75,false,Meerut,Banker,Low
+43,47,192,19.32,true,Varanasi,Marketing Manager,High
+42,91,187,2.59,true,Hyderabad,Insurance Agent,High
+55,72,184,16.42,false,Ahmedabad,HR Manager,Low
+55,61,178,7.23,false,Chennai,Pharmacist,Low
+58,63,184,30.08,true,Amritsar,Teacher,High
+19,75,187,9,true,Vadodara,Software Engineer,Medium
+58,66,193,44.62,false,Lucknow,Consultant,Medium
+54,95,161,18.31,false,Bhopal,Driver,Medium
+27,63,188,35.28,false,Varanasi,HR Manager,Low
+58,47,153,22.75,false,Mumbai,Shop Owner,Medium
+28,86,188,17.87,true,Srinagar,Teacher,Medium
+59,52,155,4.45,false,Ahmedabad,Nurse,Low
+49,46,154,38.73,true,Ludhiana,Accountant,High
+41,86,171,23.21,false,Rajkot,Government Employee,Medium
+34,46,182,36.25,true,Lucknow,Architect,High
+60,77,161,30.36,false,Surat,Engineer,Medium
+42,61,180,5.29,true,Mumbai,Software Engineer,Medium
+22,94,177,38.85,false,Ludhiana,Driver,Medium
+23,70,185,43.95,false,Ghaziabad,Architect,Low
+30,68,160,14.88,false,Meerut,Consultant,Medium
+47,94,193,23.19,false,Lucknow,Real Estate Agent,Medium
+46,67,151,2.28,true,Mumbai,Civil Servant,High
+58,56,184,24.31,true,Ranchi,Nurse,High
+26,64,166,14.5,false,Pune,Architect,Medium
+29,86,160,37.23,false,Kanpur,Software Engineer,Medium
+63,87,191,7.48,true,Nagpur,Plumber,High
+29,78,183,26.3,false,Ranchi,Marketing Manager,Low
+33,52,176,7.03,true,Chennai,Retail Manager,Medium
+37,76,185,12.17,false,Faridabad,Real Estate Agent,Low
+31,92,154,26.83,false,Hyderabad,Banker,Medium
+33,96,174,15.43,true,Bangalore,Factory Worker,High
+43,86,162,15.5,false,Allahabad,Software Engineer,Medium
+60,96,188,48.29,true,Ranchi,Chef,High
+61,95,155,35.82,false,Jaipur,Factory Worker,High
+57,81,195,21.2,false,Hyderabad,Teacher,Medium
+33,99,153,31.17,false,Amritsar,Accountant,Medium
+58,56,194,15.88,false,Mumbai,Pharmacist,Medium
+39,71,187,13.1,false,Ludhiana,Government Employee,Low
+41,51,150,3.11,false,Varanasi,Civil Servant,Low
+55,84,185,17.77,false,Ranchi,Consultant,Low
+40,54,191,49.18,false,Bangalore,Sales Manager,Medium
+44,98,150,40.02,false,Amritsar,HR Manager,Medium
+47,57,150,24.09,false,Rajkot,Software Engineer,High
+33,46,166,44.37,false,Kolkata,Factory Worker,Medium
+63,46,150,7.94,true,Vadodara,Government Employee,High
+29,90,166,35.92,false,Nashik,Chef,Medium
+39,93,180,27.79,false,Nashik,Plumber,Medium
+36,57,160,41.16,false,Srinagar,HR Manager,Low
+21,54,154,31.69,false,Srinagar,Teacher,Low
+55,54,153,43.7,true,Pune,Plumber,High
+18,83,159,48.45,false,Rajkot,Chef,Medium
+43,47,170,13.42,false,Chennai,Driver,Medium
+32,52,177,7.45,false,Hyderabad,Insurance Agent,Low
+57,81,165,15.75,true,Ghaziabad,Electrician,High
+31,79,190,40.74,false,Ludhiana,Driver,Low
+48,76,156,48.25,false,Pune,HR Manager,Medium
+35,76,163,4.56,false,Bangalore,Teacher,Low
+40,82,156,34.21,true,Ahmedabad,Carpenter,High
+51,88,192,38.29,false,Kanpur,Doctor,Medium
+44,51,174,28.42,false,Faridabad,Lab Technician,Medium
+34,69,175,21.78,false,Allahabad,Pharmacist,Low
+30,93,153,18.62,true,Allahabad,Plumber,High
+45,60,153,47.48,true,Mumbai,Data Analyst,High
+51,54,188,29.81,true,Patna,Engineer,High
+40,62,164,17.63,true,Allahabad,Banker,Low
+48,57,169,16.26,false,Lucknow,Retail Manager,Low
+52,81,153,28.33,false,Indore,Retail Manager,High
+52,80,183,17.84,false,Ghaziabad,Consultant,Low
+20,64,173,3.88,false,Surat,Doctor,Low
+53,93,195,30.83,false,Chennai,Software Engineer,Medium
+48,79,165,19.39,false,Amritsar,Shop Owner,Medium
+21,95,156,42.21,false,Amritsar,Consultant,High
+26,61,156,3.08,false,Kolkata,Chef,Low
+60,91,194,44.95,false,Indore,Lab Technician,Medium
+64,77,184,24.85,false,Ranchi,Factory Worker,Medium
+50,45,161,49.1,false,Bhopal,Plumber,Medium
+31,69,181,37.22,true,Nashik,Pharmacist,Medium
+22,69,174,12.5,false,Faridabad,Driver,Low
+58,56,183,26.07,false,Mumbai,Chef,Medium
+23,86,169,41.43,false,Delhi,Banker,Medium
+47,48,160,38.47,false,Ghaziabad,Engineer,Low
+52,55,189,49.07,false,Lucknow,Real Estate Agent,Medium
+30,53,189,32.79,true,Kolkata,Architect,High
+51,84,176,29.85,true,Chennai,Consultant,High
+41,54,185,6.15,false,Amritsar,Shop Owner,Low
+61,63,179,34.25,false,Kanpur,Government Employee,Medium
+32,97,187,33.9,true,Meerut,Banker,High
+51,50,194,43.54,false,Nagpur,Nurse,Low
+29,99,191,48.83,false,Pune,Sales Manager,Low
+25,79,163,39,false,Nashik,Engineer,Low
+41,61,185,48.1,false,Delhi,Lab Technician,High
+57,76,174,21.7,false,Kolkata,HR Manager,Medium
+39,93,169,15.6,false,Meerut,Lawyer,Medium
+45,61,150,5.56,false,Ranchi,Data Analyst,Medium
+36,72,159,21.25,false,Srinagar,Pharmacist,Medium
+21,82,157,47.81,false,Mumbai,Plumber,Medium
+34,64,150,21.56,false,Hyderabad,Plumber,Medium
+49,53,163,13.66,false,Kanpur,Teacher,Low
+55,60,151,2.07,true,Nagpur,Electrician,High
+63,89,161,21.01,false,Visakhapatnam,Lab Technician,High
+62,52,162,11.33,false,Vadodara,Government Employee,Low
+61,84,172,41.7,true,Indore,Pharmacist,High
+21,97,165,3.24,false,Ghaziabad,HR Manager,Low
+43,86,195,26.45,false,Faridabad,Marketing Manager,Low
+53,78,177,6.41,true,Mumbai,Driver,High
+46,85,171,14.76,true,Jaipur,Plumber,Medium
+47,71,162,35.22,false,Kanpur,Doctor,Medium
+29,46,181,32.95,false,Lucknow,Software Engineer,Low
+20,71,168,20.55,false,Visakhapatnam,Lawyer,Low
+47,63,168,30.7,false,Allahabad,Shop Owner,Low
+61,50,152,25.27,true,Srinagar,Insurance Agent,High
+61,90,182,40.47,false,Kolkata,Pharmacist,Medium
+42,72,169,2.67,false,Surat,Shop Owner,Low
+42,72,159,15.31,true,Kanpur,Marketing Manager,High
+37,99,180,42.72,true,Allahabad,HR Manager,High
+38,52,177,34.92,false,Visakhapatnam,Driver,High
+44,48,184,34.04,true,Vadodara,Real Estate Agent,High
+52,99,157,27.31,true,Surat,Consultant,High
+38,94,156,16.85,false,Nagpur,Software Engineer,Medium
+43,62,151,30.21,false,Meerut,Architect,Medium
+49,94,161,49.07,true,Ghaziabad,Insurance Agent,High
+26,67,163,28.19,false,Vadodara,Engineer,Low
+24,86,173,18.49,true,Pune,Real Estate Agent,Medium
+57,60,165,18.37,false,Hyderabad,Architect,Low
+24,62,184,25.28,true,Surat,Real Estate Agent,High
+19,78,182,48.59,true,Ghaziabad,Civil Servant,Medium
+48,60,157,4.45,false,Delhi,Chef,Low
+19,57,181,26.63,false,Kanpur,Teacher,Low
+25,50,185,47.58,false,Ahmedabad,Accountant,Low
+18,63,167,11.1,true,Ranchi,Accountant,Medium
+55,63,170,38.23,false,Pune,Software Engineer,Medium
+20,90,177,45.5,false,Varanasi,Software Engineer,Low
+59,63,192,16.26,false,Kanpur,Accountant,Medium
+20,98,169,48.05,true,Surat,Civil Servant,High
+40,53,186,4.77,false,Nagpur,Chef,Low
+39,55,171,12.19,false,Hyderabad,Data Analyst,Low
+40,74,173,9.21,false,Indore,Banker,Low
+19,71,153,13.94,true,Kanpur,Government Employee,High
+61,74,154,26.38,false,Faridabad,Civil Servant,High
+33,98,173,34.69,false,Faridabad,Teacher,Medium
+34,74,174,5.09,false,Mumbai,Civil Servant,Low
+40,55,185,6.47,false,Kanpur,Accountant,Low
+24,98,188,7.36,true,Lucknow,Engineer,Medium
+52,61,171,9.37,false,Ghaziabad,Electrician,Medium
+26,77,152,28.17,false,Nashik,Content Writer,Medium
+39,54,176,4.83,false,Srinagar,Banker,Low
+56,46,168,29.03,false,Delhi,Civil Servant,Medium
+33,48,186,35.02,false,Vadodara,Architect,Medium
+41,69,176,9.47,false,Bangalore,Electrician,Low
+37,58,188,22.86,false,Chennai,Carpenter,Medium
+28,93,157,37.48,false,Allahabad,Insurance Agent,Medium
+28,73,180,44.04,true,Vadodara,Lab Technician,Medium
+45,99,185,35.96,false,Chennai,Consultant,Medium
+63,97,188,36.89,false,Bangalore,Retail Manager,Low
+23,97,182,47.56,false,Agra,Software Engineer,Low
+51,72,165,40.94,false,Ludhiana,Accountant,Medium
+26,53,158,47.22,false,Agra,Content Writer,Low
+25,67,192,6.33,false,Surat,Chef,Low
+41,47,162,4.82,false,Ranchi,Businessman,Low
+50,84,164,3.46,false,Allahabad,Architect,Medium
+53,87,164,29.79,true,Meerut,Marketing Manager,High
+51,96,178,15.34,false,Nashik,Carpenter,Medium
+41,68,177,48.44,true,Hyderabad,Architect,High
+37,86,184,20.8,false,Ahmedabad,Chef,Medium
+39,54,176,46.93,false,Allahabad,Banker,Medium
+35,52,185,47.33,true,Ludhiana,Chef,High
+38,67,184,15.45,false,Hyderabad,Insurance Agent,Low
+27,83,175,25.69,false,Srinagar,Carpenter,Low
+60,76,188,26.4,true,Indore,Shop Owner,High
+51,92,185,7.89,false,Jaipur,Factory Worker,Medium
+43,45,153,4.37,false,Hyderabad,Nurse,Low
+63,96,184,49.14,false,Kolkata,Architect,Medium
+33,83,165,22.45,false,Nashik,Accountant,Medium
+21,88,194,46.38,false,Hyderabad,Content Writer,Low
+37,84,176,18.47,true,Chennai,Software Engineer,High
+60,73,187,27.24,false,Patna,Engineer,Medium
+43,84,152,45.27,false,Hyderabad,Shop Owner,Medium
+53,65,162,7.87,false,Mumbai,Civil Servant,Low
+36,70,151,46.66,true,Patna,Content Writer,High
+49,48,174,34.36,true,Ghaziabad,Engineer,High
+22,46,177,35.02,true,Bhopal,Nurse,High
+50,54,185,14.3,false,Jaipur,Content Writer,Medium
+46,85,182,41.29,true,Nagpur,Accountant,High
+64,75,167,46.89,false,Varanasi,Architect,Medium
+45,78,192,19.22,false,Faridabad,Lawyer,Low
+26,55,184,20.58,false,Bangalore,Driver,Low
+59,72,163,3.54,true,Kolkata,Software Engineer,High
+45,93,165,15.32,false,Kolkata,Shop Owner,Medium
+42,89,189,23.6,false,Surat,Software Engineer,Low
+61,90,172,5.83,false,Pune,Engineer,Medium
+25,89,195,10.79,false,Faridabad,Businessman,Low
+27,61,182,9.73,false,Faridabad,Data Analyst,Low
+39,92,162,10.52,false,Surat,Businessman,Medium
+50,50,164,21.52,false,Nagpur,Real Estate Agent,Low
+46,88,177,7.47,false,Agra,Shop Owner,Medium
+23,85,176,2.11,false,Allahabad,Lab Technician,Low
+53,71,170,19.94,false,Hyderabad,Chef,Low
+21,85,170,31.96,false,Surat,Lab Technician,Low
+52,90,170,40.5,false,Kanpur,Lab Technician,High
+60,69,166,39.16,false,Delhi,Software Engineer,Medium
+45,87,181,47.01,false,Indore,Content Writer,Medium
+36,76,159,30.67,true,Ahmedabad,Software Engineer,High
+63,60,181,35.26,true,Nagpur,Electrician,High
+40,63,153,6.39,true,Hyderabad,Teacher,Medium
+43,78,155,10.4,false,Kanpur,Accountant,Medium
+29,63,169,46.27,true,Hyderabad,Electrician,Medium
+22,53,164,30.45,false,Mumbai,Sales Manager,Low
+58,67,184,45.04,false,Hyderabad,Sales Manager,Medium
+49,98,162,5.16,true,Meerut,Civil Servant,High
+25,58,187,3.25,true,Ranchi,Software Engineer,Medium
+57,56,168,16.51,false,Vadodara,Retail Manager,Low
+26,63,151,13.33,false,Vadodara,Teacher,Low
+40,67,150,28.25,false,Ahmedabad,Shop Owner,Medium
+60,75,179,46.2,false,Meerut,Accountant,Medium
+60,63,177,17.73,false,Patna,Sales Manager,Low
+37,46,161,4.98,false,Meerut,Electrician,Low
+26,49,155,40.48,false,Allahabad,HR Manager,Low
+59,84,171,22.46,true,Rajkot,Data Analyst,High
+48,87,179,2.9,false,Bangalore,Pharmacist,Low
+46,46,192,38.05,false,Varanasi,Electrician,Medium
+20,56,161,17.48,false,Patna,Carpenter,Low
+39,83,157,33.24,true,Ludhiana,Government Employee,High
+26,48,158,3.86,false,Allahabad,Doctor,Low
+47,69,181,25.46,true,Visakhapatnam,Government Employee,High
+53,91,164,2.05,false,Bhopal,Insurance Agent,Medium
+18,75,162,41.77,false,Allahabad,Lab Technician,Low
+54,72,172,23.31,false,Visakhapatnam,Civil Servant,Medium
+57,99,174,10.03,false,Nagpur,Factory Worker,Medium
+48,59,178,14.46,false,Delhi,Electrician,Low
+64,96,173,17.41,false,Nagpur,Civil Servant,Medium
+36,94,192,9.58,true,Hyderabad,Data Analyst,High
+39,47,165,10.17,false,Ahmedabad,Architect,Low
+34,85,183,36.66,false,Agra,Chef,Low
+53,64,159,39.3,false,Rajkot,Doctor,Medium
+52,90,169,16.15,true,Amritsar,Architect,High
+32,83,166,4.66,false,Patna,HR Manager,Low
+28,89,172,46.27,true,Meerut,HR Manager,High
+37,92,174,37.77,false,Bhopal,Insurance Agent,Medium
+48,64,155,39.02,false,Delhi,Businessman,Medium
+30,77,151,19.61,true,Bangalore,Plumber,High
+22,96,163,4.75,true,Ludhiana,Electrician,Medium
+59,86,169,21.31,true,Hyderabad,Carpenter,Medium
+46,64,192,43.56,false,Srinagar,Consultant,Medium
+54,69,167,33.23,false,Patna,Content Writer,Medium
+57,94,160,47.27,false,Ghaziabad,Pharmacist,High
+49,96,177,42.8,true,Indore,Civil Servant,High
+63,70,157,45.26,false,Delhi,Lab Technician,High
+34,46,179,18.11,true,Ahmedabad,Civil Servant,High
+56,60,189,11.36,true,Indore,Consultant,High
+63,88,152,14.27,false,Vadodara,Doctor,Medium
+37,52,189,6.05,false,Patna,Factory Worker,Low
+64,66,188,35.64,false,Indore,Shop Owner,Medium
+63,91,150,39.1,true,Varanasi,Lawyer,High
+24,52,187,18.84,true,Delhi,Nurse,Medium
+64,50,167,2.24,true,Ahmedabad,Teacher,High
+61,99,160,4.27,false,Agra,Electrician,Medium
+51,88,173,23.49,false,Mumbai,Government Employee,Medium
+31,68,158,48.57,false,Lucknow,Consultant,Medium
+38,96,170,3.46,false,Pune,HR Manager,Low
+39,63,163,26.51,false,Hyderabad,Pharmacist,Low
+29,88,169,21.27,false,Ahmedabad,Carpenter,Medium
+38,91,162,15.22,true,Ahmedabad,Shop Owner,High
+26,81,165,47.67,true,Rajkot,HR Manager,Medium
+61,75,168,36.13,false,Nashik,Lab Technician,Low
+51,63,150,20.6,false,Nagpur,Banker,Medium
+63,92,190,16.77,false,Patna,Plumber,Medium
+31,47,180,21.81,false,Faridabad,Architect,Medium
+43,76,188,37.04,false,Bhopal,Sales Manager,Low
+29,87,175,16.77,false,Agra,Data Analyst,Low
+33,90,184,46.19,false,Nagpur,Software Engineer,Medium
+31,94,162,20.16,false,Bhopal,Architect,Medium
+34,87,152,24.67,false,Agra,Software Engineer,Medium
+60,62,162,36.96,true,Jaipur,Electrician,High
+19,99,165,13.13,false,Agra,Factory Worker,Low
+42,78,185,14.44,true,Jaipur,Driver,Medium
+64,82,172,20.41,false,Chennai,Shop Owner,Medium
+35,85,151,28.91,false,Ranchi,Data Analyst,Medium
+24,54,161,44.74,false,Kolkata,Nurse,Low
+60,91,168,3.53,true,Indore,Banker,High
+51,89,182,3.62,false,Ahmedabad,Architect,Medium
+59,93,169,25.88,true,Ranchi,Engineer,High
+22,77,179,45.53,false,Jaipur,Shop Owner,Low
+57,82,163,36.54,true,Bhopal,Banker,High
+59,78,155,19.83,true,Srinagar,Businessman,High
+63,66,159,48.1,false,Vadodara,Lawyer,Medium
+42,80,188,11.15,false,Rajkot,Sales Manager,Low
+58,87,176,11.2,false,Hyderabad,Accountant,Low
+32,72,153,5.33,true,Rajkot,Government Employee,High
+53,98,191,35.91,false,Mumbai,Engineer,Medium
+35,68,156,35.46,true,Visakhapatnam,Teacher,High
+45,61,157,17.17,false,Bhopal,Content Writer,Low
+59,45,177,28.04,false,Patna,Factory Worker,Medium
+38,59,159,17.4,true,Meerut,Banker,High
+50,88,172,42.04,false,Surat,Banker,Medium
+38,85,167,34.1,false,Jaipur,HR Manager,Medium
+33,80,192,46.14,true,Mumbai,Lab Technician,Medium
+38,83,190,39.92,true,Lucknow,HR Manager,Medium
+24,63,191,46.23,false,Allahabad,Factory Worker,Low
+54,99,165,20.08,false,Faridabad,Insurance Agent,Medium
+43,90,158,10.34,false,Jaipur,Real Estate Agent,Low
+42,57,169,37.42,false,Allahabad,Data Analyst,Medium
+20,92,158,20.61,true,Allahabad,Retail Manager,High
+45,47,159,47.5,false,Patna,Doctor,Low
+30,82,164,12,false,Varanasi,Lab Technician,Low
+46,76,154,43.85,false,Srinagar,Driver,Medium
+27,57,176,46.5,true,Ranchi,Pharmacist,High
+62,62,181,8.71,false,Visakhapatnam,Doctor,Medium
+36,58,186,13.63,true,Hyderabad,Government Employee,High
+49,52,190,46.15,false,Kanpur,Nurse,Medium
+62,97,159,42.59,true,Agra,Nurse,High
+43,64,194,43.24,false,Kolkata,Consultant,Medium
+49,97,170,37.34,false,Pune,Real Estate Agent,Medium
+36,73,182,38.43,true,Visakhapatnam,Electrician,Medium
+55,53,161,32.94,false,Faridabad,Chef,Medium
+53,66,160,20.71,false,Meerut,Pharmacist,Medium
+56,79,185,4.07,true,Kanpur,Accountant,Medium
+20,58,167,36.6,false,Bhopal,Electrician,Low
+41,56,181,33.72,false,Rajkot,Nurse,Medium
+47,54,181,39.89,false,Jaipur,Electrician,Medium
+56,56,179,27.65,false,Visakhapatnam,Teacher,Medium
+62,81,150,35.11,true,Ghaziabad,Data Analyst,High
+54,81,179,45.74,false,Kanpur,Government Employee,Medium
+30,88,155,29.22,true,Kanpur,HR Manager,High
+29,86,165,26.19,false,Faridabad,Factory Worker,Medium
+58,52,165,8.55,false,Meerut,Electrician,Low
+39,83,176,24.85,false,Surat,Retail Manager,Medium
+29,47,155,4.2,false,Kanpur,Chef,Low
+53,87,152,34.61,true,Allahabad,Driver,High
+47,99,194,37.64,false,Ranchi,Software Engineer,Medium
+31,79,164,5.68,false,Rajkot,Software Engineer,Low
+56,72,182,9.97,false,Hyderabad,Teacher,Medium
+49,49,162,28.52,true,Ranchi,Shop Owner,High
+27,63,164,18.59,false,Ahmedabad,Government Employee,Low
+50,49,186,8.24,false,Kolkata,Driver,Medium
+25,88,173,47.25,false,Ghaziabad,Content Writer,Low
+52,83,188,10.43,true,Nashik,Chef,High
+41,58,180,47.14,false,Lucknow,Sales Manager,Medium
+33,94,151,10.62,false,Vadodara,Chef,Medium
+30,96,187,21.49,false,Ghaziabad,Carpenter,Low
+25,74,154,35.65,false,Kolkata,Businessman,Medium
+22,88,162,14.34,false,Srinagar,Insurance Agent,Low
+38,93,186,5.82,false,Surat,Chef,Low
+48,54,158,10.31,false,Ahmedabad,Banker,Low
+22,57,186,43.3,true,Srinagar,Pharmacist,High
+23,47,191,10.51,false,Hyderabad,Retail Manager,Low
+49,89,176,25.12,false,Jaipur,Nurse,Medium
+25,82,172,4.71,false,Mumbai,Shop Owner,Low
+45,54,174,37.63,false,Ghaziabad,Electrician,Medium
+33,54,191,37.94,false,Ahmedabad,HR Manager,Low
+41,91,152,42.13,true,Agra,Government Employee,High
+48,82,183,23.92,false,Ludhiana,Architect,Low
+40,54,175,22.11,true,Rajkot,Software Engineer,Medium
+36,82,155,41.9,false,Ahmedabad,Shop Owner,Medium
+44,87,172,18.52,false,Allahabad,Chef,Medium
+58,83,160,8.57,false,Ludhiana,Consultant,Medium
+62,46,172,46.42,false,Ghaziabad,Real Estate Agent,Low
+47,69,186,39.73,false,Bangalore,Retail Manager,Low
+53,71,158,35.28,true,Hyderabad,Insurance Agent,High
+28,91,181,8.66,true,Kanpur,Marketing Manager,Medium
+19,55,153,39.13,true,Pune,Chef,Medium
+20,46,171,12.93,false,Hyderabad,Consultant,Low
+44,94,151,26.74,false,Patna,Factory Worker,Medium
+35,71,165,27.34,false,Jaipur,Consultant,Low
+60,46,152,33.51,true,Kolkata,Insurance Agent,High
+31,95,175,39.83,false,Jaipur,Shop Owner,Medium
+61,61,187,24.23,false,Ranchi,Electrician,Medium
+50,80,190,27.97,false,Bhopal,Banker,Low
+40,45,170,41.23,true,Visakhapatnam,Factory Worker,High
+47,51,184,31.11,false,Bangalore,Insurance Agent,Medium
+20,62,182,37.02,true,Chennai,Architect,Medium
+39,46,185,3.17,false,Faridabad,HR Manager,Low
+63,91,172,25.38,false,Indore,Retail Manager,High
+43,87,186,23.54,true,Jaipur,Government Employee,Medium
+34,73,188,40.65,false,Rajkot,Driver,Low
+41,70,192,28.29,false,Bhopal,Teacher,Low
+61,83,171,6.23,true,Meerut,Real Estate Agent,High
+27,48,194,10.37,false,Allahabad,Architect,Low
+30,84,173,41.62,true,Faridabad,Factory Worker,Medium
+31,82,195,15.34,true,Patna,Software Engineer,Medium
+26,61,182,31.92,false,Kolkata,Lawyer,Low
+19,80,175,2.34,false,Surat,Real Estate Agent,Low
+46,50,156,6.92,false,Ludhiana,Consultant,Low
+55,54,152,18.74,true,Kolkata,Teacher,High
+38,59,157,22.02,false,Pune,Data Analyst,Low
+29,90,175,32.67,false,Varanasi,Banker,Low
+56,45,171,11.19,false,Vadodara,Marketing Manager,Medium
+56,90,172,24.42,true,Visakhapatnam,Engineer,Medium
+53,67,168,45.63,false,Meerut,Plumber,Medium
+47,75,151,27.67,false,Srinagar,HR Manager,Medium
+42,65,174,31.9,false,Bangalore,HR Manager,Low
+50,57,158,44.22,false,Indore,Teacher,Low
+61,52,191,13.58,false,Visakhapatnam,Software Engineer,Medium
+44,80,161,2.07,true,Patna,Retail Manager,High
+62,81,185,23.59,true,Vadodara,Lawyer,Medium
+35,88,171,35.96,false,Allahabad,Factory Worker,Medium
+56,99,175,38.4,true,Bangalore,Data Analyst,High
+37,68,172,11.64,true,Chennai,Doctor,Medium
+30,61,168,35.18,false,Ahmedabad,Factory Worker,Low
+41,95,193,8.82,false,Srinagar,Data Analyst,Medium
+21,65,187,36.85,false,Amritsar,Architect,Low
+32,61,180,20.22,true,Agra,Teacher,Medium
+28,78,192,37.74,false,Agra,Real Estate Agent,Low
+64,90,186,14.99,false,Indore,Insurance Agent,Medium
+19,81,158,4.33,false,Kolkata,Architect,Low
+63,89,165,34.81,false,Ludhiana,Consultant,High
+20,75,194,5,false,Bangalore,Consultant,Low
+62,51,170,43.42,false,Amritsar,Insurance Agent,Medium
+18,66,150,4.58,true,Ahmedabad,Engineer,Medium
+39,55,183,22.59,true,Bangalore,Government Employee,High
+22,64,167,36.4,false,Visakhapatnam,Pharmacist,Low
+62,65,155,31.45,false,Ranchi,HR Manager,Medium
+32,92,160,10.48,true,Chennai,Consultant,High
+33,47,194,24.32,true,Mumbai,Accountant,High
+30,74,181,3.46,false,Allahabad,Civil Servant,Low
+45,98,175,45.99,false,Patna,Businessman,Medium
+61,50,176,10.41,false,Kanpur,Driver,High
+20,99,162,31.83,true,Srinagar,Lawyer,High
+48,49,162,38.39,false,Jaipur,Data Analyst,Low
+33,55,157,23.55,true,Rajkot,Retail Manager,Medium
+32,49,152,22.34,false,Vadodara,Electrician,Low
+45,68,185,34.46,false,Surat,Retail Manager,Low
+43,92,171,33.94,true,Varanasi,Content Writer,High
+23,68,195,36.6,false,Varanasi,Architect,Low
+52,95,176,12.06,false,Kanpur,Retail Manager,Medium
+20,70,166,17.21,false,Chennai,Chef,Low
+19,85,184,25.07,false,Amritsar,Teacher,Medium
+27,86,157,5.11,false,Varanasi,Marketing Manager,Low
+55,58,188,21.07,false,Bangalore,Lawyer,Medium
+49,67,185,19.14,false,Mumbai,Pharmacist,Low
+54,73,172,49.87,false,Amritsar,Nurse,Medium
+38,90,179,8.61,false,Patna,HR Manager,Low
+21,70,183,30.38,true,Indore,Businessman,Medium
+47,69,183,31.34,false,Chennai,Architect,Medium
+55,57,192,3.12,false,Rajkot,Nurse,Medium
+63,94,169,26.69,false,Delhi,Retail Manager,High
+18,92,176,42.13,true,Ahmedabad,Carpenter,High
+55,66,166,10.06,true,Varanasi,HR Manager,High
+63,70,174,43.91,true,Agra,Consultant,High
+54,67,184,41.76,false,Meerut,Real Estate Agent,Medium
+49,68,182,7.93,false,Bhopal,Banker,Low
+55,46,188,38.53,false,Indore,Content Writer,Medium
+32,81,187,19.83,true,Nagpur,Teacher,Medium
+25,97,158,8.77,true,Bangalore,Driver,High
+27,69,177,4.13,false,Ranchi,Lab Technician,Low
+60,87,171,48.83,false,Vadodara,HR Manager,Medium
+27,64,155,32.94,false,Ludhiana,Accountant,Low
+24,73,162,3.84,false,Ludhiana,HR Manager,Low
+25,69,193,3.92,false,Indore,Insurance Agent,Low
+19,91,184,41.61,true,Ranchi,Accountant,High
+35,94,166,8.86,true,Nashik,Lawyer,High
+20,66,181,37.66,false,Agra,Teacher,Low
+41,73,165,42.02,false,Meerut,Lab Technician,Medium
+47,84,153,25.18,false,Bangalore,Accountant,Medium
+42,92,151,42.28,false,Ghaziabad,Data Analyst,Medium
+28,61,172,21.1,true,Ludhiana,Retail Manager,Medium
+19,96,181,28.97,true,Meerut,Sales Manager,High
+64,65,168,25.71,false,Rajkot,Shop Owner,Low
+36,51,172,45.02,false,Surat,Carpenter,Low
+20,60,172,36.9,false,Ghaziabad,Content Writer,Low
+33,48,164,26.33,true,Ahmedabad,Data Analyst,High
+37,90,189,47.18,false,Ghaziabad,Plumber,Medium
+38,45,168,16.8,false,Ghaziabad,Accountant,Low
+49,69,192,48.22,true,Nashik,Retail Manager,High
+63,95,177,17.52,false,Ludhiana,Pharmacist,Medium
+42,72,155,14.02,false,Rajkot,Data Analyst,Medium
+37,76,164,21.06,false,Amritsar,Factory Worker,Medium
+64,74,193,26.59,false,Patna,Accountant,Medium
+22,56,183,12.86,false,Nashik,Engineer,Low
+59,65,165,17.61,true,Ranchi,Consultant,High
+30,77,188,34.53,false,Indore,HR Manager,Low
+55,92,169,29.89,false,Bhopal,Marketing Manager,High
+49,56,182,18.54,false,Surat,Nurse,Medium
+62,58,172,11.47,true,Kanpur,Sales Manager,High
+30,73,173,35.33,false,Vadodara,Electrician,Low
+36,73,158,17.27,true,Jaipur,Civil Servant,High
+23,75,168,48.43,false,Allahabad,Accountant,Low
+23,91,191,10.2,true,Ahmedabad,Chef,Medium
+59,69,192,29.28,true,Ghaziabad,Real Estate Agent,High
+32,85,160,23.24,false,Ludhiana,Businessman,Medium
+58,57,168,37.56,false,Agra,Electrician,Medium
+50,95,184,29.14,true,Surat,Carpenter,Medium
+35,80,178,35.62,false,Rajkot,Sales Manager,Medium
+26,64,194,46.8,true,Bangalore,Data Analyst,High
+29,56,188,44.92,false,Patna,Nurse,Low
+28,56,158,30.41,false,Ludhiana,Insurance Agent,Low
+47,72,154,49.12,false,Vadodara,Content Writer,Medium
+53,51,173,29.82,true,Varanasi,Retail Manager,High
+28,92,151,20.97,false,Lucknow,Software Engineer,Medium
+33,47,195,3.28,true,Srinagar,Lab Technician,High
+30,55,157,10.26,false,Nagpur,Driver,Low
+19,84,194,30.51,true,Lucknow,Factory Worker,Low
+35,99,165,26.12,false,Surat,Plumber,Medium
+56,84,165,15.03,false,Srinagar,Pharmacist,Medium
+24,99,159,20.81,false,Jaipur,Teacher,Medium
+58,81,180,17.98,false,Ranchi,Banker,Low
+20,76,170,40.91,false,Nashik,Lab Technician,Low
+27,84,173,35.1,false,Vadodara,Marketing Manager,Low
+32,68,184,11.82,true,Hyderabad,Engineer,Medium
+25,76,166,14.92,true,Agra,HR Manager,Medium
+19,61,162,44.23,false,Nagpur,HR Manager,Low
+39,49,192,32.35,false,Meerut,Lab Technician,Medium
+18,49,158,28.38,false,Visakhapatnam,Plumber,Low
+38,71,185,24.85,false,Srinagar,Architect,Low
+55,82,170,33.77,false,Surat,Content Writer,Medium
+50,88,178,9.59,true,Bangalore,Plumber,High
+20,47,173,14.99,false,Rajkot,Insurance Agent,Low
+45,93,159,24.14,true,Jaipur,Consultant,High
+25,45,179,18.85,true,Allahabad,HR Manager,Low
+18,72,181,3.01,false,Ranchi,Content Writer,Low
+27,86,162,35.22,false,Mumbai,Consultant,Medium
+23,47,160,16.46,false,Allahabad,Chef,Low
+35,58,157,26.58,false,Patna,Lab Technician,Low
+25,67,174,23.2,true,Allahabad,Lab Technician,Medium
+38,83,170,33.81,false,Varanasi,Plumber,Medium
+47,87,195,7.87,false,Allahabad,Electrician,Low
+40,81,160,42.74,true,Allahabad,Lab Technician,High
+40,61,182,9.73,false,Vadodara,Plumber,Low
+37,83,156,41.75,false,Vadodara,Factory Worker,Medium
+51,52,179,32.04,true,Faridabad,Real Estate Agent,High
+34,52,184,20.97,false,Srinagar,Software Engineer,Low
+49,97,175,8.84,false,Varanasi,Accountant,Medium
+43,59,179,48.62,true,Ahmedabad,Insurance Agent,High
+39,84,171,12.75,true,Allahabad,Engineer,High
+19,79,175,31.36,false,Allahabad,Carpenter,Low
+41,82,169,23.37,true,Indore,Architect,High
+58,52,175,3.29,true,Pune,Doctor,High
+24,63,150,47.9,false,Chennai,Software Engineer,Low
+49,75,164,31.45,false,Patna,Nurse,Medium
+57,75,157,21.59,false,Rajkot,HR Manager,Medium
+55,81,175,9.8,false,Vadodara,Retail Manager,Medium
+21,53,159,29.78,false,Faridabad,Insurance Agent,Low
+24,95,153,17.03,false,Chennai,Retail Manager,Low
+59,70,161,30.65,false,Ranchi,Content Writer,Medium
+38,99,173,29.55,false,Surat,Retail Manager,Medium
+21,71,183,4.6,false,Ranchi,Driver,Low
+35,53,163,49.34,true,Chennai,Content Writer,Medium
+53,97,172,4.32,false,Bhopal,Shop Owner,Medium
+25,53,158,8.19,false,Mumbai,Pharmacist,Low
+32,99,189,48.36,true,Vadodara,Teacher,High
+59,54,165,21.09,false,Kanpur,Teacher,Medium
+22,81,174,6.24,false,Nashik,Lawyer,Low
+19,76,176,42.01,false,Ranchi,Doctor,Low
+35,91,166,32.03,false,Kolkata,Real Estate Agent,Medium
+56,47,180,6.83,false,Varanasi,Factory Worker,Medium
+20,48,170,45.98,false,Nagpur,Sales Manager,Low
+49,52,153,10.55,false,Bhopal,Banker,Low
+39,66,186,17.15,true,Kolkata,Lab Technician,Medium
+22,74,175,5.65,true,Jaipur,Government Employee,High
+23,63,158,41.93,true,Meerut,Lab Technician,High
+35,88,166,11.11,false,Indore,Consultant,Medium
+60,60,177,19.55,false,Ghaziabad,Doctor,Low
+57,91,181,20.24,false,Amritsar,Driver,Medium
+28,50,154,33.13,false,Ghaziabad,Shop Owner,Low
+56,85,181,17.96,false,Mumbai,Shop Owner,Medium
+31,79,163,48.39,false,Srinagar,Chef,Medium
+36,60,182,28.12,false,Mumbai,Shop Owner,Medium
+29,59,151,41.41,false,Chennai,Nurse,Low
+63,61,153,38.79,false,Ahmedabad,Sales Manager,Low
+52,70,183,13.72,true,Pune,Plumber,High
+35,90,187,45.54,false,Ludhiana,Factory Worker,Medium
+59,94,185,25.65,false,Patna,Insurance Agent,Medium
+24,97,181,28.05,false,Ghaziabad,Factory Worker,Low
+42,94,156,22.56,false,Bangalore,Lab Technician,Medium
+56,58,170,6.96,false,Amritsar,Content Writer,Low
+24,81,184,13.04,false,Nashik,Doctor,Low
+48,69,180,29.08,false,Jaipur,Marketing Manager,Low
+20,96,154,32.82,false,Kolkata,Accountant,Medium
+39,63,167,36.26,false,Bangalore,Engineer,Low
+59,70,174,22.97,false,Patna,Chef,Medium
+26,48,172,5.64,false,Bhopal,Plumber,Low
+28,92,173,16.45,false,Ranchi,Marketing Manager,Low
+28,54,182,39.45,false,Patna,Sales Manager,Low
+33,80,159,17.97,false,Mumbai,Accountant,Medium
+39,56,174,28.16,false,Pune,Architect,Medium
+28,78,180,9.84,true,Varanasi,Doctor,Medium
+63,76,165,48.7,true,Surat,Sales Manager,High
+20,54,167,3.69,false,Faridabad,Marketing Manager,Low
+44,48,161,36.79,false,Agra,Shop Owner,Low
+61,50,158,26.49,true,Allahabad,Teacher,High
+21,93,173,24.52,false,Hyderabad,Banker,Medium
+32,60,186,25.35,false,Faridabad,Businessman,Medium
+42,76,181,21.96,false,Srinagar,Insurance Agent,Low
+43,54,166,32.86,false,Surat,Electrician,Low
+30,60,163,45.83,false,Visakhapatnam,Insurance Agent,Low
+38,78,194,38.82,false,Varanasi,Government Employee,Low
+60,65,190,34.42,false,Indore,Doctor,Medium
+40,99,193,15.79,true,Ghaziabad,Sales Manager,High
+23,57,158,6.35,false,Ranchi,HR Manager,Low
+42,83,187,24.99,true,Kolkata,HR Manager,High
+43,59,165,38.69,true,Surat,Accountant,High
+52,75,156,32.08,true,Pune,Insurance Agent,High
+37,69,162,27.82,true,Patna,Chef,High
+28,68,178,41.86,true,Varanasi,Government Employee,High
+24,56,153,39.08,false,Bhopal,Doctor,Low
+28,83,155,44.5,true,Jaipur,Doctor,High
+55,63,185,2.35,false,Kanpur,Doctor,Medium
+48,83,180,4.27,true,Surat,Pharmacist,High
+52,50,190,44.02,false,Rajkot,Lawyer,Medium
+19,47,178,14.1,true,Bangalore,Driver,Medium
+26,61,175,42.88,false,Pune,Consultant,Low
+64,86,157,38.56,false,Lucknow,Sales Manager,High
+27,83,195,36.91,false,Chennai,Chef,Low
+45,70,166,45.44,true,Delhi,Pharmacist,High
+62,49,161,5.53,false,Kolkata,Insurance Agent,Medium
+38,81,185,15.4,false,Indore,Factory Worker,Low
+22,53,183,30.06,true,Bhopal,Electrician,High
+30,89,177,21.7,false,Mumbai,Nurse,Low
+42,88,174,31.26,false,Rajkot,Businessman,Medium
+54,74,162,40.57,false,Allahabad,Electrician,Medium
+51,78,166,41.33,true,Bhopal,Software Engineer,High
+33,90,186,34.32,false,Lucknow,Civil Servant,Medium
+27,64,155,13.31,false,Visakhapatnam,Chef,Low
+29,59,177,44.05,false,Meerut,HR Manager,Medium
+24,72,162,8.67,false,Indore,Engineer,Low
+56,63,173,8.2,false,Ranchi,Factory Worker,Low
+57,63,177,8.75,true,Nagpur,Carpenter,High
+49,85,159,31.14,true,Kanpur,Shop Owner,High
+58,79,178,15.03,false,Bangalore,Lab Technician,Low
+59,80,191,3.28,false,Srinagar,Content Writer,Low
+21,93,150,5.05,false,Pune,HR Manager,Low
+59,65,159,49.93,false,Mumbai,Real Estate Agent,Medium
+29,91,162,23.99,false,Ranchi,Sales Manager,Low
+27,89,190,17.25,true,Agra,Pharmacist,Medium
+44,49,150,19.09,false,Faridabad,Electrician,Low
+40,98,170,45.66,false,Lucknow,Banker,Medium
+38,92,181,22.33,false,Surat,Engineer,Medium
+51,82,187,33.27,true,Chennai,Teacher,High
+27,53,150,40.87,false,Amritsar,Software Engineer,Low
+27,54,178,47.94,true,Varanasi,Banker,High
+60,71,188,28.61,false,Patna,Carpenter,Medium
+57,89,176,27.14,false,Kanpur,Pharmacist,Medium
+59,61,151,30.77,false,Chennai,Electrician,Medium
+44,59,171,36.39,false,Mumbai,Insurance Agent,Medium
+52,81,164,25.11,false,Kanpur,Driver,High
+31,92,180,49.33,false,Agra,Doctor,Medium
+54,60,194,16.64,true,Ahmedabad,Driver,High
+24,45,156,12.15,false,Delhi,Sales Manager,Low
+29,80,186,49.26,true,Faridabad,Chef,Medium
+51,67,187,41.44,false,Hyderabad,Insurance Agent,Medium
+29,99,187,49.56,false,Kanpur,Pharmacist,Low
+48,46,170,23.76,false,Ranchi,Banker,Medium
+38,48,170,44.5,false,Srinagar,Retail Manager,Medium
+22,71,174,29.76,true,Bangalore,Government Employee,Medium
+50,92,165,23.28,false,Delhi,Lawyer,Medium
+60,58,174,8.7,true,Agra,Doctor,High
+60,52,171,42.82,false,Srinagar,Factory Worker,Medium
+32,71,179,45.48,false,Jaipur,Software Engineer,Low
+55,81,183,36.38,true,Kolkata,Electrician,High
+42,91,178,14.53,false,Indore,Civil Servant,Medium
+29,95,162,17.31,false,Nagpur,Pharmacist,Low
+58,91,162,29.17,true,Agra,Content Writer,High
+60,67,166,21.89,false,Indore,Nurse,Medium
+22,80,180,15.37,false,Delhi,Sales Manager,Low
+45,54,172,17.23,false,Amritsar,Plumber,Medium
+23,99,189,17.16,false,Bhopal,Lab Technician,Low
+41,56,151,7.65,false,Patna,Retail Manager,Low
+33,85,151,22.96,false,Kanpur,Doctor,Medium
+58,67,173,25.48,false,Visakhapatnam,Marketing Manager,Medium
+18,75,158,48.6,false,Agra,Marketing Manager,Medium
+50,67,153,23.24,false,Kolkata,Pharmacist,Medium
+21,83,165,26.15,false,Delhi,Retail Manager,High
+42,78,172,39.13,false,Nashik,Pharmacist,Medium
+39,89,179,35.2,false,Kanpur,Insurance Agent,Medium
+41,66,181,39.94,false,Jaipur,Electrician,Low
+27,48,160,35.83,true,Indore,HR Manager,Medium
+42,66,159,6.19,false,Surat,Content Writer,Medium
+54,90,180,2.51,false,Visakhapatnam,Doctor,Medium
+34,57,195,4.49,false,Vadodara,Real Estate Agent,Low
+50,61,175,46.6,false,Mumbai,Civil Servant,Low
+62,88,191,4.86,false,Ahmedabad,Lawyer,Low
+32,78,153,42.34,true,Patna,Architect,High
+26,68,172,14.94,true,Allahabad,Pharmacist,Medium
+49,59,151,7.1,false,Ranchi,Pharmacist,Medium
+41,99,195,5.19,true,Indore,Lawyer,High
+61,45,153,33.52,false,Visakhapatnam,Marketing Manager,Medium
+58,50,178,20.63,false,Meerut,Banker,Medium
+26,96,190,17.89,true,Vadodara,Retail Manager,High
+57,64,192,40.76,false,Chennai,Chef,Medium
+22,74,176,43.08,true,Bhopal,Shop Owner,Medium
+48,85,195,29.93,false,Pune,Architect,Low
+59,83,157,39.03,true,Hyderabad,Banker,High
+31,48,173,22.65,false,Ghaziabad,Sales Manager,Medium
+62,80,172,26.67,true,Srinagar,Chef,High
+23,58,182,12.23,true,Lucknow,Sales Manager,Medium
+49,87,176,40.6,false,Bhopal,Nurse,Medium
+39,54,189,49.54,false,Hyderabad,Nurse,Medium
+49,78,187,38.37,true,Bangalore,Doctor,High
+29,49,194,8.29,true,Ghaziabad,Architect,Medium
+36,59,160,18.93,true,Srinagar,Teacher,Medium
+25,69,158,19.54,false,Kanpur,Civil Servant,Low
+31,72,190,25.12,false,Mumbai,Government Employee,Low
+25,59,160,11.28,true,Nashik,Nurse,High
+36,88,188,31.88,true,Indore,Nurse,Medium
+35,91,185,36.28,false,Mumbai,Real Estate Agent,High
+56,77,170,36.16,false,Bangalore,Content Writer,High
+57,49,193,16.96,false,Hyderabad,Driver,Medium
+40,52,195,42.36,false,Patna,Electrician,Medium
+45,80,156,45.07,true,Indore,Government Employee,High
+25,93,179,36.21,true,Chennai,Software Engineer,High
+59,60,177,33.97,true,Patna,Insurance Agent,High
+63,51,158,48.39,true,Allahabad,Lawyer,Medium
+18,45,157,37.58,false,Visakhapatnam,Consultant,Low
+43,57,164,6.99,true,Jaipur,Driver,High
+18,90,173,43.12,false,Vadodara,Pharmacist,Medium
+29,96,159,14.45,false,Nagpur,Consultant,Low
+55,74,163,23.8,false,Kolkata,Banker,Medium
+32,66,163,37.71,false,Faridabad,Civil Servant,Low
+24,71,161,43.74,false,Nagpur,Consultant,Low
+48,94,155,44.12,true,Hyderabad,Doctor,High
+44,85,174,12.15,false,Varanasi,Accountant,Medium
+32,58,192,20.43,true,Hyderabad,Lab Technician,High
+64,64,163,20.75,false,Kanpur,Factory Worker,Medium
+18,58,183,13.45,false,Patna,Carpenter,Low
+54,87,165,36.81,false,Jaipur,Carpenter,High
+57,85,191,7.88,false,Kanpur,Insurance Agent,Low
+21,61,172,3.6,false,Patna,Plumber,Low
+41,53,176,41.98,true,Rajkot,Architect,High
+28,88,174,46.27,false,Allahabad,Real Estate Agent,Low
+43,77,168,37.15,false,Amritsar,Doctor,Medium
+31,59,182,44.79,false,Varanasi,Civil Servant,Medium
+18,86,180,7.46,false,Jaipur,Lab Technician,Low
+33,81,189,15.47,false,Chennai,Sales Manager,Low
+23,57,181,48.03,false,Bhopal,Consultant,Low
+22,50,157,26.85,false,Rajkot,Shop Owner,Low
+28,73,150,23.98,true,Jaipur,Lab Technician,High
+23,55,189,47.92,false,Meerut,Content Writer,Low
+23,72,179,14.13,false,Ghaziabad,Software Engineer,Low
+29,99,168,11.41,false,Amritsar,Shop Owner,Low
+29,56,180,6.65,false,Delhi,Real Estate Agent,Low
+55,77,172,28.04,false,Kanpur,Content Writer,Medium
+25,59,183,25.22,false,Faridabad,Retail Manager,Low
+54,65,185,35.71,false,Varanasi,Electrician,Medium
+44,58,159,3.4,false,Ranchi,Chef,Low
+22,75,167,43.72,true,Surat,Lawyer,High
+24,85,176,12.6,true,Ghaziabad,Nurse,Medium
+59,96,191,45.59,false,Faridabad,Content Writer,Medium
+25,90,168,41.81,false,Mumbai,Shop Owner,Medium
+38,46,177,35.58,false,Ghaziabad,Doctor,Medium
+44,80,155,5.82,true,Indore,Shop Owner,High
+45,99,155,39.79,false,Faridabad,Real Estate Agent,Medium
+34,48,167,29.78,true,Lucknow,Marketing Manager,High
+39,92,175,46.53,true,Srinagar,Factory Worker,High
+52,51,153,45.34,false,Bangalore,HR Manager,Medium
+40,55,175,14.87,false,Varanasi,Accountant,Low
+39,81,179,7.87,false,Nagpur,Shop Owner,Low
+47,64,158,24.54,false,Lucknow,Lawyer,Medium
+55,78,159,26.8,false,Delhi,Marketing Manager,High
+32,72,150,13.08,false,Srinagar,Data Analyst,High
+58,70,175,13.56,true,Patna,Real Estate Agent,High
+20,94,187,40.39,false,Bhopal,Retail Manager,Low
+32,98,194,3.33,true,Surat,Banker,Medium
+36,63,154,36.57,true,Rajkot,Banker,High
+37,49,195,20.15,false,Jaipur,Software Engineer,Medium
+32,80,162,20.74,false,Pune,Consultant,Medium
+64,90,189,3.28,false,Nagpur,Data Analyst,Medium
+60,57,173,7.61,false,Visakhapatnam,Lawyer,Low
+51,63,182,29.8,false,Nagpur,Retail Manager,Medium
+34,57,161,45.48,true,Varanasi,Businessman,Medium
+20,51,161,11.96,false,Allahabad,Civil Servant,Low
+39,83,182,19.74,true,Bangalore,Software Engineer,High
+36,85,186,3.04,false,Rajkot,Factory Worker,Low
+42,88,154,13.43,false,Delhi,Plumber,Medium
+35,79,166,23.21,false,Patna,Shop Owner,Medium
+21,80,152,17.97,true,Lucknow,Driver,High
+35,91,186,27.17,true,Bhopal,Software Engineer,High
+46,76,172,36.39,false,Meerut,Real Estate Agent,Medium
+46,87,173,16.12,false,Agra,Plumber,Medium
+21,58,168,15.48,false,Patna,Electrician,Low
+21,86,172,31.52,false,Pune,Carpenter,Low
+48,85,174,11.07,true,Kolkata,Marketing Manager,High
+39,57,153,46.49,false,Allahabad,Content Writer,Low
+54,59,152,41.34,true,Ahmedabad,Engineer,High
+23,94,190,12.88,true,Visakhapatnam,Lab Technician,Medium
+33,94,173,15.23,true,Indore,Pharmacist,High
+28,71,194,40.43,false,Visakhapatnam,Banker,Low
+27,80,160,23.83,false,Patna,Software Engineer,Medium
+38,50,171,8.7,true,Nagpur,Retail Manager,Medium
+23,72,187,40.8,false,Ranchi,Doctor,Low
+42,67,180,45.8,false,Lucknow,Pharmacist,Low
+34,95,174,25.78,false,Faridabad,Architect,Medium
+18,55,185,43.07,false,Jaipur,Civil Servant,Low
+45,93,162,2.01,false,Hyderabad,Insurance Agent,Medium
+55,48,176,24.56,true,Bhopal,Nurse,High
+19,62,156,26.6,true,Ranchi,Marketing Manager,High
+18,51,168,10.81,true,Bangalore,Plumber,Medium
+62,54,165,4.94,true,Ludhiana,Electrician,Medium
+56,55,173,21.28,false,Rajkot,Driver,Medium
+41,87,169,4.85,false,Nashik,HR Manager,Medium
+41,50,161,35.97,true,Rajkot,Carpenter,High
+20,90,171,37.41,false,Mumbai,Driver,Medium
+42,54,187,13.17,true,Ranchi,Banker,High
+34,94,167,13.76,false,Faridabad,Chef,Medium
+20,59,193,11.38,true,Mumbai,Nurse,Medium
+39,66,180,5.4,true,Varanasi,Retail Manager,Medium
+30,94,195,27.4,true,Nashik,Marketing Manager,Medium
+33,97,188,9.69,false,Meerut,Chef,Low
+44,45,163,10.99,true,Ghaziabad,Government Employee,High
+29,63,181,6.16,false,Nashik,Accountant,Low
+58,99,175,5.89,true,Ahmedabad,Insurance Agent,High
+47,52,176,11.59,true,Indore,Consultant,High
+41,66,177,8.19,true,Kolkata,Chef,Medium
+64,72,163,5.89,false,Indore,Driver,Medium
+25,92,159,15.19,true,Ahmedabad,Electrician,High
+45,83,162,25.34,false,Delhi,Chef,Medium
+21,91,190,12.33,false,Patna,Pharmacist,Low
+62,96,166,44.99,true,Mumbai,Electrician,High
+21,81,153,37.8,false,Surat,Insurance Agent,Medium
+46,57,171,19.19,false,Indore,Pharmacist,Low
+23,86,183,36.02,true,Surat,Insurance Agent,High
+19,86,151,33.12,false,Ghaziabad,Driver,Medium
+50,60,164,27.05,false,Nashik,Electrician,Low
+45,92,180,10.14,true,Bhopal,Content Writer,High
+50,78,171,6.27,true,Amritsar,Factory Worker,High
+40,87,176,11.45,true,Allahabad,Accountant,High
+36,73,178,5.25,false,Kolkata,Real Estate Agent,Medium
+46,92,164,24.57,false,Agra,Software Engineer,Medium
+23,91,189,49.19,true,Ludhiana,Content Writer,High
+32,86,164,4.93,false,Meerut,Teacher,Low
+50,63,172,48.82,false,Indore,Software Engineer,Low
+58,69,190,31.18,true,Surat,Data Analyst,High
+54,78,171,33.13,true,Bangalore,Civil Servant,High
+31,84,185,25.27,false,Visakhapatnam,Marketing Manager,Low
+48,87,183,25.03,false,Ghaziabad,Carpenter,Medium
+56,48,184,23.21,false,Rajkot,Doctor,Low
+39,46,191,36.69,true,Srinagar,Lawyer,High
+60,86,172,29.42,true,Jaipur,Carpenter,High
+57,87,183,29.22,false,Meerut,Retail Manager,High
+50,47,191,47.47,false,Ludhiana,Retail Manager,Medium
+40,61,156,2.47,true,Nagpur,Consultant,Medium
+40,76,181,42.78,false,Varanasi,Marketing Manager,Low
+59,73,192,27.07,false,Nagpur,Accountant,Medium
+62,58,160,49.4,true,Varanasi,Insurance Agent,High
+58,94,178,20.63,false,Allahabad,Plumber,Medium
+54,56,150,40.68,false,Delhi,Government Employee,Medium
+57,72,155,19.1,false,Visakhapatnam,Doctor,Medium
+61,56,160,5.2,true,Kanpur,Consultant,High
+38,67,189,3.58,false,Ludhiana,Civil Servant,Low
+47,73,150,42.71,true,Jaipur,Banker,High
+27,85,177,5.08,false,Meerut,Banker,Low
+40,55,180,7.5,false,Nagpur,Retail Manager,Low
+37,60,161,25.59,true,Nashik,Consultant,Medium
+41,82,194,22.02,true,Agra,Electrician,High
+24,48,187,41.05,false,Lucknow,Government Employee,Low
+56,63,165,36.48,false,Jaipur,Government Employee,Medium
+60,45,165,19.05,false,Visakhapatnam,HR Manager,Medium
+24,77,179,46.12,true,Lucknow,Banker,Medium
+26,69,192,30.82,false,Faridabad,Consultant,Low
+21,93,172,23.21,true,Vadodara,Shop Owner,High
+25,78,162,4.34,false,Meerut,Businessman,Low
+62,94,166,26.61,false,Jaipur,Lawyer,High
+61,73,168,46.19,false,Rajkot,Software Engineer,Medium
+57,49,158,37.57,true,Jaipur,Software Engineer,High
+32,88,160,34.87,false,Meerut,Data Analyst,Medium
+25,85,162,37.67,false,Chennai,Accountant,Medium
+50,91,179,47.48,false,Rajkot,Shop Owner,Medium
+38,56,170,11.57,true,Ludhiana,Shop Owner,Medium
+61,72,155,27.57,false,Varanasi,Nurse,Medium
+24,89,176,15.77,false,Amritsar,Doctor,Low
+24,73,193,28.19,true,Amritsar,Businessman,Medium
+38,60,158,26.9,false,Chennai,Retail Manager,Medium
+50,76,178,32,false,Patna,Plumber,Low
+24,91,159,14.82,false,Faridabad,Engineer,Low
+61,94,186,22.72,true,Meerut,Engineer,High
+58,52,186,20.88,true,Srinagar,Accountant,High
+24,99,180,17.42,true,Amritsar,Retail Manager,High
+48,58,182,45.69,false,Srinagar,Shop Owner,Medium
+44,72,190,11.94,false,Allahabad,Teacher,Low
+31,59,151,22.9,false,Faridabad,Pharmacist,Medium
+23,75,173,2.04,false,Hyderabad,Pharmacist,Low
+38,48,188,28.51,true,Surat,Pharmacist,High
+23,87,192,22.44,false,Varanasi,Plumber,Low
+48,92,163,34.24,false,Agra,Lawyer,Medium
+48,46,178,21.11,false,Ranchi,Driver,Medium
+44,59,151,38.98,true,Kolkata,Content Writer,High
+46,45,186,33.56,false,Varanasi,Lawyer,Medium
+20,71,158,19.55,true,Kanpur,HR Manager,Medium
+38,93,168,38.1,false,Amritsar,Lawyer,Medium
+29,81,176,25.65,true,Rajkot,Real Estate Agent,High
+36,77,186,48.76,false,Mumbai,Real Estate Agent,Low
+31,93,158,19.71,true,Varanasi,Electrician,High
+53,95,187,30.29,false,Kolkata,Consultant,Medium
+23,70,157,26.44,false,Varanasi,Civil Servant,Low
+38,86,158,13.16,false,Agra,Software Engineer,Medium
+29,60,185,26.57,true,Nagpur,Architect,High
+29,58,173,30,false,Nagpur,Software Engineer,Low
+43,88,187,48.79,false,Vadodara,Real Estate Agent,Medium
+53,48,176,28.94,false,Visakhapatnam,Accountant,Medium
+50,72,158,10.12,true,Amritsar,HR Manager,High
+57,95,188,38.89,false,Nagpur,Data Analyst,Medium
+33,69,154,17.87,true,Ranchi,Marketing Manager,High
+63,67,190,25.5,false,Delhi,Carpenter,Medium
+60,97,170,3.3,true,Vadodara,Nurse,High
+20,89,153,11.26,true,Rajkot,Pharmacist,High
+32,99,178,8.93,false,Meerut,Sales Manager,Medium
+60,93,182,38.92,false,Patna,Sales Manager,Medium
+34,74,155,24.77,false,Ranchi,HR Manager,Medium
+49,55,156,38.25,true,Surat,Retail Manager,High
+55,99,157,22.8,false,Kanpur,Retail Manager,High
+57,81,162,33.99,false,Lucknow,Data Analyst,High
+30,55,179,6.4,false,Visakhapatnam,Data Analyst,Medium
+36,91,193,21.89,false,Ahmedabad,Government Employee,Low
+38,71,190,22.23,true,Ludhiana,Real Estate Agent,Medium
+32,59,179,19.46,false,Nashik,Government Employee,Low
+39,80,166,39.76,false,Varanasi,HR Manager,Medium
+47,46,168,37.08,false,Varanasi,Teacher,Low
+43,52,164,33.86,false,Hyderabad,Engineer,Low
+52,60,190,5.56,true,Delhi,Pharmacist,High
+25,52,160,3.65,false,Ahmedabad,Software Engineer,Low
+64,58,167,14.82,true,Rajkot,Retail Manager,High
+18,73,180,43.35,false,Hyderabad,Retail Manager,Low
+30,55,163,12.99,true,Allahabad,Real Estate Agent,Medium
+43,92,187,36.98,true,Ludhiana,Software Engineer,High
+57,47,154,24.05,false,Indore,Consultant,Medium
+25,98,164,13.24,true,Surat,Engineer,High
+64,80,192,46.66,true,Pune,Doctor,High
+30,91,162,44.87,false,Patna,Plumber,Medium
+49,74,158,21.91,true,Bangalore,Lab Technician,High
+50,68,156,31.84,false,Delhi,Nurse,Medium
+34,78,195,33.37,false,Chennai,Pharmacist,Low
+25,68,150,15.21,false,Faridabad,Teacher,Low
+32,64,183,22.28,false,Nashik,Lab Technician,Medium
+47,59,189,7.54,false,Srinagar,Nurse,Medium
+30,79,167,49.44,false,Delhi,Retail Manager,Low
+24,61,191,24.03,false,Rajkot,Chef,Low
+51,50,156,22.35,false,Bangalore,Government Employee,Medium
+54,86,160,21.12,true,Ghaziabad,Driver,High
+31,47,175,7.81,false,Ghaziabad,Shop Owner,Low
+46,67,187,4.84,true,Pune,Content Writer,Medium
+34,71,156,5.39,false,Surat,Driver,Low
+51,88,182,7.51,false,Amritsar,Pharmacist,Medium
+50,70,174,6.47,false,Ahmedabad,Accountant,Low
+40,58,156,45.68,true,Vadodara,Nurse,Medium
+23,50,179,7.11,false,Agra,Nurse,Low
+59,92,186,36.19,true,Visakhapatnam,Carpenter,High
+27,96,160,30.47,false,Hyderabad,Architect,Medium
+42,79,185,19.38,false,Ranchi,Architect,Medium
+43,99,179,32.13,false,Surat,Businessman,Medium
+25,92,185,19.96,false,Surat,Lawyer,Low
+27,78,158,7.13,false,Varanasi,Banker,Low
+56,46,157,23.22,false,Kanpur,Plumber,Medium
+26,83,186,34.15,false,Mumbai,Electrician,Low
+39,97,189,2.29,false,Faridabad,Carpenter,Low
+36,63,166,11.36,false,Delhi,Teacher,Low
+24,73,166,50,true,Pune,Retail Manager,High
+36,72,170,19.33,true,Bhopal,Doctor,Medium
+55,89,154,9.66,true,Kanpur,Plumber,High
+53,45,175,13.89,true,Pune,Real Estate Agent,High
+29,50,182,28.81,false,Ludhiana,Pharmacist,Low
+49,64,150,40.52,true,Meerut,Lab Technician,Medium
+51,52,162,32.07,false,Nagpur,Electrician,Medium
+35,46,155,43.55,false,Ahmedabad,Driver,Low
+51,84,189,38.41,true,Meerut,Plumber,High
+53,80,159,39.74,true,Visakhapatnam,Lab Technician,High
+18,62,183,16.89,true,Srinagar,Plumber,Medium
+39,72,165,12.1,true,Hyderabad,Consultant,High
+25,46,179,5.29,true,Hyderabad,Banker,Medium
+26,62,181,39.42,false,Jaipur,Chef,Low
+31,73,184,40.93,true,Nashik,Shop Owner,Medium
+41,90,152,21.17,false,Rajkot,Content Writer,Medium
+31,73,164,36.64,true,Kanpur,Sales Manager,High
+38,81,186,35.98,false,Bangalore,Government Employee,Low
+39,97,189,23.12,true,Amritsar,Content Writer,High
+42,92,183,36.4,false,Varanasi,Civil Servant,Medium
+55,59,168,29.26,true,Nagpur,Consultant,High
+26,79,189,23.59,true,Lucknow,Teacher,Medium
+34,51,171,17.66,false,Visakhapatnam,Banker,Low
+53,62,195,18.1,false,Hyderabad,Banker,Medium
+39,77,151,6.31,true,Kanpur,Shop Owner,High
+47,49,164,10.67,false,Ghaziabad,Accountant,Medium
+60,92,174,9.54,false,Jaipur,HR Manager,Medium
+36,75,166,32.72,false,Jaipur,Content Writer,Medium
+39,78,172,18.22,false,Bhopal,Carpenter,Low
+26,93,172,43.46,true,Agra,Businessman,High
+62,69,172,3.4,true,Faridabad,Driver,Medium
+52,65,183,46.02,false,Ghaziabad,Accountant,Medium
+46,54,192,23.83,false,Indore,Plumber,Medium
+40,98,192,40.08,true,Ahmedabad,Teacher,High
+41,92,179,19.11,true,Lucknow,Driver,High
+35,74,183,5.15,false,Faridabad,Doctor,Low
+41,62,153,46.2,true,Nagpur,Real Estate Agent,High
+31,56,187,5.28,false,Allahabad,Plumber,Low
+48,95,156,15.22,false,Varanasi,Retail Manager,Medium
+40,46,171,9.12,false,Varanasi,Real Estate Agent,Low
+58,53,166,39.52,true,Nashik,Electrician,High
+59,86,157,47.86,false,Kanpur,Marketing Manager,High
+64,97,151,49.62,false,Vadodara,Doctor,High
+23,67,165,10.46,false,Ahmedabad,Marketing Manager,Low
+29,45,178,39.93,false,Nashik,Accountant,Low
+64,95,180,40.76,true,Kanpur,Sales Manager,High
+55,77,169,27.96,true,Mumbai,Content Writer,High
+54,76,178,35.85,true,Rajkot,Retail Manager,High
+34,93,193,3.33,false,Vadodara,Electrician,Low
+49,62,185,46.73,true,Agra,Real Estate Agent,High
+18,81,182,47.13,false,Vadodara,Engineer,Low
+50,48,193,17.25,false,Meerut,Real Estate Agent,Medium
+61,48,171,11.16,false,Agra,Doctor,Medium
+36,69,178,45.98,false,Lucknow,Consultant,Low
+29,64,191,18.51,false,Lucknow,Electrician,Low
+30,97,183,35.53,false,Amritsar,Accountant,Low
+22,45,178,19.86,false,Faridabad,HR Manager,Low
+27,83,192,13.66,false,Ludhiana,Engineer,Low
+48,65,150,7.49,false,Bangalore,Banker,Medium
+31,72,195,26.46,false,Bangalore,Architect,Low
+47,55,168,3.87,false,Meerut,Businessman,Low
+44,74,185,24.37,true,Jaipur,Civil Servant,High
+36,48,172,17.73,false,Visakhapatnam,Banker,Low
+35,91,185,27.19,true,Vadodara,Marketing Manager,High
+33,72,175,49.24,false,Ahmedabad,Civil Servant,Low
+41,53,152,46.61,false,Lucknow,Nurse,Low
+49,63,181,8.28,false,Agra,Software Engineer,Low
+42,87,178,35.83,false,Pune,HR Manager,Medium
+63,78,167,4.68,true,Ranchi,Lawyer,High
+59,87,177,31.99,true,Kolkata,Sales Manager,High
+51,67,190,2.08,false,Vadodara,Electrician,Low
+29,73,185,9.64,false,Rajkot,Software Engineer,Low
+41,97,177,43.55,true,Agra,Factory Worker,High
+22,82,181,37.05,false,Kanpur,Architect,Medium
+54,52,180,40.86,false,Mumbai,Accountant,Medium
+41,90,169,20.21,false,Indore,Software Engineer,Medium
+58,64,193,46.97,true,Hyderabad,Nurse,High
+40,86,158,17.78,true,Visakhapatnam,Engineer,High
+60,97,158,29.6,true,Pune,Insurance Agent,High
+49,90,164,17.72,false,Nagpur,Marketing Manager,Medium
+22,48,175,9.41,false,Ranchi,Consultant,Low
+62,93,183,21.58,false,Lucknow,Civil Servant,Medium
+49,88,150,23.47,false,Agra,Electrician,Low
+46,87,164,33.78,false,Pune,Real Estate Agent,Medium
+59,85,178,39.48,true,Rajkot,Doctor,High
+46,50,153,28.81,false,Ranchi,Engineer,Low
+37,77,190,18.22,false,Allahabad,Software Engineer,Low
+61,54,161,21.49,false,Rajkot,Consultant,Medium
+29,85,176,31.21,true,Allahabad,Lawyer,High
+46,66,158,19.86,true,Surat,Driver,High
+19,63,155,18.03,false,Pune,Software Engineer,Low
+40,91,163,40.41,false,Chennai,Insurance Agent,Medium
+26,77,190,37.72,false,Patna,Civil Servant,Low
+61,74,153,23.52,false,Kolkata,Chef,Medium
+64,88,173,14.02,true,Pune,Banker,High
+23,82,191,49.13,false,Faridabad,Sales Manager,Low
+50,72,185,34.39,false,Nagpur,Sales Manager,Low
+46,84,181,41.56,false,Kolkata,Carpenter,Medium
+35,72,164,20.35,false,Ranchi,Software Engineer,Medium
+25,89,156,44.58,false,Indore,Accountant,Medium
+33,97,180,3.15,true,Nagpur,Civil Servant,Medium
+26,49,184,31.65,false,Patna,Software Engineer,Low
+30,63,158,24.13,false,Surat,Software Engineer,Low
+46,95,192,9.77,false,Surat,Accountant,Medium
+40,92,161,42,false,Ghaziabad,Civil Servant,Medium
+33,46,183,9.8,false,Hyderabad,Plumber,Low
+24,78,193,13.89,false,Allahabad,Software Engineer,Low
+61,56,156,13.14,false,Chennai,Accountant,Low
+62,71,191,43.4,true,Kolkata,Carpenter,High
+39,92,166,16.78,false,Meerut,Factory Worker,Medium
+60,77,154,9.2,false,Varanasi,Plumber,Medium
+37,97,187,6.55,false,Visakhapatnam,Marketing Manager,Low
+25,95,181,38.21,false,Meerut,Lawyer,Low
+48,64,195,11.87,false,Srinagar,Architect,Medium
+52,76,162,49.17,true,Nagpur,Chef,High
+60,89,176,8.05,false,Chennai,HR Manager,Medium
+64,98,186,34.88,true,Bhopal,Teacher,High
+21,83,182,35.96,false,Ghaziabad,Data Analyst,Low
+48,61,190,15.7,false,Kanpur,Plumber,Medium
+27,59,188,34.99,false,Srinagar,Pharmacist,Low
+22,59,180,17.64,false,Bhopal,Software Engineer,Low
+53,53,156,40.31,false,Kolkata,Carpenter,Medium
+23,52,159,23.39,true,Amritsar,Government Employee,Medium
+63,71,158,33.84,false,Meerut,Driver,Medium
+57,52,194,31.51,false,Mumbai,Electrician,Medium
+54,53,187,20.63,false,Allahabad,Sales Manager,Medium
+25,76,188,12.93,true,Hyderabad,Lab Technician,Medium
+55,48,176,18.93,false,Agra,Plumber,Medium
+53,87,187,45.79,false,Kolkata,Architect,Medium
+54,96,194,5.09,false,Pune,Nurse,Medium
+55,56,166,2.81,true,Agra,Architect,Medium
+33,96,164,33.3,false,Lucknow,Lab Technician,Medium
+53,52,167,2.03,true,Kolkata,Software Engineer,Medium
+29,48,173,45.01,false,Chennai,Data Analyst,Low
+20,67,156,49.27,false,Surat,Lab Technician,Low
+50,96,151,24.96,false,Bhopal,Government Employee,Low
+40,56,185,26.44,false,Meerut,Civil Servant,Medium
+32,76,182,9.57,true,Mumbai,Factory Worker,Medium
+24,81,192,13.93,true,Bangalore,Government Employee,Medium
+31,46,193,39.98,false,Vadodara,Software Engineer,Medium
+45,48,154,18.07,false,Kanpur,Software Engineer,Medium
+21,68,169,30.85,true,Lucknow,Government Employee,Medium
+37,46,155,24.74,false,Pune,Banker,Low
+35,59,151,3.51,false,Ahmedabad,Real Estate Agent,Low
+49,86,178,21.17,false,Indore,Lab Technician,High
+23,88,162,10.58,true,Kolkata,Insurance Agent,High
+41,95,174,9.76,true,Ahmedabad,Marketing Manager,High
+31,47,187,3.22,false,Nashik,Shop Owner,Low
+45,76,194,31.59,false,Rajkot,Software Engineer,Low
+22,50,193,8.09,false,Visakhapatnam,Driver,Low
+30,69,194,28.64,false,Delhi,Sales Manager,Low
+57,79,188,25.36,false,Ludhiana,Plumber,Medium
+58,52,174,23.16,true,Ludhiana,Insurance Agent,High
+37,52,183,39.88,true,Indore,Teacher,High
+58,69,192,9.79,false,Delhi,Doctor,Low
+23,59,169,43.97,true,Ranchi,Real Estate Agent,Medium
+63,81,162,11.76,false,Jaipur,Civil Servant,Medium
+36,49,159,43.42,false,Amritsar,Engineer,Low
+39,47,160,33.37,false,Pune,Real Estate Agent,High
+39,72,156,37.12,false,Rajkot,Nurse,Medium
+34,64,163,31.76,true,Nagpur,Plumber,Medium
+41,47,189,15.17,true,Allahabad,Doctor,High
+61,74,182,3.49,false,Varanasi,Data Analyst,Low
+38,52,165,6.78,true,Mumbai,Engineer,Medium
+59,45,155,49.11,false,Chennai,Electrician,Medium
+23,74,155,12.92,true,Visakhapatnam,Driver,High
+47,87,185,15.55,false,Patna,Pharmacist,Medium
+35,50,185,22.29,false,Srinagar,Civil Servant,Medium
+58,83,188,48.54,true,Visakhapatnam,Businessman,High
+54,70,173,16.73,false,Ahmedabad,HR Manager,Low
+31,62,182,7.45,false,Allahabad,Marketing Manager,Low
+36,50,193,42.39,false,Chennai,Government Employee,Medium
+46,45,176,16.67,false,Ghaziabad,Driver,Medium
+39,62,183,30.49,false,Varanasi,Insurance Agent,Low
+26,98,161,37.44,true,Ludhiana,Consultant,High
+64,87,179,26.71,false,Kolkata,Chef,Medium
+22,56,150,24.66,true,Indore,Driver,Medium
+26,67,158,40.93,true,Allahabad,Accountant,High
+35,50,163,38.24,false,Allahabad,Nurse,Low
+61,46,163,19.97,false,Kanpur,Pharmacist,Medium
+34,68,160,39.03,false,Delhi,Sales Manager,Medium
+48,46,186,5.97,true,Lucknow,Architect,High
+22,95,181,34.65,true,Chennai,Chef,High
+36,68,184,7.22,false,Bangalore,Data Analyst,Low
+54,89,188,14.79,false,Chennai,Retail Manager,Medium
+26,58,181,37.5,false,Nagpur,Doctor,Low
+28,81,171,48.01,true,Srinagar,Content Writer,High
+57,73,167,13.41,false,Lucknow,Driver,Medium
+55,60,169,37.36,false,Surat,Insurance Agent,Medium
+41,71,193,48.58,false,Patna,Sales Manager,Low
+29,62,174,40.98,false,Meerut,Banker,Low
+36,78,179,16.59,true,Faridabad,Civil Servant,Medium
+23,97,157,5.84,false,Vadodara,Insurance Agent,Low
+54,79,195,3.15,false,Ahmedabad,Teacher,Low
+25,61,181,41.88,true,Hyderabad,Teacher,Low
+52,61,178,33.44,true,Ranchi,Shop Owner,High
+35,85,161,26.59,false,Visakhapatnam,Data Analyst,Medium
+28,47,175,7.4,false,Chennai,Lawyer,Low
+31,58,188,10.73,false,Surat,Doctor,Medium
+32,45,186,38.73,false,Pune,Lawyer,Medium
+62,53,181,39.62,true,Ghaziabad,Retail Manager,High
+59,52,177,2.24,true,Ranchi,Teacher,Medium
+18,75,155,40.18,false,Bhopal,Lawyer,High
+55,77,167,38.33,false,Vadodara,Businessman,Medium
+20,86,157,33.9,false,Amritsar,Plumber,Medium
+33,53,192,15.93,false,Delhi,Consultant,Low
+24,85,162,46.82,true,Vadodara,Nurse,High
+46,54,162,25.65,false,Bhopal,Nurse,Low
+55,56,164,46.08,false,Nagpur,Accountant,Medium
+24,81,193,47.24,false,Hyderabad,Driver,Low
+37,54,174,6.4,true,Agra,Civil Servant,High
+36,56,160,4.79,true,Bhopal,Pharmacist,Medium
+58,95,171,20.73,false,Allahabad,Plumber,High
+19,49,168,32.77,true,Ghaziabad,Factory Worker,High
+40,85,195,28.99,false,Agra,Lawyer,Low
+30,63,154,12.21,false,Patna,Banker,Medium
+60,47,154,6.3,true,Hyderabad,Real Estate Agent,High
+42,51,150,33.97,false,Pune,Insurance Agent,Low
+54,61,191,15.02,false,Bangalore,Marketing Manager,Low
+63,62,168,19.01,false,Hyderabad,Carpenter,Low
+42,49,175,47.28,true,Surat,Sales Manager,High
+19,46,172,16.3,false,Ranchi,Software Engineer,Low
+31,78,193,18.22,false,Lucknow,Plumber,Low
+51,96,176,7.79,false,Ahmedabad,Doctor,Medium
+50,61,158,36.91,false,Kolkata,Architect,Low
+63,54,170,5.74,false,Mumbai,Pharmacist,Low
+42,75,165,17.8,true,Nashik,Software Engineer,High
+30,90,155,33.74,false,Pune,Consultant,Medium
+48,91,160,40.03,false,Allahabad,Shop Owner,Medium
+38,45,190,45.87,true,Ludhiana,Plumber,High
+42,51,190,29.64,false,Mumbai,Chef,Medium
+52,62,182,22.15,true,Ahmedabad,HR Manager,High
+38,64,165,17.71,true,Varanasi,Marketing Manager,Medium
+31,48,187,29.75,true,Ahmedabad,Accountant,High
+31,74,174,9.21,false,Lucknow,Software Engineer,Low
+54,45,160,39.59,false,Patna,Lawyer,Medium
+51,80,171,26.38,true,Delhi,Businessman,High
+53,52,150,14.4,false,Bhopal,Retail Manager,Low
+32,57,181,47.22,false,Ahmedabad,Content Writer,Medium
+59,70,193,18.32,true,Lucknow,Factory Worker,High
+56,53,181,12.49,true,Nagpur,Consultant,High
+62,84,186,29.2,false,Chennai,Businessman,Medium
+24,94,188,5.18,false,Visakhapatnam,Government Employee,Low
+51,72,153,43.03,false,Varanasi,Nurse,High
+62,79,176,3.14,true,Vadodara,Businessman,High
+33,80,168,33.61,false,Chennai,Accountant,Medium
+61,53,180,22.4,false,Mumbai,Retail Manager,Medium
+26,74,168,17.38,true,Ahmedabad,Real Estate Agent,Low
+42,63,160,30.92,false,Lucknow,Doctor,Low
+57,46,192,45.32,false,Surat,Plumber,Medium
+19,46,156,38.16,true,Srinagar,Software Engineer,Medium
+59,75,167,36.41,false,Agra,Banker,Medium
+20,73,151,10.81,false,Mumbai,Architect,Low
+19,92,188,46.61,true,Indore,Consultant,High
+36,86,169,23.71,false,Hyderabad,Marketing Manager,Medium
+61,54,174,17.7,false,Varanasi,Shop Owner,Medium
+26,79,160,2.96,true,Ghaziabad,Real Estate Agent,Medium
+21,93,165,8.86,false,Ludhiana,Architect,Medium
+45,68,180,25.53,true,Srinagar,Civil Servant,High
+52,67,162,19.48,true,Visakhapatnam,Factory Worker,High
+18,77,186,13.67,false,Ghaziabad,Data Analyst,Low
+22,79,175,46.04,true,Bangalore,Engineer,High
+48,94,152,20.65,false,Chennai,Data Analyst,Low
+35,91,159,26.85,true,Patna,Sales Manager,High
+43,71,166,18.61,true,Ghaziabad,Factory Worker,Medium
+19,54,188,36.22,false,Nashik,Shop Owner,Low
+30,56,152,17.65,false,Patna,Driver,Low
+46,58,160,7.42,true,Lucknow,Lab Technician,Medium
+64,88,186,7.63,false,Vadodara,Software Engineer,Medium
+58,80,169,24.29,true,Ranchi,Marketing Manager,High
+48,49,166,23.56,false,Ghaziabad,Software Engineer,Medium
+38,86,166,17.85,false,Meerut,Driver,Medium
+43,77,161,33.25,true,Rajkot,Pharmacist,High
+64,75,187,35.59,false,Patna,HR Manager,Medium
+25,91,154,37.79,false,Surat,Sales Manager,Low
+42,85,165,46.25,false,Bangalore,Marketing Manager,Medium
+46,57,168,40.96,false,Amritsar,Lawyer,Low
+21,78,163,15,false,Amritsar,Content Writer,Low
+52,84,189,9.74,true,Hyderabad,Chef,High
+51,73,173,23.7,false,Ghaziabad,Chef,Medium
+33,72,154,25.59,false,Patna,Plumber,Medium
+54,91,172,45.99,true,Srinagar,Insurance Agent,Medium
+23,82,195,14.55,false,Ludhiana,Pharmacist,Low
+28,81,193,2.5,true,Amritsar,Doctor,Low
+21,95,186,49.73,false,Ludhiana,Teacher,Low
+43,65,150,28.8,true,Pune,Electrician,High
+21,83,163,19.64,false,Kanpur,Shop Owner,Low
+52,68,191,49.12,false,Srinagar,Lawyer,Medium
+57,53,181,42.12,false,Rajkot,Lab Technician,Medium
+30,85,166,45.18,false,Delhi,Carpenter,Medium
+58,54,152,43.86,true,Varanasi,Plumber,High
+31,86,153,25.76,false,Visakhapatnam,Real Estate Agent,Medium
+54,67,163,31.79,true,Surat,Lab Technician,High
+36,57,170,9.41,false,Bhopal,Accountant,Low
+44,89,172,34.99,false,Jaipur,Engineer,Medium
+48,99,157,2.99,false,Meerut,Accountant,Medium
+57,90,173,23.42,false,Ranchi,Carpenter,High
+19,56,159,19.07,false,Patna,Government Employee,Low
+34,85,170,14.56,true,Patna,Businessman,High
+23,85,164,21.04,false,Lucknow,Businessman,Medium
+49,91,166,43.12,true,Ahmedabad,Plumber,High
+25,47,181,32.89,false,Delhi,Consultant,Low
+42,89,192,35.64,true,Chennai,Content Writer,High
+30,79,167,19.14,false,Ludhiana,Chef,Low
+63,57,173,44.22,true,Meerut,Businessman,High
+53,63,175,46.7,false,Chennai,Civil Servant,Medium
+62,71,167,40.16,true,Kanpur,Carpenter,High
+20,81,173,21.58,false,Ranchi,Electrician,Low
+30,66,178,13.48,false,Srinagar,Banker,Low
+28,96,176,24.47,false,Srinagar,Real Estate Agent,Medium
+24,64,167,14.73,true,Delhi,Businessman,Medium
+58,61,165,26.01,false,Bangalore,Shop Owner,Medium
+18,96,150,13,false,Mumbai,Retail Manager,Low
+50,57,181,44.89,false,Faridabad,Factory Worker,High
+39,46,159,26.7,false,Ranchi,Factory Worker,Medium
+26,50,186,14.72,false,Mumbai,HR Manager,Low
+35,80,156,16.04,true,Kolkata,Real Estate Agent,High
+26,52,164,8.71,false,Bhopal,Lab Technician,Low
+37,53,164,48.19,true,Delhi,Lab Technician,Medium
+52,91,186,15.04,true,Patna,Pharmacist,High
+22,81,158,2.2,false,Amritsar,Factory Worker,Low
+35,61,167,32.79,false,Ahmedabad,Banker,Low
+49,51,164,19.17,true,Amritsar,HR Manager,Medium
+34,67,150,43.27,false,Patna,HR Manager,Low
+26,46,155,46.03,false,Indore,Plumber,Low
+62,51,162,10.03,true,Nashik,Software Engineer,Medium
+58,76,161,41.82,true,Bangalore,Government Employee,High
+53,96,188,23.16,false,Ludhiana,Real Estate Agent,Medium
+44,93,159,35.11,false,Nashik,Lab Technician,Medium
+25,79,161,11.77,false,Mumbai,Government Employee,Low
+52,79,194,33.09,false,Allahabad,Banker,Medium
+28,90,165,24.89,false,Hyderabad,Software Engineer,Medium
+37,52,158,29.18,false,Pune,Insurance Agent,Low
+21,63,160,7.35,false,Ludhiana,Nurse,Low
+62,82,195,39.79,false,Ghaziabad,Doctor,Medium
+42,75,194,19.24,false,Ludhiana,Marketing Manager,Low
+33,90,187,3.97,false,Nagpur,Data Analyst,Low
+23,59,150,19.46,false,Bhopal,Lawyer,Low
+45,74,150,28.46,true,Faridabad,Lab Technician,High
+25,87,164,23.49,true,Delhi,Teacher,High
+47,64,162,32.52,false,Varanasi,Architect,Low
+54,89,171,42.09,false,Nashik,Software Engineer,High
+50,62,169,49.23,false,Nagpur,Driver,Low
+57,97,186,33.89,false,Nagpur,Retail Manager,Medium
+26,45,174,46.88,false,Rajkot,Plumber,Low
+20,71,192,27.66,true,Lucknow,Data Analyst,Medium
+38,61,168,18.67,false,Delhi,Insurance Agent,Low
+30,98,153,44.75,false,Jaipur,Real Estate Agent,High
+63,49,152,34.41,true,Lucknow,Pharmacist,High
+47,63,165,41.62,false,Pune,Software Engineer,Low
+48,67,164,41.41,false,Rajkot,Lawyer,Low
+23,60,169,21.7,false,Nashik,Teacher,Low
+31,67,154,30.81,false,Allahabad,Government Employee,Medium
+54,49,171,29.76,true,Hyderabad,Electrician,High
+48,54,150,24.77,false,Vadodara,Engineer,Low
+23,84,164,35.46,false,Bangalore,Chef,Medium
+38,50,173,39.71,false,Ahmedabad,Retail Manager,Medium
+63,88,183,31.32,false,Meerut,Software Engineer,Medium
+50,65,177,36.19,true,Jaipur,Accountant,High
+32,69,162,31.39,true,Ludhiana,Driver,High
+21,67,187,25.11,false,Agra,Shop Owner,Low
+63,54,179,22.61,false,Pune,Pharmacist,Medium
+27,81,156,11.2,false,Kanpur,Pharmacist,Low
+38,75,175,44.33,true,Amritsar,HR Manager,Medium
+49,54,157,45.54,false,Lucknow,Engineer,Low
+51,81,161,9.24,false,Agra,Electrician,Medium
+41,98,189,28.22,true,Faridabad,Government Employee,High
+63,56,166,2.89,false,Agra,Doctor,Low
+61,58,153,5.53,true,Kolkata,Content Writer,High
+44,60,175,42.08,false,Amritsar,Civil Servant,Low
+55,96,174,16.54,false,Hyderabad,Lawyer,Medium
+31,97,190,43.26,false,Patna,Real Estate Agent,Medium
+64,56,168,3.81,false,Ghaziabad,Data Analyst,Low
+51,96,160,39.17,false,Lucknow,Retail Manager,High
+44,97,183,24.43,false,Rajkot,Driver,Medium
+45,75,174,47.75,false,Pune,Driver,Low
+40,77,184,11.2,false,Pune,Chef,Low
+50,63,160,17.57,true,Mumbai,Carpenter,Medium
+46,74,173,34.16,false,Jaipur,Shop Owner,Low
+29,91,195,30.1,true,Meerut,Engineer,Medium
+26,60,172,47.37,false,Jaipur,Teacher,Low
+36,46,151,36.42,false,Srinagar,Accountant,Low
+29,90,192,46.08,false,Hyderabad,Retail Manager,Low
+33,50,159,9.16,false,Vadodara,Data Analyst,Low
+45,98,150,10.49,true,Vadodara,Engineer,High
+62,58,165,26.89,true,Rajkot,Consultant,High
+58,75,173,4.33,true,Surat,Lab Technician,High
+39,71,179,11.17,true,Rajkot,Factory Worker,Medium
+46,51,168,36.78,true,Surat,Insurance Agent,High
+33,82,167,27.7,false,Agra,Civil Servant,Medium
+47,88,184,28.86,false,Ludhiana,Insurance Agent,High
+25,86,189,24.21,true,Vadodara,Doctor,Low
+44,84,191,44.87,false,Nagpur,Teacher,Low
+62,51,183,42.71,true,Kanpur,Lab Technician,High
+48,52,153,5,false,Faridabad,Consultant,Low
+64,98,184,13.75,false,Kanpur,Businessman,Medium
+54,92,182,49.27,false,Ahmedabad,Accountant,Medium
+45,64,155,27.41,false,Rajkot,Marketing Manager,Medium
+59,72,191,24.17,false,Mumbai,Nurse,Low
+23,53,179,26.25,true,Nashik,Factory Worker,High
+28,85,163,8.57,true,Patna,Lawyer,High
+27,49,189,36.4,false,Hyderabad,Data Analyst,Low
+53,54,150,13.48,false,Mumbai,Civil Servant,Medium
+45,83,170,42.71,false,Allahabad,Teacher,Medium
+21,56,185,28.32,false,Meerut,Banker,Low
+38,99,171,27.22,true,Allahabad,Consultant,High
+22,48,177,36.08,true,Chennai,Civil Servant,High
+42,79,151,43.26,false,Delhi,Doctor,Medium
+54,77,183,24.48,false,Srinagar,Pharmacist,Medium
+64,46,187,12.74,false,Amritsar,Chef,Medium
+25,57,187,12.71,true,Srinagar,Insurance Agent,Medium
+27,59,174,4.5,false,Allahabad,Doctor,Low
+38,76,157,49.37,false,Jaipur,Lawyer,Medium
+58,85,190,26.43,false,Pune,Chef,Medium
+34,62,161,32.56,true,Ghaziabad,HR Manager,Medium
+25,62,183,20.29,true,Varanasi,Accountant,Medium
+37,50,168,48.92,false,Jaipur,Sales Manager,Medium
+47,73,174,5.35,true,Ranchi,Software Engineer,Medium
+25,84,183,47.72,true,Ahmedabad,Retail Manager,High
+33,48,157,42.66,true,Bhopal,Plumber,Medium
+40,78,150,17.94,true,Ludhiana,Businessman,High
+33,92,166,27.76,false,Patna,HR Manager,Medium
+61,59,153,47.68,false,Surat,Lawyer,Medium
+20,73,166,23.15,false,Nashik,Teacher,Low
+44,98,172,10.55,false,Pune,Marketing Manager,Medium
+49,90,151,33.45,false,Meerut,Consultant,Medium
+52,82,193,41.2,false,Varanasi,Carpenter,Medium
+55,88,173,42.35,true,Hyderabad,Electrician,High
+32,84,171,21.68,true,Surat,Teacher,High
+57,99,162,6.28,false,Patna,Lab Technician,Medium
+44,71,195,39.56,false,Indore,Chef,Low
+51,47,154,43.75,false,Pune,Teacher,Medium
+24,81,181,47.96,true,Agra,Data Analyst,Medium
+21,60,156,36.34,false,Rajkot,Real Estate Agent,Low
+32,68,191,49.87,true,Kolkata,Data Analyst,Medium
+64,95,192,26.07,true,Rajkot,Sales Manager,High
+23,82,160,34.72,true,Ludhiana,Factory Worker,High
+30,95,161,30.61,true,Mumbai,Pharmacist,High
+38,54,193,32.99,false,Ranchi,Banker,Medium
+48,97,167,27.06,false,Pune,Government Employee,Medium
+35,72,157,41.5,true,Bhopal,Teacher,High
+32,81,189,21.38,true,Nagpur,Marketing Manager,Medium
+43,72,184,41.7,false,Kanpur,Marketing Manager,Low
+31,61,190,34.63,true,Faridabad,Driver,High
+26,64,192,32.4,false,Ahmedabad,Lab Technician,Low
+53,65,192,24.07,false,Allahabad,Insurance Agent,Medium
+42,46,185,41.1,true,Indore,Factory Worker,High
+55,61,183,17.56,false,Hyderabad,Data Analyst,Medium
+61,66,150,10.33,true,Faridabad,Marketing Manager,High
+56,81,172,45.22,false,Lucknow,Nurse,Low
+32,51,166,13.11,false,Patna,Accountant,Low
+36,96,153,8.16,false,Ahmedabad,Shop Owner,Medium
+52,47,190,23.77,false,Bhopal,Insurance Agent,Medium
+19,65,174,49.74,true,Mumbai,Civil Servant,Medium
+32,68,161,32.72,true,Nagpur,Lawyer,High
+25,50,177,19.37,false,Srinagar,Architect,Low
+33,67,156,31.95,false,Srinagar,Marketing Manager,Medium
+18,61,188,20.08,true,Vadodara,Businessman,High
+41,94,187,14.95,false,Amritsar,Businessman,Medium
+48,50,181,37.41,false,Ludhiana,Teacher,Medium
+52,84,165,33.33,false,Ahmedabad,Pharmacist,High
+31,63,151,3.05,true,Allahabad,Retail Manager,Medium
+39,90,152,28.47,true,Bangalore,Civil Servant,High
+60,82,192,26.53,false,Agra,Insurance Agent,Medium
+29,52,181,20.92,false,Visakhapatnam,Carpenter,Low
+40,75,193,14.64,false,Mumbai,Nurse,Low
+34,84,185,4.46,false,Nashik,Electrician,Low
+47,50,193,26.16,true,Mumbai,Insurance Agent,High
+62,62,193,20.7,true,Vadodara,Content Writer,Medium
+59,97,186,48.22,false,Bhopal,Nurse,Medium
+52,50,166,38.59,false,Surat,HR Manager,Medium
+21,68,192,29.27,true,Amritsar,Data Analyst,High
+35,81,185,24.51,false,Rajkot,Government Employee,Medium
+50,60,182,31.4,false,Jaipur,Shop Owner,Medium
+18,81,195,47.02,true,Bhopal,Pharmacist,Medium
+18,87,185,13.89,true,Chennai,Carpenter,High
+55,66,190,17.99,false,Vadodara,Factory Worker,Medium
+48,56,162,25.26,false,Ludhiana,HR Manager,Low
+22,63,176,48.21,false,Mumbai,Nurse,Low
+24,62,181,12.33,false,Kanpur,Electrician,Low
+50,53,155,6.53,false,Ludhiana,Banker,Low
+51,64,180,43.89,false,Pune,Government Employee,Medium
+51,54,174,40.89,false,Amritsar,HR Manager,Medium
+34,69,184,49.03,false,Agra,Businessman,Low
+18,85,195,46.36,false,Hyderabad,Data Analyst,Low
+63,88,188,5.36,false,Varanasi,Shop Owner,Low
+19,76,190,23.73,true,Meerut,Carpenter,Medium
+27,92,150,27.24,true,Jaipur,Consultant,High
+42,89,190,33.07,false,Varanasi,Businessman,Low
+53,83,164,27.71,true,Jaipur,Sales Manager,High
+42,96,165,27.29,true,Amritsar,Lab Technician,High
+21,68,151,25.56,true,Jaipur,Marketing Manager,High
+61,67,193,17.49,false,Amritsar,Insurance Agent,Medium
+48,98,191,21.46,true,Jaipur,Doctor,High
+52,69,186,18.2,false,Chennai,Real Estate Agent,Low
+30,78,151,35.31,false,Ghaziabad,Nurse,Medium
+33,62,195,6.48,true,Ludhiana,Sales Manager,High
+52,81,168,39.24,true,Varanasi,Banker,High
+43,93,175,43.51,false,Ghaziabad,Civil Servant,Medium
+52,59,164,24.64,true,Kanpur,Driver,High
+36,92,179,45.99,false,Hyderabad,Driver,Medium
+33,56,193,25.4,true,Nagpur,Businessman,High
+28,90,191,41.99,false,Varanasi,Government Employee,Low
+62,94,154,28.77,false,Varanasi,Civil Servant,High
+58,49,190,15.33,false,Visakhapatnam,Businessman,Medium
+27,63,183,41.21,true,Rajkot,Consultant,Medium
+49,60,159,48.56,false,Agra,Electrician,Low
+62,79,183,27.64,false,Nashik,Lab Technician,Medium
+29,85,176,18.69,true,Lucknow,Data Analyst,Medium
+51,98,167,27.82,false,Kolkata,Consultant,High
+24,75,154,2.18,false,Mumbai,Electrician,Low
+29,47,150,28.04,false,Ahmedabad,Accountant,Low
+24,50,154,35.36,false,Nashik,Factory Worker,Low
+51,88,184,37.24,false,Indore,Businessman,Medium
+19,62,165,10.12,true,Amritsar,Insurance Agent,Medium
+26,49,193,13.57,false,Allahabad,Accountant,Low
+26,94,174,34.19,true,Varanasi,Factory Worker,Medium
+53,67,177,13.17,false,Indore,Plumber,Low
+50,78,192,37.13,false,Bhopal,Content Writer,Low
+41,94,154,38.08,true,Surat,Driver,High
+51,51,190,2.78,true,Nashik,Plumber,High
+55,72,150,49.53,false,Bhopal,Retail Manager,High
+24,47,194,26.21,false,Kolkata,Pharmacist,Low
+37,79,158,37.25,false,Nashik,Data Analyst,Medium
+58,61,187,41.12,false,Vadodara,Doctor,Medium
+54,71,161,32.64,false,Allahabad,Sales Manager,Medium
+59,99,172,41.38,false,Bangalore,Real Estate Agent,Medium
+25,83,155,32.16,false,Jaipur,Marketing Manager,Medium
+57,79,162,7.9,false,Visakhapatnam,Architect,Medium
+57,74,153,13.96,false,Kanpur,Banker,High
+20,75,174,39.04,false,Bhopal,Insurance Agent,Low
+53,86,179,40.29,false,Meerut,Content Writer,High
+23,79,178,40.46,false,Agra,Banker,Low
+24,69,178,34.85,false,Bangalore,Pharmacist,Low
+27,87,169,48.23,false,Ghaziabad,Content Writer,Medium
+27,48,166,20.05,false,Kolkata,Sales Manager,Low
+40,90,169,8.65,false,Pune,Government Employee,Medium
+46,79,188,25.61,false,Rajkot,Electrician,Low
+27,63,168,17.44,false,Patna,Banker,Low
+26,62,176,41.1,true,Visakhapatnam,Nurse,Medium
+64,77,184,18.71,false,Nashik,Retail Manager,Low
+31,88,195,36.15,false,Ahmedabad,Driver,Low
+59,61,191,35.1,false,Meerut,Businessman,Medium
+38,70,186,36.49,false,Allahabad,Software Engineer,Low
+60,70,184,36.84,false,Kolkata,Real Estate Agent,Medium
+43,93,170,47.52,true,Hyderabad,HR Manager,Medium
+45,75,160,22.47,true,Surat,Engineer,High
+32,46,175,7.89,true,Lucknow,Pharmacist,High
+40,48,195,40.94,true,Vadodara,Civil Servant,High
+43,52,156,45.99,false,Nagpur,Consultant,Low
+39,49,181,23.42,false,Nashik,Data Analyst,Medium
+25,53,191,22.3,true,Mumbai,Nurse,High
+22,68,183,47.97,false,Mumbai,Data Analyst,Low
+22,79,187,42.25,true,Patna,Sales Manager,Medium
+29,74,184,19.79,false,Amritsar,Retail Manager,Low
+20,74,177,43.6,true,Lucknow,Banker,Medium
+35,61,170,2.91,true,Nashik,Pharmacist,Medium
+44,89,154,38.94,true,Mumbai,Civil Servant,High
+59,53,170,24.21,true,Pune,Teacher,High
+43,81,161,7.32,false,Chennai,Insurance Agent,Low
+57,56,175,16.98,false,Chennai,Consultant,Medium
+41,86,182,2.82,false,Hyderabad,Government Employee,Low
+63,50,181,10.65,true,Jaipur,Doctor,High
+47,75,168,27.54,false,Rajkot,Nurse,Medium
+60,77,183,18.38,false,Patna,Content Writer,Low
+43,67,173,24.63,true,Lucknow,Accountant,High
+19,75,159,26.36,false,Nagpur,Carpenter,Low
+59,93,159,28.26,true,Rajkot,Retail Manager,High
+35,59,189,43.16,false,Kolkata,Engineer,Medium
+18,98,179,42.37,false,Agra,Chef,Medium
+27,50,166,41.86,true,Kanpur,HR Manager,High
+27,93,156,30.9,true,Patna,Lab Technician,High
+54,98,152,21.47,false,Ranchi,Doctor,High
+28,67,155,44.72,false,Ahmedabad,Engineer,Low
+40,76,162,32.03,true,Mumbai,Carpenter,High
+30,93,160,13.67,true,Srinagar,Retail Manager,High
+51,65,188,12.94,false,Pune,Chef,Medium
+27,72,158,16.58,false,Allahabad,Factory Worker,Low
+19,73,173,21.58,false,Agra,Marketing Manager,Low
+27,69,155,3.26,false,Agra,Government Employee,Low
+25,94,191,41.78,false,Kolkata,Electrician,Low
+41,79,164,18.75,false,Lucknow,Accountant,Medium
+18,76,194,47.52,false,Ahmedabad,Lab Technician,Low
+41,93,188,30.26,true,Meerut,Retail Manager,High
+62,82,193,38.06,true,Nashik,Shop Owner,High
+63,68,157,34.81,false,Ranchi,Civil Servant,Medium
+42,82,170,12.81,false,Allahabad,Marketing Manager,Medium
+46,67,185,39.63,true,Rajkot,Government Employee,High
+33,47,153,49.47,false,Hyderabad,Accountant,Low
+40,95,172,35.29,false,Amritsar,Pharmacist,Medium
+53,75,161,16.48,true,Faridabad,Data Analyst,High
+36,54,165,42.09,false,Amritsar,Sales Manager,Low
+22,52,170,13.64,true,Lucknow,Plumber,Medium
+43,57,169,2.11,false,Lucknow,Shop Owner,Low
+60,73,186,7.98,true,Srinagar,Factory Worker,High
+25,47,175,33.76,false,Patna,Lawyer,Low
+35,78,182,37.2,false,Nashik,Content Writer,Low
+26,91,192,19.05,false,Meerut,Consultant,Low
+60,94,192,43.41,false,Amritsar,Content Writer,Medium
+44,85,175,25.44,false,Ghaziabad,Civil Servant,Medium
+62,66,163,22.39,false,Varanasi,Pharmacist,Medium
+49,86,174,28.07,false,Nagpur,Driver,Medium
+50,55,184,9.56,false,Pune,Content Writer,Medium
+28,88,159,24.02,false,Allahabad,Plumber,Medium
+45,66,192,18.28,false,Lucknow,Electrician,Medium
+45,90,183,4.87,false,Hyderabad,Driver,Low
+50,76,178,4.35,false,Srinagar,Marketing Manager,Medium
+25,67,156,33,true,Delhi,Marketing Manager,High
+51,46,159,4.42,false,Amritsar,Architect,Medium
+48,93,152,32.51,false,Patna,Insurance Agent,High
+64,73,192,12.73,false,Meerut,Retail Manager,Low
+58,99,172,48.14,false,Vadodara,Software Engineer,High
+26,45,157,36.62,true,Mumbai,Civil Servant,Medium
+25,68,180,13.97,false,Varanasi,Civil Servant,Low
+37,93,178,24.88,false,Amritsar,Electrician,Medium
+23,52,179,41.11,false,Varanasi,Pharmacist,Low
+23,49,188,25.97,false,Kanpur,Engineer,Medium
+43,97,165,30.18,true,Vadodara,Doctor,High
+54,56,191,48.55,false,Rajkot,Plumber,Medium
+55,61,179,8.76,false,Srinagar,Shop Owner,Low
+37,95,159,2.65,false,Agra,Software Engineer,Low
+49,53,167,22.88,false,Hyderabad,Plumber,Low
+26,57,155,31.15,true,Ranchi,Driver,Medium
+43,83,155,31.55,false,Patna,Real Estate Agent,Medium
+45,67,150,8.31,false,Amritsar,Software Engineer,Medium
+20,82,177,7.02,false,Ahmedabad,Nurse,Low
+54,76,187,11.31,false,Meerut,Consultant,Low
+52,91,190,38.85,false,Ahmedabad,Content Writer,Medium
+45,85,152,42.01,false,Varanasi,Factory Worker,Medium
+45,52,164,5.06,false,Chennai,Driver,Low
+24,46,188,26.46,false,Kolkata,Content Writer,Low
+62,57,155,3.07,false,Vadodara,Chef,Low
+49,96,178,34.88,true,Rajkot,Content Writer,High
+30,85,186,48.05,false,Chennai,Civil Servant,Low
+26,56,167,28.45,true,Ghaziabad,Engineer,Medium
+63,75,153,2.02,false,Patna,Electrician,Medium
+63,60,188,46.46,false,Pune,Civil Servant,Medium
+25,92,177,13.47,false,Pune,Real Estate Agent,Low
+21,85,161,37.83,true,Kanpur,Pharmacist,High
+43,54,182,33.41,false,Indore,Chef,Medium
+52,45,181,18.41,true,Meerut,Pharmacist,High
+47,68,166,9.49,false,Ahmedabad,Accountant,Low
+62,48,160,2.89,true,Meerut,Chef,Medium
+47,95,164,30.17,false,Srinagar,Civil Servant,Medium
+38,68,160,24.82,false,Jaipur,Architect,High
+54,70,184,23.63,false,Nashik,Driver,Medium
+52,76,186,44.57,true,Bangalore,Shop Owner,High
+25,84,187,18.29,false,Meerut,Consultant,Low
+23,66,164,46.45,true,Meerut,Shop Owner,Medium
+62,59,153,18.51,false,Visakhapatnam,HR Manager,Medium
+40,99,186,32.47,true,Faridabad,Content Writer,High
+61,92,153,42.31,false,Indore,Chef,High
+49,87,165,39.74,false,Amritsar,Sales Manager,Medium
+60,49,193,21.38,false,Delhi,Real Estate Agent,Medium
+35,51,192,13.74,false,Pune,Accountant,Low
+19,72,174,6.4,false,Chennai,Teacher,Low
+24,69,174,18.74,true,Kanpur,Content Writer,Medium
+26,83,187,27.69,false,Ahmedabad,Marketing Manager,Low
+45,55,151,14.65,false,Allahabad,Accountant,Low
+44,52,193,46.29,true,Nagpur,Data Analyst,High
+25,92,160,22.19,false,Varanasi,Real Estate Agent,Medium
+52,98,195,34.22,false,Kanpur,Content Writer,Medium
+52,63,187,5.25,true,Surat,Doctor,High
+61,84,181,16.06,false,Srinagar,Software Engineer,Medium
+41,47,171,48.05,true,Bhopal,Chef,High
+23,90,151,27.73,true,Surat,Chef,Medium
+58,55,150,45.92,false,Allahabad,Sales Manager,Medium
+46,52,173,8.18,true,Chennai,Shop Owner,High
+36,45,163,26.56,false,Mumbai,Architect,Low
+25,49,182,16.36,false,Ludhiana,Factory Worker,Low
+29,55,193,4.11,true,Bhopal,Architect,Medium
+36,93,176,48.16,true,Allahabad,Consultant,High
+27,96,167,43.15,false,Varanasi,Marketing Manager,Medium
+42,76,169,29.98,true,Chennai,Electrician,High
+32,58,160,15.12,false,Faridabad,Marketing Manager,Low
+26,95,163,17.86,true,Pune,Real Estate Agent,Medium
+47,78,185,6.58,false,Ludhiana,Retail Manager,Low
+46,96,171,20.6,true,Pune,Insurance Agent,High
+49,67,154,4.51,false,Bangalore,Pharmacist,Low
+31,76,181,25.24,false,Chennai,Nurse,Low
+28,70,175,35.73,false,Srinagar,Accountant,Low
+43,99,181,27.39,false,Bhopal,Architect,Medium
+22,84,163,34.65,false,Srinagar,Carpenter,Medium
+19,72,184,3.65,false,Srinagar,Carpenter,Low
+48,63,164,40.24,false,Lucknow,Sales Manager,Low
+32,91,175,15.26,false,Vadodara,Engineer,Low
+53,70,155,14.18,false,Ludhiana,Data Analyst,Medium
+28,85,178,23.67,false,Mumbai,Plumber,Low
+44,59,178,49.3,false,Bangalore,Government Employee,Low
+49,84,173,49.23,false,Agra,Retail Manager,Medium
+29,66,192,16.67,false,Surat,Engineer,Low
+46,97,176,7.71,false,Nashik,Pharmacist,Medium
+59,95,150,2.25,false,Pune,Insurance Agent,Medium
+19,90,194,43.75,false,Delhi,Civil Servant,Low
+50,82,181,8.51,false,Pune,Accountant,Medium
+31,53,185,42.8,false,Pune,Banker,Medium
+25,86,187,8.37,true,Ludhiana,Engineer,Medium
+20,99,174,9.42,true,Delhi,Retail Manager,High
+21,58,162,25.75,false,Hyderabad,Carpenter,Low
+32,57,155,24.55,false,Nagpur,Lawyer,Low
+34,67,166,18.68,false,Amritsar,Sales Manager,Medium
+24,63,154,8.13,true,Bhopal,Government Employee,Medium
+22,49,153,6.24,false,Srinagar,Teacher,Medium
+39,99,194,24.9,false,Varanasi,Engineer,Medium
+32,68,175,2.74,false,Chennai,HR Manager,Low
+39,70,176,16.52,false,Chennai,Government Employee,Low
+35,92,181,39.92,false,Varanasi,Real Estate Agent,Medium
+21,74,158,38.15,false,Visakhapatnam,Government Employee,Medium
+41,81,163,15.68,true,Mumbai,Driver,High
+30,61,181,17.3,false,Jaipur,Software Engineer,Low
+63,83,159,13.9,false,Srinagar,HR Manager,Medium
+52,56,156,19.75,false,Faridabad,Civil Servant,Medium
+20,72,165,13.31,false,Ludhiana,Sales Manager,Low
+20,55,151,34.64,false,Nagpur,Lab Technician,Medium
+60,52,156,4.88,false,Ranchi,Plumber,Low
+51,64,181,28.41,false,Pune,Government Employee,Medium
+24,83,171,22.18,false,Rajkot,Carpenter,Low
+33,79,153,20.31,false,Bhopal,Teacher,Medium
+40,52,155,47.16,false,Allahabad,Banker,Low
+38,87,157,27.75,true,Amritsar,Driver,High
+34,98,160,23.05,false,Patna,Plumber,Low
+59,49,172,17.15,true,Bangalore,Chef,High
+60,72,153,22.74,false,Rajkot,Lawyer,Medium
+18,88,193,40.56,false,Nagpur,Insurance Agent,Low
+37,91,179,7.09,false,Ahmedabad,Government Employee,Low
+40,61,171,19.09,true,Ludhiana,Consultant,Medium
+27,77,172,30.27,false,Surat,Factory Worker,Low
+37,84,189,12.78,false,Visakhapatnam,HR Manager,Low
+64,74,183,40.67,false,Bhopal,Teacher,Medium
+64,81,192,27.82,false,Allahabad,Government Employee,Medium
+34,85,178,6.69,false,Agra,Doctor,Low
+35,61,191,28.7,false,Allahabad,Doctor,Medium
+35,46,170,27.79,false,Vadodara,Government Employee,Medium
+52,79,179,26.7,false,Amritsar,Doctor,Medium
+53,98,162,7.15,false,Vadodara,Data Analyst,Medium
+18,85,189,11.11,false,Bangalore,Sales Manager,Low
+62,47,185,43.68,false,Agra,Electrician,Medium
+40,88,153,48.31,false,Varanasi,Lab Technician,Low
+24,79,191,47.05,true,Ludhiana,Doctor,Medium
+52,49,186,11.91,false,Nagpur,Engineer,Medium
+22,61,156,13.87,false,Indore,Businessman,Low
+50,49,181,44.54,false,Lucknow,Content Writer,Medium
+41,51,163,19.32,true,Ghaziabad,HR Manager,Medium
+60,84,170,40.01,true,Bangalore,Carpenter,High
+59,97,156,21.97,false,Pune,Marketing Manager,High
+39,71,176,27.48,true,Faridabad,Factory Worker,High
+24,81,184,28.1,false,Ludhiana,HR Manager,Low
+40,79,170,14.82,false,Allahabad,Consultant,Low
+51,77,180,42.29,false,Pune,Engineer,Medium
+23,99,171,40.12,true,Kolkata,Real Estate Agent,Medium
+33,78,181,39.31,false,Varanasi,Engineer,Low
+43,69,154,34.11,false,Visakhapatnam,HR Manager,Medium
+56,75,153,15.97,false,Bhopal,Architect,Medium
+58,96,151,10.55,false,Mumbai,Retail Manager,Medium
+39,58,186,38.22,true,Varanasi,Sales Manager,High
+25,67,164,8.41,true,Srinagar,Shop Owner,Medium
+25,49,174,47.77,true,Nagpur,Electrician,High
+57,93,164,38.31,false,Mumbai,Pharmacist,High
+44,78,153,7.87,true,Meerut,Data Analyst,High
+47,88,194,21.69,false,Chennai,Lawyer,Low
+61,64,173,29.18,false,Pune,Driver,Medium
+20,82,190,33.47,true,Bhopal,Nurse,Medium
+20,49,160,39.31,false,Ludhiana,Driver,Low
+26,73,181,27.84,true,Surat,Nurse,Medium
+27,96,159,24.93,false,Nagpur,Insurance Agent,Medium
+21,69,170,28.43,false,Srinagar,HR Manager,Low
+34,48,165,35.75,false,Allahabad,Banker,Medium
+28,73,188,24.87,true,Surat,Civil Servant,Medium
+23,67,176,35.9,true,Kanpur,Insurance Agent,High
+37,96,162,7.42,true,Nagpur,Businessman,High
+50,80,185,49.5,false,Ranchi,Sales Manager,Low
+48,68,191,33.32,true,Jaipur,Banker,High
+60,78,190,41.15,false,Pune,Electrician,Medium
+40,90,180,13.81,false,Delhi,Engineer,Low
+62,56,192,40.02,false,Indore,Data Analyst,Medium
+20,86,167,2.11,false,Nashik,Real Estate Agent,Low
+61,69,170,37.31,false,Mumbai,Content Writer,High
+46,76,163,29.17,false,Ahmedabad,Content Writer,High
+53,90,183,4.1,false,Patna,Factory Worker,Medium
+64,61,161,10.38,true,Varanasi,Civil Servant,High
+47,82,176,39.82,false,Meerut,Real Estate Agent,Medium
+48,76,193,41.2,false,Indore,Driver,Low
+56,75,190,20.06,false,Meerut,Marketing Manager,Medium
+19,96,189,12.73,true,Surat,Doctor,Medium
+23,55,193,47.3,false,Faridabad,Software Engineer,Low
+39,49,192,20.99,true,Meerut,Software Engineer,Medium
+42,90,168,34.19,true,Chennai,Accountant,High
+57,86,161,16.94,false,Delhi,Software Engineer,Medium
+37,74,171,37.82,true,Jaipur,Teacher,High
+22,90,171,11.26,false,Mumbai,Content Writer,Low
+60,59,155,15.16,false,Indore,Sales Manager,Low
+56,58,171,19.01,false,Ghaziabad,Marketing Manager,Low
+44,75,169,29.47,false,Chennai,Software Engineer,Medium
+51,97,195,36.46,true,Allahabad,Software Engineer,High
+58,64,173,10.91,true,Chennai,Lawyer,Medium
+41,72,168,12.85,false,Mumbai,Driver,Medium
+32,95,184,47.69,true,Mumbai,Electrician,High
+35,51,155,47.73,true,Bangalore,Sales Manager,Medium
+56,89,166,31.34,true,Kolkata,Plumber,High
+30,91,159,42.02,false,Meerut,HR Manager,Medium
+61,80,165,11.02,false,Ranchi,Lab Technician,Medium
+62,58,163,15.6,false,Ahmedabad,Marketing Manager,Low
+22,60,177,21.62,true,Chennai,Engineer,Low
+33,84,179,42.99,true,Srinagar,Electrician,High
+49,60,192,4.52,false,Rajkot,Teacher,Low
+64,56,170,3.68,true,Chennai,Government Employee,Medium
+55,45,189,49.42,true,Allahabad,Content Writer,High
+26,53,160,24.81,true,Amritsar,Carpenter,Medium
+22,69,154,36.01,false,Rajkot,Sales Manager,Low
+45,81,185,25.6,false,Surat,Real Estate Agent,Low
+64,50,189,37.16,true,Kolkata,Carpenter,High
+30,51,175,19.3,true,Meerut,Retail Manager,High
+19,86,155,7.65,false,Hyderabad,Lab Technician,Low
+48,75,171,5.97,true,Mumbai,Nurse,High
+18,60,177,24.87,true,Varanasi,Civil Servant,Medium
+31,85,186,38.55,true,Nashik,Civil Servant,Medium
+23,67,191,4.97,false,Allahabad,Driver,Low
+19,52,171,6.83,false,Mumbai,Retail Manager,Low
+45,47,160,6.33,false,Pune,Teacher,Medium
+62,83,159,12.32,false,Nagpur,Shop Owner,Medium
+41,89,154,25.71,false,Nashik,Electrician,Medium
+43,66,166,42.43,false,Surat,Architect,Low
+58,56,151,14.95,false,Ghaziabad,Architect,Low
+57,66,170,42.04,false,Mumbai,Nurse,Medium
+60,96,178,18,true,Kanpur,Consultant,Medium
+37,90,182,6.48,false,Patna,Sales Manager,Low
+47,55,163,40.16,true,Bhopal,Civil Servant,High
+26,65,164,19,true,Faridabad,Sales Manager,Medium
+62,87,184,41.25,false,Bhopal,Nurse,Medium
+48,96,193,39.24,false,Chennai,Software Engineer,Medium
+41,66,186,48.6,true,Meerut,HR Manager,High
+57,70,154,10.71,true,Kanpur,Banker,High
+46,77,184,12.54,false,Bhopal,Architect,Low
+50,92,180,11.8,false,Ludhiana,Content Writer,Medium
+38,71,183,14.65,false,Allahabad,Data Analyst,Low
+25,57,184,34.18,false,Vadodara,Insurance Agent,Low
+60,64,167,48.46,false,Lucknow,Content Writer,Medium
+28,78,151,39.78,false,Surat,Accountant,Medium
+34,66,195,42.41,true,Allahabad,Lab Technician,High
+57,61,179,7.66,true,Ranchi,Accountant,High
+18,47,163,35.41,false,Kolkata,Lawyer,Low
+57,73,150,5.72,true,Ghaziabad,Chef,High
+21,47,153,3.74,true,Ludhiana,Insurance Agent,Low
+38,71,194,33.13,true,Allahabad,Carpenter,Medium
+61,73,163,18.64,false,Nagpur,Lawyer,Medium
+22,62,167,7.62,false,Vadodara,Businessman,Low
+31,80,187,21.48,false,Kolkata,Businessman,Medium
+28,45,191,41,true,Hyderabad,Retail Manager,High
+43,82,158,48.51,false,Amritsar,Civil Servant,Medium
+36,67,192,24.37,false,Nashik,Architect,Medium
+63,67,195,25.36,false,Ludhiana,Real Estate Agent,Medium
+48,81,160,20.68,false,Srinagar,Accountant,Medium
+46,71,181,33.51,false,Delhi,Factory Worker,Low
+53,70,162,27.98,false,Vadodara,Architect,Medium
+36,83,191,37,true,Vadodara,Insurance Agent,Medium
+35,93,186,32,false,Jaipur,Doctor,Medium
+30,83,157,25.57,true,Meerut,HR Manager,High
+64,86,150,2.28,true,Kolkata,Real Estate Agent,High
+25,93,190,23.32,true,Kolkata,Engineer,High
+50,61,166,33.31,false,Faridabad,Driver,Low
+38,91,179,28.59,false,Visakhapatnam,Nurse,Medium
+50,96,154,37.49,true,Agra,Consultant,High
+37,95,161,42.09,true,Surat,Retail Manager,High
+60,95,186,25.9,false,Delhi,Chef,Medium
+53,82,175,37.27,false,Lucknow,Civil Servant,Medium
+32,59,152,24.49,false,Nashik,Driver,Medium
+29,89,151,28.05,false,Nashik,Software Engineer,Medium
+46,72,195,49.89,false,Rajkot,Shop Owner,Low
+63,50,180,19.19,false,Delhi,Chef,Medium
+40,58,166,27.54,true,Varanasi,Factory Worker,Medium
+37,94,191,2.53,true,Varanasi,Data Analyst,High
+29,51,151,30.71,false,Allahabad,Carpenter,Low
+39,65,189,38.4,false,Agra,Engineer,Medium
+53,53,189,38,false,Nagpur,HR Manager,Medium
+31,60,179,35.6,false,Faridabad,Software Engineer,Low
+58,81,150,42.47,false,Kolkata,Teacher,High
+50,99,151,33.76,false,Chennai,Sales Manager,Medium
+18,94,194,33.84,true,Bangalore,Insurance Agent,Medium
+50,81,156,44.89,false,Faridabad,Doctor,High
+26,58,159,6.74,true,Vadodara,Insurance Agent,Medium
+58,47,153,5.46,false,Jaipur,Engineer,Low
+31,48,158,43.62,true,Srinagar,Factory Worker,Medium
+47,48,172,20.11,false,Agra,HR Manager,Medium
+54,83,168,29.11,false,Surat,Banker,Medium
+30,72,172,20.85,true,Hyderabad,Factory Worker,Medium
+63,87,159,5.13,false,Kolkata,Architect,Medium
+20,95,152,7.07,false,Hyderabad,Data Analyst,Low
+50,91,175,44.61,false,Bhopal,Insurance Agent,Medium
+39,88,150,27.16,false,Ahmedabad,Data Analyst,Medium
+61,86,172,30.97,false,Meerut,Lab Technician,High
+46,52,168,14.71,false,Faridabad,Lab Technician,Medium
+61,76,161,34.14,false,Surat,Architect,Medium
+48,45,175,44.08,false,Varanasi,Teacher,Medium
+22,95,190,30.61,false,Lucknow,Lab Technician,Low
+31,91,176,14.71,false,Chennai,Lab Technician,Medium
+22,85,159,47.59,false,Ludhiana,Insurance Agent,Medium
+33,77,166,43.81,true,Hyderabad,Shop Owner,High
+37,75,156,31.53,false,Ranchi,Accountant,Medium
+41,59,171,22.43,false,Pune,Carpenter,Low
+64,74,162,34.13,false,Allahabad,Real Estate Agent,Medium
+22,54,186,41.37,false,Nagpur,Real Estate Agent,Low
+31,58,150,34.01,true,Meerut,Electrician,High
+47,88,188,22.79,false,Lucknow,Driver,Low
+34,74,190,11.32,false,Amritsar,Marketing Manager,Low
+48,72,166,19.03,true,Hyderabad,Teacher,High
+52,82,150,36.84,true,Kolkata,Teacher,High
+63,61,174,2.92,true,Meerut,Businessman,Medium
+54,80,166,25.14,true,Chennai,Lab Technician,Medium
+34,96,155,17.93,true,Chennai,Software Engineer,High
+55,74,177,32.76,false,Rajkot,Businessman,High
+46,51,156,49.14,false,Srinagar,Insurance Agent,Low
+42,65,155,10.11,false,Nagpur,Marketing Manager,Medium
+63,95,159,17.68,true,Vadodara,Carpenter,High
+53,73,169,2.48,false,Allahabad,Banker,High
+56,48,194,26.34,true,Ranchi,Shop Owner,High
+22,80,155,25.04,false,Hyderabad,Shop Owner,Medium
+61,53,155,4.49,false,Mumbai,Marketing Manager,Low
+33,98,174,23.19,false,Ahmedabad,Driver,Medium
+44,91,165,3.44,false,Bhopal,Civil Servant,Medium
+57,88,168,21.22,false,Agra,Consultant,High
+48,57,181,11.77,true,Nashik,Factory Worker,High
+50,56,154,4.48,false,Srinagar,Civil Servant,Low
+63,94,152,48.9,false,Patna,Businessman,High
+42,55,156,25.29,false,Bhopal,Accountant,Low
+22,52,159,25.54,false,Ludhiana,Government Employee,Low
+52,80,160,27.52,false,Patna,Engineer,High
+52,74,170,35.43,false,Bangalore,Accountant,Medium
+34,48,164,39.92,true,Kanpur,Content Writer,Medium
+44,96,171,23.64,true,Jaipur,Marketing Manager,High
+63,62,170,46.05,false,Allahabad,Teacher,Medium
+25,90,179,40.72,true,Visakhapatnam,Electrician,High
+36,91,177,22.06,false,Nashik,Electrician,High
+29,73,150,44.51,false,Bangalore,Driver,Medium
+45,76,166,22.16,true,Pune,Shop Owner,High
+59,81,159,10.33,false,Pune,Real Estate Agent,Medium
+52,54,150,13.87,false,Srinagar,Marketing Manager,Low
+45,70,163,13.4,true,Agra,Content Writer,High
+63,90,171,34.65,true,Patna,Banker,High
+63,83,160,16.07,true,Lucknow,Government Employee,High
+28,54,165,26.88,true,Ranchi,Real Estate Agent,Medium
+60,92,168,14.79,true,Bhopal,Chef,High
+45,72,171,34.84,false,Kanpur,Civil Servant,Low
+54,53,180,31.27,false,Patna,HR Manager,Medium
+59,67,166,27.6,false,Agra,HR Manager,Medium
+38,86,186,15.91,false,Rajkot,Government Employee,Medium
+30,54,170,24.54,false,Srinagar,Carpenter,Low
+54,48,170,16.03,false,Lucknow,Accountant,Medium
+18,87,150,2.24,false,Surat,Data Analyst,Low
+54,45,161,38.82,false,Indore,Real Estate Agent,High
+63,56,179,48.56,false,Visakhapatnam,Plumber,Medium
+28,53,155,42.04,false,Ludhiana,Businessman,Low
+40,81,176,4.84,false,Amritsar,Accountant,Low
+25,99,173,10.6,false,Rajkot,Marketing Manager,Medium
+57,74,180,28.92,false,Faridabad,Businessman,Medium
+39,61,157,2.03,false,Ludhiana,Teacher,Low
+24,94,174,44.44,false,Nashik,Factory Worker,Medium
+57,94,151,37.93,true,Indore,Accountant,High
+57,61,160,37.64,true,Nagpur,Real Estate Agent,High
+57,56,187,7.32,true,Agra,Insurance Agent,High
+30,84,179,19.99,false,Mumbai,Chef,Low
+39,79,170,9.33,false,Surat,Nurse,Low
+47,49,194,45.64,true,Bangalore,Teacher,High
+50,49,191,36.5,false,Varanasi,Engineer,Medium
+58,70,164,25.79,false,Patna,Doctor,Medium
+21,50,187,19.09,false,Ranchi,Content Writer,Low
+60,78,195,22.61,false,Delhi,Lawyer,Low
+57,59,169,48.54,false,Mumbai,Architect,High
+46,71,171,12.94,false,Amritsar,Pharmacist,Low
+42,86,191,29.46,false,Varanasi,Real Estate Agent,Low
+47,78,154,29.68,false,Jaipur,Nurse,Medium
+56,83,183,31.12,true,Hyderabad,Accountant,High
+37,87,162,46.34,false,Visakhapatnam,Businessman,Medium
+58,54,195,38.86,true,Surat,Nurse,High
+51,84,177,13.33,true,Kolkata,Real Estate Agent,High
+32,45,154,43.06,false,Srinagar,Teacher,Low
+48,89,171,35.32,true,Vadodara,Businessman,Medium
+41,61,192,24.13,false,Nashik,Doctor,Medium
+35,45,161,4.05,false,Varanasi,Consultant,Low
+30,73,165,8.51,false,Allahabad,Data Analyst,Low
+42,96,156,15.38,false,Indore,Banker,Medium
+24,76,161,48.76,false,Patna,Government Employee,Low
+40,64,185,39.42,false,Agra,Driver,Low
+49,45,155,47.45,false,Rajkot,Real Estate Agent,Low
+37,66,155,34.31,false,Agra,Banker,Low
+48,87,183,15.71,true,Vadodara,Banker,High
+18,99,169,26.57,true,Vadodara,HR Manager,High
+37,53,166,31.98,false,Rajkot,Sales Manager,Low
+36,81,191,11.59,true,Allahabad,Civil Servant,Medium
+34,69,155,2.17,false,Srinagar,Nurse,Low
+47,75,182,19.93,true,Mumbai,Banker,Medium
+60,63,165,35.55,false,Srinagar,Civil Servant,Low
+49,49,187,36.8,true,Nagpur,Factory Worker,High
+30,81,188,19.46,false,Kanpur,Accountant,Low
+53,87,182,43.27,true,Ranchi,Factory Worker,High
+51,70,189,17.38,true,Allahabad,Electrician,High
+26,76,186,4.85,true,Bangalore,Driver,Low
+34,84,170,22.85,false,Kolkata,Data Analyst,Medium
+26,93,162,27.06,true,Vadodara,Nurse,High
+50,57,187,24.6,false,Bangalore,Software Engineer,Medium
+49,99,157,2.85,false,Lucknow,Accountant,Medium
+31,85,177,15,false,Mumbai,Shop Owner,Low
+35,84,193,25.28,false,Ranchi,Driver,Low
+18,66,158,33.89,false,Lucknow,Accountant,Low
+62,78,155,19.9,false,Indore,Banker,Medium
+58,53,189,11.22,false,Meerut,Lawyer,Medium
+20,46,185,24.48,true,Ranchi,Civil Servant,High
+39,81,174,33.67,false,Ghaziabad,Retail Manager,Medium
+41,46,186,14.46,false,Hyderabad,Banker,Medium
+60,47,195,44.02,true,Ranchi,Software Engineer,High
+56,56,153,40.98,false,Chennai,Nurse,Medium
+43,93,194,18.53,true,Visakhapatnam,Insurance Agent,Medium
+25,64,158,8.45,false,Chennai,Engineer,Medium
+47,95,179,37.32,true,Agra,Accountant,High
+31,91,164,5.67,false,Chennai,Lawyer,High
+61,65,159,2.76,false,Indore,Nurse,Medium
+32,76,193,28.68,false,Vadodara,Sales Manager,Low
+40,84,169,7.51,false,Hyderabad,Factory Worker,Low
+44,57,180,29.08,false,Hyderabad,Doctor,High
+57,87,179,11.5,false,Delhi,Insurance Agent,Medium
+25,54,163,23.54,false,Patna,Civil Servant,Low
+56,63,150,28.93,false,Surat,Software Engineer,Medium
+51,63,168,46.81,false,Kolkata,Plumber,Medium
+50,97,183,34.24,false,Rajkot,Software Engineer,Medium
+51,89,160,32.09,false,Agra,HR Manager,High
+25,48,162,44.82,true,Agra,Civil Servant,High
+32,74,162,23.11,false,Chennai,Government Employee,Medium
+28,66,159,22.34,true,Visakhapatnam,Sales Manager,High
+49,65,160,22.1,true,Nagpur,Marketing Manager,High
+44,63,184,48.68,false,Kanpur,Pharmacist,Low
+60,68,173,6.9,true,Patna,Carpenter,High
+50,78,192,22.71,false,Lucknow,Carpenter,Low
+21,64,179,18.21,false,Patna,Consultant,Low
+55,53,163,9.15,false,Ludhiana,Lab Technician,Medium
+53,46,185,11.54,false,Pune,Driver,Medium
+30,91,168,35.46,false,Allahabad,Nurse,Medium
+40,65,172,30.4,false,Rajkot,Chef,Low
+25,91,193,41.75,false,Kanpur,Retail Manager,Low
+48,65,165,8.35,false,Faridabad,Real Estate Agent,Low
+54,58,189,13.02,false,Meerut,Teacher,Medium
+42,74,153,9.2,false,Indore,Businessman,High
+23,62,162,32,false,Ludhiana,Insurance Agent,Low
+62,82,168,4.64,false,Nashik,Content Writer,Medium
+60,77,152,12.04,false,Varanasi,Shop Owner,Medium
+23,84,195,46.2,false,Nagpur,Doctor,Low
+19,96,179,21.35,false,Varanasi,Content Writer,Low
+19,61,190,31.35,false,Jaipur,Consultant,Low
+20,63,185,10.71,true,Rajkot,Pharmacist,Medium
+39,89,183,6.68,false,Mumbai,Nurse,Medium
+54,86,174,29.62,true,Ahmedabad,Factory Worker,High
+48,52,176,18.54,true,Ahmedabad,Teacher,High
+18,69,152,34.48,false,Kanpur,Plumber,Low
+50,75,184,9.05,true,Nagpur,Retail Manager,Medium
+27,59,194,36.92,false,Chennai,Marketing Manager,Low
+39,95,191,34.97,false,Ghaziabad,Accountant,Medium
+63,62,184,3.96,true,Surat,Real Estate Agent,High
+19,94,160,26.95,false,Ahmedabad,Banker,Medium
+25,52,154,47.94,false,Srinagar,Civil Servant,Low
+61,66,195,41.88,false,Srinagar,Retail Manager,High
+46,48,169,12.98,true,Vadodara,Marketing Manager,High
+61,79,177,4.38,true,Pune,Lab Technician,High
+37,45,158,41.35,true,Hyderabad,Businessman,High
+40,74,185,4.66,false,Bhopal,Content Writer,Low
+43,78,186,32.12,false,Bhopal,Content Writer,Low
+64,45,187,21.09,false,Jaipur,HR Manager,Medium
+59,72,161,49.7,true,Nashik,Teacher,High
+48,47,158,36.14,true,Rajkot,Civil Servant,High
+32,55,166,15.22,false,Varanasi,Data Analyst,Low
+31,47,158,8.21,false,Delhi,Teacher,Low
+32,51,165,45.64,false,Rajkot,Content Writer,Low
+40,65,157,32.46,true,Mumbai,Factory Worker,High
+57,64,152,45.29,true,Visakhapatnam,Chef,High
+48,87,193,27.93,false,Allahabad,Civil Servant,Low
+30,98,164,30.95,false,Lucknow,Carpenter,Medium
+18,48,186,6.46,true,Ghaziabad,Electrician,Medium
+36,74,191,20.56,true,Delhi,Carpenter,Medium
+38,99,174,16.1,false,Ahmedabad,Driver,Medium
+44,67,177,15.11,false,Varanasi,Electrician,Low
+33,95,174,8.92,true,Nagpur,Lawyer,Medium
+57,94,158,39.67,false,Amritsar,Sales Manager,High
+50,80,191,8.17,false,Ahmedabad,Lab Technician,Low
+57,66,159,39.53,false,Visakhapatnam,Accountant,Medium
+51,86,192,46.72,false,Surat,Software Engineer,Medium
+41,50,191,49.21,false,Ghaziabad,Lab Technician,Medium
+40,77,164,38.59,false,Srinagar,Marketing Manager,Medium
+27,58,157,27.18,false,Faridabad,Software Engineer,Low
+58,88,150,20.01,true,Ahmedabad,Driver,High
+61,83,154,6.01,true,Mumbai,Banker,High
+44,72,189,25.96,false,Ahmedabad,Nurse,Low
+63,72,181,37.38,false,Ahmedabad,Lab Technician,Medium
+57,51,171,44.05,true,Hyderabad,Shop Owner,High
+22,79,184,48.92,false,Indore,Lawyer,Low
+50,68,193,39.3,false,Chennai,Engineer,Medium
+32,88,181,38.53,false,Indore,Carpenter,Medium
+52,87,151,25.81,false,Nagpur,Plumber,High
+63,77,171,23.35,true,Pune,Banker,High
+36,65,180,8.33,true,Delhi,Doctor,Medium
+23,97,151,49.77,true,Surat,Doctor,High
+45,95,151,37.93,false,Kolkata,Engineer,Medium
+58,61,186,11.63,false,Visakhapatnam,Accountant,Medium
+36,80,182,14.81,true,Kolkata,Electrician,Medium
+61,77,162,36.58,false,Srinagar,Sales Manager,Medium
+45,52,160,14.44,false,Lucknow,Lab Technician,Low
+56,75,193,22.57,false,Mumbai,Nurse,Medium
+60,83,166,25.63,false,Kanpur,Plumber,High
+30,48,191,12.76,false,Hyderabad,HR Manager,Low
+35,52,191,39.22,false,Mumbai,Doctor,Medium
+23,71,179,46.96,false,Pune,Consultant,Low
+52,70,170,28.29,false,Bangalore,Lawyer,Medium
+42,71,181,33.84,true,Kanpur,Consultant,High
+26,46,188,43.87,false,Nashik,Architect,Low
+60,84,179,34.02,false,Vadodara,Pharmacist,Medium
+57,76,151,20.46,true,Ranchi,Civil Servant,High
+45,80,180,6.21,false,Srinagar,HR Manager,Low
+39,53,171,24.35,true,Ghaziabad,Insurance Agent,Medium
+42,57,179,6.56,true,Rajkot,Factory Worker,High
+22,98,166,46.16,true,Lucknow,Carpenter,Medium
+53,68,172,45.89,false,Indore,Shop Owner,Medium
+25,86,162,21.86,false,Bhopal,Software Engineer,Low
+35,75,161,47.17,true,Nagpur,Architect,High
+57,98,177,42.01,true,Indore,Businessman,High
+56,62,167,32.69,false,Ranchi,Chef,Medium
+27,94,192,32.61,false,Surat,Architect,Low
+26,98,188,3.04,true,Surat,Software Engineer,Medium
+22,68,174,19.17,false,Faridabad,Businessman,Low
+52,68,177,26.19,false,Ahmedabad,Carpenter,Medium
+19,51,195,9.64,true,Varanasi,Accountant,Medium
+33,60,178,17.38,true,Visakhapatnam,Shop Owner,Medium
+54,78,178,28.26,false,Mumbai,Content Writer,Low
+23,80,180,45.82,false,Kolkata,Teacher,Medium
+22,93,170,16.09,false,Varanasi,Civil Servant,Low
+59,65,159,36.11,true,Rajkot,Real Estate Agent,Medium
+56,74,190,40.73,false,Ghaziabad,Carpenter,Medium
+33,65,155,21.65,true,Vadodara,Pharmacist,High
+24,83,182,25.54,false,Ahmedabad,Doctor,Low
+57,99,152,16.45,true,Ranchi,Retail Manager,High
+48,74,192,21.32,true,Delhi,Banker,High
+43,59,175,25.43,false,Rajkot,Real Estate Agent,Low
+46,64,185,6.51,false,Varanasi,Lab Technician,Low
+31,54,163,14.07,false,Surat,Engineer,Low
+30,58,186,7.64,false,Chennai,Doctor,Low
+58,68,171,33.15,false,Meerut,Consultant,Medium
+41,74,163,29.1,true,Chennai,Lab Technician,High
+41,88,190,10.79,false,Faridabad,Accountant,Low
+64,51,185,40.38,false,Srinagar,Government Employee,Medium
+63,52,166,29.15,true,Bhopal,HR Manager,High
+52,97,189,33.47,false,Ludhiana,Real Estate Agent,Low
+52,99,195,5.88,false,Srinagar,Teacher,Medium
+36,92,185,48.36,false,Rajkot,Insurance Agent,Medium
+60,56,184,28.27,false,Hyderabad,Carpenter,Medium
+48,59,173,26.6,false,Bangalore,Pharmacist,Low
+59,96,181,5.49,false,Pune,Doctor,Medium
+59,49,162,17.37,true,Mumbai,Doctor,High
+58,74,183,32.61,false,Lucknow,Lab Technician,Medium
+42,74,172,3.98,false,Varanasi,Data Analyst,Low
+37,80,165,47.17,false,Hyderabad,Architect,Medium
+24,95,152,16.53,false,Chennai,Sales Manager,Low
+48,57,175,49.95,false,Lucknow,Engineer,Medium
+20,86,185,4.68,false,Lucknow,Consultant,Low
+18,98,153,17.77,true,Kolkata,Government Employee,High
+55,99,173,44.46,true,Surat,Teacher,High
+34,95,184,47.44,false,Agra,Real Estate Agent,Medium
+41,51,185,36.21,false,Chennai,Retail Manager,Medium
+54,90,187,43.78,true,Visakhapatnam,Lab Technician,High
+51,95,157,43.97,true,Amritsar,Teacher,High
+57,71,155,47.68,false,Hyderabad,Doctor,Medium
+55,49,155,33.62,false,Bangalore,Sales Manager,Medium
+27,58,173,4.99,false,Amritsar,Banker,Low
+50,94,180,31.97,false,Delhi,Plumber,Medium
+43,66,182,9.01,false,Delhi,Civil Servant,Low
+43,47,184,29.62,true,Meerut,Insurance Agent,High
+25,94,179,36.53,false,Kolkata,Software Engineer,Low
+48,83,168,40.71,false,Faridabad,Content Writer,Medium
+33,68,166,28.33,false,Indore,Accountant,Low
+20,46,165,30.04,false,Patna,Marketing Manager,Low
+49,66,153,33.4,false,Agra,Sales Manager,Medium
+33,54,170,5.18,false,Bangalore,Content Writer,Low
+37,74,185,23.22,false,Patna,Accountant,Low
+42,55,154,31.15,false,Bhopal,Insurance Agent,Low
+55,66,195,42.53,true,Bhopal,Plumber,High
+50,84,152,20.74,false,Ludhiana,Lawyer,Medium
+32,63,163,33.87,false,Rajkot,HR Manager,Low
+49,48,163,20.78,true,Pune,Banker,High
+21,53,172,17.94,true,Mumbai,Insurance Agent,Medium
+27,78,166,39.68,true,Hyderabad,Real Estate Agent,High
+30,53,176,48.29,false,Vadodara,Sales Manager,Low
+25,69,187,31.49,true,Faridabad,Software Engineer,Medium
+35,57,180,24.14,true,Amritsar,Real Estate Agent,High
+36,93,181,33.8,false,Chennai,Businessman,Medium
+45,92,160,19.08,true,Agra,Marketing Manager,High
+23,58,179,11.11,true,Allahabad,Banker,Medium
+29,84,159,23.61,false,Pune,Marketing Manager,High
+23,55,176,15.15,true,Mumbai,Architect,Medium
+37,47,161,46.71,false,Bhopal,Marketing Manager,Low
+43,84,157,36.46,true,Ahmedabad,Pharmacist,High
+19,94,165,40.44,false,Surat,Software Engineer,Medium
+27,51,159,40.11,false,Hyderabad,Carpenter,Low
+38,82,187,19.1,true,Mumbai,Retail Manager,Medium
+56,69,177,3.48,false,Agra,Data Analyst,Medium
+59,64,166,23.33,false,Faridabad,HR Manager,Medium
+46,62,155,19.7,true,Rajkot,Plumber,Medium
+25,67,168,29.22,true,Varanasi,Teacher,Medium
+22,60,187,12.76,false,Kolkata,Chef,Low
+33,50,162,7.89,true,Indore,Data Analyst,Medium
+53,77,171,37.72,false,Ghaziabad,Pharmacist,Medium
+45,56,176,24.61,true,Varanasi,HR Manager,High
+25,86,187,13.57,false,Amritsar,Retail Manager,Low
+55,62,167,41.07,true,Bhopal,Factory Worker,High
+47,85,150,7.6,true,Rajkot,Accountant,High
+31,64,174,40.11,false,Jaipur,Plumber,Low
+51,90,179,32.45,true,Jaipur,Lawyer,High
+37,62,156,18.65,false,Mumbai,Pharmacist,Low
+33,69,167,8.99,false,Ludhiana,Software Engineer,Medium
+49,96,194,44.26,false,Mumbai,Doctor,Medium
+36,51,194,5.05,false,Hyderabad,Teacher,Low
+49,65,185,45.79,true,Ludhiana,Driver,High
+38,46,177,7.85,false,Hyderabad,Marketing Manager,Low
+44,84,185,47.59,false,Mumbai,Chef,Low
+30,72,178,14.21,false,Nagpur,Accountant,Low
+60,58,151,35.16,true,Indore,Doctor,High
+27,46,165,37.29,false,Ludhiana,Civil Servant,Low
+54,45,189,30.41,false,Bangalore,Pharmacist,Low
+45,51,165,29.38,true,Ghaziabad,Civil Servant,Medium
+41,89,187,36.61,false,Faridabad,Consultant,Medium
+64,93,179,24,false,Amritsar,Consultant,Medium
+23,48,161,41.15,false,Patna,Doctor,Low
+25,86,161,42.94,false,Ranchi,Insurance Agent,Medium
+21,63,172,8.07,false,Allahabad,Sales Manager,Low
+44,88,163,2.67,true,Chennai,Government Employee,High
+34,59,180,8.64,false,Rajkot,Shop Owner,Low
+45,95,174,26.16,false,Ranchi,Businessman,Medium
+35,90,167,45.51,true,Hyderabad,Factory Worker,High
+47,60,192,16.04,false,Allahabad,Driver,High
+24,66,172,25.54,false,Rajkot,Software Engineer,Low
+24,80,187,49.94,true,Nagpur,Doctor,High
+46,85,167,15.1,true,Kanpur,Engineer,High
+56,98,172,40.3,false,Jaipur,Real Estate Agent,High
+37,49,187,48.99,true,Surat,Engineer,High
+44,94,153,38.53,false,Visakhapatnam,HR Manager,Medium
+54,90,188,43.39,true,Pune,Teacher,High
+56,96,152,7.29,false,Kanpur,Nurse,Medium
+55,70,181,42.45,false,Hyderabad,Civil Servant,Medium
+47,51,153,36.61,false,Kolkata,Factory Worker,Low
+18,84,161,36.57,true,Patna,Engineer,High
+63,55,188,20.74,true,Kolkata,Businessman,High
+60,62,171,32.69,true,Ghaziabad,Banker,High
+19,76,177,16.41,false,Pune,Lawyer,Low
+33,65,185,23.75,false,Faridabad,Sales Manager,Low
+40,61,185,38.21,false,Delhi,Data Analyst,Medium
+58,95,180,13.24,false,Patna,Insurance Agent,Medium
+56,87,160,16.03,true,Agra,Factory Worker,High
+29,69,181,2.78,true,Nashik,Shop Owner,Low
+34,68,159,38.37,false,Ranchi,Marketing Manager,Medium
+42,69,173,14.88,false,Patna,Data Analyst,Low
+35,59,160,45.13,false,Varanasi,Insurance Agent,Low
+40,98,168,23.08,false,Visakhapatnam,Electrician,Medium
+46,85,179,8.81,false,Varanasi,Architect,Medium
+53,63,189,38.45,false,Bangalore,Sales Manager,Medium
+45,51,165,19.01,false,Ahmedabad,Real Estate Agent,Low
+60,62,174,25.31,true,Vadodara,Driver,High
+35,98,153,40.42,false,Delhi,Accountant,Medium
+52,57,193,22.05,true,Delhi,Government Employee,High
+38,65,166,22.78,false,Visakhapatnam,Banker,Low
+54,51,180,19.92,false,Chennai,Electrician,Medium
+36,46,182,21.51,true,Patna,Sales Manager,High
+21,73,164,5.67,false,Kolkata,Factory Worker,Low
+46,58,168,33.41,true,Visakhapatnam,Civil Servant,High
+53,73,189,5.57,true,Jaipur,Content Writer,High
+44,45,176,16.79,false,Patna,Electrician,High
+53,98,184,31.3,false,Patna,Software Engineer,Medium
+50,96,177,25.92,false,Bhopal,Government Employee,Medium
+32,73,184,42.92,true,Nagpur,Factory Worker,Medium
+38,89,183,5.89,true,Patna,Retail Manager,High
+32,76,183,24.33,true,Indore,Civil Servant,Medium
+33,46,189,32.77,false,Mumbai,Banker,Low
+45,84,157,17.2,false,Ahmedabad,Civil Servant,Medium
+34,92,180,5.65,false,Ludhiana,Carpenter,Low
+56,63,174,5.14,false,Allahabad,Engineer,Low
+44,76,159,24.36,true,Indore,Architect,High
+52,92,180,42.7,false,Jaipur,Accountant,Medium
+57,51,193,28.84,true,Agra,Sales Manager,High
+40,85,163,16.08,false,Rajkot,Driver,Low
+20,93,151,24.62,false,Srinagar,Nurse,Medium
+59,66,192,28.46,false,Ghaziabad,Pharmacist,Medium
+33,54,191,29.58,false,Chennai,Chef,Medium
+21,50,177,14.47,false,Srinagar,Lawyer,Low
+39,57,171,24.37,false,Allahabad,Chef,Low
+23,84,190,40.37,true,Indore,Civil Servant,Medium
+30,52,174,2.63,false,Ahmedabad,Government Employee,Low
+38,85,185,28.45,false,Amritsar,Shop Owner,Low
+38,92,172,20.88,true,Meerut,Retail Manager,High
+37,81,183,2.75,false,Srinagar,Electrician,Low
+35,62,156,30.07,true,Meerut,Plumber,High
+44,62,173,4.45,true,Nagpur,Doctor,Medium
+56,95,161,31.71,false,Varanasi,Sales Manager,High
+38,52,172,10.01,false,Amritsar,Retail Manager,Low
+34,48,178,28.72,true,Meerut,Banker,High
+58,66,150,18.58,false,Jaipur,Shop Owner,Low
+21,60,184,4.42,false,Nashik,Carpenter,Low
+28,79,168,42.36,false,Kanpur,Lab Technician,Low
+21,91,180,13.87,false,Hyderabad,Banker,Low
+57,45,156,21.74,false,Bangalore,Teacher,Medium
+41,76,150,30.52,false,Mumbai,Electrician,Medium
+60,98,163,39.79,false,Indore,Software Engineer,High
+44,88,151,5.58,false,Amritsar,Engineer,Medium
+52,71,157,8.76,true,Mumbai,Lab Technician,High
+34,97,174,27.83,true,Amritsar,Carpenter,High
+24,91,167,45.74,false,Chennai,Teacher,Medium
+63,56,160,22.93,true,Bangalore,Businessman,High
+45,83,158,32.05,false,Indore,Chef,Medium
+57,99,166,5.88,true,Kanpur,Insurance Agent,High
+32,59,165,14.41,true,Lucknow,Real Estate Agent,Medium
+36,91,179,34.84,false,Nashik,Banker,Medium
+51,60,162,37.06,true,Surat,Marketing Manager,High
+33,63,175,33.57,true,Kolkata,Nurse,Medium
+50,98,156,2.88,true,Meerut,Lawyer,High
+57,84,181,25.98,false,Visakhapatnam,Civil Servant,Medium
+62,98,195,34.61,false,Rajkot,Lawyer,Medium
+35,59,172,14.86,false,Ahmedabad,Content Writer,Low
+43,63,155,36.8,false,Amritsar,Government Employee,Medium
+57,84,155,44.17,true,Allahabad,Architect,High
+30,98,187,23.69,false,Lucknow,Retail Manager,Low
+45,56,150,39.67,true,Ghaziabad,HR Manager,High
+47,68,188,5.59,false,Visakhapatnam,Data Analyst,Low
+26,57,160,42.65,false,Ranchi,Retail Manager,Low
+56,69,167,42.67,false,Ahmedabad,Carpenter,Medium
+63,46,168,40.26,false,Mumbai,Businessman,Medium
+59,94,177,10.36,false,Ranchi,Factory Worker,Medium
+48,99,171,2.49,false,Ludhiana,Shop Owner,Medium
+31,66,176,44.12,false,Delhi,Shop Owner,Low
+38,90,185,36.22,false,Nashik,Civil Servant,Low
+38,82,153,44.1,true,Nashik,Accountant,High
+35,69,171,22.08,true,Varanasi,Businessman,Medium
+25,69,178,47.8,false,Delhi,Accountant,Low
+27,75,154,12.14,true,Patna,Accountant,High
+26,59,173,19.25,true,Bhopal,Lawyer,Low
+36,46,180,2.92,true,Jaipur,Lawyer,Medium
+62,93,159,7.43,false,Chennai,Pharmacist,Medium
+60,92,192,46.8,false,Varanasi,Content Writer,Medium
+26,72,180,26.59,false,Jaipur,Real Estate Agent,Low
+45,45,165,31.8,false,Ghaziabad,Lab Technician,Medium
+39,85,159,21.47,true,Vadodara,Factory Worker,High
+39,52,193,20.42,false,Srinagar,Civil Servant,Medium
+44,90,195,46.74,false,Faridabad,Retail Manager,Low
+52,51,170,24.51,false,Hyderabad,Banker,Medium
+22,64,164,49,true,Allahabad,Marketing Manager,Medium
+32,94,181,43.87,false,Delhi,Retail Manager,Medium
+27,84,151,25.71,false,Chennai,Engineer,Medium
+22,63,165,36.6,true,Pune,Electrician,Low
+49,48,171,14.7,false,Ghaziabad,Doctor,Medium
+46,58,183,6.89,false,Amritsar,Banker,Medium
+20,91,161,13.14,true,Ghaziabad,Marketing Manager,High
+21,92,175,16.36,true,Allahabad,Doctor,High
+29,72,155,4.09,false,Ahmedabad,Driver,Low
+20,81,158,38.71,false,Meerut,Civil Servant,Medium
+22,61,165,41.18,false,Varanasi,Shop Owner,Low
+18,80,158,26.36,false,Bangalore,Government Employee,High
+44,65,167,34.97,true,Kanpur,Shop Owner,Medium
+25,97,176,10.08,false,Rajkot,Marketing Manager,Low
+25,95,179,33.66,false,Varanasi,Engineer,Low
+48,86,169,48.73,false,Nashik,Lawyer,Medium
+36,82,168,19.5,false,Allahabad,Pharmacist,Low
+52,71,175,37.08,false,Ludhiana,Data Analyst,Medium
+40,88,166,36.98,false,Delhi,Civil Servant,Medium
+25,85,187,21.96,true,Faridabad,Retail Manager,Medium
+41,76,187,22.73,false,Vadodara,Driver,Low
+55,70,193,13.46,false,Patna,HR Manager,Low
+19,63,172,8.08,false,Bangalore,Government Employee,Low
+25,73,177,48.81,false,Allahabad,Marketing Manager,Low
+44,76,195,6.02,false,Kolkata,Accountant,Low
+20,73,171,36.19,false,Patna,Consultant,Low
+36,70,189,25.01,false,Nashik,Engineer,Low
+36,79,162,39.2,false,Mumbai,Banker,Medium
+61,75,175,45.58,false,Pune,Shop Owner,Medium
+29,61,163,33.58,false,Jaipur,Pharmacist,Low
+22,78,191,47.59,false,Delhi,HR Manager,Low
+40,75,185,27.36,false,Kanpur,Electrician,Low
+21,56,193,2.96,false,Meerut,Pharmacist,Low
+34,99,191,3.15,false,Hyderabad,HR Manager,Low
+38,78,164,21.05,true,Ahmedabad,Banker,High
+63,89,186,5.85,true,Surat,Accountant,High
+20,66,192,17.18,true,Visakhapatnam,Insurance Agent,Medium
+45,64,193,36.46,true,Amritsar,Chef,High
+53,58,167,45.89,true,Indore,Real Estate Agent,High
+62,80,189,10.65,true,Jaipur,Plumber,High
+21,97,190,39.58,false,Indore,Doctor,Low
+38,52,171,26.61,false,Chennai,Chef,Medium
+33,50,189,17.28,true,Nashik,Data Analyst,High
+28,71,178,34.43,false,Nashik,Accountant,Low
+33,62,188,25.47,false,Varanasi,Teacher,Medium
+21,74,161,6.31,false,Allahabad,Consultant,Medium
+48,74,180,21.25,false,Agra,Lab Technician,Low
+48,54,152,6.73,false,Mumbai,Shop Owner,Low
+22,80,154,35.46,false,Srinagar,Lab Technician,Medium
+57,46,161,44.88,false,Meerut,Content Writer,Medium
+47,97,186,5.39,false,Ahmedabad,Carpenter,Medium
+32,68,177,25,true,Nagpur,Architect,Medium
+25,95,180,23.92,false,Kanpur,Chef,Low
+56,77,184,31.46,false,Indore,Data Analyst,Medium
+28,88,172,19.56,true,Ludhiana,HR Manager,Medium
+27,49,156,22.03,true,Mumbai,Plumber,Medium
+47,63,178,20.28,true,Bhopal,Marketing Manager,High
+29,54,185,14.9,true,Ranchi,Doctor,Medium
+37,51,166,47.46,false,Ludhiana,Carpenter,Low
+23,62,192,47.26,true,Pune,Insurance Agent,High
+54,55,162,30.43,true,Indore,Carpenter,High
+47,92,188,44.3,true,Nashik,Electrician,High
+35,92,178,39.93,false,Amritsar,Marketing Manager,Medium
+37,49,165,21.66,false,Kolkata,Data Analyst,Medium
+38,94,159,28.17,true,Kanpur,Chef,High
+30,75,151,7.63,false,Bhopal,Content Writer,Low
+43,78,195,31.17,true,Agra,Nurse,High
+58,58,166,23.82,true,Allahabad,Government Employee,High
+21,94,191,15.64,false,Ludhiana,Lab Technician,Low
+25,62,194,41.28,false,Ghaziabad,Lawyer,Low
+28,90,187,22.74,true,Visakhapatnam,Plumber,High
+47,91,195,28.35,false,Visakhapatnam,Insurance Agent,Low
+59,75,188,32.82,true,Amritsar,Banker,High
+47,45,181,18.3,true,Delhi,Real Estate Agent,High
+42,55,188,25.74,false,Kolkata,Sales Manager,Medium
+24,53,186,7.6,false,Chennai,Electrician,Low
+63,74,195,20.54,false,Patna,Real Estate Agent,Medium
+37,88,159,28.11,false,Bhopal,Nurse,Medium
+23,93,166,15.16,false,Ghaziabad,HR Manager,Low
+48,60,166,49.32,false,Lucknow,Accountant,Low
+21,76,150,32.34,false,Surat,Consultant,Medium
+42,58,158,40.15,false,Ghaziabad,Electrician,Low
+37,86,185,22.38,false,Amritsar,Content Writer,Medium
+22,96,153,36.2,true,Lucknow,Plumber,High
+59,73,194,18.27,false,Patna,Sales Manager,Low
+43,83,184,18.33,false,Lucknow,Retail Manager,Low
+31,95,156,3.18,false,Nashik,Businessman,Low
+18,72,183,25.59,true,Chennai,Marketing Manager,Medium
+39,88,168,35.07,true,Hyderabad,Government Employee,High
+19,67,164,46.64,false,Surat,Insurance Agent,Low
+29,46,188,37.3,false,Delhi,Carpenter,Low
+45,56,164,47.16,false,Mumbai,Businessman,Low
+59,72,186,48.91,true,Hyderabad,Shop Owner,High
+30,65,165,16.69,false,Nashik,Software Engineer,Low
+26,65,189,5.14,false,Kanpur,Government Employee,Low
+53,77,150,25.68,false,Bhopal,Sales Manager,High
+29,54,186,29.14,false,Amritsar,Engineer,Low
+60,65,189,12.7,false,Rajkot,Civil Servant,Medium
+31,64,163,5.11,false,Vadodara,Carpenter,Low
+41,86,168,4.23,false,Faridabad,Pharmacist,Medium
+41,98,164,12.56,true,Ludhiana,HR Manager,High
+23,46,167,6.63,false,Amritsar,HR Manager,Low
+24,49,179,34.23,false,Allahabad,Businessman,Low
+51,84,194,25.27,false,Indore,Software Engineer,Medium
+46,89,164,2.46,true,Chennai,Insurance Agent,High
+55,86,183,8.59,true,Visakhapatnam,Software Engineer,High
+24,46,180,8.69,true,Chennai,Shop Owner,Medium
+34,75,151,9.6,false,Ahmedabad,Accountant,Medium
+55,53,193,13.46,false,Nashik,Sales Manager,Medium
+64,66,176,7.37,true,Pune,HR Manager,High
+27,54,181,22.24,true,Bangalore,Government Employee,High
+37,73,193,15.2,false,Patna,Data Analyst,Low
+43,58,190,45.42,true,Ghaziabad,Data Analyst,High
+58,73,192,28.25,true,Amritsar,Consultant,High
+19,77,166,19.29,false,Mumbai,Lab Technician,Low
+62,98,188,45.17,false,Kanpur,Civil Servant,Medium
+55,45,181,3.47,false,Amritsar,Insurance Agent,Medium
+27,89,154,23.96,true,Lucknow,Electrician,High
+32,95,163,20.18,false,Meerut,Carpenter,Medium
+61,96,175,20.89,false,Indore,Doctor,High
+49,56,169,4.94,false,Bangalore,Factory Worker,Low
+24,58,186,11.62,false,Ahmedabad,Marketing Manager,Medium
+56,52,184,13.55,false,Nagpur,Marketing Manager,Medium
+62,75,169,46.71,false,Hyderabad,Government Employee,Medium
+47,61,158,35.11,true,Vadodara,Content Writer,High
+50,48,156,33.48,false,Bangalore,Nurse,Low
+48,71,194,8.08,true,Meerut,Plumber,Low
+29,64,163,38.13,true,Mumbai,Government Employee,Medium
+49,74,174,11.33,false,Indore,Accountant,Low
+19,55,150,29.4,true,Ranchi,Content Writer,Low
+59,87,154,23.39,true,Rajkot,Teacher,High
+41,59,187,25.28,false,Rajkot,Pharmacist,Medium
+27,88,188,29,false,Varanasi,Carpenter,Low
+42,53,157,20.81,true,Bhopal,Accountant,High
+26,86,154,8.63,false,Bangalore,Shop Owner,Medium
+52,81,150,44.2,false,Kanpur,Factory Worker,High
+48,87,187,16.06,true,Lucknow,Lawyer,Medium
+47,62,172,43.36,false,Lucknow,Content Writer,Medium
+27,49,151,38.32,false,Chennai,Retail Manager,Low
+36,67,170,29.05,true,Agra,Civil Servant,Medium
+57,54,160,15.85,true,Visakhapatnam,Plumber,High
+59,57,165,43.39,false,Kolkata,Content Writer,Medium
+45,92,166,17.82,false,Srinagar,Government Employee,Medium
+51,96,165,5.17,false,Agra,Electrician,Medium
+22,69,180,30.97,false,Delhi,Accountant,Low
+59,49,177,28.16,false,Faridabad,Shop Owner,High
+21,82,173,6.41,false,Nagpur,Real Estate Agent,Low
+32,63,193,44.97,true,Kanpur,Driver,High
+44,46,190,5.45,false,Pune,Accountant,Medium
+26,60,151,12.63,true,Bangalore,Nurse,Medium
+52,65,160,30.62,false,Ahmedabad,Nurse,Medium
+58,60,150,29.99,true,Agra,Lawyer,High
+61,45,193,6.92,false,Mumbai,Teacher,Medium
+62,74,179,47.99,false,Patna,Data Analyst,High
+30,50,160,7.53,true,Ghaziabad,Carpenter,Medium
+61,75,166,14.33,true,Nagpur,Architect,High
+46,76,171,35.57,false,Srinagar,Chef,Low
+49,52,176,27.27,false,Pune,Chef,Medium
+57,52,191,18.63,false,Vadodara,Insurance Agent,Medium
+36,89,185,10.18,false,Agra,Nurse,Low
+45,53,159,44.28,false,Allahabad,Engineer,Low
+36,56,172,8.04,false,Jaipur,Lab Technician,Low
+62,62,160,14.02,false,Agra,Engineer,Low
+25,77,151,9.02,true,Nashik,Doctor,High
+24,62,159,32.45,false,Chennai,Plumber,Low
+40,92,186,15.27,false,Surat,Insurance Agent,Low
+55,77,167,2.68,false,Rajkot,Data Analyst,Medium
+26,81,183,47.95,false,Ghaziabad,HR Manager,Low
+18,51,188,4.12,false,Faridabad,Nurse,Low
+22,96,162,19.14,false,Allahabad,Chef,Low
+49,70,184,12.52,false,Delhi,Pharmacist,Low
+21,67,182,37.07,false,Delhi,Data Analyst,Low
+24,67,159,20.29,false,Srinagar,Shop Owner,Low
+50,96,155,47.03,true,Nashik,Content Writer,High
+61,58,185,19.27,false,Surat,Nurse,Medium
+36,80,194,12.73,false,Nagpur,Banker,Low
+41,72,168,48.97,false,Visakhapatnam,Businessman,Medium
+23,76,179,11.04,false,Chennai,Pharmacist,Low
+57,92,173,23.67,true,Delhi,Government Employee,High
+31,84,176,42.32,false,Nashik,Data Analyst,Medium
+24,64,172,46.36,false,Pune,Engineer,Low
+45,68,177,24.36,false,Agra,Pharmacist,Low
+62,54,172,4.54,false,Varanasi,Government Employee,Medium
+48,85,193,23.7,false,Bhopal,Sales Manager,Low
+23,59,184,35.49,false,Visakhapatnam,Real Estate Agent,Low
+46,53,162,38.68,false,Faridabad,Accountant,Low
+26,94,191,45.2,true,Vadodara,Shop Owner,High
+27,72,156,17.65,true,Delhi,Pharmacist,Medium
+38,91,153,8.72,true,Delhi,Teacher,High
+48,56,162,22.41,false,Mumbai,Content Writer,Low
+38,53,151,25.72,false,Chennai,Electrician,Low
+49,45,151,4.15,false,Hyderabad,Teacher,Low
+52,69,174,47.78,false,Amritsar,Sales Manager,Medium
+44,90,190,24.93,false,Rajkot,Architect,Low
+57,99,151,49.91,true,Vadodara,Lab Technician,High
+38,83,177,35.03,true,Nashik,Doctor,High
+34,90,194,48.12,false,Bhopal,Government Employee,Low
+48,93,189,4.25,false,Jaipur,Architect,Low
+64,90,160,14.63,false,Ghaziabad,Driver,Medium
+30,46,161,22.56,false,Patna,Sales Manager,Low
+59,71,151,14.98,false,Srinagar,Accountant,Medium
+41,54,182,28.86,true,Srinagar,Engineer,High
+56,81,193,13.28,true,Patna,Carpenter,High
+39,55,188,39.63,false,Ghaziabad,Civil Servant,Medium
+39,63,180,14.63,false,Srinagar,Real Estate Agent,Low
+54,86,163,21.8,false,Agra,Civil Servant,High
+26,85,156,8.31,true,Patna,Civil Servant,High
+37,82,158,43.68,true,Indore,Content Writer,High
+42,70,163,41.39,true,Ranchi,Electrician,High
+49,52,166,25.97,false,Agra,Engineer,Low
+36,63,181,46.64,false,Rajkot,Shop Owner,Low
+26,81,185,36.93,true,Ranchi,Software Engineer,Medium
+42,76,185,2.46,false,Nashik,Carpenter,Low
+59,83,155,20.45,false,Delhi,Carpenter,High
+44,49,187,31.87,false,Srinagar,Content Writer,Medium
+27,47,153,42.36,false,Varanasi,Marketing Manager,Low
+59,78,179,3.16,false,Mumbai,Software Engineer,Low
+22,83,150,37.36,false,Bhopal,Pharmacist,Medium
+38,95,184,21.71,false,Jaipur,Content Writer,Medium
+52,76,166,13.55,false,Bhopal,Architect,Medium
+33,69,166,4.48,false,Hyderabad,Teacher,Low
+61,80,172,19.05,true,Amritsar,Businessman,High
+30,87,153,37.51,true,Delhi,Factory Worker,High
+30,64,151,18.79,false,Kanpur,Marketing Manager,Low
+50,88,178,37.21,true,Kanpur,Nurse,High
+43,89,164,38.46,false,Jaipur,Chef,Medium
+35,99,151,31.27,false,Nashik,Shop Owner,Medium
+33,62,152,45.62,true,Rajkot,Civil Servant,High
+42,85,181,11.73,false,Pune,Lawyer,Medium
+60,82,179,45.02,false,Ahmedabad,Insurance Agent,Medium
+33,64,187,25.3,false,Chennai,Marketing Manager,Medium
+63,74,191,21.88,false,Patna,Retail Manager,Medium
+49,81,171,48.75,false,Hyderabad,Data Analyst,Medium
+59,97,164,27.93,true,Allahabad,Driver,High
+58,76,168,34.99,false,Rajkot,Accountant,Medium
+30,91,162,26.95,false,Chennai,Software Engineer,Medium
+23,89,185,33.16,false,Patna,Driver,Low
+60,93,172,4.58,false,Meerut,Nurse,Medium
+47,53,165,29.87,false,Ahmedabad,Shop Owner,Low
+64,94,195,24.61,false,Surat,Carpenter,Medium
+32,75,163,38.68,false,Amritsar,Banker,Medium
+49,96,195,7.53,false,Varanasi,Accountant,Medium
+33,48,177,24.12,false,Ahmedabad,Consultant,Medium
+18,76,178,38.55,false,Agra,Driver,Low
+61,60,173,35.98,false,Faridabad,Chef,Medium
+30,82,170,39.3,false,Pune,Insurance Agent,Low
+62,68,194,37.45,false,Pune,Architect,Medium
+61,68,174,11.09,true,Rajkot,Sales Manager,High
+32,52,172,5.75,false,Ranchi,Lawyer,Low
+48,91,186,16.4,true,Varanasi,Marketing Manager,Medium
+19,87,152,9.87,false,Delhi,Marketing Manager,Low
+43,88,175,26.38,false,Bhopal,Pharmacist,Medium
+41,54,163,3.17,true,Amritsar,Businessman,Medium
+31,75,195,7.11,false,Delhi,Pharmacist,Low
+31,75,177,11.21,false,Bangalore,Content Writer,Low
+53,93,152,41.69,false,Indore,Insurance Agent,Medium
+32,74,180,42.21,false,Agra,Banker,Low
+20,45,154,28.46,false,Lucknow,Consultant,Low
+35,74,156,38.74,false,Kolkata,Consultant,Medium
+58,88,188,31.88,false,Pune,Factory Worker,Medium
+51,93,168,36.81,false,Bangalore,Civil Servant,Medium
+32,51,162,14.8,false,Lucknow,Civil Servant,Low
+44,78,169,46.48,false,Srinagar,Real Estate Agent,Medium
+52,97,174,31.11,false,Ranchi,Architect,High
+52,87,164,45.66,false,Vadodara,Civil Servant,High
+53,86,193,2.32,true,Visakhapatnam,Software Engineer,Medium
+28,86,150,37.06,true,Pune,Plumber,High
+64,87,173,31.09,true,Agra,Engineer,High
+35,59,191,28.59,false,Vadodara,Banker,Medium
+21,86,154,14.07,false,Kolkata,Lab Technician,Low
+40,60,168,40.91,false,Hyderabad,Chef,Low
+45,76,156,41.86,false,Lucknow,Banker,Medium
+57,91,185,45.44,false,Ghaziabad,Data Analyst,Medium
+43,50,188,26.17,false,Delhi,Lab Technician,Medium
+44,45,179,30.07,false,Faridabad,HR Manager,Medium
+45,92,180,2.97,false,Ghaziabad,Carpenter,Low
+45,72,176,35.27,false,Agra,Businessman,Low
+54,58,156,8.57,false,Bangalore,Government Employee,Low
+21,94,160,39.29,true,Rajkot,Engineer,High
+31,90,154,10.6,false,Surat,Accountant,Medium
+30,78,176,31.45,false,Agra,Electrician,Low
+21,92,188,22.88,false,Mumbai,Marketing Manager,Low
+28,84,157,12.47,false,Allahabad,Marketing Manager,Low
+35,85,183,2.94,false,Jaipur,Businessman,Low
+43,79,154,42.56,false,Srinagar,Software Engineer,Medium
+24,85,171,17,false,Vadodara,Factory Worker,Low
+22,98,168,48.67,false,Srinagar,Electrician,Medium
+32,81,182,16.1,true,Ghaziabad,Teacher,Medium
+63,55,175,31.83,false,Faridabad,Data Analyst,Medium
+35,54,178,23.37,false,Nagpur,Real Estate Agent,Low
+43,87,175,38.85,false,Kolkata,Civil Servant,Medium
+29,53,168,22.84,false,Ghaziabad,Plumber,Low
+36,74,161,35.27,true,Meerut,Shop Owner,High
+30,90,194,38.54,true,Kanpur,Lab Technician,Medium
+21,48,152,26.05,false,Kanpur,Factory Worker,Low
+29,96,154,39.64,false,Delhi,Factory Worker,Low
+44,64,164,9.05,false,Ghaziabad,HR Manager,Low
+26,65,168,18.82,false,Nagpur,Doctor,Low
+28,66,192,49.71,false,Delhi,Driver,Low
+42,83,177,10.78,true,Ghaziabad,HR Manager,Medium
+59,47,164,23.83,false,Jaipur,Lab Technician,Medium
+22,67,164,37.12,false,Visakhapatnam,Consultant,Low
+42,52,173,4.34,true,Ludhiana,Real Estate Agent,High
+62,57,164,17.94,false,Hyderabad,Carpenter,Low
+42,52,154,45.27,false,Patna,Electrician,Low
+55,77,179,16.01,false,Delhi,Insurance Agent,Low
+34,88,150,30.39,false,Faridabad,Electrician,Medium
+52,49,152,3.62,false,Mumbai,Factory Worker,Low
+51,94,184,31.29,true,Srinagar,Accountant,High
+19,98,176,13.69,false,Delhi,Government Employee,Low
+56,50,195,42.33,false,Nashik,Consultant,Medium
+60,52,179,47.96,false,Allahabad,Teacher,Medium
+33,45,176,47.44,false,Faridabad,Data Analyst,Medium
+60,66,184,38.74,false,Meerut,Retail Manager,Medium
+35,54,158,33.84,true,Lucknow,Doctor,Medium
+56,48,160,29.31,false,Allahabad,Civil Servant,Medium
+62,48,164,8.16,true,Delhi,Insurance Agent,High
+29,69,180,18.09,true,Ludhiana,Banker,Medium
+21,99,178,22.09,true,Patna,Shop Owner,High
+34,84,165,8.26,false,Patna,Lab Technician,Medium
+23,98,158,8.63,true,Surat,Pharmacist,High
+50,55,192,33.91,false,Ranchi,Nurse,Medium
+23,78,192,48.47,false,Bangalore,Retail Manager,Low
+56,54,176,41.93,false,Bangalore,Banker,Low
+33,55,169,29.37,false,Faridabad,Factory Worker,Low
+21,87,181,48.56,false,Patna,Retail Manager,Low
+56,52,185,12.15,false,Mumbai,Retail Manager,Medium
+59,92,162,36.35,true,Pune,Nurse,High
+31,51,181,33.55,true,Visakhapatnam,Content Writer,High
+58,73,171,19.09,true,Ranchi,Architect,High
+57,68,190,3.35,false,Agra,Real Estate Agent,Low
+25,74,179,46.55,true,Visakhapatnam,Retail Manager,Medium
+51,93,152,24.36,true,Kanpur,Sales Manager,High
+58,46,169,4.94,true,Ahmedabad,Teacher,High
+48,65,175,36.3,false,Ahmedabad,Businessman,Low
+35,84,162,22.51,false,Kanpur,Lawyer,Medium
+47,76,166,5.48,true,Varanasi,Shop Owner,High
+31,47,184,40.46,true,Patna,Data Analyst,High
+25,71,160,37.02,true,Rajkot,Electrician,High
+40,96,182,43.67,true,Ludhiana,Architect,High
+31,61,160,16.85,true,Pune,Civil Servant,Medium
+51,86,164,14.52,true,Faridabad,Government Employee,High
+47,88,162,36.38,false,Nagpur,Government Employee,Medium
+34,78,173,28.99,true,Bangalore,Government Employee,High
+27,63,163,43.88,false,Agra,Retail Manager,Low
+48,50,183,32.03,true,Pune,Pharmacist,Medium
+39,98,159,23.6,false,Surat,Software Engineer,Medium
+58,61,186,15.06,false,Meerut,Consultant,Medium
+26,99,171,42.54,false,Kolkata,Nurse,Medium
+20,99,161,8.6,false,Faridabad,Government Employee,Low
+39,66,163,25.1,false,Meerut,Civil Servant,Low
+61,94,186,2.06,false,Srinagar,Shop Owner,Medium
+34,47,166,26.05,false,Bangalore,Lab Technician,Medium
+33,46,195,41.89,false,Nashik,Doctor,Medium
+22,83,150,33.69,true,Vadodara,Insurance Agent,High
+27,83,173,23.74,true,Rajkot,Factory Worker,High
+33,88,154,13.83,false,Delhi,Driver,Medium
+44,45,150,22.48,true,Delhi,Banker,High
+36,75,190,40.89,true,Vadodara,Teacher,Medium
+39,94,187,6.63,false,Jaipur,Marketing Manager,Low
+21,78,156,25.67,false,Ghaziabad,Electrician,Medium
+57,49,156,38.21,false,Srinagar,Banker,Medium
+50,67,172,24.59,false,Mumbai,Consultant,Medium
+46,47,189,12.83,false,Kanpur,Doctor,Medium
+63,46,156,30.47,true,Allahabad,Retail Manager,High
+27,98,171,7.94,true,Varanasi,Teacher,High
+21,67,194,6.8,true,Chennai,Carpenter,Medium
+53,56,164,16.46,false,Vadodara,Lawyer,Low
+30,93,168,45.6,false,Pune,Civil Servant,Low
+62,83,167,2.42,false,Mumbai,Plumber,Medium
+27,69,151,24.89,false,Pune,Nurse,Medium
+64,88,176,44.78,false,Chennai,Content Writer,Medium
+36,53,194,12.94,false,Varanasi,Insurance Agent,Low
+39,90,178,19.74,false,Nashik,Shop Owner,Low
+37,64,165,22.3,false,Ghaziabad,Engineer,Low
+59,52,158,14.83,true,Ludhiana,Carpenter,High
+20,58,182,17.17,false,Indore,Banker,Low
+64,96,195,48.84,false,Patna,Doctor,Medium
+22,76,164,44.39,true,Bhopal,Consultant,High
+41,91,172,49.14,false,Ranchi,Software Engineer,Medium
+40,67,174,12.3,false,Indore,Government Employee,Low
+26,65,180,21.83,false,Ludhiana,Retail Manager,Low
+54,84,185,7.42,false,Nagpur,Lawyer,Low
+47,84,153,9.08,false,Patna,Civil Servant,Medium
+54,69,188,47.28,true,Surat,Electrician,High
+41,58,176,17.94,true,Kolkata,Sales Manager,Medium
+48,60,152,25.37,false,Delhi,Carpenter,Medium
+56,98,188,39.28,true,Lucknow,Businessman,High
+56,98,195,28.85,true,Ludhiana,Carpenter,High
+35,51,176,2.79,false,Nashik,Pharmacist,Low
+39,68,192,4.48,true,Bhopal,Architect,Medium
+37,94,191,10.32,false,Pune,Engineer,Low
+44,72,176,36.5,false,Vadodara,Software Engineer,Low
+38,59,155,44.34,false,Faridabad,Lawyer,Low
+28,64,157,27.46,false,Jaipur,Doctor,Low
+44,45,154,31.53,false,Nagpur,Content Writer,Low
+40,96,157,2.16,false,Allahabad,Chef,Low
+35,53,184,9.02,false,Meerut,Teacher,Low
+21,74,171,33.59,true,Varanasi,Consultant,High
+51,72,175,6.4,false,Jaipur,Nurse,Low
+32,53,168,38.56,true,Patna,Data Analyst,Medium
+64,82,163,39.57,false,Hyderabad,Teacher,High
+22,87,175,9.92,true,Indore,Insurance Agent,High
+63,63,187,47.41,true,Meerut,Sales Manager,High
+27,83,162,11.17,false,Nashik,Content Writer,Low
+52,49,158,29.19,false,Kolkata,Driver,Medium
+26,48,162,34.59,false,Nagpur,Plumber,Low
+56,65,156,39.59,true,Faridabad,Civil Servant,High
+20,46,169,48.31,false,Amritsar,Sales Manager,Low
+50,47,162,34.64,false,Amritsar,Consultant,Medium
+45,73,192,49.55,false,Srinagar,Teacher,Low
+50,45,188,43.81,false,Nashik,Retail Manager,Medium
+31,78,195,8.5,false,Srinagar,Engineer,Low
+62,49,164,44.15,false,Visakhapatnam,Chef,Medium
+20,66,155,41.55,false,Lucknow,Content Writer,Medium
+43,45,191,34.58,false,Faridabad,Government Employee,Medium
+48,62,181,34.33,false,Meerut,Architect,Low
+56,61,153,18.85,true,Ludhiana,Sales Manager,High
+48,62,162,49.33,true,Allahabad,Data Analyst,High
+54,92,181,16.1,false,Varanasi,Lab Technician,Medium
+37,72,188,41.26,true,Srinagar,Shop Owner,Low
+53,95,186,9.7,false,Vadodara,Engineer,Medium
+40,91,179,12.15,false,Surat,Plumber,Low
+53,57,191,7.11,false,Kolkata,Architect,Medium
+36,60,162,41.07,false,Jaipur,Real Estate Agent,Low
+45,89,184,6.45,false,Patna,Electrician,Medium
+47,73,171,32.19,true,Lucknow,Doctor,High
+40,89,161,36.95,false,Srinagar,Driver,Medium
+19,91,161,6.01,true,Vadodara,Businessman,High
+37,45,188,31.79,false,Kolkata,Engineer,Medium
+34,69,173,46.7,false,Delhi,Software Engineer,Low
+26,65,157,10.77,true,Ghaziabad,Consultant,Medium
+51,49,167,33.27,false,Rajkot,Lawyer,Medium
+43,51,190,12.68,true,Patna,Doctor,High
+63,71,178,47.09,false,Chennai,Lab Technician,Medium
+30,64,157,22.77,false,Vadodara,Software Engineer,Low
+47,83,188,5.89,false,Patna,Plumber,Low
+50,56,187,28.54,false,Meerut,Electrician,Medium
+24,60,184,3.9,false,Nagpur,HR Manager,Low
+56,98,190,32.18,false,Meerut,Banker,Medium
+64,71,163,44.35,true,Visakhapatnam,Government Employee,High
+27,47,160,4.14,false,Kolkata,Factory Worker,Low
+28,85,157,27.99,true,Srinagar,Retail Manager,High
+31,79,164,17.72,false,Faridabad,Marketing Manager,Low
+25,74,177,10.44,false,Varanasi,Teacher,Low
+55,65,194,27.17,false,Varanasi,Accountant,Medium
+42,64,151,8.21,true,Allahabad,Doctor,High
+57,69,166,36,false,Agra,Lab Technician,Medium
+22,53,184,6.68,false,Vadodara,Content Writer,Low
+32,85,188,9.78,false,Surat,HR Manager,Low
+50,85,166,48.91,true,Jaipur,Real Estate Agent,High
+22,69,170,29.87,false,Nagpur,Driver,Low
+55,79,169,17.37,true,Delhi,Banker,High
+31,77,161,27.68,true,Chennai,Nurse,Medium
+25,52,168,38.68,true,Ludhiana,Lab Technician,High
+63,91,180,31.41,false,Ahmedabad,Lab Technician,Medium
+49,46,193,38.03,true,Ghaziabad,Banker,High
+59,50,151,30.21,false,Lucknow,Electrician,Medium
+42,74,159,4.64,true,Srinagar,Electrician,High
+20,49,186,30.57,true,Kolkata,HR Manager,High
+19,58,170,5.36,false,Faridabad,Plumber,Low
+21,71,192,12.2,false,Allahabad,Plumber,Low
+55,86,176,44.88,false,Surat,Content Writer,Low
+60,72,191,47.26,false,Allahabad,Lawyer,Medium
+28,55,185,47.07,false,Allahabad,Banker,Low
+21,73,168,44.62,true,Srinagar,Real Estate Agent,High
+25,88,153,31.55,false,Varanasi,Content Writer,Medium
+49,99,175,34.63,true,Varanasi,Carpenter,High
+60,84,154,46.74,true,Nagpur,Factory Worker,High
+40,54,181,3.82,false,Mumbai,Insurance Agent,Low
+26,59,167,28.55,false,Lucknow,Engineer,Low
+63,84,176,23.3,false,Srinagar,Lawyer,Medium
+36,45,157,26.59,true,Bhopal,Data Analyst,High
+64,64,161,11.44,false,Ghaziabad,Software Engineer,Low
+40,59,188,15.99,true,Ahmedabad,Teacher,High
+41,71,191,12.95,false,Allahabad,Doctor,Low
+39,77,180,36.03,true,Lucknow,Plumber,Medium
+20,97,168,43.68,false,Ahmedabad,Pharmacist,Medium
+42,79,151,29.02,true,Visakhapatnam,Nurse,High
+63,88,151,34.35,false,Amritsar,Lab Technician,High
+58,45,174,20.07,false,Varanasi,Pharmacist,Medium
+63,62,189,3.8,true,Varanasi,Retail Manager,High
+28,47,170,44.08,true,Faridabad,Electrician,High
+50,45,191,46.79,true,Allahabad,Lawyer,High
+42,81,157,41.68,false,Ahmedabad,Pharmacist,Medium
+60,78,195,16.27,false,Lucknow,Pharmacist,Low
+26,66,194,38.54,false,Ludhiana,Factory Worker,Low
+50,64,176,36.43,true,Lucknow,Consultant,High
+40,55,157,35.04,true,Kolkata,Civil Servant,Medium
+50,99,194,25.34,false,Meerut,Factory Worker,Medium
+25,50,153,7.21,true,Allahabad,Software Engineer,High
+48,95,165,30.27,false,Indore,Government Employee,Medium
+25,98,159,31.68,false,Kolkata,Content Writer,Medium
+19,47,188,7.93,false,Visakhapatnam,Insurance Agent,Low
+34,79,180,21.36,true,Srinagar,Lab Technician,Medium
+35,88,155,38.33,false,Patna,Accountant,Medium
+31,89,169,13.32,false,Agra,Doctor,Medium
+31,56,185,15.17,true,Nagpur,Sales Manager,High
+59,46,190,25.1,false,Kanpur,Consultant,Low
+53,63,188,40.96,false,Varanasi,Lab Technician,Low
+64,65,150,31.83,true,Surat,Architect,High
+52,79,154,25.64,true,Lucknow,Content Writer,High
+21,58,153,31.65,true,Varanasi,Lawyer,Medium
+34,91,157,15.92,false,Amritsar,Real Estate Agent,Medium
+47,66,182,11.34,false,Mumbai,HR Manager,Low
+26,48,176,49.68,false,Srinagar,HR Manager,Low
+33,58,167,30.51,false,Kolkata,Consultant,Low
+21,75,153,18.57,false,Nagpur,Plumber,Low
+51,46,171,17.27,true,Mumbai,Software Engineer,High
+40,85,172,41.84,true,Indore,Marketing Manager,High
+40,68,189,39.85,true,Nashik,Chef,Medium
+40,80,154,14.59,false,Ludhiana,Data Analyst,Medium
+61,68,167,7.79,false,Hyderabad,Sales Manager,Low
+43,77,166,15.85,false,Mumbai,Government Employee,Medium
+59,49,174,26.27,false,Nashik,Marketing Manager,Medium
+25,76,164,4.26,false,Nashik,Plumber,Low
+19,69,177,26.37,true,Patna,Lab Technician,Medium
+20,48,192,21.59,false,Faridabad,Banker,Low
+51,72,155,21.12,false,Ghaziabad,Software Engineer,Medium
+62,54,156,17.61,false,Meerut,Electrician,Low
+28,98,171,32.76,false,Srinagar,Sales Manager,Medium
+44,58,192,10.66,false,Allahabad,Pharmacist,High
+49,66,181,49.41,false,Chennai,Shop Owner,Low
+35,58,194,35.64,false,Surat,Consultant,Medium
+40,85,194,29.48,true,Amritsar,Lab Technician,Medium
+53,75,180,13.31,false,Agra,Plumber,Medium
+63,83,188,2.88,false,Bhopal,Plumber,Low
+60,45,172,11.47,false,Varanasi,Electrician,Medium
+26,94,179,29.5,true,Rajkot,Nurse,Medium
+32,71,158,45.1,true,Rajkot,Data Analyst,High
+30,62,162,48.83,true,Agra,Data Analyst,Medium
+22,90,194,4.31,false,Srinagar,Civil Servant,Low
+51,51,174,43.52,false,Ahmedabad,Data Analyst,Medium
+21,97,181,2.61,false,Allahabad,Plumber,Low
+33,74,151,16.24,false,Meerut,Content Writer,Medium
+24,93,162,38.53,false,Meerut,Marketing Manager,Medium
+54,81,158,38.82,false,Visakhapatnam,Nurse,High
+26,91,194,28.52,true,Chennai,Plumber,Medium
+32,67,155,3.16,false,Vadodara,Lawyer,Low
+44,87,168,45.89,true,Agra,Real Estate Agent,High
+21,58,150,40.82,true,Patna,Accountant,High
+44,46,190,14.12,true,Mumbai,Factory Worker,High
+32,63,151,43.21,false,Kanpur,Pharmacist,Medium
+59,77,168,33.31,false,Meerut,Teacher,High
+46,98,167,47.07,false,Delhi,Driver,Medium
+61,46,157,2.69,false,Amritsar,Government Employee,Low
+40,46,189,8.95,false,Bhopal,Lawyer,Low
+46,45,163,37.38,true,Meerut,Driver,High
+19,73,193,14.65,false,Meerut,Content Writer,Low
+34,86,152,23.42,true,Nagpur,Banker,High
+50,89,174,49.13,false,Allahabad,Electrician,Medium
+40,45,177,13.53,false,Pune,Shop Owner,Low
+27,99,169,14.87,false,Bhopal,Plumber,Low
+30,72,178,41.97,false,Visakhapatnam,Content Writer,Low
+34,70,179,37.12,false,Rajkot,Factory Worker,Low
+33,74,160,8.17,false,Vadodara,Businessman,Low
+40,76,164,22.36,false,Meerut,Businessman,Low
+61,93,176,15.2,true,Ghaziabad,Real Estate Agent,High
+37,64,151,3.12,false,Indore,Data Analyst,Low
+21,93,168,44.71,true,Kanpur,Lab Technician,High
+18,65,174,22.66,false,Mumbai,Chef,Low
+40,73,171,47.54,false,Delhi,Shop Owner,Low
+38,61,181,22.55,false,Vadodara,Teacher,Low
+34,65,154,6.86,false,Ranchi,Doctor,Low
+51,75,151,25.4,false,Chennai,Insurance Agent,High
+32,51,171,10.71,false,Vadodara,Carpenter,Low
+55,69,154,8.59,false,Bangalore,Driver,Medium
+56,52,150,9.29,false,Kanpur,Architect,Low
+32,57,178,4.22,true,Faridabad,Data Analyst,Medium
+20,57,193,7.63,false,Pune,Accountant,Low
+51,71,194,39.95,true,Ghaziabad,Software Engineer,High
+39,46,185,28.94,false,Nashik,Retail Manager,Medium
+53,87,174,33.83,false,Kanpur,HR Manager,Medium
+47,66,173,6.06,true,Mumbai,Electrician,Medium
+21,56,188,7.58,false,Faridabad,Data Analyst,Low
+58,66,174,13.15,false,Srinagar,Nurse,Low
+32,94,193,47.34,false,Mumbai,Doctor,Medium
+63,49,157,30.11,false,Patna,Nurse,Medium
+29,75,189,38.05,true,Kolkata,HR Manager,Medium
+49,85,183,5.59,false,Ranchi,Lab Technician,Medium
+33,79,187,47.82,false,Varanasi,Insurance Agent,Low
+29,86,173,4.97,true,Pune,Plumber,Medium
+61,58,167,47.19,true,Patna,Retail Manager,High
+40,72,179,8,false,Rajkot,Retail Manager,Low
+57,68,152,35.4,false,Lucknow,Data Analyst,Medium
+34,98,156,18.26,true,Srinagar,Content Writer,High
+27,88,170,15.08,true,Kolkata,Doctor,High
+45,66,160,45.77,true,Surat,Electrician,High
+47,92,164,42.51,false,Rajkot,Lawyer,Medium
+37,51,163,27.2,false,Nagpur,Software Engineer,Low
+58,79,194,36.75,false,Delhi,Consultant,Low
+47,86,169,38.25,false,Nashik,Doctor,Medium
+53,80,180,10.46,false,Visakhapatnam,Lawyer,Low
+20,74,185,34.87,false,Faridabad,Driver,Low
+52,60,191,14.74,false,Allahabad,Plumber,Medium
+52,53,190,28.73,false,Vadodara,Lawyer,Medium
+48,72,163,45.73,false,Mumbai,Data Analyst,Medium
+18,93,153,9.01,false,Amritsar,Banker,Low
+22,90,161,40.27,false,Bangalore,HR Manager,Medium
+34,55,163,38.27,false,Delhi,Retail Manager,Low
+45,90,192,3.68,false,Agra,Doctor,Low
+27,92,177,3.4,false,Hyderabad,Electrician,Low
+56,58,187,12.06,false,Allahabad,Teacher,Medium
+42,90,159,48.99,false,Vadodara,Lab Technician,Medium
+41,53,192,27.77,true,Nagpur,Architect,High
+47,66,184,26.84,true,Meerut,Engineer,High
+56,89,177,37.16,false,Ranchi,Lab Technician,Medium
+56,96,179,47.19,false,Visakhapatnam,Sales Manager,Medium
+37,47,152,6.91,true,Nagpur,Nurse,Medium
+25,91,159,20.14,true,Patna,Software Engineer,High
+43,51,167,4.39,true,Ahmedabad,Lab Technician,High
+47,89,191,41.81,true,Amritsar,Doctor,Medium
+22,76,183,22.26,false,Agra,Plumber,Low
+60,79,190,41.41,true,Rajkot,Lawyer,High
+42,84,194,33.25,true,Meerut,Engineer,High
+62,49,182,34.24,true,Patna,Content Writer,High
+25,56,168,39.87,false,Nagpur,Real Estate Agent,Low
+60,51,177,15.88,false,Vadodara,Consultant,Medium
+44,51,173,41.3,true,Amritsar,Nurse,High
+53,96,170,29.07,false,Hyderabad,Teacher,High
+50,84,186,27.56,true,Ranchi,Carpenter,High
+34,77,192,45.69,true,Jaipur,Teacher,Medium
+62,79,153,23.8,false,Indore,Pharmacist,High
+60,80,182,9.15,false,Mumbai,Teacher,Low
+36,92,190,19.98,false,Ahmedabad,Accountant,Low
+56,78,177,27.77,true,Indore,Chef,High
+59,67,158,17.19,true,Lucknow,Lawyer,High
+25,79,170,20.97,true,Nagpur,HR Manager,High
+18,79,156,33.32,false,Faridabad,Factory Worker,Medium
+45,80,179,8.2,false,Srinagar,Plumber,Low
+39,86,163,12.9,false,Lucknow,Consultant,Medium
+24,85,194,33.64,false,Ghaziabad,Driver,Low
+20,51,156,8.36,false,Allahabad,Doctor,Low
+58,58,171,38.78,false,Indore,Government Employee,Medium
+54,85,152,21.92,false,Agra,Driver,High
+42,55,163,33.18,false,Indore,Content Writer,Low
+40,69,150,16.69,true,Delhi,Factory Worker,High
+23,73,191,10.68,false,Patna,Shop Owner,Low
+57,69,177,34.5,false,Ranchi,Consultant,Low
+45,82,187,24.95,true,Indore,Content Writer,High
+41,62,179,35.32,true,Chennai,Real Estate Agent,High
+28,95,165,2.93,false,Nagpur,Shop Owner,Low
+23,87,153,6.11,true,Visakhapatnam,Lawyer,High
+59,73,191,31.62,true,Kanpur,Doctor,High
+52,93,175,45.67,false,Varanasi,Lab Technician,High
+19,73,195,33.91,false,Ahmedabad,Chef,Medium
+34,93,155,6.87,false,Bhopal,Accountant,Medium
+31,55,159,5.31,false,Meerut,HR Manager,Low
+62,96,179,49.45,false,Mumbai,Marketing Manager,Medium
+58,84,171,36.5,false,Vadodara,Shop Owner,Medium
+54,53,163,7.88,false,Meerut,Architect,Low
+51,87,194,41.77,false,Hyderabad,Pharmacist,Medium
+62,83,185,16.67,false,Ludhiana,Software Engineer,Low
+56,98,192,30.77,false,Delhi,Factory Worker,Medium
+30,97,163,6.42,false,Ghaziabad,Consultant,Low
+56,97,161,18.76,false,Nashik,Marketing Manager,Medium
+45,51,192,33.16,false,Amritsar,Banker,Medium
+45,70,168,15.5,false,Bangalore,Engineer,Low
+62,76,170,6.01,false,Kolkata,Banker,Medium
+38,76,191,10.56,true,Bhopal,Businessman,Medium
+50,68,194,34.81,true,Varanasi,Plumber,High
+59,48,170,37.1,false,Bhopal,Government Employee,Medium
+30,98,194,16.12,false,Faridabad,Doctor,Low
+36,75,166,36.35,false,Bangalore,Factory Worker,Medium
+56,49,158,26.1,false,Rajkot,Carpenter,Medium
+41,64,183,16.56,false,Ahmedabad,Architect,Low
+31,55,186,40.12,false,Jaipur,Engineer,Medium
+44,81,180,38.9,false,Surat,Teacher,Low
+46,48,189,45.84,false,Pune,Software Engineer,Medium
+43,91,151,3.12,false,Indore,HR Manager,Medium
+52,94,155,37.45,false,Visakhapatnam,Electrician,High
+46,56,186,45.65,false,Amritsar,Insurance Agent,Medium
+37,69,154,16.8,true,Jaipur,Insurance Agent,High
+22,84,179,36.64,false,Ludhiana,Lawyer,Low
+22,76,171,16.32,false,Ahmedabad,Driver,Low
+48,85,152,32.01,false,Ranchi,Lawyer,Medium
+22,96,165,25.94,false,Ranchi,Lawyer,Medium
+20,98,179,39.51,false,Amritsar,Content Writer,Medium
+29,62,186,20.59,false,Chennai,Architect,Low
+58,57,186,45.61,true,Meerut,Government Employee,High
+53,82,170,29.56,true,Jaipur,Nurse,High
+30,53,193,35.88,true,Nagpur,Lab Technician,Medium
+22,89,166,36.97,false,Ghaziabad,Insurance Agent,Medium
+42,61,160,38.67,false,Ludhiana,Lawyer,Low
+28,79,165,47.74,true,Ludhiana,Shop Owner,High
+54,77,165,22.33,true,Hyderabad,Carpenter,High
+49,58,150,11.07,false,Kanpur,Lawyer,Medium
+20,52,165,46.34,false,Lucknow,Doctor,Low
+34,54,174,9.22,false,Jaipur,Retail Manager,Low
+31,53,176,3.71,true,Ahmedabad,Data Analyst,Medium
+56,92,154,17.53,false,Jaipur,Shop Owner,Low
+22,73,153,45.5,false,Delhi,Lab Technician,Medium
+45,88,156,45.15,false,Rajkot,Insurance Agent,Medium
+49,90,157,24.34,true,Kanpur,Factory Worker,High
+18,95,188,27.91,false,Visakhapatnam,Pharmacist,Medium
+30,53,175,9.47,true,Patna,Lab Technician,Medium
+34,76,190,9.3,true,Rajkot,Shop Owner,Medium
+26,91,181,38.85,false,Agra,Marketing Manager,Low
+62,84,167,38.64,false,Bhopal,Carpenter,High
+34,74,152,17.07,false,Delhi,Real Estate Agent,Medium
+59,86,188,5.5,false,Surat,Civil Servant,Low
+33,64,193,7.02,false,Ahmedabad,Architect,Low
+38,81,167,24.4,false,Visakhapatnam,Architect,Medium
+40,97,158,16.83,false,Varanasi,Nurse,Medium
+56,51,154,16.63,false,Indore,Electrician,Low
+56,93,157,40.34,false,Ranchi,Driver,High
+56,78,171,19.4,false,Visakhapatnam,Real Estate Agent,Medium
+55,62,190,41.61,false,Nashik,Driver,Medium
+35,81,156,10.44,true,Indore,Businessman,Medium
+64,47,170,39.34,false,Nashik,Real Estate Agent,Medium
+54,91,194,24.85,false,Indore,Doctor,Medium
+23,92,178,49.57,false,Patna,Software Engineer,Low
+27,88,194,35.02,false,Faridabad,Pharmacist,Low
+19,83,174,33.99,false,Agra,Electrician,Low
+56,95,173,30.62,true,Bangalore,Real Estate Agent,High
+35,50,184,41.84,false,Srinagar,Doctor,Medium
+27,75,183,22.28,false,Amritsar,Consultant,Low
+34,99,180,35.39,false,Varanasi,Software Engineer,Medium
+53,78,192,23.41,false,Amritsar,Carpenter,Medium
+34,92,171,40,false,Visakhapatnam,Teacher,Medium
+33,84,193,47.02,false,Indore,Plumber,Low
+61,57,160,47.68,false,Patna,Content Writer,Medium
+22,69,151,16.71,false,Kolkata,Doctor,Low
+23,77,166,27.91,true,Srinagar,Carpenter,High
+62,92,167,16.27,false,Jaipur,Sales Manager,Medium
+20,84,153,5.97,true,Meerut,Electrician,High
+32,57,185,4.64,true,Amritsar,Marketing Manager,Medium
+57,75,152,18.86,false,Nagpur,Engineer,High
+52,59,179,34.33,true,Hyderabad,Content Writer,Medium
+50,71,152,40.01,false,Varanasi,Shop Owner,Medium
+43,51,162,3.53,false,Delhi,Lawyer,Low
+38,96,167,45.34,false,Surat,Real Estate Agent,Medium
+24,69,169,24.24,true,Jaipur,Carpenter,Medium
+46,59,177,18.52,true,Amritsar,Doctor,Medium
+50,65,169,8.78,false,Surat,Banker,Low
+22,61,166,23.6,false,Ludhiana,Engineer,Low
+24,55,152,39.34,false,Kanpur,Software Engineer,Low
+22,81,180,4.73,false,Ahmedabad,Sales Manager,Medium
+30,66,186,16.79,true,Rajkot,Engineer,Medium
+46,65,158,12.52,false,Rajkot,Carpenter,Medium
+33,90,158,49.92,false,Ranchi,Software Engineer,Medium
+26,67,159,17.39,false,Jaipur,Electrician,Low
+48,52,183,46.46,false,Mumbai,Data Analyst,Low
+28,80,181,36.5,true,Vadodara,Chef,Medium
+63,73,195,38.39,true,Visakhapatnam,HR Manager,High
+45,63,165,19.89,false,Lucknow,Engineer,Low
+49,78,184,12.16,false,Vadodara,Teacher,Low
+50,95,154,23.15,false,Nashik,Data Analyst,Medium
+22,57,194,47.2,false,Delhi,Businessman,Low
+60,52,165,10.52,true,Patna,Architect,High
+29,89,179,45.78,true,Faridabad,Content Writer,High
+52,96,187,20.45,false,Vadodara,Real Estate Agent,Medium
+55,95,187,3.07,false,Nagpur,Lawyer,Medium
+26,86,186,43.32,false,Agra,Pharmacist,Low
+63,49,169,35.39,true,Ahmedabad,Plumber,High
+21,59,170,39.89,false,Ranchi,Banker,Low
+47,48,163,26.83,false,Nashik,Shop Owner,Medium
+33,46,151,44.6,false,Delhi,Carpenter,Low
+18,58,153,9.27,false,Ludhiana,Driver,Low
+47,94,168,6.8,false,Allahabad,Consultant,Medium
+43,58,170,27.5,true,Ludhiana,Carpenter,High
+57,99,161,34.16,false,Chennai,Shop Owner,High
+60,65,176,30.46,false,Amritsar,Insurance Agent,Medium
+44,98,154,44.88,true,Faridabad,Pharmacist,High
+50,54,163,48.14,false,Faridabad,Civil Servant,Low
+46,78,156,47.26,false,Nashik,Data Analyst,Medium
+21,79,165,13.5,true,Lucknow,Retail Manager,High
+22,97,181,20.05,false,Surat,Lawyer,Low
+55,50,161,45.1,true,Ghaziabad,Accountant,High
+37,97,170,28.51,false,Ahmedabad,Government Employee,Medium
+31,70,185,6.52,false,Mumbai,Marketing Manager,Low
+44,65,170,3.2,false,Visakhapatnam,Electrician,Low
+22,68,183,8.27,true,Amritsar,Content Writer,Medium
+21,60,153,33.41,false,Faridabad,Driver,Low
+50,94,167,43.68,true,Bangalore,Nurse,High
+45,50,188,2.8,true,Agra,Businessman,High
+61,61,186,43.67,false,Bhopal,Pharmacist,Medium
+58,88,179,3.91,false,Ranchi,Insurance Agent,Medium
+53,75,153,11.03,false,Ranchi,Software Engineer,Medium
+48,79,187,35.86,false,Vadodara,Civil Servant,Low
+32,95,164,42.67,false,Jaipur,Retail Manager,Medium
+36,62,180,6.48,false,Ranchi,Architect,Low
+18,54,155,35.61,false,Amritsar,Consultant,Low
+26,46,174,14.15,false,Bangalore,Chef,Low
+20,45,174,24.5,false,Visakhapatnam,Banker,Low
+62,65,165,27.41,false,Delhi,Accountant,Low
+61,58,164,29.32,false,Meerut,Plumber,Medium
+57,77,190,4.67,false,Meerut,Chef,Low
+34,95,193,26.73,false,Vadodara,Data Analyst,Medium
+44,90,162,7.76,true,Pune,Teacher,High
+56,68,178,6.53,false,Patna,Engineer,Low
+25,63,187,6.33,false,Amritsar,Content Writer,Low
+31,81,154,49.42,false,Srinagar,Lab Technician,Medium
+42,49,175,27.02,false,Amritsar,Teacher,Medium
+61,87,157,7.92,true,Lucknow,Civil Servant,High
+43,66,175,12.54,false,Ahmedabad,Consultant,Low
+56,80,183,45.39,true,Bhopal,Factory Worker,High
+62,74,193,15.71,false,Hyderabad,Lawyer,Low
+20,54,160,15.36,false,Nagpur,Government Employee,Low
+28,71,180,25.66,false,Kanpur,Factory Worker,Low
+44,70,163,30.2,false,Nashik,Government Employee,Medium
+26,85,173,34.82,false,Delhi,Software Engineer,Low
+48,87,151,26.63,true,Chennai,Lawyer,High
+30,87,151,34.72,false,Visakhapatnam,Teacher,Medium
+28,60,153,19.13,false,Vadodara,Teacher,Low
+55,51,161,31.41,true,Bhopal,Chef,High
+44,90,162,24.64,false,Mumbai,Government Employee,Low
+61,47,151,39.86,true,Bangalore,Lab Technician,High
+57,77,194,35.37,false,Nashik,Accountant,Medium
+58,67,160,27.56,false,Mumbai,Electrician,Medium
+53,89,164,23.13,false,Meerut,Pharmacist,High
+29,66,185,47.42,false,Amritsar,Sales Manager,Low
+50,72,183,45.95,false,Bhopal,Real Estate Agent,Low
+40,99,176,47.91,false,Bangalore,Banker,Medium
+19,67,159,31.46,true,Agra,Doctor,High
+55,93,185,44.2,true,Ghaziabad,Banker,High
+24,91,150,17.76,false,Mumbai,Content Writer,Medium
+61,56,172,14.77,false,Chennai,Accountant,Low
+42,90,161,14.27,false,Vadodara,Carpenter,Medium
+23,48,172,5.1,true,Indore,Driver,Medium
+23,80,177,33.62,false,Allahabad,Carpenter,Low
+34,91,179,16.47,true,Chennai,Content Writer,High
+58,55,179,4.48,false,Amritsar,Retail Manager,Medium
+53,75,174,10.7,true,Mumbai,Content Writer,High
+23,53,161,40.55,true,Mumbai,Sales Manager,Medium
+41,71,188,11.32,true,Chennai,Real Estate Agent,Medium
+47,64,181,47.96,false,Meerut,Doctor,Low
+31,75,155,28.19,false,Patna,Pharmacist,Low
+47,97,178,20.97,false,Visakhapatnam,Marketing Manager,Medium
+30,90,168,36.21,false,Visakhapatnam,Real Estate Agent,Medium
+48,57,185,21.24,false,Ahmedabad,Real Estate Agent,Medium
+44,99,150,29.88,false,Faridabad,Data Analyst,Medium
+24,46,181,20.56,false,Patna,Driver,Low
+34,66,187,45,true,Jaipur,Banker,Medium
+39,89,154,34.54,false,Ludhiana,Retail Manager,Medium
+35,72,156,7.23,false,Kanpur,Marketing Manager,Low
+45,45,181,40.18,true,Kanpur,Nurse,High
+54,90,164,10.52,false,Chennai,Businessman,Medium
+48,69,174,13.33,false,Kanpur,Plumber,Low
+59,98,161,40.16,false,Jaipur,Lawyer,High
+52,63,161,21.4,false,Faridabad,Software Engineer,Medium
+62,65,188,10.44,false,Meerut,Carpenter,High
+61,75,174,6.72,true,Surat,Electrician,Medium
+21,52,160,29.15,false,Nagpur,Engineer,Low
+50,96,165,11.01,true,Jaipur,Accountant,High
+54,59,170,16.35,false,Bhopal,Insurance Agent,Medium
+29,48,181,37.17,false,Nashik,Chef,Low
+63,91,170,26.9,false,Nashik,HR Manager,High
+52,52,170,29.74,false,Bhopal,Carpenter,Medium
+34,55,153,27.48,false,Kolkata,Software Engineer,Low
+36,93,152,23.1,false,Rajkot,Government Employee,Medium
+64,45,186,37.28,false,Hyderabad,Lawyer,Medium
+44,75,194,28.15,false,Surat,Data Analyst,Low
+32,90,190,42.85,false,Nagpur,Pharmacist,Low
+40,82,178,47.22,false,Nagpur,Retail Manager,Medium
+19,76,167,13.56,true,Varanasi,Data Analyst,Medium
+44,62,157,49.8,true,Srinagar,Doctor,High
+39,52,163,44.72,false,Bhopal,Consultant,Low
+27,65,181,27.87,false,Srinagar,Driver,Low
+55,83,175,44.43,false,Kanpur,Electrician,Medium
+50,86,157,9.87,true,Kanpur,Carpenter,High
+60,46,177,26.12,false,Ghaziabad,Software Engineer,Medium
+52,97,180,23.67,false,Ahmedabad,Engineer,Low
+39,79,163,18.49,true,Amritsar,Accountant,High
+48,53,160,12.78,true,Kanpur,Content Writer,Medium
+59,63,193,41.27,true,Hyderabad,Content Writer,Medium
+44,58,168,5.28,true,Nagpur,Electrician,Medium
+49,64,157,42.82,false,Rajkot,Lawyer,Medium
+29,60,191,12.3,false,Nagpur,Carpenter,Low
+18,53,159,24.51,false,Indore,Insurance Agent,Low
+22,89,189,34.54,false,Faridabad,Lawyer,Low
+32,83,169,17.83,true,Bangalore,Marketing Manager,High
+35,57,188,18.79,false,Varanasi,Civil Servant,Low
+55,54,188,7.01,true,Jaipur,Consultant,High
+35,59,192,22.03,false,Amritsar,Real Estate Agent,Medium
+28,54,164,6.41,false,Allahabad,Real Estate Agent,Low
+35,51,181,32.68,false,Lucknow,Engineer,Medium
+37,55,159,24.74,false,Visakhapatnam,Government Employee,Low
+43,46,182,42.83,false,Ludhiana,Banker,Medium
+32,81,181,10.23,true,Kanpur,Real Estate Agent,Low
+26,65,183,36.84,false,Delhi,Software Engineer,Low
+50,54,156,41.01,false,Bangalore,Lab Technician,Low
+52,54,179,27.74,false,Ahmedabad,Lab Technician,Medium
+22,55,160,15.56,true,Rajkot,Marketing Manager,Low
+52,88,188,11.23,true,Lucknow,Content Writer,High
+54,69,150,46.95,false,Agra,Nurse,High
+60,70,193,5.38,false,Kanpur,Lawyer,Low
+49,65,182,19.82,false,Kanpur,Nurse,Low
+39,56,160,13.57,false,Ahmedabad,Insurance Agent,Low
+56,73,188,17.76,true,Indore,Banker,High
+54,96,177,24,false,Pune,Lab Technician,High
+32,57,179,9.17,false,Agra,Software Engineer,Low
+50,96,184,46.4,false,Vadodara,Carpenter,Medium
+50,90,151,41.07,true,Bhopal,Marketing Manager,High
+36,54,169,20.49,true,Allahabad,Government Employee,Medium
+47,50,163,16.18,false,Allahabad,Insurance Agent,Low
+43,82,190,32.29,true,Hyderabad,Teacher,High
+20,58,183,47.6,true,Surat,Retail Manager,High
+23,50,154,7.5,false,Amritsar,Chef,Low
+48,46,165,40.65,false,Ludhiana,Accountant,Medium
+58,97,187,46.55,false,Delhi,Marketing Manager,Medium
+21,83,160,28.8,false,Visakhapatnam,Carpenter,Medium
+27,57,163,43.39,true,Agra,Marketing Manager,Medium
+47,88,166,7.59,false,Delhi,Content Writer,Medium
+36,48,169,48.37,false,Rajkot,Nurse,Medium
+51,64,190,42.2,false,Bangalore,Accountant,Low
+56,45,156,35.31,false,Faridabad,Nurse,Medium
+18,89,187,25.23,false,Rajkot,Driver,Low
+64,52,195,9.24,false,Lucknow,Government Employee,Medium
+25,53,171,13.82,false,Faridabad,Plumber,Low
+24,90,180,8.14,true,Pune,Businessman,Medium
+53,72,163,32.72,true,Lucknow,Software Engineer,High
+46,52,184,19.19,false,Amritsar,Lawyer,Medium
+30,81,169,13.06,false,Vadodara,Insurance Agent,Low
+38,84,154,5.6,false,Surat,Sales Manager,Medium
+51,58,180,13.14,false,Kanpur,Carpenter,Medium
+41,51,187,25.22,true,Agra,Content Writer,High
+35,76,169,31.71,false,Nashik,Plumber,Medium
+56,69,176,11.04,false,Kolkata,Businessman,Low
+44,59,174,20.48,true,Faridabad,Electrician,High
+31,98,181,40.47,false,Bangalore,HR Manager,Medium
+21,61,181,34.13,false,Chennai,Government Employee,Low
+29,85,175,11.79,false,Surat,Driver,Low
+50,92,155,16.19,false,Pune,Retail Manager,Medium
+26,84,161,39.57,true,Pune,Lab Technician,Medium
+44,82,182,10.56,false,Nagpur,Accountant,Low
+45,58,191,36.3,false,Ahmedabad,Real Estate Agent,Medium
+50,60,150,13.96,false,Lucknow,Factory Worker,High
+32,87,181,3.98,false,Bhopal,HR Manager,Low
+35,99,183,34.58,false,Delhi,Businessman,Medium
+20,60,170,10.69,true,Agra,Chef,Medium
+44,80,171,35.18,true,Hyderabad,Sales Manager,High
+46,63,188,27.35,true,Ahmedabad,Government Employee,High
+59,60,186,24.89,true,Bhopal,Chef,High
+63,73,166,8.81,true,Nagpur,Marketing Manager,High
+53,87,186,2.89,false,Ranchi,Plumber,Medium
+34,48,186,36.1,false,Kolkata,Government Employee,Medium
+29,95,185,18.24,true,Bhopal,Driver,Medium
+23,70,162,10.16,false,Nagpur,Consultant,Low
+32,52,178,28.92,false,Meerut,Shop Owner,Medium
+19,88,195,30.4,false,Ghaziabad,Engineer,Low
+36,69,183,32.01,false,Rajkot,HR Manager,Low
+52,65,165,20.06,true,Faridabad,Businessman,Medium
+58,66,175,45.63,false,Pune,Lawyer,Medium
+61,51,164,18.97,true,Ahmedabad,Chef,High
+61,86,173,21.16,false,Srinagar,Factory Worker,Medium
+56,65,172,9.66,false,Lucknow,Accountant,Low
+45,55,184,33.76,false,Pune,Nurse,Medium
+50,73,154,17.82,true,Amritsar,Doctor,High
+48,60,151,3.43,true,Patna,Businessman,High
+37,47,175,10.53,true,Hyderabad,Businessman,High
+22,90,178,24.62,false,Kolkata,Chef,Low
+40,74,152,26.87,false,Agra,Carpenter,Medium
+18,50,166,37.99,false,Kanpur,Engineer,Low
+63,90,166,42.22,false,Varanasi,Consultant,High
+55,45,173,14.26,false,Nagpur,Teacher,Medium
+37,59,191,4.59,true,Allahabad,Marketing Manager,Medium
+52,71,165,35.55,false,Ludhiana,HR Manager,Medium
+61,90,178,24.69,false,Ghaziabad,Chef,Medium
+54,91,171,4.02,false,Bhopal,Carpenter,Medium
+64,55,167,36.68,false,Nashik,Data Analyst,Medium
+20,87,183,38.5,true,Rajkot,Software Engineer,High
+24,81,194,10.99,false,Varanasi,Consultant,Low
+55,82,150,13.11,false,Nagpur,Retail Manager,Medium
+54,74,161,32.7,true,Ghaziabad,Civil Servant,High
+46,70,194,34.57,false,Nagpur,Architect,Low
+63,63,155,16.61,true,Delhi,Banker,High
+45,87,191,32.24,true,Vadodara,Factory Worker,High
+36,92,164,23.65,true,Lucknow,Data Analyst,High
+30,69,162,11.9,false,Kanpur,Electrician,Low
+48,94,190,18.09,true,Srinagar,Marketing Manager,High
+62,45,160,14.1,true,Srinagar,Content Writer,High
+59,57,162,34.77,false,Hyderabad,Civil Servant,Medium
+20,99,190,10.82,true,Delhi,Nurse,Medium
+19,79,153,43.23,false,Nagpur,Retail Manager,Medium
+61,69,150,45.19,false,Faridabad,Engineer,High
+63,49,183,32.48,false,Mumbai,Software Engineer,Medium
+45,80,163,16.67,false,Mumbai,Civil Servant,Medium
+64,48,172,34.94,true,Kolkata,Teacher,High
+41,70,163,48.91,false,Srinagar,Nurse,Medium
+29,93,184,31.38,false,Vadodara,Shop Owner,Low
+47,48,150,36.71,true,Agra,Architect,High
+25,51,178,32.68,false,Agra,Factory Worker,Low
+59,65,151,6.69,false,Ludhiana,Shop Owner,Medium
+62,83,194,43.72,true,Ghaziabad,Chef,High
+51,85,193,6.37,false,Ahmedabad,Real Estate Agent,Low
+30,78,154,3.91,true,Patna,Carpenter,Medium
+26,58,183,41.04,false,Bhopal,Driver,Low
+35,47,187,43.63,false,Varanasi,Factory Worker,Medium
+49,63,193,33.3,true,Vadodara,Government Employee,High
+31,70,187,15.82,false,Varanasi,Doctor,Low
+34,68,157,30.65,false,Patna,Consultant,Medium
+51,88,192,9.2,false,Bhopal,Retail Manager,Low
+43,57,151,22.9,false,Kanpur,Retail Manager,Low
+55,57,151,32.29,false,Nagpur,Teacher,Medium
+29,93,172,13.68,false,Nagpur,Retail Manager,Low
+25,51,189,47.62,true,Mumbai,Insurance Agent,High
+55,48,177,39.13,true,Patna,Government Employee,High
+37,86,185,17.21,true,Bhopal,Consultant,High
+41,54,167,18.46,false,Patna,Real Estate Agent,Medium
+39,96,161,21.66,false,Ranchi,Accountant,Medium
+60,85,150,42.43,false,Patna,Engineer,High
+50,66,164,28.65,false,Ludhiana,Civil Servant,Low
+24,52,160,36.39,true,Patna,Nurse,Medium
+18,64,167,36.96,false,Meerut,Real Estate Agent,Low
+28,65,165,26.33,true,Nashik,Government Employee,Medium
+42,49,183,10.75,false,Vadodara,Civil Servant,Medium
+51,67,174,44.59,false,Patna,Carpenter,Medium
+23,84,175,32.8,false,Jaipur,Lawyer,Low
+18,55,160,47.28,false,Varanasi,HR Manager,Low
+33,67,187,40.82,false,Kolkata,Pharmacist,Low
+31,99,163,32.45,true,Rajkot,Accountant,High
+42,60,156,47.23,false,Agra,Shop Owner,Low
+58,49,190,40.1,false,Ahmedabad,Banker,Medium
+50,98,189,20.16,false,Meerut,Insurance Agent,Medium
+45,71,153,24.94,false,Lucknow,Shop Owner,Medium
+39,61,165,20.83,true,Varanasi,Pharmacist,Medium
+63,52,183,9.12,false,Hyderabad,Doctor,Medium
+50,95,159,7.46,false,Ahmedabad,Software Engineer,Medium
+20,54,194,38.3,false,Faridabad,Businessman,Low
+50,93,164,13.79,true,Lucknow,Sales Manager,High
+32,89,156,44.75,false,Meerut,Lawyer,Medium
+45,54,172,49.17,false,Varanasi,Banker,Low
+61,66,160,31.25,false,Bhopal,Banker,Medium
+21,45,150,24.22,false,Amritsar,Content Writer,Low
+63,64,170,38.82,false,Agra,Factory Worker,High
+30,91,150,20.19,false,Srinagar,Businessman,Medium
+38,46,169,16.18,false,Amritsar,Accountant,Low
+29,98,173,24.63,false,Ranchi,Lab Technician,Medium
+23,53,195,49.66,false,Allahabad,Doctor,Low
+48,54,179,24.34,false,Chennai,Lawyer,Medium
+30,86,194,7.2,true,Meerut,Banker,High
+62,48,174,14.03,true,Amritsar,Sales Manager,High
+48,69,150,42.26,false,Faridabad,Architect,Medium
+41,94,176,27.03,false,Patna,Content Writer,Medium
+62,49,179,19.91,false,Jaipur,Retail Manager,Medium
+42,48,179,2.5,false,Amritsar,Factory Worker,Low
+48,84,175,28.35,false,Meerut,Chef,Medium
+36,52,186,32.85,false,Delhi,Teacher,Medium
+20,99,187,22.36,false,Ghaziabad,Lawyer,Low
+20,99,150,22.37,false,Ghaziabad,Real Estate Agent,High
+55,82,170,4.22,false,Visakhapatnam,Shop Owner,Medium
+60,83,192,24.3,true,Surat,Businessman,High
+55,98,159,17.2,false,Delhi,Businessman,High
+61,98,167,47.95,false,Bhopal,Data Analyst,High
+30,69,170,7.74,false,Ghaziabad,Carpenter,Low
+37,51,166,4.68,false,Nashik,Insurance Agent,Low
+44,61,158,8.13,false,Delhi,Doctor,Low
+61,82,188,36.45,false,Ludhiana,Data Analyst,Medium
+46,52,167,14.28,false,Agra,Banker,Low
+62,89,193,22.02,true,Nashik,Engineer,High
+50,90,157,12.71,false,Ludhiana,Accountant,Medium
+37,87,159,46.8,true,Meerut,Lawyer,High
+24,77,171,14.15,false,Surat,Content Writer,Low
+32,89,167,34.77,false,Ghaziabad,Marketing Manager,Medium
+60,61,173,35.42,false,Pune,Insurance Agent,Medium
+36,65,170,17.32,false,Agra,Software Engineer,Low
+22,89,193,19.26,false,Pune,Retail Manager,Low
+44,69,177,19.35,false,Amritsar,Shop Owner,Low
+48,66,174,36.08,false,Bangalore,Teacher,Low
+36,54,151,41.79,true,Amritsar,Insurance Agent,Medium
+21,96,193,49.33,false,Hyderabad,Chef,Low
+35,57,190,9.77,false,Ghaziabad,Shop Owner,Low
+31,86,191,25.54,true,Surat,Insurance Agent,Medium
+56,67,191,30.51,false,Rajkot,Lab Technician,Medium
+37,93,172,4.33,false,Vadodara,Doctor,Low
+58,49,166,2.23,false,Hyderabad,HR Manager,Medium
+43,49,186,23.87,false,Hyderabad,Retail Manager,Medium
+20,95,172,46.66,true,Ghaziabad,Banker,High
+42,74,166,27.57,true,Srinagar,Banker,High
+51,87,191,37.87,false,Varanasi,Teacher,Medium
+21,82,151,12.19,true,Visakhapatnam,Accountant,High
+21,61,175,23.54,true,Chennai,Factory Worker,Medium
+30,90,161,49,true,Amritsar,Real Estate Agent,High
+33,61,187,44.49,true,Ranchi,Electrician,High
+23,90,190,35.35,false,Ludhiana,Nurse,Low
+39,95,175,5.59,false,Visakhapatnam,Shop Owner,Medium
+29,57,168,43.9,false,Ranchi,Businessman,Low
+56,95,166,44.13,false,Patna,Chef,High
+40,81,155,11.25,false,Vadodara,Consultant,Medium
+63,68,150,7.33,false,Meerut,Accountant,Medium
+43,86,150,47.49,false,Srinagar,Marketing Manager,Medium
+21,73,165,21.91,false,Faridabad,Civil Servant,Low
+63,56,164,49.06,true,Mumbai,Civil Servant,High
+49,51,158,40.86,true,Nagpur,Government Employee,High
+40,56,181,32.13,false,Meerut,Shop Owner,Medium
+25,51,178,31.36,false,Hyderabad,Teacher,Medium
+34,89,167,10.33,true,Patna,Shop Owner,High
+18,70,179,13.28,true,Ahmedabad,Accountant,Medium
+61,78,164,10.58,true,Bhopal,Businessman,High
+59,89,152,36.24,false,Srinagar,Chef,High
+44,96,195,43.15,false,Visakhapatnam,Carpenter,Medium
+37,95,189,48.82,false,Agra,Plumber,High
+33,64,158,13.56,true,Bhopal,Doctor,High
+25,68,192,14.42,true,Ranchi,Architect,Medium
+26,82,154,38.09,false,Mumbai,Pharmacist,Medium
+35,77,153,36.34,false,Nashik,Government Employee,Medium
+56,52,178,18.68,false,Nashik,Retail Manager,Medium
+18,51,181,44.66,true,Bhopal,Chef,High
+28,84,187,19.94,true,Varanasi,Factory Worker,Medium
+63,83,179,41.34,false,Delhi,Driver,Medium
+63,95,165,47.12,false,Nagpur,Pharmacist,High
+43,47,156,37.79,true,Nagpur,Businessman,High
+41,93,192,4.13,false,Kanpur,Accountant,Low
+46,97,191,6.62,false,Delhi,Engineer,Medium
+38,90,186,43.73,true,Kolkata,Insurance Agent,High
+30,75,175,45.95,true,Mumbai,Factory Worker,Medium
+52,64,191,46.35,true,Srinagar,Real Estate Agent,High
+39,47,157,9.4,false,Rajkot,Chef,Low
+55,72,186,4.07,true,Rajkot,Civil Servant,Medium
+33,55,162,40.68,true,Amritsar,Carpenter,Medium
+24,92,195,14.69,false,Varanasi,Accountant,Low
+41,96,193,8.52,true,Meerut,Content Writer,High
+24,55,153,45.62,false,Hyderabad,Accountant,Low
+53,82,178,24.38,true,Ludhiana,Government Employee,High
+37,48,178,20.48,true,Lucknow,Architect,High
+26,78,160,26.98,false,Kanpur,Pharmacist,Medium
+19,46,194,9.18,false,Rajkot,Sales Manager,Low
+21,82,161,24.45,false,Chennai,Pharmacist,Low
+51,67,162,35.95,false,Amritsar,Factory Worker,Medium
+61,70,161,9.45,false,Faridabad,Architect,Medium
+41,79,195,37.69,false,Kolkata,Plumber,Low
+52,92,166,47.24,true,Bangalore,Government Employee,High
+35,51,191,29.21,false,Ahmedabad,Driver,Medium
+40,86,195,38.82,true,Lucknow,Lab Technician,Medium
+47,88,155,30.02,false,Ranchi,Factory Worker,Medium
+57,64,192,5.95,false,Delhi,Lab Technician,Medium
+21,55,160,46.25,false,Patna,Shop Owner,Low
+27,78,164,15.86,false,Mumbai,Civil Servant,Low
+62,82,176,39.47,false,Amritsar,Data Analyst,Medium
+62,61,152,15.29,false,Ludhiana,Factory Worker,Medium
+51,46,184,48.93,false,Chennai,Software Engineer,Medium
+44,80,155,28.51,false,Mumbai,Teacher,Medium
+34,94,175,23.3,false,Ludhiana,Factory Worker,Medium
+43,58,190,49.1,false,Jaipur,Electrician,Medium
+58,58,180,39.86,false,Hyderabad,Retail Manager,Medium
+45,54,179,44.98,false,Delhi,Architect,Medium
+52,81,156,15.4,false,Visakhapatnam,Lab Technician,Medium
+53,78,185,18.24,false,Delhi,Consultant,Low
+24,68,155,25.25,false,Srinagar,Factory Worker,Low
+40,55,176,37.89,false,Meerut,Data Analyst,Medium
+30,63,154,44.26,false,Delhi,Carpenter,Medium
+23,60,181,6.15,false,Bhopal,Sales Manager,Low
+58,51,170,28.56,false,Visakhapatnam,Engineer,Medium
+33,98,193,35.94,false,Vadodara,Doctor,Medium
+52,90,189,9.18,false,Jaipur,Plumber,Medium
+47,92,191,19.8,true,Hyderabad,Real Estate Agent,High
+47,99,180,4.69,false,Hyderabad,Government Employee,Medium
+30,80,178,22.97,true,Meerut,Lab Technician,High
+25,46,170,13.72,false,Nagpur,Lab Technician,Low
+26,98,170,24.3,false,Ludhiana,Driver,Medium
+26,73,190,38.11,false,Pune,Accountant,Low
+61,47,159,5.14,true,Agra,Shop Owner,High
+43,98,168,18.8,false,Lucknow,Driver,Medium
+56,47,190,33.71,false,Delhi,Sales Manager,Medium
+40,68,171,12.37,true,Amritsar,Doctor,Medium
+63,93,164,4.71,false,Kanpur,Sales Manager,High
+42,95,187,40.8,false,Agra,Engineer,Medium
+46,75,185,36.31,false,Delhi,Lab Technician,Low
+39,96,183,27.54,false,Jaipur,Data Analyst,Medium
+35,68,190,5.69,true,Surat,Lawyer,Medium
+22,56,174,23.97,true,Bangalore,Plumber,High
+62,52,189,3.74,false,Pune,Factory Worker,Medium
+18,79,173,42.96,false,Nashik,Consultant,Medium
+41,96,169,39.1,true,Bhopal,Real Estate Agent,High
+32,93,175,11.75,false,Nashik,Factory Worker,High
+50,94,157,46.51,false,Surat,Engineer,Medium
+40,84,189,20.31,true,Delhi,Teacher,Medium
+60,60,168,49.66,true,Mumbai,Engineer,High
+41,55,192,10.04,true,Ghaziabad,Pharmacist,High
+43,89,195,13.73,false,Visakhapatnam,Lab Technician,Low
+34,58,179,10.2,true,Ranchi,Retail Manager,High
+55,67,153,3.54,false,Meerut,Data Analyst,Medium
+44,73,161,2.42,true,Mumbai,HR Manager,High
+23,53,192,46.53,false,Agra,Nurse,Low
+57,88,189,35.86,false,Visakhapatnam,Chef,Medium
+43,57,194,11.73,true,Vadodara,Shop Owner,High
+33,67,167,36.62,false,Rajkot,Data Analyst,Low
+48,89,168,15.82,false,Visakhapatnam,Carpenter,Medium
+20,54,189,37.48,true,Allahabad,Sales Manager,High
+39,98,175,44.85,false,Delhi,Sales Manager,Medium
+60,64,178,32.58,false,Hyderabad,Accountant,Medium
+29,89,185,46.09,false,Varanasi,Retail Manager,Low
+28,69,184,24.24,false,Hyderabad,Pharmacist,Low
+55,59,155,9.59,false,Chennai,Factory Worker,Low
+29,51,161,46.36,false,Amritsar,Driver,Medium
+54,77,175,40.8,false,Chennai,Banker,Medium
+47,68,182,48.39,true,Patna,Nurse,High
+41,87,153,27.91,false,Faridabad,Pharmacist,Medium
+18,54,178,34.01,false,Ranchi,Consultant,Low
+46,61,152,11.73,false,Faridabad,Sales Manager,Medium
+51,51,174,48.02,true,Nagpur,Shop Owner,High
+38,94,190,48.02,true,Vadodara,HR Manager,High
+52,53,183,24.76,false,Kanpur,Marketing Manager,Medium
+27,53,185,45.19,true,Hyderabad,Doctor,High
+37,56,192,21.7,false,Bangalore,Retail Manager,Medium
+60,72,161,38.08,false,Rajkot,Civil Servant,Medium
+28,63,178,8.3,false,Lucknow,Doctor,Low
+44,80,182,31.67,true,Amritsar,Driver,High
+63,82,151,19.07,false,Nagpur,Data Analyst,Medium
+56,88,158,39.87,false,Rajkot,Lawyer,High
+43,59,164,13.93,false,Meerut,Lawyer,Low
+64,94,160,15.33,false,Kanpur,Accountant,Medium
+36,71,155,14.01,false,Indore,Retail Manager,Low
+57,65,156,44.94,false,Hyderabad,Government Employee,Medium
+36,50,184,39.28,false,Delhi,Consultant,Medium
+57,52,169,46.38,true,Surat,Marketing Manager,High
+49,61,153,33.1,false,Delhi,Carpenter,Medium
+55,48,164,23.25,false,Agra,Doctor,Medium
+50,99,160,25.6,false,Ludhiana,Carpenter,Medium
+55,96,174,8.77,true,Ranchi,Lawyer,High
+39,92,162,42.62,false,Varanasi,Shop Owner,Medium
+62,74,183,9.77,false,Amritsar,Engineer,Low
+23,88,176,17.75,false,Surat,Plumber,Low
+49,93,161,13.6,false,Pune,Carpenter,Medium
+45,80,192,30.03,false,Kanpur,Driver,Low
+33,75,179,10.53,true,Faridabad,Plumber,Medium
+39,82,184,2.16,true,Nagpur,Sales Manager,Medium
+49,80,155,44.3,false,Amritsar,Accountant,Medium
+64,78,172,45.99,true,Vadodara,Businessman,High
+48,51,178,26.95,false,Amritsar,Shop Owner,Low
+58,92,171,7.5,false,Faridabad,Lawyer,Medium
+30,91,157,10.43,false,Indore,Teacher,Low
+37,62,153,5.85,false,Faridabad,Government Employee,Low
+48,51,178,42.91,true,Surat,Electrician,High
+55,48,161,3.4,false,Agra,Factory Worker,Low
+19,72,171,41.89,false,Vadodara,Factory Worker,Low
+25,72,182,48.46,false,Ahmedabad,Data Analyst,Low
+24,52,192,25.9,false,Delhi,Factory Worker,Low
+57,65,160,48.55,false,Mumbai,Content Writer,Medium
+33,45,189,45.55,false,Allahabad,Retail Manager,Medium
+48,99,167,40.28,false,Ranchi,Shop Owner,Medium
+27,52,180,15.7,false,Ghaziabad,Sales Manager,Low
+28,55,163,21.21,true,Ahmedabad,HR Manager,Medium
+62,84,182,13.66,false,Lucknow,Government Employee,Medium
+36,94,169,38.85,false,Kanpur,Content Writer,Medium
+55,75,166,21.66,false,Allahabad,Factory Worker,Medium
+50,50,176,8.72,false,Indore,Businessman,High
+59,68,165,4.32,false,Indore,Nurse,Low
+29,50,179,45.9,false,Indore,Electrician,Low
+39,96,180,17.4,false,Srinagar,Electrician,Low
+61,45,161,24.42,false,Allahabad,Real Estate Agent,Low
+29,70,170,8.14,false,Meerut,Plumber,Low
+59,74,173,35.85,false,Patna,Marketing Manager,Medium
+45,95,184,44.11,true,Chennai,Lawyer,High
+39,72,188,10.98,true,Jaipur,Architect,Medium
+56,72,153,29.24,false,Chennai,Doctor,High
+23,70,159,6.2,true,Hyderabad,Lawyer,Medium
+46,78,166,44.86,false,Pune,Engineer,Medium
+32,68,172,18.78,true,Jaipur,Shop Owner,Medium
+49,94,195,3.78,false,Allahabad,Architect,Low
+52,82,160,8.17,false,Amritsar,Insurance Agent,Medium
+62,78,181,16.4,false,Visakhapatnam,Architect,Low
+53,72,188,3.66,true,Mumbai,Electrician,Medium
+54,84,172,37.64,false,Lucknow,Marketing Manager,Medium
+41,55,169,40.21,true,Allahabad,Chef,High
+21,86,155,18.26,true,Hyderabad,Doctor,Medium
+48,84,184,44.94,false,Surat,Pharmacist,Medium
+63,91,171,12.58,true,Jaipur,HR Manager,High
+33,60,195,40.7,false,Jaipur,Chef,Medium
+42,48,168,7.93,false,Bhopal,HR Manager,Low
+31,66,184,42.86,true,Nashik,Data Analyst,Medium
+55,85,194,41.21,false,Kanpur,Chef,Medium
+55,94,195,38.74,true,Lucknow,Carpenter,High
+38,48,167,49.23,true,Pune,Accountant,High
+30,59,157,16.51,false,Ludhiana,Banker,Low
+29,93,167,49.34,true,Lucknow,Software Engineer,High
+44,88,179,6.68,false,Vadodara,Retail Manager,Medium
+32,65,187,18.82,false,Visakhapatnam,Factory Worker,Low
+43,99,157,23.02,false,Chennai,Factory Worker,Medium
+37,70,174,9.52,false,Bhopal,Real Estate Agent,Low
+44,48,194,27.04,false,Ludhiana,Doctor,Medium
+34,70,171,12.88,false,Ghaziabad,Pharmacist,Low
+43,69,154,15.41,true,Rajkot,Doctor,High
+49,82,184,26.23,false,Ahmedabad,Retail Manager,Low
+61,82,162,38.05,true,Kanpur,Doctor,High
+61,93,190,9.05,false,Meerut,Doctor,Medium
+20,49,160,9.58,true,Meerut,Factory Worker,Medium
+58,45,170,9.22,false,Bangalore,Civil Servant,Medium
+49,50,152,25.41,true,Varanasi,Banker,High
+38,70,183,39.79,false,Indore,Government Employee,Low
+58,71,169,10.24,false,Nagpur,Businessman,Low
+55,94,165,14.79,false,Srinagar,Government Employee,Medium
+50,83,193,17.99,false,Pune,Plumber,Low
+59,45,187,17.38,true,Delhi,Chef,High
+25,84,171,42.46,true,Chennai,Nurse,High
+20,84,191,10.25,false,Ahmedabad,Chef,Low
+41,74,195,23.7,false,Ahmedabad,Data Analyst,Low
+55,69,192,39.9,false,Kanpur,Insurance Agent,Medium
+58,57,174,9.15,false,Chennai,Government Employee,Low
+19,51,166,2.63,true,Ahmedabad,Civil Servant,Low
+44,96,150,34.76,false,Hyderabad,Data Analyst,Medium
+44,58,179,22.55,false,Srinagar,Factory Worker,Medium
+44,84,154,9.88,false,Mumbai,Lawyer,Medium
+33,69,160,27.09,true,Ahmedabad,Accountant,High
+29,81,166,18.46,false,Jaipur,Teacher,Low
+62,99,170,43.15,true,Delhi,Content Writer,High
+32,47,154,32.03,false,Hyderabad,Civil Servant,Low
+26,86,160,27.29,false,Ranchi,Consultant,Medium
+21,51,172,44.34,false,Kanpur,Accountant,Low
+51,61,192,2.22,true,Allahabad,Pharmacist,High
+54,46,182,34.67,true,Varanasi,Plumber,High
+27,57,158,8.86,false,Indore,Software Engineer,Low
+38,98,183,40.24,true,Ranchi,Marketing Manager,High
+27,52,181,5.72,false,Ludhiana,Businessman,Low
+47,49,176,7.76,true,Lucknow,Real Estate Agent,High
+63,51,151,36.79,false,Allahabad,Government Employee,Medium
+40,61,188,10.51,false,Pune,Architect,Low
+47,46,178,11.42,false,Ludhiana,Doctor,Medium
+19,79,182,35.27,false,Ghaziabad,Content Writer,Low
+28,83,195,40.47,false,Kolkata,Pharmacist,Low
+55,47,174,7.78,false,Rajkot,Accountant,Medium
+27,49,163,29.81,false,Bhopal,Marketing Manager,Low
+38,77,177,45.44,true,Chennai,Insurance Agent,Medium
+24,69,150,25.36,false,Kolkata,Factory Worker,Medium
+57,50,172,9.42,false,Jaipur,Engineer,Medium
+36,62,152,4.35,false,Kolkata,Doctor,Low
+50,77,165,25.98,true,Rajkot,Shop Owner,High
+55,56,184,22.62,false,Nagpur,Doctor,Medium
+61,76,195,42.65,false,Faridabad,Sales Manager,Medium
+42,58,178,29.85,false,Ahmedabad,Plumber,Medium
+33,76,192,20.31,false,Bangalore,Doctor,Low
+35,81,185,41,false,Nashik,Retail Manager,Low
+24,65,168,24.69,true,Nagpur,Real Estate Agent,Medium
+24,74,152,4.84,false,Chennai,Nurse,Low
+21,90,156,42.83,false,Kanpur,Consultant,Medium
+18,89,191,41.69,false,Surat,Pharmacist,Low
+26,92,182,11.14,false,Ranchi,Businessman,Low
+23,52,175,45.61,false,Rajkot,Carpenter,Low
+36,46,155,23.44,false,Delhi,Accountant,Low
+25,56,189,45.89,false,Bangalore,Lab Technician,Low
+24,86,168,29.8,true,Indore,Government Employee,High
+55,66,155,10.08,false,Allahabad,Architect,Medium
+40,54,171,12.72,false,Ahmedabad,Teacher,Low
+33,53,183,44.08,true,Meerut,Real Estate Agent,Medium
+55,54,187,42.64,false,Kanpur,Civil Servant,Medium
+58,65,193,24.8,false,Rajkot,Accountant,Medium
+46,98,150,14.49,true,Allahabad,Real Estate Agent,High
+62,54,167,30.97,false,Hyderabad,Retail Manager,Medium
+60,63,179,44.25,false,Agra,Nurse,Medium
+50,65,166,13.65,false,Ranchi,Chef,Low
+30,49,184,46.42,false,Bangalore,Data Analyst,Low
+35,75,194,28.49,true,Nashik,Factory Worker,Medium
+30,88,168,44.54,true,Varanasi,Carpenter,High
+39,58,154,2.34,true,Lucknow,Doctor,Medium
+27,96,189,18.05,false,Kanpur,Electrician,Low
+21,63,175,2.4,true,Nashik,Plumber,Low
+41,67,181,43.06,false,Rajkot,Consultant,Low
+19,87,154,9.88,false,Hyderabad,Civil Servant,Low
+62,90,183,15.48,false,Mumbai,Lab Technician,Medium
+49,59,179,49.5,true,Rajkot,Plumber,High
+29,83,180,27.24,false,Surat,Insurance Agent,Low
+49,91,168,40.85,false,Indore,Carpenter,Medium
+21,94,183,7.24,false,Amritsar,Marketing Manager,Low
+53,51,192,6.51,false,Delhi,Lab Technician,Medium
+44,91,194,24.19,false,Mumbai,Teacher,Low
+54,89,168,49.03,false,Kolkata,Electrician,High
+44,48,157,30.86,true,Srinagar,HR Manager,High
+34,80,189,2.45,false,Hyderabad,Sales Manager,Low
+51,77,177,9.35,false,Bhopal,Chef,Low
+51,99,176,36.02,false,Ghaziabad,Engineer,High
+50,61,166,38.6,false,Ghaziabad,Nurse,Low
+24,85,176,37.8,false,Ranchi,Pharmacist,Low
+26,72,179,17.95,false,Meerut,Retail Manager,Low
+48,86,162,37.4,false,Ludhiana,Chef,Medium
+20,48,176,13.1,false,Surat,Lab Technician,Low
+21,80,150,31.04,false,Patna,Teacher,Medium
+63,83,176,47.98,false,Rajkot,Teacher,Medium
+60,91,150,43.02,false,Delhi,Engineer,Medium
+30,69,176,2.75,true,Visakhapatnam,Pharmacist,Low
+24,56,167,5.92,false,Bhopal,Pharmacist,Low
+46,71,181,39.59,false,Kanpur,Lawyer,Low
+28,98,159,11.48,false,Ghaziabad,Chef,Low
+26,85,151,37.5,true,Ludhiana,Insurance Agent,Medium
+29,62,156,42.99,false,Lucknow,Insurance Agent,Low
+46,81,169,34.83,true,Agra,Driver,High
+45,61,151,21.46,true,Visakhapatnam,Driver,High
+48,89,156,4.16,true,Kolkata,Data Analyst,High
+52,67,151,26.8,false,Nashik,Civil Servant,Medium
+34,78,164,5.42,true,Nashik,Real Estate Agent,High
+22,47,172,43.75,false,Vadodara,Content Writer,Low
+48,76,168,17.08,false,Ranchi,Government Employee,Medium
+49,45,186,18.98,true,Surat,Banker,High
+46,62,188,32.78,true,Indore,Marketing Manager,High
+48,96,194,46.1,false,Ranchi,Consultant,Medium
+27,97,185,40.67,false,Bhopal,Data Analyst,Low
+19,82,170,11.81,true,Delhi,Carpenter,Medium
+47,90,187,8.66,false,Chennai,Retail Manager,Medium
+38,62,167,33.79,false,Kanpur,Sales Manager,Low
+62,78,182,9.57,false,Nagpur,HR Manager,Low
+49,90,161,39.28,false,Srinagar,Lab Technician,Medium
+44,80,186,44.93,false,Hyderabad,Accountant,Low
+64,84,185,44.6,false,Faridabad,Civil Servant,Medium
+47,48,151,11.36,true,Surat,Data Analyst,Medium
+35,55,176,6.41,false,Ranchi,Plumber,Low
+39,90,176,48.5,false,Delhi,Civil Servant,Medium
+34,59,179,28.44,false,Mumbai,Insurance Agent,Medium
+19,71,164,23.17,false,Lucknow,Banker,Low
+22,62,192,17.56,false,Ahmedabad,Pharmacist,Low
+62,71,164,38.75,false,Agra,Carpenter,Medium
+43,75,195,19.75,false,Ahmedabad,Marketing Manager,Low
+49,88,192,15.81,true,Patna,Marketing Manager,Medium
+22,96,178,47.29,false,Chennai,HR Manager,Medium
+34,93,164,36.19,false,Nagpur,Banker,Medium
+18,64,192,22.35,false,Agra,Data Analyst,Low
+32,45,194,40.87,true,Delhi,Carpenter,High
+23,88,171,13.31,false,Ghaziabad,Banker,Low
+58,97,192,48.87,false,Jaipur,Teacher,Low
+52,70,178,31.54,true,Allahabad,Shop Owner,High
+25,69,173,13.03,false,Jaipur,Lab Technician,Low
+48,66,162,45.64,false,Kolkata,HR Manager,Low
+39,66,180,13.05,false,Mumbai,Businessman,Low
+37,62,150,14.47,true,Nashik,Driver,Medium
+29,78,174,23.44,false,Ahmedabad,Civil Servant,Low
+20,64,158,5.85,false,Vadodara,HR Manager,Low
+36,71,188,40.05,true,Lucknow,Architect,Medium
+29,59,174,14.93,true,Ahmedabad,Engineer,Low
+26,92,186,25.83,true,Agra,Carpenter,High
+48,62,178,23.07,false,Meerut,Consultant,Low
+46,45,170,5.12,true,Nagpur,Accountant,High
+32,61,151,4.25,false,Vadodara,Banker,Low
+23,85,189,25.04,true,Faridabad,Teacher,Medium
+64,68,195,19.01,true,Faridabad,Chef,High
+43,58,167,7.75,false,Vadodara,Carpenter,Low
+58,97,169,3.06,true,Bhopal,Driver,High
+62,91,157,17.06,false,Rajkot,Factory Worker,Medium
+37,86,151,33.53,false,Visakhapatnam,Insurance Agent,Medium
+49,90,194,23.83,false,Ludhiana,Doctor,Low
+36,59,187,12.13,false,Kolkata,Insurance Agent,Low
+51,95,154,20.8,true,Kolkata,Software Engineer,High
+42,93,157,41.41,false,Indore,Teacher,Medium
+64,67,182,43.63,false,Allahabad,Factory Worker,High
+62,46,195,47.37,false,Jaipur,Doctor,Medium
+27,92,167,27.78,false,Vadodara,Banker,Medium
+18,86,156,38.65,true,Allahabad,Real Estate Agent,High
+25,58,164,32.29,false,Srinagar,Consultant,Low
+39,49,184,9.69,false,Nagpur,HR Manager,Low
+55,95,155,20.02,false,Patna,Banker,High
+60,49,151,25.69,true,Kolkata,Pharmacist,High
+46,58,157,22.88,false,Pune,Accountant,Low
+19,56,164,4.94,true,Ranchi,Electrician,Low
+53,88,180,29.59,false,Surat,Data Analyst,Medium
+45,97,182,29.08,false,Delhi,Shop Owner,Medium
+44,51,194,42.19,true,Srinagar,Lab Technician,High
+63,58,173,14.14,false,Agra,Businessman,Low
+36,71,190,23.41,false,Kolkata,Doctor,Low
+28,51,154,14.32,true,Srinagar,Shop Owner,High
+51,48,174,36.65,false,Bangalore,Plumber,Medium
+41,74,159,13.53,false,Agra,Insurance Agent,Medium
+51,57,179,44.84,false,Chennai,Retail Manager,Medium
+54,91,186,48.2,false,Delhi,Content Writer,Medium
+46,65,162,46.21,false,Bangalore,Nurse,Low
+54,56,194,37.88,false,Amritsar,Lawyer,Medium
+47,54,176,34.26,true,Ranchi,Pharmacist,High
+43,74,156,21.88,false,Kolkata,Nurse,Medium
+55,54,178,49.14,false,Allahabad,Factory Worker,Medium
+47,51,195,33.06,false,Ludhiana,Content Writer,Medium
+30,56,164,3.18,false,Kolkata,Retail Manager,Low
+56,99,159,36.94,false,Rajkot,Banker,High
+43,79,150,40.1,false,Bangalore,Shop Owner,Medium
+40,98,180,2.91,false,Kanpur,Consultant,Low
+53,81,191,19.31,false,Kanpur,Content Writer,Low
+52,98,195,12.96,false,Nagpur,Factory Worker,Medium
+48,62,158,15.63,false,Ahmedabad,Engineer,Low
+37,57,170,6.57,false,Chennai,Electrician,Medium
+31,83,188,46.02,false,Visakhapatnam,Businessman,Low
+47,46,186,30.27,false,Jaipur,Engineer,Medium
+36,61,169,29.37,false,Jaipur,Accountant,Low
+49,45,177,2.36,true,Kanpur,Banker,High
+61,46,155,33.02,false,Ludhiana,Data Analyst,Medium
+25,79,190,6.35,false,Hyderabad,Shop Owner,Medium
+30,64,193,3.45,false,Pune,Sales Manager,Low
+21,52,150,26.59,true,Allahabad,Driver,Medium
+54,87,166,42.9,false,Jaipur,Chef,High
+55,56,162,6.42,false,Agra,Plumber,Low
+22,46,170,38,false,Patna,Shop Owner,Low
+60,93,168,14.99,false,Lucknow,Carpenter,Medium
+23,83,165,14.67,false,Ghaziabad,Carpenter,Low
+64,76,169,7.92,true,Lucknow,Retail Manager,High
+38,54,154,12.81,true,Pune,Electrician,Medium
+59,49,156,37.38,false,Rajkot,Nurse,Medium
+27,55,184,6.54,false,Agra,Carpenter,Medium
+30,70,172,48.46,false,Bhopal,Insurance Agent,Low
+25,57,162,40.99,false,Visakhapatnam,Driver,Low
+56,94,192,42.56,false,Surat,Teacher,Medium
+57,77,168,38.35,true,Kolkata,Accountant,High
+33,45,152,11.41,true,Ghaziabad,Retail Manager,Medium
+26,53,151,12.44,true,Jaipur,Plumber,Medium
+32,84,161,41.78,true,Patna,Shop Owner,High
+24,46,194,20.72,true,Vadodara,Software Engineer,High
+36,95,171,6.39,true,Faridabad,Businessman,High
+33,54,159,40.49,false,Jaipur,Content Writer,Low
+27,65,158,2.71,true,Visakhapatnam,Marketing Manager,Low
+32,88,184,38.86,false,Amritsar,Plumber,Medium
+51,71,172,33.38,false,Ahmedabad,Consultant,Medium
+26,59,178,36.89,false,Mumbai,Civil Servant,Low
+47,90,166,3.49,false,Bhopal,Real Estate Agent,Medium
+24,91,194,12.77,false,Pune,Factory Worker,Low
+38,81,187,6.57,false,Srinagar,HR Manager,Low
+40,48,192,10.24,false,Ghaziabad,Insurance Agent,Low
+63,96,184,5.71,false,Rajkot,Nurse,Medium
+37,60,160,7.18,true,Meerut,Software Engineer,High
+33,83,161,30.72,true,Ludhiana,Lab Technician,High
+51,85,182,4.77,true,Vadodara,Businessman,High
+20,47,194,25.29,false,Rajkot,Insurance Agent,Low
+51,78,181,21.12,false,Allahabad,Driver,Medium
+49,50,169,20.7,false,Kanpur,Carpenter,Medium
+35,88,181,21.21,false,Faridabad,Sales Manager,High
+19,73,151,20.33,false,Agra,Accountant,Medium
+22,73,164,12.18,false,Hyderabad,Data Analyst,Medium
+57,71,192,21.66,false,Faridabad,Software Engineer,Low
+22,72,188,36.36,true,Bhopal,Pharmacist,Medium
+47,56,176,12.95,true,Agra,Software Engineer,High
+18,92,152,37.2,false,Rajkot,Nurse,Medium
+32,84,170,9.11,true,Varanasi,Driver,Medium
+19,53,172,14.75,true,Pune,Civil Servant,Medium
+44,99,182,16.7,false,Bhopal,Consultant,Medium
+42,93,160,12.88,true,Chennai,Insurance Agent,High
+28,56,176,15.69,false,Bangalore,Lawyer,Low
+52,90,153,26.02,true,Ghaziabad,Government Employee,High
+46,83,152,43.87,true,Bhopal,Sales Manager,High
+48,69,171,25.94,false,Pune,Sales Manager,Low
+30,49,181,19.21,true,Meerut,Nurse,Medium
+29,98,173,37.34,true,Visakhapatnam,Driver,High
+25,79,150,45.52,true,Hyderabad,Civil Servant,High
+28,55,173,29.93,false,Agra,Lab Technician,Low
+51,97,155,13.22,false,Ludhiana,Driver,Medium
+45,53,155,13.62,true,Pune,Accountant,Medium
+24,92,169,31.63,false,Kanpur,Carpenter,Medium
+20,97,169,4.71,false,Ranchi,Real Estate Agent,Low
+61,91,189,10.16,false,Kanpur,Data Analyst,Medium
+24,55,173,8.04,false,Mumbai,Factory Worker,Low
+41,91,179,20.39,false,Delhi,Architect,Medium
+40,55,159,45.16,false,Rajkot,Carpenter,Low
+60,45,181,24.07,false,Surat,Insurance Agent,Medium
+61,45,161,34.75,false,Rajkot,Government Employee,Medium
+46,71,152,17.03,false,Faridabad,Real Estate Agent,Medium
+55,60,154,26.19,false,Bangalore,Sales Manager,Medium
+57,98,164,35,false,Lucknow,Content Writer,High
+34,67,155,36.07,false,Nagpur,Doctor,Medium
+22,86,193,17.65,false,Rajkot,Factory Worker,Low
+37,83,186,19.43,false,Ranchi,Sales Manager,Low
+40,54,150,19.04,true,Kolkata,Real Estate Agent,Medium
+55,50,186,31.78,true,Hyderabad,Content Writer,High
+62,66,158,17.16,true,Indore,Government Employee,High
+47,62,174,29.95,true,Visakhapatnam,Engineer,High
+56,52,151,48.46,false,Mumbai,Data Analyst,Medium
+54,91,171,48.47,false,Faridabad,Doctor,High
+51,46,166,42.82,false,Amritsar,Architect,Medium
+42,70,181,26.47,false,Kanpur,Shop Owner,Low
+64,71,190,39.47,true,Agra,Engineer,High
+30,70,178,11.06,false,Amritsar,Consultant,Low
+31,84,154,49.68,false,Meerut,Plumber,Medium
+18,64,168,26.92,true,Bhopal,Insurance Agent,Medium
+43,96,153,9.86,false,Amritsar,Carpenter,Medium
+32,78,187,42.25,true,Ludhiana,Businessman,Medium
+52,47,169,49.83,false,Srinagar,Sales Manager,Medium
+58,66,159,49.57,true,Ranchi,Electrician,High
+22,58,185,16.19,false,Pune,Chef,Low
+18,64,161,33.6,true,Pune,Lawyer,Medium
+61,77,193,19.73,false,Bangalore,Consultant,Low
+26,47,176,21.75,true,Nagpur,Pharmacist,High
+50,83,187,30.09,false,Mumbai,Businessman,Low
+53,84,168,47.31,false,Srinagar,Government Employee,Medium
+21,84,163,29.84,false,Srinagar,Nurse,Medium
+47,82,175,37.52,false,Nagpur,Architect,High
+28,92,157,39.55,true,Varanasi,Carpenter,High
+23,94,165,3.77,false,Allahabad,Sales Manager,Low
+30,55,194,46.83,false,Meerut,Architect,Low
+49,95,174,48.5,false,Bhopal,Government Employee,Medium
+39,77,185,36.56,false,Ghaziabad,HR Manager,Low
+59,81,188,26.52,false,Faridabad,Electrician,Medium
+30,63,195,9.49,true,Pune,Real Estate Agent,Medium
+52,52,177,49.18,false,Lucknow,Shop Owner,Medium
+35,65,181,17.48,false,Bhopal,Shop Owner,Low
+46,73,194,43.57,true,Indore,Chef,High
+31,50,176,17.33,false,Meerut,Real Estate Agent,Low
+47,64,179,29.37,false,Kanpur,Shop Owner,Low
+29,55,193,22.18,false,Ludhiana,Lab Technician,Low
+50,88,173,17.71,true,Faridabad,Shop Owner,High
+24,65,154,38.34,true,Pune,Lawyer,High
+23,81,192,21.2,false,Ghaziabad,Factory Worker,Low
+43,89,151,8.44,false,Ahmedabad,Lab Technician,Medium
+33,59,189,49.16,false,Meerut,Sales Manager,Medium
+23,65,172,23.45,false,Visakhapatnam,Teacher,Low
+39,49,167,8.3,false,Lucknow,Insurance Agent,Low
+25,95,192,35.65,false,Meerut,Real Estate Agent,Low
+38,73,171,21.02,true,Ranchi,Software Engineer,Medium
+57,61,157,45.67,false,Ludhiana,Insurance Agent,Medium
+64,91,172,43.26,false,Ahmedabad,Marketing Manager,High
+51,54,176,32.38,false,Meerut,Nurse,Medium
+60,74,179,48.84,true,Pune,Sales Manager,High
+58,60,161,11.79,false,Kolkata,Banker,Low
+63,83,170,30.26,true,Mumbai,Doctor,High
+28,62,152,27.17,true,Mumbai,Businessman,Medium
+18,88,162,42.37,true,Nashik,Government Employee,High
+57,86,152,24.82,false,Ghaziabad,Real Estate Agent,High
+62,93,183,16.72,false,Allahabad,Accountant,Medium
+40,93,180,18.47,true,Hyderabad,Accountant,High
+44,90,190,30.06,false,Amritsar,Engineer,Low
+33,69,181,33.19,false,Rajkot,Lawyer,Low
+25,61,179,40.56,false,Lucknow,Architect,Low
+33,65,188,18.9,false,Chennai,Shop Owner,Low
+46,71,192,37.49,false,Agra,Civil Servant,Low
+31,84,162,12.47,true,Varanasi,Government Employee,High
+50,64,173,21.82,false,Nashik,Government Employee,Low
+52,85,154,46.85,false,Kolkata,Banker,High
+55,96,177,22.55,false,Hyderabad,Marketing Manager,High
+20,58,192,21.78,false,Amritsar,Accountant,Low
+32,88,162,31.49,false,Rajkot,Lawyer,Medium
+20,84,184,23.08,true,Kanpur,Civil Servant,Medium
+40,86,178,4.98,false,Lucknow,Consultant,Low
+42,69,153,45.35,false,Srinagar,Real Estate Agent,Medium
+39,61,169,19.83,true,Indore,Chef,Medium
+50,45,190,3.78,false,Ranchi,Engineer,Low
+55,49,151,39.37,false,Pune,Real Estate Agent,Medium
+63,64,181,4.31,false,Delhi,Accountant,Low
+37,49,187,20.01,false,Rajkot,Lawyer,Medium
+48,96,154,19.7,false,Lucknow,Civil Servant,Medium
+38,97,188,47,true,Meerut,Teacher,High
+22,74,195,33.07,true,Ludhiana,Accountant,Medium
+53,79,189,44.05,false,Bhopal,Civil Servant,Medium
+62,48,154,10.73,false,Visakhapatnam,Government Employee,Low
+42,70,194,31.88,false,Mumbai,Carpenter,Low
+40,97,191,9.87,true,Mumbai,Driver,High
+25,80,167,49.15,false,Jaipur,Driver,Low
+57,62,171,20.35,false,Visakhapatnam,Architect,Medium
+44,95,151,18.26,false,Nagpur,Retail Manager,Medium
+23,48,174,19.58,false,Kanpur,Nurse,Low
+57,99,184,46.78,true,Agra,Architect,High
+51,59,160,37.56,false,Ludhiana,Civil Servant,Medium
+64,54,191,9.74,false,Kolkata,Software Engineer,Medium
+28,74,159,6.84,false,Bangalore,Consultant,Low
+37,48,185,23.38,false,Pune,Retail Manager,Medium
+44,91,195,40.37,false,Amritsar,Software Engineer,Low
+20,81,188,31.41,false,Amritsar,Retail Manager,Low
+63,99,158,32.9,false,Pune,Civil Servant,High
+58,61,157,42.76,true,Indore,Real Estate Agent,High
+21,75,165,5.63,false,Varanasi,Accountant,Low
+21,57,165,2.09,false,Delhi,Consultant,Low
+42,95,169,12.98,false,Ahmedabad,Content Writer,Medium
+49,59,195,23.67,false,Visakhapatnam,Chef,Medium
+31,52,169,32.2,false,Nagpur,Lawyer,Medium
+38,63,191,28.11,false,Amritsar,Doctor,Medium
+38,53,160,48.28,true,Visakhapatnam,Doctor,Medium
+21,87,151,4.34,false,Rajkot,Accountant,Low
+62,81,150,35.99,false,Kolkata,Sales Manager,High
+31,71,185,49.97,true,Meerut,Civil Servant,Medium
+44,97,186,38.66,false,Bangalore,Banker,Medium
+46,46,191,12.48,false,Bangalore,Civil Servant,Medium
+44,90,157,30.25,false,Delhi,Government Employee,Medium
+50,96,159,48.35,false,Indore,Architect,Medium
+49,83,162,8.13,false,Ranchi,Government Employee,Medium
+33,63,189,18.95,false,Agra,HR Manager,Low
+54,91,152,12.54,false,Amritsar,Electrician,Medium
+32,81,156,35.43,false,Allahabad,Shop Owner,Medium
+53,81,186,13.47,false,Patna,Chef,Low
+42,81,194,48.47,false,Patna,Sales Manager,Low
+25,70,170,10.46,true,Mumbai,Civil Servant,Medium
+61,83,184,5.74,true,Ghaziabad,Doctor,High
+28,82,186,49.01,false,Agra,Businessman,Low
+60,85,184,26.05,false,Bangalore,Architect,Medium
+62,84,175,25.67,false,Kolkata,Insurance Agent,Medium
+33,70,171,8.58,false,Srinagar,Nurse,Low
+41,75,180,22.33,false,Ghaziabad,Sales Manager,Low
+52,54,184,30.78,false,Ludhiana,Consultant,Medium
+58,92,151,14.3,false,Ghaziabad,Government Employee,Medium
+22,97,160,49.05,true,Ludhiana,Chef,High
+54,94,192,43.85,false,Faridabad,Carpenter,Medium
+47,56,166,41.2,false,Jaipur,Marketing Manager,Low
+63,93,157,31.47,false,Indore,Engineer,High
+57,84,195,22.35,true,Visakhapatnam,Sales Manager,High
+56,98,165,20.52,false,Visakhapatnam,Retail Manager,High
+42,74,158,11.9,false,Bangalore,Accountant,Medium
+50,66,156,20.53,false,Hyderabad,Shop Owner,Medium
+18,67,155,3.35,false,Ahmedabad,Content Writer,Low
+34,49,171,48.21,false,Patna,Teacher,Medium
+33,64,189,10.89,false,Lucknow,Consultant,Low
+18,54,170,45.69,false,Indore,Civil Servant,Low
+20,68,159,13.03,false,Jaipur,Accountant,Low
+56,86,186,42.53,false,Lucknow,Data Analyst,Medium
+30,74,155,23.89,true,Kanpur,Consultant,High
+26,63,189,3.13,false,Surat,HR Manager,Low
+38,70,153,39.72,false,Agra,Marketing Manager,High
+63,98,190,7.38,false,Mumbai,Chef,Medium
+49,49,164,11.26,false,Ludhiana,Data Analyst,Medium
+51,47,186,39.18,true,Faridabad,Banker,High
+24,54,182,32.24,true,Ranchi,Data Analyst,High
+32,66,179,27.38,false,Agra,Sales Manager,Low
+55,79,174,32.08,false,Indore,Engineer,Medium
+31,65,161,18.7,false,Bhopal,Real Estate Agent,Low
+22,91,180,30.65,true,Varanasi,Electrician,High
+34,60,187,6.5,false,Patna,Software Engineer,Low
+54,64,161,23.17,true,Ranchi,Shop Owner,High
+27,97,182,12.72,false,Bhopal,Sales Manager,Low
+56,72,156,18.84,true,Kanpur,Insurance Agent,High
+60,47,162,15.7,false,Kolkata,Driver,Medium
+18,98,163,18.89,false,Bhopal,Doctor,Low
+37,92,165,48.46,true,Lucknow,Nurse,High
+63,73,171,44.86,false,Patna,Shop Owner,Medium
+39,60,155,45.15,false,Bhopal,Teacher,Low
+59,85,191,24.81,false,Kanpur,Consultant,Medium
+40,66,173,42.68,true,Chennai,Carpenter,Medium
+40,56,165,31.1,true,Indore,Sales Manager,Medium
+25,62,162,37.65,true,Varanasi,Insurance Agent,Medium
+29,81,169,10,false,Amritsar,Data Analyst,Low
+37,61,188,28.63,true,Visakhapatnam,Chef,High
+26,65,194,12.01,false,Ghaziabad,Pharmacist,Low
+21,56,161,41.08,false,Mumbai,HR Manager,Low
