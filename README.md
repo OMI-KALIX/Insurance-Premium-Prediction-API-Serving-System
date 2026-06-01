@@ -28,14 +28,72 @@ The project follows a complete MLOps-inspired workflow:
 **API Documentation**
 
 ```text
-https://your-api-url.onrender.com/docs
+https://insurance-premium-prediction-api-serving.onrender.com
 ```
 
 **Streamlit Application**
 
 ```text
-https://your-streamlit-url.onrender.com
-```
+https://insurance-premium-prediction-api-serving-98v3.onrender.com/```
+---
+## 📸 Application Screenshots
+
+
+
+### 🖥️ Interactive Streamlit Dashboard
+
+
+
+<p align="center">
+
+  <img src="assets/ui.png" alt="Insurance Premium Prediction UI" width="100%">
+
+</p>
+
+
+
+The Streamlit dashboard provides an intuitive interface for collecting customer details, predicting insurance premium categories, displaying risk assessments, and generating personalized recommendations.
+
+
+
+---
+
+
+
+### 🚀 FastAPI Documentation & Testing
+
+
+
+<p align="center">
+
+  <img src="assets/api_docs.png" alt="FastAPI Swagger Documentation" width="100%">
+
+</p>
+
+
+
+Interactive Swagger UI documentation enables developers to test API endpoints, validate request payloads, and integrate the prediction service into external applications.
+
+
+
+---
+## 📸 Application Screenshots
+
+### 🖥️ Interactive Streamlit Dashboard
+
+<p align="center">
+
+  <img src="assets/ui.png" alt="Insurance Premium Prediction UI" width="100%">
+
+</p>
+---
+### 🚀 FastAPI Documentation & Testing
+
+<p align="center">
+
+  <img src="assets/api_docs.png" alt="FastAPI Swagger Documentation" width="100%">
+
+</p>
 
 ---
 
