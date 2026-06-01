@@ -1,0 +1,17 @@
+version: "1"
+services:
+  - type: web
+    name: insurance-premium-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn insurance_premium_api:app --host 0.0.0.0 --port $PORT
+    autoDeploy: true
+
+  - type: web
+    name: insurance-premium-ui
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run UI.py --server.port $PORT --server.address 0.0.0.0
+    autoDeploy: true
