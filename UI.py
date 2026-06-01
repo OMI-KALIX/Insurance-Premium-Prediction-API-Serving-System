@@ -12,7 +12,7 @@ st.set_page_config(
 
 # API URL
 
-API_URL = "http://localhost:8000/predict"
+API_URL = "https://insurance-premium-prediction-api-serving.onrender.com/predict"
 
 # BACKGROUND + CUSTOM CSS
 
