@@ -1,21 +1,30 @@
 # 🏥 Insurance Premium Prediction API & Serving System
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.12+-blue?style=for-the-badge&logo=python"/>
-  <img src="https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi"/>
-  <img src="https://img.shields.io/badge/Streamlit-Frontend-FF4B4B?style=for-the-badge&logo=streamlit"/>
-  <img src="https://img.shields.io/badge/Scikit--Learn-ML-F7931E?style=for-the-badge&logo=scikitlearn"/>
-  <img src="https://img.shields.io/badge/Pydantic-Validation-E92063?style=for-the-badge&logo=pydantic"/>
-  <img src="https://img.shields.io/badge/Render-Deployed-46E3B7?style=for-the-badge&logo=render"/>
-  <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge"/>
 
-  <a href="https://hub.docker.com/r/omikalix/insurance-premium-app">
-    <img src="https://img.shields.io/docker/pulls/omikalix/insurance-premium-app?style=for-the-badge&logo=docker&label=Docker%20Pulls" />
-  </a>
+<img src="https://img.shields.io/badge/Python-3.12+-3776AB?style=flat-square&logo=python&logoColor=white"/>
 
-  <a href="https://hub.docker.com/r/omikalix/insurance-premium-app">
-    <img src="https://img.shields.io/docker/image-size/omikalix/insurance-premium-app/latest?style=for-the-badge&logo=docker&label=Image%20Size" />
-  </a>
+<img src="https://img.shields.io/badge/FastAPI-Backend-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Streamlit-Frontend-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Scikit--Learn-ML-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Pydantic-Validation-E92063?style=flat-square&logo=pydantic&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Render-Deployed-46E3B7?style=flat-square&logo=render&logoColor=black"/>
+
+<img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square"/>
+
+<a href="https://hub.docker.com/r/omikalix/insurance-premium-app">
+<img src="https://img.shields.io/docker/pulls/omikalix/insurance-premium-app?style=flat-square&logo=docker&label=Docker%20Pulls"/>
+</a>
+
+<a href="https://hub.docker.com/r/omikalix/insurance-premium-app">
+<img src="https://img.shields.io/docker/image-size/omikalix/insurance-premium-app/latest?style=flat-square&logo=docker&label=Image%20Size"/>
+</a>
+
 </p>
 
 An end-to-end Machine Learning application that predicts insurance premium categories based on customer demographics, lifestyle factors, health indicators, and financial information.
