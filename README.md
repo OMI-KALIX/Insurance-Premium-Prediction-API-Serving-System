@@ -43,6 +43,34 @@ https://insurance-premium-prediction-api-serving-98v3.onrender.com/
 ### Note
 
 The backend is hosted on Render and may enter a sleep state after periods of inactivity. The first request may take a little longer while the server wakes up. Once initialized, the application should respond normally.
+
+## 🐳 Docker Image
+
+The project is also available as a Docker image on Docker Hub.
+
+**Docker Hub Repository**
+
+https://hub.docker.com/r/omikalix/insurance-premium-app
+
+### Pull Image
+
+```bash
+docker pull omikalix/insurance-premium-app
+```
+
+### Run Container
+
+```bash
+docker run -p 8000:8000 -p 8501:8501 omikalix/insurance-premium-app
+```
+
+### Access Application
+
+* Streamlit UI: http://127.0.0.1:8501
+* FastAPI Docs: http://127.0.0.1:8000/docs
+
+> Note: The services listen on `0.0.0.0` inside the container but should be accessed through `127.0.0.1` or `localhost` from your browser.
+
 ---
 ## 📸 Application Screenshots
 
