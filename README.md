@@ -8,12 +8,13 @@
   <img src="https://img.shields.io/badge/Render-Deployed-46E3B7?style=for-the-badge&logo=render"/>
   <img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge"/>
-  
+
   <a href="https://hub.docker.com/r/omikalix/insurance-premium-app">
-    <img src="https://img.shields.io/docker/pulls/omikalix/insurance-premium-app?style=for-the-badge&logo=docker" />
+    <img src="https://img.shields.io/docker/pulls/omikalix/insurance-premium-app?style=for-the-badge&logo=docker&label=Docker%20Pulls" />
   </a>
+
   <a href="https://hub.docker.com/r/omikalix/insurance-premium-app">
-    <img src="https://img.shields.io/docker/v/omikalix/insurance-premium-app?style=for-the-badge&logo=docker&label=Docker%20Image" />
+    <img src="https://img.shields.io/docker/image-size/omikalix/insurance-premium-app/latest?style=for-the-badge&logo=docker&label=Image%20Size" />
   </a>
 </p>
 
