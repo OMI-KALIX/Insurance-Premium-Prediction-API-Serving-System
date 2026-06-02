@@ -25,17 +25,24 @@ The project follows a complete MLOps-inspired workflow:
 
 # 🚀 Live Demo
 
-**API Documentation**
+## API Documentation
 
-```text
 https://insurance-premium-prediction-api-serving.onrender.com
-```
 
-**Streamlit Application**
+## Streamlit Application
 
-```text
 https://insurance-premium-prediction-api-serving-98v3.onrender.com/
-```
+
+### Getting Started
+
+1. Open the API documentation link first.
+2. Wait for the API to respond successfully.
+3. Open the Streamlit application.
+4. Enter the required details and generate a prediction.
+
+### Note
+
+The backend is hosted on Render and may enter a sleep state after periods of inactivity. The first request may take a little longer while the server wakes up. Once initialized, the application should respond normally.
 ---
 ## 📸 Application Screenshots
 
