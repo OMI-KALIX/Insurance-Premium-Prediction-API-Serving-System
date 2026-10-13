@@ -50,7 +50,7 @@ st.set_page_config(
     page_title="Patient 360 | HealthSure EHR",
     page_icon="🩺",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="collapsed"
 )
 
 render_sidebar_branding()

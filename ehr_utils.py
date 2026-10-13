@@ -14,9 +14,14 @@ Includes:
 from __future__ import annotations
 
 import os
+import pickle
+import warnings
 from datetime import date, datetime
 from pathlib import Path
 from typing import Any, Dict, Tuple, Union
+
+from dotenv import load_dotenv
+load_dotenv()
 
 import numpy as np
 import pandas as pd
@@ -587,10 +592,17 @@ def build_master_patient_table() -> pd.DataFrame:
 
 @st.cache_resource
 def load_insurance_model():
-    """Load local trained insurance model pipeline."""
+    """Load local trained insurance model pipeline with cross-version scikit-learn patch."""
     import pickle
     import warnings
+    import sklearn.compose._column_transformer as ct
     
+    # Scikit-learn 1.7+ backward compatibility patch
+    if not hasattr(ct, "_RemainderColsList"):
+        class _RemainderColsList(list):
+            pass
+        ct._RemainderColsList = _RemainderColsList
+
     project_root = Path(__file__).resolve().parent
     model_paths = [
         project_root / "insurance_premium_model.pkl",
@@ -684,70 +696,494 @@ def predict_premium(
 
 
 # ---------------------------------------------------------------------------
-# Sidebar UI & Branding Customization
+# Batch Portfolio Scoring & Dynamic Data Pipeline
 # ---------------------------------------------------------------------------
+
+def score_insurance_dataframe(df_input: pd.DataFrame) -> pd.DataFrame:
+    """
+    Standardize, engineer features, and predict insurance premium categories
+    for any input DataFrame (uploaded CSV/Excel or default dataset).
+    Returns an enriched DataFrame with all metrics and predictions.
+    """
+    df = df_input.copy()
+    
+    # 1. Standardize column names (strip, lowercase, replace spaces)
+    rename_dict = {}
+    for col in df.columns:
+        c_clean = str(col).strip().lower().replace(" ", "_")
+        if c_clean in ["annual_income", "income", "income_inr"]:
+            rename_dict[col] = "income_lpa"
+        elif c_clean in ["height_in_m", "height_meters"]:
+            rename_dict[col] = "height"
+        elif c_clean in ["weight_in_kg", "weight_kg"]:
+            rename_dict[col] = "weight"
+        elif c_clean in ["smoking", "smoking_status", "is_smoker"]:
+            rename_dict[col] = "smoker"
+        elif c_clean != col:
+            rename_dict[col] = c_clean
+            
+    df = df.rename(columns=rename_dict)
+    
+    # Defaults for missing essential columns
+    if "age" not in df.columns:
+        df["age"] = 35
+    if "weight" not in df.columns:
+        df["weight"] = 70.0
+    if "height" not in df.columns:
+        df["height"] = 170.0
+    if "income_lpa" not in df.columns:
+        df["income_lpa"] = 10.0
+    if "smoker" not in df.columns:
+        df["smoker"] = 0
+    if "city" not in df.columns:
+        df["city"] = "Mumbai"
+    if "occupation" not in df.columns:
+        df["occupation"] = "Software Engineer"
+
+    # Numeric conversion with safe coercion
+    df["age"] = pd.to_numeric(df["age"], errors="coerce").fillna(35).astype(int)
+    df["weight"] = pd.to_numeric(df["weight"], errors="coerce").fillna(70.0)
+    df["height"] = pd.to_numeric(df["height"], errors="coerce").fillna(170.0)
+    df["income_lpa"] = pd.to_numeric(df["income_lpa"], errors="coerce").fillna(10.0)
+
+    # Standardize height: determine if height is in cm or meters
+    df["height_m"] = df["height"].apply(lambda h: float(h) / 100.0 if float(h) > 3.0 else float(h))
+    df["height_cm"] = df["height"].apply(lambda h: float(h) if float(h) > 3.0 else float(h) * 100.0)
+
+    # 2. Compute Biometrics & Engineered Features
+    df["bmi"] = (df["weight"] / (df["height_m"] ** 2)).round(2)
+    df["bmi_category"] = df["bmi"].apply(lambda b: get_bmi_category(b)[0])
+    df["income_per_age"] = (df["income_lpa"] / df["age"].clip(lower=1)).round(4)
+    df["weight_height_ratio"] = (df["weight"] / df["height_cm"].clip(lower=10.0)).round(4)
+    df["income_bmi"] = (df["income_lpa"] * df["bmi"]).round(2)
+
+    def parse_smoker(val):
+        v = str(val).strip().lower()
+        if v in ["true", "1", "yes", "y", "smoker"]:
+            return 1
+        return 0
+
+    df["smoker"] = df["smoker"].apply(parse_smoker)
+    df["smoker_income"] = (df["smoker"] * df["income_lpa"]).round(2)
+    df["health_risk_index"] = (df["bmi"] * 0.4 + df["age"] * 0.3 + df["smoker"] * 20.0).round(2)
+
+    def classify_tier(c):
+        c_str = str(c).strip().title()
+        if c_str in TIER1_CITIES:
+            return 1
+        elif c_str in TIER2_CITIES:
+            return 2
+        return 3
+
+    df["city_tier"] = df["city"].apply(classify_tier)
+
+    # Clean occupation to match model training categories
+    def clean_occ(o):
+        o_str = str(o).strip()
+        matched = [cand for cand in OCCUPATIONS if cand.lower() == o_str.lower()]
+        return matched[0] if matched else "Software Engineer"
+
+    df["occupation"] = df["occupation"].apply(clean_occ)
+
+    # 3. Model Inference (Batch Vectorized)
+    model = load_insurance_model()
+    feature_cols = [
+        "age", "income_lpa", "occupation", "smoker", "city_tier",
+        "bmi", "income_per_age", "weight_height_ratio", "income_bmi",
+        "smoker_income", "health_risk_index"
+    ]
+    df_features = df[feature_cols]
+
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+        predictions = model.predict(df_features)
+    
+    df["predicted_insurance_premium_category"] = predictions
+    return df
+
+
+@st.cache_data
+def get_default_portfolio() -> pd.DataFrame:
+    """Load and score baseline Indian Insurance dataset."""
+    project_root = Path(__file__).resolve().parent
+    csv_path = project_root / "Indian_Insurance_Data.csv"
+    if csv_path.exists():
+        df_raw = pd.read_csv(csv_path)
+    else:
+        # Fallback dummy data
+        df_raw = pd.DataFrame([
+            {"age": 35, "weight": 72, "height": 175, "income_lpa": 12.0, "smoker": 0, "city": "Mumbai", "occupation": "Software Engineer"}
+        ])
+    return score_insurance_dataframe(df_raw)
+
+
+def get_active_portfolio() -> Tuple[pd.DataFrame, str]:
+    """Retrieve active session portfolio or fallback to scored baseline dataset."""
+    if "active_portfolio" in st.session_state and st.session_state["active_portfolio"] is not None:
+        return st.session_state["active_portfolio"], st.session_state.get("portfolio_name", "Uploaded Portfolio")
+    
+    default_df = get_default_portfolio()
+    st.session_state["active_portfolio"] = default_df
+    st.session_state["portfolio_name"] = "Indian Insurance Benchmark (4,000 Records)"
+    return default_df, st.session_state["portfolio_name"]
+
+
+def set_active_portfolio(df: pd.DataFrame, source_name: str) -> None:
+    """Store scored portfolio in session state."""
+    st.session_state["active_portfolio"] = df
+    st.session_state["portfolio_name"] = source_name
+
+
+def reset_to_default_portfolio() -> None:
+    """Reset active portfolio back to default benchmark."""
+    default_df = get_default_portfolio()
+    st.session_state["active_portfolio"] = default_df
+    st.session_state["portfolio_name"] = "Indian Insurance Benchmark (4,000 Records)"
+
+
+# ---------------------------------------------------------------------------
+# Gemini LLM Actuarial Engine (Dual Mode: Live Gemini API + Offline Fallback)
+# ---------------------------------------------------------------------------
+
+def call_gemini(prompt: str, api_key: Optional[str] = None) -> Optional[str]:
+    """Call Google Gemini API using GEMINI_API_KEY configured securely in .env."""
+    key = (api_key or os.environ.get("GEMINI_API_KEY", "")).strip()
+    if not key:
+        return None
+    
+    # 1. Try google.genai (new official SDK)
+    try:
+        from google import genai
+        client = genai.Client(api_key=key)
+        resp = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt,
+        )
+        if resp and resp.text:
+            return resp.text.strip()
+    except Exception:
+        pass
+
+    # 2. Fallback to google.generativeai
+    try:
+        import google.generativeai as gai
+        gai.configure(api_key=key)
+        m = gai.GenerativeModel("gemini-1.5-flash")
+        resp = m.generate_content(prompt)
+        if resp and resp.text:
+            return resp.text.strip()
+    except Exception:
+        pass
+
+    return None
+
+
+def generate_actuarial_narrative(applicant: Dict[str, Any], api_key: Optional[str] = None) -> str:
+    """Generate executive underwriting explanation using Gemini LLM or structured heuristics."""
+    prompt = f"""
+You are a senior insurance actuary and medical underwriter for HealthSure InsurTech.
+Generate an executive underwriting risk report for the following applicant:
+
+- Age: {applicant.get('age')} years
+- Gender/Biometrics: Height {applicant.get('height')} m, Weight {applicant.get('weight')} kg, BMI: {applicant.get('bmi')} ({applicant.get('bmi_category')})
+- Tobacco / Smoker: {'Smoker (Active)' if applicant.get('smoker') == 1 else 'Non-Smoker'}
+- Annual Income: {applicant.get('income_lpa')} LPA (INR)
+- City: {applicant.get('city')} (Tier {applicant.get('city_tier')})
+- Occupation: {applicant.get('occupation')}
+- Health Risk Index: {applicant.get('health_risk_index')}
+- ML Predicted Premium Tier: {applicant.get('predicted_tier')}
+
+Provide a structured, executive-grade evaluation with:
+1. **Actuarial Risk Assessment**: Primary risk drivers (BMI, tobacco, age, occupational exposure).
+2. **Policy Loading & Premium Rationale**: Why this premium tier ({applicant.get('predicted_tier')}) is justified.
+3. **Recommended Underwriting Riders / Exclusions**: Suggested riders (e.g. Critical Illness, Cardiac copay, Lifestyle loading).
+4. **Applicant Wellness Action Plan**: Specific clinical and lifestyle steps to reduce risk profile upon next policy renewal.
+
+Keep tone professional, analytical, concise, and structured with markdown bullet points.
+"""
+    llm_result = call_gemini(prompt, api_key)
+    if llm_result:
+        return llm_result
+
+    # Offline Resilient Fallback
+    tier = applicant.get('predicted_tier', 'Medium')
+    bmi = float(applicant.get('bmi', 24.0))
+    smoker = int(applicant.get('smoker', 0))
+    age = int(applicant.get('age', 35))
+
+    bullets = []
+    if smoker == 1:
+        bullets.append("• **Tobacco Exposure:** Active smoking status carries a severe actuarial morbidity loading (+40-60% base rate loading).")
+    else:
+        bullets.append("• **Tobacco Status:** Non-smoker baseline qualifies for preferred lifestyle rating credits.")
+
+    if bmi >= 30.0:
+        bullets.append(f"• **Biometric Elevation:** BMI {bmi:.1f} indicates clinical obesity, contributing to metabolic and cardiovascular risk loading.")
+    elif bmi < 18.5:
+        bullets.append(f"• **Nutritional Variance:** Underweight BMI {bmi:.1f} warrants clinical exclusion review.")
+    else:
+        bullets.append(f"• **Biometric Stability:** BMI {bmi:.1f} sits within normal standard parameters.")
+
+    if age >= 50:
+        bullets.append(f"• **Age Cohort:** Age {age} exceeds senior actuarial threshold, triggering mandatory ECG/HbA1c diagnostic tele-mer.")
+
+    return f"""
+### 📋 Executive Underwriting Report (Actuarial Intelligence)
+
+**Overall Actuarial Rating:** **{tier} Premium Bracket** (Health Risk Index: `{applicant.get('health_risk_index', 'N/A')}`)
+
+#### 1. Primary Risk Drivers
+{chr(10).join(bullets)}
+• **Territory & Profession:** {applicant.get('city')} (Tier {applicant.get('city_tier')}) &bull; {applicant.get('occupation')}
+
+#### 2. Underwriting Policy Recommendations
+- **Recommended Policy Riders:** {'Mandatory Tobacco Cardiovascular Surcharge, Critical Illness Copay (15%)' if smoker else 'Standard Comprehensive Health Cover with Annual Preventive Checkup Rider'}
+- **Deductible Optimization:** 10% co-pay recommended if applicant has pre-existing condition history.
+- **Renewal Wellness Rebate:** Applicant eligible for a 15% premium reduction upon verifying smoking cessation or reaching BMI < 25 at 12-month policy review.
+"""
+
+
+def generate_portfolio_executive_summary(df: pd.DataFrame, api_key: Optional[str] = None) -> str:
+    """Generate high-level executive portfolio risk brief using Gemini or analytics summary."""
+    total = len(df)
+    counts = df["predicted_insurance_premium_category"].value_counts().to_dict()
+    smoker_pct = (df["smoker"] == 1).mean() * 100
+    avg_age = df["age"].mean()
+    avg_bmi = df["bmi"].mean()
+    high_count = counts.get("High", 0)
+
+    prompt = f"""
+You are the Chief Underwriting Officer for HealthSure.
+Write a concise 3-paragraph executive portfolio underwriting summary for the executive committee based on these uploaded portfolio statistics:
+
+- Total Insured Lives / Applicants: {total:,}
+- Premium Tier Breakdown: High: {high_count} ({(high_count/total*100):.1f}%), Medium: {counts.get('Medium', 0)}, Low: {counts.get('Low', 0)}
+- Smoker Prevalence: {smoker_pct:.1f}%
+- Mean Age: {avg_age:.1f} years
+- Mean BMI: {avg_bmi:.1f} kg/m²
+- Top Cities: {', '.join(df['city'].value_counts().head(3).index.tolist())}
+
+Provide:
+1. Executive Risk Diagnosis & Portfolio Exposure
+2. Critical Actuarial Observations (Smoker vs. Obesity hotspots)
+3. Actionable Underwriting Recommendations for Capital Reserves & Pricing
+Keep it concise, professional, and impactful.
+"""
+    llm_result = call_gemini(prompt, api_key)
+    if llm_result:
+        return llm_result
+
+    return f"""
+### 📊 Executive Portfolio Underwriting Summary
+
+**Portfolio Size:** {total:,} Lives Audited &bull; **High-Risk Concentration:** {high_count} ({(high_count/total*100):.1f}%)
+
+1. **Portfolio Exposure Overview:**
+   The portfolio exhibits an average applicant age of **{avg_age:.1f} years** and a mean BMI of **{avg_bmi:.1f} kg/m²**. Overall risk is distributed into {counts.get('Low', 0)} Low, {counts.get('Medium', 0)} Medium, and {high_count} High risk lives.
+2. **Key Actuarial Observations:**
+   Tobacco prevalence sits at **{smoker_pct:.1f}%**, representing the single largest contributor to the High Risk tier. Concentration of applicants in Tier 1 urban zones correlates with higher claimed lifestyle strain.
+3. **Underwriting Action Items:**
+   - Enforce mandatory tele-underwriting and diagnostic biomarker panels for all applicants in the High Risk bracket.
+   - Introduce proactive wellness incentive riders offering premium reductions for verified smoking cessation.
+"""
+
+
+# ---------------------------------------------------------------------------
+# Visual Styling System & Sidebar UI
+# ---------------------------------------------------------------------------
+
+def get_plotly_layout(title: str = "") -> Dict[str, Any]:
+    """Returns standardized enterprise-grade dark glassmorphism Plotly layout."""
+    return dict(
+        template="plotly_dark",
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        title=dict(
+            text=f"<b>{title}</b>" if title else "",
+            font=dict(family="Plus Jakarta Sans, sans-serif", size=15, color="#f8fafc"),
+            x=0.02,
+            y=0.96
+        ),
+        font=dict(family="Plus Jakarta Sans, sans-serif", color="#cbd5e1", size=12),
+        margin=dict(t=50, b=30, l=30, r=30),
+        xaxis=dict(
+            gridcolor="rgba(255, 255, 255, 0.06)",
+            zerolinecolor="rgba(255, 255, 255, 0.1)",
+        ),
+        yaxis=dict(
+            gridcolor="rgba(255, 255, 255, 0.06)",
+            zerolinecolor="rgba(255, 255, 255, 0.1)",
+        ),
+        legend=dict(
+            font=dict(family="Plus Jakarta Sans, sans-serif", size=11, color="#94a3b8"),
+            bgcolor="rgba(15, 23, 42, 0.4)",
+            bordercolor="rgba(255, 255, 255, 0.06)",
+            borderwidth=1
+        )
+    )
+
 
 def render_sidebar_branding() -> None:
     """
-    Renders unified sidebar styling, branded header, and custom navigation
-    labels across all HealthSure Streamlit pages.
+    Renders unified enterprise design tokens, typography, glassmorphism cards,
+    interactive hover micro-interactions, and status beacon across all Streamlit pages.
     """
-    # 1. Custom CSS for sidebar navigation items and dark-mode polished styling
     st.markdown(
         """
         <style>
-        /* Modern Sidebar Navigation Labels */
-        [data-testid="stSidebarNav"] {
-            padding-top: 0.6rem !important;
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+        /* Clean Typography without overriding Streamlit Material Symbol Icons */
+        html, body, .stApp, .stMarkdown, p, h1, h2, h3, h4, h5, h6, label {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
         }
-        
-        [data-testid="stSidebarNav"] ul li:nth-child(1) a span { display: none !important; }
-        [data-testid="stSidebarNav"] ul li:nth-child(1) a::after {
-            content: "🏥 Executive Hub" !important;
-            font-size: 0.92rem !important;
+
+        /* Protect Material Symbols icons used by Streamlit collapse button and headers */
+        [data-testid="stIconMaterial"],
+        [data-testid="stSidebarCollapsedControl"],
+        [data-testid="stSidebarCollapsedControl"] span,
+        [data-testid="stSidebarCollapseButton"] span,
+        [data-testid="stHeader"] span,
+        span[data-testid*="stIcon"],
+        [class*="material-symbols"],
+        [class*="material-icons"] {
+            font-family: 'Material Symbols Rounded', 'Material Symbols Outlined', 'Material Icons', sans-serif !important;
+        }
+
+        code, pre {
+            font-family: 'JetBrains Mono', monospace !important;
+        }
+
+        /* Ambient Radial Gradient Mesh */
+        .stApp {
+            background: radial-gradient(circle at 12% 15%, rgba(14, 165, 233, 0.09) 0%, transparent 40%),
+                        radial-gradient(circle at 88% 20%, rgba(99, 102, 241, 0.09) 0%, transparent 45%),
+                        radial-gradient(circle at 50% 85%, rgba(16, 185, 129, 0.06) 0%, transparent 50%),
+                        #0b0f19 !important;
+            color: #f1f5f9;
+        }
+
+        /* Glassmorphism Metric Cards */
+        div[data-testid="stMetric"] {
+            background: rgba(15, 23, 42, 0.65) !important;
+            backdrop-filter: blur(14px) !important;
+            -webkit-backdrop-filter: blur(14px) !important;
+            border: 1px solid rgba(255, 255, 255, 0.08) !important;
+            border-radius: 14px !important;
+            padding: 16px 20px !important;
+            box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.45) !important;
+            transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.25s ease, box-shadow 0.25s ease !important;
+        }
+        div[data-testid="stMetric"]:hover {
+            transform: translateY(-3px) !important;
+            border-color: rgba(56, 189, 248, 0.4) !important;
+            box-shadow: 0 12px 28px -4px rgba(56, 189, 248, 0.18) !important;
+        }
+        div[data-testid="stMetricLabel"] {
+            font-size: 0.82rem !important;
+            font-weight: 700 !important;
+            color: #94a3b8 !important;
+            text-transform: uppercase !important;
+            letter-spacing: 0.05em !important;
+        }
+        div[data-testid="stMetricValue"] {
+            font-size: 1.85rem !important;
+            font-weight: 800 !important;
+            color: #ffffff !important;
+            letter-spacing: -0.025em !important;
+        }
+
+        /* Gradient Glowing Buttons */
+        button[kind="primary"], .stButton > button {
+            background: linear-gradient(135deg, #0284c7 0%, #2563eb 50%, #4f46e5 100%) !important;
+            color: #ffffff !important;
             font-weight: 600 !important;
+            border: 1px solid rgba(255, 255, 255, 0.16) !important;
+            border-radius: 10px !important;
+            padding: 0.55rem 1.35rem !important;
+            box-shadow: 0 4px 16px 0 rgba(37, 99, 235, 0.35) !important;
+            transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1) !important;
+        }
+        button[kind="primary"]:hover, .stButton > button:hover {
+            transform: translateY(-2px) !important;
+            box-shadow: 0 8px 24px 0 rgba(37, 99, 235, 0.55) !important;
+            border-color: rgba(56, 189, 248, 0.6) !important;
+        }
+        button[kind="primary"]:active, .stButton > button:active {
+            transform: translateY(0px) !important;
         }
 
-        [data-testid="stSidebarNav"] ul li:nth-child(2) a span { display: none !important; }
-        [data-testid="stSidebarNav"] ul li:nth-child(2) a::after {
-            content: "🩺 Patient 360" !important;
-            font-size: 0.92rem !important;
-            font-weight: 500 !important;
+        /* Glassmorphism Input & Selectbox Styling */
+        div[data-baseweb="select"] > div,
+        div[data-baseweb="input"] > div {
+            background: rgba(15, 23, 42, 0.75) !important;
+            border: 1px solid rgba(148, 163, 184, 0.2) !important;
+            border-radius: 10px !important;
+            transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
+        }
+        div[data-baseweb="select"] > div:focus-within,
+        div[data-baseweb="input"] > div:focus-within {
+            border-color: #38bdf8 !important;
+            box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2) !important;
         }
 
-        [data-testid="stSidebarNav"] ul li:nth-child(3) a span { display: none !important; }
-        [data-testid="stSidebarNav"] ul li:nth-child(3) a::after {
-            content: "🧬 Comorbidity Analysis" !important;
-            font-size: 0.92rem !important;
-            font-weight: 500 !important;
+        /* Modern Tabs */
+        div[data-baseweb="tab-list"] {
+            gap: 6px !important;
+            background: rgba(15, 23, 42, 0.5) !important;
+            padding: 6px !important;
+            border-radius: 12px !important;
+            border: 1px solid rgba(255, 255, 255, 0.06) !important;
         }
-
-        [data-testid="stSidebarNav"] ul li:nth-child(4) a span { display: none !important; }
-        [data-testid="stSidebarNav"] ul li:nth-child(4) a::after {
-            content: "👥 Cohort Builder" !important;
-            font-size: 0.92rem !important;
-            font-weight: 500 !important;
-        }
-
-        [data-testid="stSidebarNav"] ul li:nth-child(5) a span { display: none !important; }
-        [data-testid="stSidebarNav"] ul li:nth-child(5) a::after {
-            content: "🛡️ EHR Data Quality" !important;
-            font-size: 0.92rem !important;
-            font-weight: 500 !important;
-        }
-
-        [data-testid="stSidebarNav"] a {
+        div[data-baseweb="tab"] {
             border-radius: 8px !important;
-            padding: 8px 12px !important;
-            margin-bottom: 3px !important;
+            padding: 8px 18px !important;
+            font-weight: 600 !important;
+            color: #94a3b8 !important;
             transition: all 0.2s ease !important;
         }
-
-        [data-testid="stSidebarNav"] a:hover {
-            background: rgba(56, 189, 248, 0.15) !important;
-            transform: translateX(2px);
+        div[data-baseweb="tab"][aria-selected="true"] {
+            background: rgba(56, 189, 248, 0.16) !important;
+            color: #38bdf8 !important;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25) !important;
         }
-        
+        div[data-baseweb="tab-highlight"] {
+            display: none !important;
+        }
+
+        /* Modern Sidebar */
+        [data-testid="stSidebarNav"] {
+            padding-top: 0.5rem !important;
+        }
+        [data-testid="stSidebarNav"] a {
+            border-radius: 10px !important;
+            padding: 9px 14px !important;
+            margin-bottom: 4px !important;
+            font-weight: 500 !important;
+            color: #cbd5e1 !important;
+            transition: all 0.2s ease !important;
+        }
+        [data-testid="stSidebarNav"] a:hover {
+            background: rgba(56, 189, 248, 0.14) !important;
+            color: #38bdf8 !important;
+            transform: translateX(3px) !important;
+        }
+
+        /* Live Beacon Micro-Animation */
+        @keyframes pulseGlow {
+            0% { transform: scale(0.92); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.8); }
+            70% { transform: scale(1.05); box-shadow: 0 0 0 7px rgba(16, 185, 129, 0); }
+            100% { transform: scale(0.92); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+        }
+        .live-beacon {
+            width: 7px;
+            height: 7px;
+            background: #10b981;
+            border-radius: 50%;
+            display: inline-block;
+            animation: pulseGlow 2.2s infinite;
+        }
+
         /* Unified scrollbars */
         ::-webkit-scrollbar {
             width: 7px;
@@ -765,24 +1201,59 @@ def render_sidebar_branding() -> None:
         unsafe_allow_html=True
     )
 
-    # 2. Sidebar Header
+    # Sidebar Header
     st.sidebar.markdown(
         """
-        <div style="padding: 6px 2px 14px 2px; border-bottom: 1px solid rgba(255,255,255,0.1); margin-bottom: 14px;">
-            <div style="font-size: 1.28rem; font-weight: 800; color: #38bdf8; display: flex; align-items: center; gap: 8px; letter-spacing: -0.01em;">
-                🏥 HealthSure
+        <div style="padding: 6px 2px 14px 2px; border-bottom: 1px solid rgba(255,255,255,0.08); margin-bottom: 12px;">
+            <div style="font-size: 1.32rem; font-weight: 800; color: #38bdf8; display: flex; align-items: center; gap: 8px; letter-spacing: -0.015em;">
+                🏥 HealthSure InsurTech
             </div>
             <div style="font-size: 0.78rem; color: #94a3b8; margin-top: 2px;">
-                EHR Analytics & ML Underwriting
+                Unified AI Underwriting & EHR Intelligence
             </div>
-            <div style="margin-top: 8px; display: inline-flex; align-items: center; gap: 6px; background: rgba(16, 185, 129, 0.15); border: 1px solid rgba(16, 185, 129, 0.35); border-radius: 9999px; padding: 2px 8px; font-size: 0.72rem; color: #34d399; font-weight: 600;">
-                <span style="width: 6px; height: 6px; background: #10b981; border-radius: 50%; display: inline-block;"></span>
-                Connected &bull; v2.0 Live
+            <div style="margin-top: 8px; display: inline-flex; align-items: center; gap: 7px; background: rgba(16, 185, 129, 0.14); border: 1px solid rgba(16, 185, 129, 0.35); border-radius: 9999px; padding: 2px 10px; font-size: 0.72rem; color: #34d399; font-weight: 600;">
+                <span class="live-beacon"></span>
+                FastAPI &bull; ML Pipeline Active
             </div>
         </div>
         """,
         unsafe_allow_html=True
     )
+
+    # Active Portfolio Indicator
+    active_name = st.session_state.get("portfolio_name", "Benchmark Dataset (4,000)")
+    st.sidebar.markdown(
+        f"""
+        <div style="background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(56, 189, 248, 0.25); border-radius: 9px; padding: 9px 12px; margin-bottom: 14px;">
+            <div style="font-size: 0.7rem; text-transform: uppercase; font-weight: 700; color: #38bdf8; letter-spacing: 0.04em;">📂 Active Portfolio</div>
+            <div style="font-size: 0.82rem; color: #f1f5f9; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 2px;" title="{active_name}">{active_name}</div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+    # Gemini AI Status Badge (Key configured via .env)
+    gemini_key = os.environ.get("GEMINI_API_KEY", "").strip()
+    if gemini_key:
+        st.sidebar.markdown(
+            """
+            <div style="background: rgba(16, 185, 129, 0.12); border: 1px solid rgba(16, 185, 129, 0.35); border-radius: 9px; padding: 7px 12px; margin-bottom: 14px; font-size: 0.74rem; color: #34d399; font-weight: 600; display: flex; align-items: center; gap: 7px;">
+                <span class="live-beacon"></span>
+                Gemini LLM Active (via .env)
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+    else:
+        st.sidebar.markdown(
+            """
+            <div style="background: rgba(30, 41, 59, 0.6); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 9px; padding: 7px 12px; margin-bottom: 14px; font-size: 0.72rem; color: #94a3b8; font-weight: 500;">
+                ✨ Gemini LLM: Standby / Rule Engine<br>
+                <span style="font-size: 0.68rem; color: #64748b;">(Set GEMINI_API_KEY in .env)</span>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
 
 
 def render_sidebar_footer() -> None:
@@ -790,12 +1261,13 @@ def render_sidebar_footer() -> None:
     st.sidebar.markdown(
         """
         <div style="padding: 16px 2px 8px 2px; border-top: 1px solid rgba(255,255,255,0.08); margin-top: 24px; font-size: 0.76rem; color: #64748b; line-height: 1.5;">
-            <b style="color: #94a3b8;">HealthSure Intelligence Hub</b><br>
-            1,200 Patient Cohort &bull; 2,423 Encounters<br>
-            <span>FastAPI &bull; Scikit-Learn &bull; Streamlit</span>
+            <b style="color: #94a3b8;">HealthSure InsurTech Platform</b><br>
+            Multi-Module Actuarial Intelligence<br>
+            <span>FastAPI &bull; Scikit-Learn &bull; Gemini LLM &bull; Streamlit</span>
         </div>
         """,
         unsafe_allow_html=True
     )
+
 
 

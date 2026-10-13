@@ -1,9 +1,9 @@
 """
 UI.py
 -----
-HealthSure EHR & Insurance Underwriting Intelligence Hub.
-Unified platform connecting longitudinal Electronic Health Records (EHR) analytics
-with Machine Learning actuarial risk underwriting and premium classification.
+HealthSure InsurTech: Unified AI Underwriting & Health Actuarial Intelligence Hub.
+Integrates machine learning actuarial risk prediction, dynamic batch portfolio scoring,
+longitudinal Electronic Health Records (EHR) analytics, and Google Gemini LLM underwriting intelligence.
 """
 
 from __future__ import annotations
@@ -21,6 +21,8 @@ from ehr_utils import (
     ALL_CITIES,
     OCCUPATIONS,
     build_master_patient_table,
+    generate_actuarial_narrative,
+    get_active_portfolio,
     get_bmi_category,
     load_ehr,
     predict_premium,
@@ -34,10 +36,10 @@ from ehr_utils import (
 # ---------------------------------------------------------------------------
 
 st.set_page_config(
-    page_title="HealthSure | EHR & Insurance Intelligence",
+    page_title="HealthSure InsurTech | Executive Hub",
     page_icon="🏥",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="collapsed"
 )
 
 # Render unified sidebar branding & navigation styling
@@ -55,15 +57,15 @@ st.markdown(
     
     .hero-banner {
         background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(30, 58, 138, 0.85));
-        border: 1px solid rgba(255, 255, 255, 0.12);
+        border: 1px solid rgba(56, 189, 248, 0.25);
         border-radius: 16px;
         padding: 24px 32px;
         margin-bottom: 24px;
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
     }
     
     .hero-title {
-        font-size: 2.2rem;
+        font-size: 2.3rem;
         font-weight: 800;
         color: white;
         margin-bottom: 6px;
@@ -135,10 +137,14 @@ def get_hub_data():
 
 try:
     master_patients_df, cleaned_data, raw_data = get_hub_data()
+    active_portfolio_df, active_portfolio_name = get_active_portfolio()
+    
     total_pts = len(master_patients_df)
+    total_policies = len(active_portfolio_df)
     total_encs = len(cleaned_data["encounters"])
     avg_charlson = master_patients_df["charlson_score"].mean()
     high_risk_pts = int((master_patients_df["risk_group"] == "High").sum())
+    high_risk_policies = int((active_portfolio_df["predicted_insurance_premium_category"] == "High").sum())
 except Exception as e:
     st.error(f"Failed to load platform data: {e}")
     st.stop()
@@ -151,13 +157,13 @@ except Exception as e:
 st.markdown(
     """
     <div class="hero-banner">
-        <div class="hero-title">🏥 HealthSure EHR & Insurance Underwriting Hub</div>
+        <div class="hero-title">🏥 HealthSure InsurTech & Actuarial Intelligence Hub</div>
         <div class="hero-sub">
             Unified healthcare data intelligence platform integrating longitudinal Electronic Health Records, 
-            clinical comorbidity risk stratification, cohort exploration, and AI-driven insurance underwriting.
+            clinical comorbidity risk stratification, dynamic batch underwriting, and Google Gemini Actuarial Intelligence.
         </div>
         <div style="font-size: 0.88rem; color: #cbd5e1;">
-            <b>Architecture:</b> Streamlit Multipage Frontend &bull; FastAPI Serving System &bull; Scikit-Learn Random Forest Pipeline &bull; Local Resilient Fallback
+            <b>Architecture:</b> Streamlit Multi-Page &bull; High-Throughput FastAPI Serving &bull; Scikit-Learn Random Forest Pipeline &bull; Gemini LLM Underwriter
         </div>
     </div>
     """,
@@ -169,50 +175,51 @@ st.markdown(
 # 2. Executive KPI Summary Cards
 # ---------------------------------------------------------------------------
 
-kpi_c1, kpi_c2, kpi_c3, kpi_c4, kpi_c5 = st.columns(5)
-kpi_c1.metric("Patient Registry", f"{total_pts:,}", "Validated EHR")
-kpi_c2.metric("Encounter History", f"{total_encs:,}", "Longitudinal")
-kpi_c3.metric("Mean Charlson Score", f"{avg_charlson:.2f}", "CCI Baseline")
-kpi_c4.metric("High Comorbidity", f"{high_risk_pts}", f"{(high_risk_pts/total_pts*100):.1f}% Cohort")
-kpi_c5.metric("Data Quality Score", "100.0%", "Audited Clean")
+kpi_c1, kpi_c2, kpi_c3, kpi_c4, kpi_c5, kpi_c6 = st.columns(6)
+kpi_c1.metric("Insured Portfolio", f"{total_policies:,}", "Active Cohort")
+kpi_c2.metric("High-Risk Exposure", f"{high_risk_policies:,}", f"{(high_risk_policies/total_policies*100):.1f}% Policies")
+kpi_c3.metric("Clinical Registry", f"{total_pts:,}", "Validated EHR")
+kpi_c4.metric("Encounter History", f"{total_encs:,}", "Longitudinal")
+kpi_c5.metric("Mean Charlson Score", f"{avg_charlson:.2f}", "CCI Baseline")
+kpi_c6.metric("Data Quality Score", "100.0%", "Audited Clean")
 
 st.markdown("---")
 
 
 # ---------------------------------------------------------------------------
-# 3. Clinical Intelligence Module Directory
+# 3. InsurTech Platform Navigation & Module Directory
 # ---------------------------------------------------------------------------
 
-st.subheader("🧭 Clinical EHR Intelligence Modules")
-st.markdown("Navigate to dedicated analytical views using the sidebar or explore their capabilities below:")
+st.subheader("🧭 Platform Navigation & Specialized Analytical Modules")
+st.markdown("Select a specialized module from the sidebar or click into their key capabilities below:")
 
-mod_c1, mod_c2, mod_c3, mod_c4 = st.columns(4)
+mod_r1_c1, mod_r1_c2, mod_r1_c3 = st.columns(3)
 
-with mod_c1:
+with mod_r1_c1:
     st.markdown(
         """
         <div class="module-card">
-            <span class="module-badge">Longitudinal Chart</span>
-            <div style="font-size: 1.15rem; font-weight: 700; color: white;">🩺 Patient 360</div>
+            <span class="module-badge">Dynamic Ingestion</span>
+            <div style="font-size: 1.15rem; font-weight: 700; color: white;">📁 1. Batch Underwriting</div>
             <p style="font-size: 0.88rem; color: #94a3b8; margin: 8px 0 12px 0;">
-                Comprehensive EHR patient record view, rule-based clinical narrative summary, 
-                vitals and laboratory trends with reference bounds, and single-click PDF export.
+                Upload custom CSV or Excel files. Triggers high-throughput asynchronous ML scoring,
+                dynamic Plotly risk dashboards, and 1-click export of scored predictions.
             </p>
-            <small style="color: #38bdf8;">👉 Open <b>1_Patient_360</b> in sidebar</small>
+            <small style="color: #38bdf8;">👉 Open <b>1_Batch_Underwriting</b> in sidebar</small>
         </div>
         """,
         unsafe_allow_html=True
     )
 
-with mod_c2:
+with mod_r1_c2:
     st.markdown(
         """
         <div class="module-card">
             <span class="module-badge">Clinical Risk</span>
-            <div style="font-size: 1.15rem; font-weight: 700; color: white;">🧬 Comorbidity Analysis</div>
+            <div style="font-size: 1.15rem; font-weight: 700; color: white;">🧬 2. Comorbidity Analysis</div>
             <p style="font-size: 0.88rem; color: #94a3b8; margin: 8px 0 12px 0;">
                 Charlson Comorbidity Index scoring, disease prevalence distributions, 
-                disease co-occurrence associative lift heatmap, and healthcare utilization cost analysis.
+                co-occurrence associative lift heatmap, and inpatient utilization cost analysis.
             </p>
             <small style="color: #38bdf8;">👉 Open <b>2_Comorbidity_Analysis</b> in sidebar</small>
         </div>
@@ -220,14 +227,14 @@ with mod_c2:
         unsafe_allow_html=True
     )
 
-with mod_c3:
+with mod_r1_c3:
     st.markdown(
         """
         <div class="module-card">
             <span class="module-badge">Hypothesis Testing</span>
-            <div style="font-size: 1.15rem; font-weight: 700; color: white;">👥 Cohort Builder</div>
+            <div style="font-size: 1.15rem; font-weight: 700; color: white;">👥 3. Cohort Builder</div>
             <p style="font-size: 0.88rem; color: #94a3b8; margin: 8px 0 12px 0;">
-                Multi-factorial cohort filtering, clinical presets (Diabetics, Metformin, Age 60+), 
+                Multi-factorial dual-cohort filtering, clinical presets (Diabetics, Metformin, Age 60+), 
                 and rigorous side-by-side hypothesis tests (Welch's t-test and Chi-square).
             </p>
             <small style="color: #38bdf8;">👉 Open <b>3_Cohort_Builder</b> in sidebar</small>
@@ -236,17 +243,53 @@ with mod_c3:
         unsafe_allow_html=True
     )
 
-with mod_c4:
+st.markdown("<div style='height: 12px;'></div>", unsafe_allow_html=True)
+
+mod_r2_c1, mod_r2_c2, mod_r2_c3 = st.columns(3)
+
+with mod_r2_c1:
+    st.markdown(
+        """
+        <div class="module-card">
+            <span class="module-badge">Medical Underwriting</span>
+            <div style="font-size: 1.15rem; font-weight: 700; color: white;">🩺 4. Patient 360 EHR</div>
+            <p style="font-size: 0.88rem; color: #94a3b8; margin: 8px 0 12px 0;">
+                Deep clinical audit for flagged high-risk applicants: longitudinal vitals,
+                lab trends with physiological reference bands, and 1-click clinical PDF export.
+            </p>
+            <small style="color: #38bdf8;">👉 Open <b>4_Patient_360</b> in sidebar</small>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+with mod_r2_c2:
     st.markdown(
         """
         <div class="module-card">
             <span class="module-badge">7-D Audit Engine</span>
-            <div style="font-size: 1.15rem; font-weight: 700; color: white;">🛡️ EHR Data Quality</div>
+            <div style="font-size: 1.15rem; font-weight: 700; color: white;">🛡️ 5. EHR Data Quality</div>
             <p style="font-size: 0.88rem; color: #94a3b8; margin: 8px 0 12px 0;">
                 Audits raw vs. cleaned datasets across completeness, duplicates, validity, format, 
-                referential integrity, ICD-10 roots, and temporal sequence.
+                referential integrity, ICD-10 roots, and temporal sequence with Plotly gauge dials.
             </p>
-            <small style="color: #38bdf8;">👉 Open <b>4_EHR_Data_Quality</b> in sidebar</small>
+            <small style="color: #38bdf8;">👉 Open <b>5_EHR_Data_Quality</b> in sidebar</small>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+with mod_r2_c3:
+    st.markdown(
+        """
+        <div class="module-card">
+            <span class="module-badge">FastAPI Serving</span>
+            <div style="font-size: 1.15rem; font-weight: 700; color: white;">⚡ 6. API & Developer Hub</div>
+            <p style="font-size: 0.88rem; color: #94a3b8; margin: 8px 0 12px 0;">
+                Live FastAPI server health monitor, interactive endpoint tester (/predict),
+                Random Forest feature importance weights, and developer SDK code snippets.
+            </p>
+            <small style="color: #38bdf8;">👉 Open <b>6_API_and_Developer_Hub</b> in sidebar</small>
         </div>
         """,
         unsafe_allow_html=True
@@ -259,8 +302,8 @@ st.markdown("---")
 # 4. Interactive EHR-to-Underwriting Patient Bridge
 # ---------------------------------------------------------------------------
 
-st.subheader("⚡ EHR-to-Underwriting Patient Bridge")
-st.markdown("Seamlessly link actual clinical records from the EHR repository into the actuarial underwriting form.")
+st.subheader("⚡ Clinical EHR-to-Underwriting Patient Bridge")
+st.markdown("Seamlessly import clinical records from the EHR repository into the actuarial underwriting form below:")
 
 bridge_c1, bridge_c2 = st.columns([1.5, 2.5])
 
@@ -321,17 +364,17 @@ if action_col1.button("⚡ Autofill Form with this Patient", use_container_width
 
 if action_col2.button("🩺 Preselect for Patient 360", use_container_width=True):
     st.session_state["selected_patient_id"] = bridge_pid
-    st.success(f"Patient {bridge_pid} preselected! Switch to 'Patient 360' in the sidebar.")
+    st.success(f"Patient {bridge_pid} preselected! Switch to '4_Patient_360' in the sidebar.")
 
 st.markdown("---")
 
 
 # ---------------------------------------------------------------------------
-# 5. AI Insurance Premium Prediction Engine
+# 5. Interactive Underwriting Calculator & Gemini Actuarial Engine
 # ---------------------------------------------------------------------------
 
-st.subheader("💰 Machine Learning Insurance Premium Underwriting")
-st.markdown("Predict risk-adjusted insurance premium tiers based on biometric parameters, demographic factors, and financial profile.")
+st.subheader("💰 Individual Applicant Underwriting Calculator")
+st.markdown("Predict risk-adjusted premium tiers and generate real-time Gemini actuarial policy briefs.")
 
 # Retrieve active prefill values if set
 prefill = st.session_state.get("underwrite_prefill", {})
@@ -374,7 +417,6 @@ with fcol2:
         help="Annual gross income in Lakhs (INR)"
     )
 
-    # City list from domain constants
     default_city_idx = 0
     if "city" in prefill and prefill["city"] in ALL_CITIES:
         default_city_idx = ALL_CITIES.index(prefill["city"])
@@ -398,7 +440,6 @@ with fcol3:
         index=OCCUPATIONS.index("Software Engineer") if "Software Engineer" in OCCUPATIONS else 0
     )
 
-    # Live BMI readout
     calc_bmi = in_weight / (in_height ** 2)
     bmi_cat, bmi_label, bmi_class = get_bmi_category(calc_bmi)
     st.markdown(
@@ -414,7 +455,7 @@ with fcol3:
 
 
 # Prediction Action
-if st.button("🚀 Calculate Risk-Adjusted Insurance Premium Tier", use_container_width=True):
+if st.button("🚀 Calculate Risk-Adjusted Premium Tier", use_container_width=True):
     with st.spinner("Analyzing risk factors through Machine Learning Underwriting Pipeline..."):
         try:
             pred_tier, source_label = predict_premium(
@@ -427,85 +468,121 @@ if st.button("🚀 Calculate Risk-Adjusted Insurance Premium Tier", use_containe
                 occupation=in_occupation
             )
 
-            # Results Display
-            st.markdown("### 🎯 Underwriting Assessment Outcome")
-            
-            res_c1, res_c2 = st.columns([1.5, 3.5])
-
-            with res_c1:
-                if pred_tier == "Low":
-                    st.success(f"### ✅ Low Premium Tier")
-                    if os.path.exists("images/low.png"):
-                        st.image("images/low.png", use_container_width=True)
-                elif pred_tier == "Medium":
-                    st.warning(f"### ⚠️ Medium Premium Tier")
-                    if os.path.exists("images/medium.png"):
-                        st.image("images/medium.png", use_container_width=True)
-                else:
-                    st.error(f"### 🚨 High Premium Tier")
-                    if os.path.exists("images/high.png"):
-                        st.image("images/high.png", use_container_width=True)
-                        
-                st.caption(f"Engine Source: **{source_label}**")
-
-            with res_c2:
-                st.markdown(
-                    f"""
-                    <div class="dq-card">
-                        <div style="font-size: 1.15rem; font-weight: 700; color: white; margin-bottom: 8px;">
-                            Actuarial Profile Summary
-                        </div>
-                        <ul style="font-size: 0.95rem; line-height: 1.6; color: #cbd5e1;">
-                            <li><b>Predicted Risk Class:</b> {pred_tier} Premium Bracket</li>
-                            <li><b>Age / Smoker Risk:</b> {in_age} yrs, {'Smoker (+Risk)' if in_smoker == 1 else 'Non-smoker (Baseline)'}</li>
-                            <li><b>Biometric Index:</b> BMI {calc_bmi:.1f} ({bmi_cat})</li>
-                            <li><b>Territory Risk:</b> {in_city}</li>
-                            <li><b>Occupational Tier:</b> {in_occupation}</li>
-                        </ul>
-                    </div>
-                    """,
-                    unsafe_allow_html=True
-                )
-
-                # Tailored Clinical & Lifestyle Guidance
-                st.markdown("##### 💡 Tailored Clinical & Lifestyle Risk Recommendations")
-                recommendations = []
-                if in_smoker == 1:
-                    recommendations.append("🚭 **Smoking Cessation:** Tobacco usage is the primary driver of cardiovascular loading; cessation programs reduce premium loading by up to 40%.")
-                else:
-                    recommendations.append("✅ **Non-Smoker Benefit:** Maintain tobacco-free status to qualify for preferred risk underwriting.")
-
-                if calc_bmi >= 30.0:
-                    recommendations.append("⚖️ **Weight Management:** Obese BMI classification correlates with metabolic comorbidity. Structured weight reduction programs can lower baseline tier.")
-                elif calc_bmi < 18.5:
-                    recommendations.append("🥗 **Nutritional Optimization:** Underweight individuals may present nutritional deficiencies. Consult clinical dietitian.")
-                else:
-                    recommendations.append("💪 **Optimal BMI:** Biometric status sits within normal range. Continue routine fitness.")
-
-                if in_age >= 50:
-                    recommendations.append("🩺 **Routine Screenings:** Annual comprehensive metabolic panel, HbA1c, and lipid profiling are recommended for age bracket 50+.")
-
-                for r in recommendations:
-                    st.info(r)
-
+            # Store result in session state to persist across reruns
+            st.session_state["active_single_eval"] = {
+                "age": in_age,
+                "weight": in_weight,
+                "height": in_height,
+                "income_lpa": in_income_lpa,
+                "smoker": in_smoker,
+                "city": in_city,
+                "occupation": in_occupation,
+                "bmi": round(calc_bmi, 2),
+                "bmi_category": bmi_cat,
+                "predicted_tier": pred_tier,
+                "source_label": source_label,
+                "health_risk_index": round(calc_bmi * 0.4 + in_age * 0.3 + in_smoker * 20.0, 2)
+            }
         except Exception as err:
             st.error(f"Prediction failed: {err}")
+
+
+# Display Evaluation Outcome if Available
+if "active_single_eval" in st.session_state:
+    eval_data = st.session_state["active_single_eval"]
+    pred_tier = eval_data["predicted_tier"]
+    source_label = eval_data["source_label"]
+
+    st.markdown("### 🎯 Underwriting Assessment Outcome")
+    res_c1, res_c2 = st.columns([1.5, 3.5])
+
+    with res_c1:
+        if pred_tier == "Low":
+            st.success(f"### ✅ Low Premium Tier")
+            if os.path.exists("images/low.png"):
+                st.image("images/low.png", use_container_width=True)
+        elif pred_tier == "Medium":
+            st.warning(f"### ⚠️ Medium Premium Tier")
+            if os.path.exists("images/medium.png"):
+                st.image("images/medium.png", use_container_width=True)
+        else:
+            st.error(f"### 🚨 High Premium Tier")
+            if os.path.exists("images/high.png"):
+                st.image("images/high.png", use_container_width=True)
+                
+        st.caption(f"Engine Serving: **{source_label}**")
+
+    with res_c2:
+        st.markdown(
+            f"""
+            <div class="dq-card">
+                <div style="font-size: 1.15rem; font-weight: 700; color: white; margin-bottom: 8px;">
+                    Actuarial Profile Summary
+                </div>
+                <ul style="font-size: 0.95rem; line-height: 1.6; color: #cbd5e1;">
+                    <li><b>Predicted Risk Class:</b> {pred_tier} Premium Bracket</li>
+                    <li><b>Age / Smoker Risk:</b> {eval_data['age']} yrs, {'Smoker (+Risk)' if eval_data['smoker'] == 1 else 'Non-smoker (Baseline)'}</li>
+                    <li><b>Biometric Index:</b> BMI {eval_data['bmi']} ({eval_data['bmi_category']})</li>
+                    <li><b>Health Risk Index:</b> {eval_data['health_risk_index']}</li>
+                    <li><b>Territory Risk:</b> {eval_data['city']} &bull; {eval_data['occupation']}</li>
+                </ul>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
+    # Gemini Actuarial Narrative Button
+    st.markdown("##### ✨ Gemini AI Actuarial Briefing")
+    if st.button("🤖 Generate Gemini Actuarial Underwriting Report", use_container_width=True):
+        with st.spinner("Consulting Gemini Actuarial Intelligence..."):
+            narrative = generate_actuarial_narrative(eval_data)
+            st.markdown(
+                f"""
+                <div style="background: rgba(30, 41, 59, 0.7); border-left: 4px solid #38bdf8; border-radius: 10px; padding: 18px 24px; margin-top: 12px;">
+                    {narrative}
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+
+st.markdown("---")
+
+
+# ---------------------------------------------------------------------------
+# 6. Academic Highlights & System Architecture Guide
+# ---------------------------------------------------------------------------
+
+with st.expander("🎓 Academic Project Highlights & System Architecture Guide", expanded=False):
+    st.markdown(
+        """
+        ### 📌 Key Engineering & Scientific Contributions:
+        1. **End-to-End ML Microservice Serving:**
+           - High-performance FastAPI serving engine (`/predict`, `/predict/batch`, `/predict/upload`, `/health`).
+           - In-memory pipeline caching on server lifespan (eliminating per-request disk bottlenecks).
+        2. **Dynamic File Ingestion & Real-Time Analytics:**
+           - Accepts CSV and Excel files, runs vectorized feature engineering, and instantly generates Plotly dashboards without hardcoded data dependencies.
+        3. **Dual-Mode Google Gemini LLM Integration:**
+           - Generates executive underwriting justifications and portfolio vulnerability briefings with resilient offline fallbacks.
+        4. **Clinical EHR Integration & Comorbidity Analytics:**
+           - Bridges longitudinal patient hospital records (diagnoses, labs, vitals) with actuarial underwriting risk categories.
+        5. **Statistical Rigor:**
+           - Automated Welch's t-test and Chi-square hypothesis tests for comparative cohort analysis (`scipy.stats`).
+        """
+    )
 
 
 # ---------------------------------------------------------------------------
 # Footer
 # ---------------------------------------------------------------------------
 
-st.markdown("---")
 st.markdown(
     """
     <div style='text-align: center; color: #94a3b8; font-size: 0.85rem; padding: 12px 0;'>
-        HealthSure EHR & Actuarial Serving System &bull; Production Multi-Module Architecture &bull; 
-        Powered by Streamlit, Scikit-Learn, ReportLab & Plotly
+        HealthSure InsurTech & Actuarial Serving System &bull; Production Multi-Module Architecture &bull; 
+        Powered by FastAPI, Streamlit, Scikit-Learn, Gemini LLM & Plotly
     </div>
     """,
     unsafe_allow_html=True
 )
 
 render_sidebar_footer()
-

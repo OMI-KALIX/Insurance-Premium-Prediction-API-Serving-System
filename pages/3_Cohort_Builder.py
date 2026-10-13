@@ -30,7 +30,7 @@ st.set_page_config(
     page_title="Cohort Builder | HealthSure EHR",
     page_icon="👥",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="collapsed"
 )
 
 render_sidebar_branding()
@@ -491,7 +491,7 @@ def render_cohort_profile(c_name: str, c_df: pd.DataFrame, theme_color: str = "#
             labels={"age": "Age (years)", "count": "Patients"}
         )
         fig_age.update_layout(height=300, margin=dict(l=20, r=20, t=35, b=20))
-        st.plotly_chart(fig_age, use_container_width=True)
+        st.plotly_chart(fig_age, use_container_width=True, key=f"fig_age_{c_name.lower().replace(' ', '_')}")
 
     with ch_col2:
         # 2. Gender Pie Chart
@@ -508,7 +508,7 @@ def render_cohort_profile(c_name: str, c_df: pd.DataFrame, theme_color: str = "#
             template="plotly_dark"
         )
         fig_g.update_layout(height=300, margin=dict(l=20, r=20, t=35, b=20))
-        st.plotly_chart(fig_g, use_container_width=True)
+        st.plotly_chart(fig_g, use_container_width=True, key=f"fig_g_{c_name.lower().replace(' ', '_')}")
 
     ch_col3, ch_col4 = st.columns(2)
 
@@ -529,7 +529,7 @@ def render_cohort_profile(c_name: str, c_df: pd.DataFrame, theme_color: str = "#
                 template="plotly_dark"
             )
             fig_top_c.update_layout(height=330, margin=dict(l=20, r=20, t=35, b=20), coloraxis_showscale=False)
-            st.plotly_chart(fig_top_c, use_container_width=True)
+            st.plotly_chart(fig_top_c, use_container_width=True, key=f"fig_top_c_{c_name.lower().replace(' ', '_')}")
         else:
             st.info("No recorded diagnoses in this cohort.")
 
@@ -550,7 +550,7 @@ def render_cohort_profile(c_name: str, c_df: pd.DataFrame, theme_color: str = "#
                 template="plotly_dark"
             )
             fig_top_m.update_layout(height=330, margin=dict(l=20, r=20, t=35, b=20), coloraxis_showscale=False)
-            st.plotly_chart(fig_top_m, use_container_width=True)
+            st.plotly_chart(fig_top_m, use_container_width=True, key=f"fig_top_m_{c_name.lower().replace(' ', '_')}")
         else:
             st.info("No active medications prescribed in this cohort.")
 
@@ -578,7 +578,7 @@ def render_cohort_profile(c_name: str, c_df: pd.DataFrame, theme_color: str = "#
         )
         fig_v.update_traces(texttemplate="%{text:.1f}", textposition="outside")
         fig_v.update_layout(height=330, margin=dict(l=20, r=20, t=35, b=20), showlegend=False, xaxis_tickangle=-30)
-        st.plotly_chart(fig_v, use_container_width=True)
+        st.plotly_chart(fig_v, use_container_width=True, key=f"fig_v_{c_name.lower().replace(' ', '_')}")
 
     with ch_col6:
         # 6. Encounter Type Distribution
@@ -597,7 +597,7 @@ def render_cohort_profile(c_name: str, c_df: pd.DataFrame, theme_color: str = "#
             )
             fig_enc.update_traces(textposition="outside")
             fig_enc.update_layout(height=330, margin=dict(l=20, r=20, t=35, b=20), showlegend=False)
-            st.plotly_chart(fig_enc, use_container_width=True)
+            st.plotly_chart(fig_enc, use_container_width=True, key=f"fig_enc_{c_name.lower().replace(' ', '_')}")
         else:
             st.info("No encounter records associated with this cohort.")
 
@@ -719,7 +719,7 @@ def render_cohort_comparison(
     )
     fig_comp_bar.update_traces(textposition="outside")
     fig_comp_bar.update_layout(height=360, margin=dict(l=20, r=20, t=40, b=20))
-    st.plotly_chart(fig_comp_bar, use_container_width=True)
+    st.plotly_chart(fig_comp_bar, use_container_width=True, key="fig_comp_bar_main")
 
     # 3. Rigorous Statistical Hypothesis Testing (scipy)
     st.markdown("##### 3. Statistical Significance Hypothesis Tests")
