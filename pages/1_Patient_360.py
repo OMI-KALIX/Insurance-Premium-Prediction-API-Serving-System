@@ -22,7 +22,14 @@ import plotly.graph_objects as go
 import streamlit as st
 
 # Import core EHR loader and clinical classification utilities
-from ehr_utils import classify_bp, classify_glucose, load_ehr
+from ehr_utils import (
+    classify_bp,
+    classify_glucose,
+    get_bmi_category,
+    load_ehr,
+    render_sidebar_branding,
+    render_sidebar_footer,
+)
 
 # ReportLab imports for PDF export
 try:
@@ -45,6 +52,8 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+render_sidebar_branding()
 
 # Custom EHR styling
 st.markdown(
@@ -112,24 +121,6 @@ st.markdown(
 # ---------------------------------------------------------------------------
 # Helper Clinical Functions
 # ---------------------------------------------------------------------------
-
-def get_bmi_category(bmi: Optional[float]) -> Tuple[str, str, str]:
-    """
-    Determine BMI category, badge text, and CSS badge class.
-    
-    Returns (category_name, badge_label, css_class)
-    """
-    if bmi is None or pd.isna(bmi) or bmi <= 0:
-        return "Unknown", "Unknown BMI", "badge-blue"
-    
-    if bmi < 18.5:
-        return "Underweight", "Underweight", "badge-blue"
-    elif 18.5 <= bmi < 25.0:
-        return "Normal", "Normal Weight", "badge-green"
-    elif 25.0 <= bmi < 30.0:
-        return "Overweight", "Overweight", "badge-yellow"
-    else:
-        return "Obese", "Obese", "badge-red"
 
 
 def generate_clinical_summary(
@@ -1126,3 +1117,6 @@ with d_col1:
     )
 with d_col2:
     st.caption("Exports a formalized, one-page clinical patient chart summary complete with demographics, medical history, active medications, and utilization metrics.")
+
+render_sidebar_footer()
+

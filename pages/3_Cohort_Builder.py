@@ -19,7 +19,7 @@ import plotly.graph_objects as go
 from scipy import stats
 import streamlit as st
 
-from ehr_utils import load_ehr
+from ehr_utils import load_ehr, render_sidebar_branding, render_sidebar_footer
 
 
 # ---------------------------------------------------------------------------
@@ -32,6 +32,9 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+render_sidebar_branding()
+
 
 st.markdown(
     """
@@ -843,3 +846,6 @@ with main_tab_b:
 
 with main_tab_comp:
     render_cohort_comparison(cohort_a_name, cohort_a_df, cohort_b_name, cohort_b_df)
+
+render_sidebar_footer()
+

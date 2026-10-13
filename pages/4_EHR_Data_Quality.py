@@ -31,7 +31,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-from ehr_utils import load_ehr
+from ehr_utils import load_ehr, render_sidebar_branding, render_sidebar_footer
 
 
 # ---------------------------------------------------------------------------
@@ -44,6 +44,9 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+render_sidebar_branding()
+
 
 st.markdown(
     """
@@ -853,3 +856,6 @@ else:
 for rec in recommendations:
     css_class = "fix-item-success" if "100%" in rec or "Zero" in rec or "All" in rec else "fix-item"
     st.markdown(f'<div class="{css_class}">{rec}</div>', unsafe_allow_html=True)
+
+render_sidebar_footer()
+

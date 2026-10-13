@@ -177,6 +177,33 @@ def classify_glucose(value: Union[float, int, None]) -> Union[str, None]:
     return "Critical"
 
 
+def get_bmi_category(bmi: Union[float, int, None]) -> Tuple[str, str, str]:
+    """
+    Determine BMI category, badge text, and CSS badge class.
+
+    Returns:
+        Tuple[str, str, str]: (category_name, badge_label, css_badge_class)
+    """
+    if bmi is None or pd.isna(bmi):
+        return "Unknown", "Unknown BMI", "badge-blue"
+
+    try:
+        b = float(bmi)
+    except (ValueError, TypeError):
+        return "Unknown", "Unknown BMI", "badge-blue"
+
+    if b <= 0:
+        return "Unknown", "Unknown BMI", "badge-blue"
+    if b < 18.5:
+        return "Underweight", "Underweight", "badge-blue"
+    elif 18.5 <= b < 25.0:
+        return "Normal", "Normal Weight", "badge-green"
+    elif 25.0 <= b < 30.0:
+        return "Overweight", "Overweight", "badge-yellow"
+    else:
+        return "Obese", "Obese", "badge-red"
+
+
 # ---------------------------------------------------------------------------
 # Path Resolution Helper
 # ---------------------------------------------------------------------------
@@ -654,4 +681,121 @@ def predict_premium(
         pred_local = model.predict(df_in)[0]
 
     return str(pred_local), "Local ML Engine"
+
+
+# ---------------------------------------------------------------------------
+# Sidebar UI & Branding Customization
+# ---------------------------------------------------------------------------
+
+def render_sidebar_branding() -> None:
+    """
+    Renders unified sidebar styling, branded header, and custom navigation
+    labels across all HealthSure Streamlit pages.
+    """
+    # 1. Custom CSS for sidebar navigation items and dark-mode polished styling
+    st.markdown(
+        """
+        <style>
+        /* Modern Sidebar Navigation Labels */
+        [data-testid="stSidebarNav"] {
+            padding-top: 0.6rem !important;
+        }
+        
+        [data-testid="stSidebarNav"] ul li:nth-child(1) a span { display: none !important; }
+        [data-testid="stSidebarNav"] ul li:nth-child(1) a::after {
+            content: "🏥 Executive Hub" !important;
+            font-size: 0.92rem !important;
+            font-weight: 600 !important;
+        }
+
+        [data-testid="stSidebarNav"] ul li:nth-child(2) a span { display: none !important; }
+        [data-testid="stSidebarNav"] ul li:nth-child(2) a::after {
+            content: "🩺 Patient 360" !important;
+            font-size: 0.92rem !important;
+            font-weight: 500 !important;
+        }
+
+        [data-testid="stSidebarNav"] ul li:nth-child(3) a span { display: none !important; }
+        [data-testid="stSidebarNav"] ul li:nth-child(3) a::after {
+            content: "🧬 Comorbidity Analysis" !important;
+            font-size: 0.92rem !important;
+            font-weight: 500 !important;
+        }
+
+        [data-testid="stSidebarNav"] ul li:nth-child(4) a span { display: none !important; }
+        [data-testid="stSidebarNav"] ul li:nth-child(4) a::after {
+            content: "👥 Cohort Builder" !important;
+            font-size: 0.92rem !important;
+            font-weight: 500 !important;
+        }
+
+        [data-testid="stSidebarNav"] ul li:nth-child(5) a span { display: none !important; }
+        [data-testid="stSidebarNav"] ul li:nth-child(5) a::after {
+            content: "🛡️ EHR Data Quality" !important;
+            font-size: 0.92rem !important;
+            font-weight: 500 !important;
+        }
+
+        [data-testid="stSidebarNav"] a {
+            border-radius: 8px !important;
+            padding: 8px 12px !important;
+            margin-bottom: 3px !important;
+            transition: all 0.2s ease !important;
+        }
+
+        [data-testid="stSidebarNav"] a:hover {
+            background: rgba(56, 189, 248, 0.15) !important;
+            transform: translateX(2px);
+        }
+        
+        /* Unified scrollbars */
+        ::-webkit-scrollbar {
+            width: 7px;
+            height: 7px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(148, 163, 184, 0.3);
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(148, 163, 184, 0.5);
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+    # 2. Sidebar Header
+    st.sidebar.markdown(
+        """
+        <div style="padding: 6px 2px 14px 2px; border-bottom: 1px solid rgba(255,255,255,0.1); margin-bottom: 14px;">
+            <div style="font-size: 1.28rem; font-weight: 800; color: #38bdf8; display: flex; align-items: center; gap: 8px; letter-spacing: -0.01em;">
+                🏥 HealthSure
+            </div>
+            <div style="font-size: 0.78rem; color: #94a3b8; margin-top: 2px;">
+                EHR Analytics & ML Underwriting
+            </div>
+            <div style="margin-top: 8px; display: inline-flex; align-items: center; gap: 6px; background: rgba(16, 185, 129, 0.15); border: 1px solid rgba(16, 185, 129, 0.35); border-radius: 9999px; padding: 2px 8px; font-size: 0.72rem; color: #34d399; font-weight: 600;">
+                <span style="width: 6px; height: 6px; background: #10b981; border-radius: 50%; display: inline-block;"></span>
+                Connected &bull; v2.0 Live
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+
+def render_sidebar_footer() -> None:
+    """Renders clean footer branding in the sidebar."""
+    st.sidebar.markdown(
+        """
+        <div style="padding: 16px 2px 8px 2px; border-top: 1px solid rgba(255,255,255,0.08); margin-top: 24px; font-size: 0.76rem; color: #64748b; line-height: 1.5;">
+            <b style="color: #94a3b8;">HealthSure Intelligence Hub</b><br>
+            1,200 Patient Cohort &bull; 2,423 Encounters<br>
+            <span>FastAPI &bull; Scikit-Learn &bull; Streamlit</span>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
 

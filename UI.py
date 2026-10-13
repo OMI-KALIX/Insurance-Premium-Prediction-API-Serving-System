@@ -24,6 +24,8 @@ from ehr_utils import (
     get_bmi_category,
     load_ehr,
     predict_premium,
+    render_sidebar_branding,
+    render_sidebar_footer,
 )
 
 
@@ -37,6 +39,9 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+# Render unified sidebar branding & navigation styling
+render_sidebar_branding()
 
 # Custom Styling
 st.markdown(
@@ -102,6 +107,14 @@ st.markdown(
         border-radius: 10px;
         padding: 16px 20px;
         margin-bottom: 20px;
+    }
+
+    .dq-card {
+        background: rgba(30, 41, 59, 0.45);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        padding: 16px 20px;
+        margin-bottom: 16px;
     }
     </style>
     """,
@@ -493,3 +506,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+render_sidebar_footer()
+

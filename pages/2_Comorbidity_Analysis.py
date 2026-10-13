@@ -18,7 +18,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-from ehr_utils import load_ehr
+from ehr_utils import load_ehr, render_sidebar_branding, render_sidebar_footer
 
 
 # ---------------------------------------------------------------------------
@@ -31,6 +31,9 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+render_sidebar_branding()
+
 
 # Custom Styling
 st.markdown(
@@ -621,3 +624,6 @@ with dcol1:
 
 with dcol2:
     st.caption("Exports the patient-level comorbidity and Charlson stratification table for use in insurance underwriting, machine learning, and downstream actuarial models.")
+
+render_sidebar_footer()
+
