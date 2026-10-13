@@ -1,0 +1,10 @@
+icd10,description,charlson_weight
+E11,Type 2 Diabetes,1
+I10,Hypertension,0
+I25,Coronary Artery Disease,1
+N18,Chronic Kidney Disease,2
+J45,Asthma,1
+E66,Obesity,0
+D64,Anemia,0
+E03,Hypothyroidism,0
+J18,Pneumonia,1

@@ -1,505 +1,267 @@
-# 🏥 Insurance Premium Prediction API & Serving System
-<p align="center">
-
-<img src="https://img.shields.io/badge/Python-3.12+-3776AB?style=flat-square&logo=python&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/FastAPI-Backend-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Streamlit-Frontend-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Scikit--Learn-ML-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Pydantic-Validation-E92063?style=flat-square&logo=pydantic&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Render-Deployed-46E3B7?style=flat-square&logo=render&logoColor=black"/>
-
-<img src="https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square"/>
-
-<a href="https://hub.docker.com/r/omikalix/insurance-premium-app">
-<img src="https://img.shields.io/docker/pulls/omikalix/insurance-premium-app?style=flat-square&logo=docker&label=Docker%20Pulls"/>
-</a>
-
-<a href="https://hub.docker.com/r/omikalix/insurance-premium-app">
-<img src="https://img.shields.io/docker/image-size/omikalix/insurance-premium-app/latest?style=flat-square&logo=docker&label=Image%20Size"/>
-</a>
-
-</p>
-
-An end-to-end Machine Learning application that predicts insurance premium categories based on customer demographics, lifestyle factors, health indicators, and financial information.
-
-The project follows a complete MLOps-inspired workflow:
-
-* Data Analysis & Feature Engineering
-* Random Forest Classification Model
-* FastAPI REST API Development
-* Pydantic Request Validation
-* Interactive Streamlit Frontend
-* Cloud Deployment on Render
-
----
-
-# 🚀 Live Demo
-
-## API Documentation
-
-https://insurance-premium-prediction-api-serving.onrender.com
-
-## Streamlit Application
-
-https://insurance-premium-prediction-api-serving-98v3.onrender.com/
-
-### Getting Started
-
-1. Open the API documentation link first.
-2. Wait for the API to respond successfully.
-3. Open the Streamlit application.
-4. Enter the required details and generate a prediction.
-
-### Note
-
-The backend is hosted on Render and may enter a sleep state after periods of inactivity. The first request may take a little longer while the server wakes up. Once initialized, the application should respond normally.
-
-## 🐳 Docker Image
-
-The project is also available as a Docker image on Docker Hub.
-
-**Docker Hub Repository**
-
-https://hub.docker.com/r/omikalix/insurance-premium-app
-
-### Pull Image
-
-```bash
-docker pull omikalix/insurance-premium-app
-```
-
-### Run Container
-
-```bash
-docker run -p 8000:8000 -p 8501:8501 omikalix/insurance-premium-app
-```
-
-### Access Application
-
-* Streamlit UI: http://127.0.0.1:8501
-* FastAPI Docs: http://127.0.0.1:8000/docs
-
-> Note: The services listen on `0.0.0.0` inside the container but should be accessed through `127.0.0.1` or `localhost` from your browser.
-
----
-## 📸 Application Screenshots
-
-### 🖥️ Interactive Streamlit Dashboard
+# 🏥 HealthSure: Unified EHR Analytics & Insurance Underwriting Intelligence System
 
 <p align="center">
-
-  <img src="assets/ui.png" alt="Insurance Premium Prediction UI" width="100%">
-
-</p>
-
-### 🚀 FastAPI Documentation & Testing
-<p align="center">
-
-  <img src="assets/api_docs.png" alt="FastAPI Swagger Documentation" width="100%">
-
+  <img src="https://img.shields.io/badge/Python-3.12+-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Streamlit-1.48+-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-Backend-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Scikit--Learn-ML-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Plotly-Analytics-3F4F75?style=flat-square&logo=plotly&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ReportLab-PDF_Reports-DA291C?style=flat-square"/>
+  <img src="https://img.shields.io/badge/SciPy-Hypothesis_Testing-8CAAE6?style=flat-square&logo=scipy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square"/>
 </p>
 
 ---
 
-# 📌 Project Overview
+## 📌 Executive Overview
 
-Insurance companies determine premium categories based on multiple factors such as:
+**HealthSure** is an enterprise-grade healthcare data intelligence and actuarial platform. It unites **longitudinal Electronic Health Records (EHR) analytics**, **clinical comorbidity risk stratification**, **cohort hypothesis testing**, and **7-dimensional data quality auditing** with **machine learning actuarial underwriting**.
 
-* Age
-* BMI
-* Smoking Habits
-* Income
-* Occupation
-* City Tier
-* Lifestyle Risk
-
-This project leverages Machine Learning to automate premium category prediction.
-
-The model classifies customers into:
-
-| Category  | Meaning                 |
-| --------- | ----------------------- |
-| 🟢 Low    | Lower insurance risk    |
-| 🟡 Medium | Moderate insurance risk |
-| 🔴 High   | Higher insurance risk   |
+The system enables healthcare providers, researchers, and insurance underwriters to:
+1. **Explore Longitudinal Records:** Inspect multi-year diagnoses, medications, lab trends, vitals, and generate clinical PDF reports.
+2. **Quantify Comorbidity Burden:** Compute Charlson Comorbidity Index (CCI) scores, calculate associative disease lift ($P(A \cap B) / [P(A) \times P(B)]$), and analyze length of stay vs. inpatient cost.
+3. **Compare Patient Cohorts:** Define dual clinical cohorts with multi-variable filters and run automated statistical hypothesis tests (**Welch's t-test** and **Pearson's Chi-square** via `scipy.stats`).
+4. **Audit EHR Integrity:** Run a 7-dimensional automated audit across raw vs. cleaned tables with composite scoring gauges (0–100) and actionable remediation plans.
+5. **Underwrite Actuarial Risk:** Seamlessly bridge real EHR patients into a Random Forest machine learning classifier to predict risk-adjusted insurance premium categories (**Low**, **Medium**, **High**).
 
 ---
 
-# 🏗️ System Architecture
+## 🏗️ System Architecture & Navigation Flow
 
-```text
-User
-  │
-  ▼
-Streamlit UI
-  │
-  ▼
-FastAPI REST API
-  │
-  ▼
-Random Forest Model (.pkl)
-  │
-  ▼
-Prediction Response
+```mermaid
+graph TD
+    subgraph Data Layer ["📂 Clean Data Layer (clean/)"]
+        D1[clean_patients.csv]
+        D2[clean_conditions.csv]
+        D3[clean_encounters.csv]
+        D4[clean_labs.csv]
+        D5[clean_medications.csv]
+        D6[charlson_mapping.csv]
+        D7[healthsure_ehr_master_clean.csv]
+    end
+
+    subgraph Core Utilities ["⚙️ Central Engine (ehr_utils.py)"]
+        U1[load_ehr Cached Loader]
+        U2[build_master_patient_table 31-Col]
+        U3[calc_age / classify_bp / classify_glucose]
+        U4[predict_premium Cloud API + Local Fallback]
+    end
+
+    subgraph Multi-Page Streamlit Portal ["🖥️ Interactive Frontend"]
+        P0[UI.py - Executive Hub & Underwriting Bridge]
+        P1[1_Patient_360.py - Longitudinal EHR & PDF Export]
+        P2[2_Comorbidity_Analysis.py - CCI Scoring & Lift Heatmap]
+        P3[3_Cohort_Builder.py - Dual Cohorts & Hypothesis Testing]
+        P4[4_EHR_Data_Quality.py - 7-D Audit Engine & Gauges]
+    end
+
+    subgraph Actuarial ML Serving ["🤖 ML Serving Engine"]
+        M1[FastAPI insurance_premium_api.py]
+        M2[Local insurance_premium_model.pkl]
+    end
+
+    D1 & D2 & D3 & D4 & D5 & D6 --> U1
+    U1 --> U2
+    U2 --> P0
+    U1 --> P1
+    U1 --> P2
+    U1 --> P3
+    U1 --> P4
+    P0 -->|Autofill Biometrics| U4
+    P1 -->|1-Click Underwrite| P0
+    P2 -->|High-Risk Drilldown| P1
+    P3 -->|Cohort Drilldown| P1
+    U4 -->|Query| M1
+    U4 -.->|Offline Resilient Fallback| M2
 ```
 
 ---
 
-# 📂 Project Structure
+## 📂 Repository Directory Structure
 
 ```text
-serving-ml-models/
+Insurance-Premium-Prediction-API-Serving-System/
 │
-├── images/
-│   ├── low.png
-│   ├── medium.png
-│   ├── high.png
-│   └── background_image.png
+├── UI.py                               # HealthSure Executive Hub & Underwriting Portal
+├── ehr_utils.py                        # Central cached data loaders, clinical classifiers, & model fallback
+├── insurance_premium_api.py            # FastAPI REST API serving the underwriting model
+├── insurance_premium_model.pkl         # Trained Random Forest Scikit-Learn pipeline
+├── Indian_Insurance_Data.csv           # Baseline Kaggle insurance training dataset
+├── model.ipynb                         # Model training, exploratory data analysis & validation notebook
+├── requirements.txt                    # Project dependencies (FastAPI, Streamlit, Plotly, ReportLab, SciPy)
+├── supervisord.conf                    # Process supervisor configuration for container deployment
+├── Dockerfile.ui                       # Dockerfile for Streamlit portal
+├── Dockerfile.api                      # Dockerfile for FastAPI backend
+├── background_image.png                # Hero visual asset
 │
-├── model.ipynb
-├── insurance_premium_model.pkl
-├── insurance_premium_api.py
-├── UI.py
-├── Indian_Insurance_Data.csv
+├── pages/                              # Streamlit Multi-Page Module Suite (Numbered Order)
+│   ├── 1_Patient_360.py               # Longitudinal EHR chart, vitals/lab trends, narrative summary & PDF
+│   ├── 2_Comorbidity_Analysis.py      # Charlson Comorbidity Index, prevalence, co-occurrence lift matrix
+│   ├── 3_Cohort_Builder.py            # Dual-cohort filtering, clinical presets & SciPy hypothesis testing
+│   └── 4_EHR_Data_Quality.py          # 7-dimensional data audit engine & before/after cleaning metrics
 │
-├── requirements.txt
-└── README.md
+├── clean/                              # Production Clean Dataset Repository
+│   ├── DATA_DICTIONARY.md             # Clinical & actuarial variable dictionary
+│   ├── charlson_mapping.csv           # ICD-10 diagnostic codes and Charlson weights
+│   ├── clean_patients.csv             # Demographics, standardized birth dates & calculated BMI
+│   ├── clean_conditions.csv           # Diagnoses with ICD-10 mappings
+│   ├── clean_encounters.csv           # Outpatient, inpatient, and emergency encounters with vitals & cost
+│   ├── clean_labs.csv                 # HbA1c, total cholesterol, LDL, HDL, creatinine, hemoglobin
+│   ├── clean_medications.csv          # Longitudinal pharmacology prescriptions, dosages, & frequencies
+│   ├── healthsure_ehr_master_clean.csv# Consolidated 1200-patient master analytic file
+│   └── patient_risk_table.csv         # Computed patient-level Charlson scores and risk categories
+│
+├── images/                             # Classification badge assets
+│   ├── low.png                        # Low risk visual badge
+│   ├── medium.png                     # Medium risk visual badge
+│   └── high.png                       # High risk visual badge
+│
+└── assets/                             # Documentation assets & UI screenshots
+    ├── ui.png
+    └── api_docs.png
 ```
 
 ---
 
-# 📊 Dataset Features
+## 🚀 Clinical & Analytical Modules
 
-### Original Features
+### 1. 🩺 Patient 360 (`pages/1_Patient_360.py`)
+- **Patient Search & Selector:** Filter by Patient ID, Name, or City with real-time feedback.
+- **Biometric Header Card:** Displays age, gender, city, blood group, height, weight, and color-coded BMI badge (`Underweight`, `Normal`, `Overweight`, `Obese`).
+- **Dynamic Narrative Clinical Summary:** Rule-based clinical synthesis (e.g., *"58-year-old Male with Hypertension and Type 2 Diabetes. 5 encounters (1 emergency). Last BP 150/95 (Stage 2). Last HbA1c 8.4%. Currently on Metformin and Amlodipine."*).
+- **Vitals Trends:** Interactive Plotly charts with reference bands (`Normal 90–120`, `Stage 1 130–139`, `Stage 2 ≥140`).
+- **Laboratory Trends:** Longitudinal plots with clinical guideline reference lines (HbA1c normal $<5.7\%$, diabetic $\ge 6.5\%$; Creatinine $0.7\text{--}1.3\text{ mg/dL}$).
+- **Timeline & Encounters:** Chronological multi-track scatter timeline across diagnoses, labs, and visits.
+- **ReportLab PDF Export:** Single-click generation of a branded clinical consultation summary PDF.
+- **1-Click Underwrite:** Transfers biometric indicators into the ML underwriting engine.
 
-| Feature    | Description      |
-| ---------- | ---------------- |
-| age        | Customer age     |
-| weight     | Weight in kg     |
-| height     | Height in meters |
-| income_lpa | Annual income    |
-| smoker     | Smoking status   |
-| city       | Customer city    |
-| occupation | Occupation       |
+### 2. 🧬 Comorbidity Analysis (`pages/2_Comorbidity_Analysis.py`)
+- **Charlson Comorbidity Index (CCI):** Sums Charlson weights over distinct ICD-10 conditions per patient ($0 = \text{Low}, 1\text{–}2 = \text{Medium}, 3+ = \text{High}$).
+- **Prevalence Distribution:** Frequency and population percentage for every diagnosed condition.
+- **Co-occurrence Lift Matrix Heatmap:** Calculates statistical lift $P(A \cap B) / [P(A) \times P(B)]$ to isolate disease pairings occurring more frequently than chance.
+- **Healthcare Utilization:** Box plots tracking length of stay and inpatient cost (INR) segmented by comorbidity tier.
+- **High-Risk Patient Drilldown:** Ranks highest-burden patients with direct preselection into Patient 360.
 
----
+### 3. 👥 Cohort Builder & Hypothesis Testing (`pages/3_Cohort_Builder.py`)
+- **Dual-Cohort Definition:** Build **Cohort A** and **Cohort B** using multi-factorial side-by-side sidebar filters (Age, Gender, City, Conditions with AND/OR logic, Exclusions, Medications, Biomarkers, CCI group, Encounter history).
+- **Clinical 1-Click Presets:**
+  - 🍬 *Diabetic Cohort:* Patients with Type 2 Diabetes diagnosis.
+  - 💊 *Metformin Cohort:* Patients actively prescribed Metformin.
+  - 🧓 *Geriatric High-Risk (Age 60+):* Patients aged 60 and older.
+- **Statistical Hypothesis Testing Engine (`scipy.stats`):**
+  - Continuous metrics (Age, BMI, HbA1c, Systolic BP, Cost): **Welch's two-sample t-test** (robust to unequal variances and sample sizes).
+  - Categorical proportions (Gender % Female, Emergency Encounter %): **Pearson's Chi-square contingency test**.
+  - Color-coded significance badges ($\alpha = 0.05$) with plain-English interpretations.
 
-# ⚙️ Feature Engineering
-
-The following custom features were created:
-
-### BMI
-
-```python
-BMI = weight / (height ** 2)
-```
-
-### Income Per Age
-
-```python
-income_lpa / age
-```
-
-### Weight Height Ratio
-
-```python
-weight / height
-```
-
-### Income × BMI
-
-```python
-income_lpa * bmi
-```
-
-### Smoker Income
-
-```python
-smoker * income_lpa
-```
-
-### Health Risk Index
-
-```python
-(bmi * 0.4) + (age * 0.3) + (smoker * 20)
-```
-
-### City Tier Classification
-
-```text
-Tier 1
-Tier 2
-Tier 3
-```
+### 4. 🛡️ EHR Data Quality Auditor (`pages/4_EHR_Data_Quality.py`)
+- **7 Audit Dimensions:**
+  1. *Completeness:* Missing value rate per column across all tables.
+  2. *Duplicates:* Exact row duplicates and primary key collisions.
+  3. *Validity:* Clinical out-of-bounds checks (Height, Weight, Systolic/Diastolic BP, Glucose, HbA1c, Creatinine).
+  4. *Format Consistency:* Gender standardized codes, date formatting.
+  5. *Referential Integrity:* Orphan encounter, condition, lab, and medication records without parent patient IDs.
+  6. *ICD-10 Validity:* Regex pattern `^[A-Z][0-9]{2}$` and presence in Charlson dictionary.
+  7. *Temporal Validity:* Future timestamps and diagnosis dates preceding patient birth.
+- **Quality Score Gauges:** Plotly radial gauges for overall and per-table data health.
+- **Cleaning Impact Table:** Quantitative before-and-after audit demonstrating remediation efficacy.
 
 ---
 
-# 🤖 Machine Learning Model
+## 🤖 Actuarial ML Insurance Underwriting
 
-### Algorithm
+The predictive engine uses a Random Forest Classifier trained on actuarial demographic and health markers to categorize applicants into:
+- 🟢 **Low Premium:** Minimal actuarial risk, optimal biometrics, high healthcare savings.
+- 🟡 **Medium Premium:** Moderate risk, baseline coverage tier.
+- 🔴 **High Premium:** Elevated risk, multi-factor loading, enhanced protection plan.
 
-```python
-RandomForestClassifier()
-```
-
-### Data Preprocessing
-
-* One Hot Encoding
-* Feature Engineering
-* Pipeline Architecture
-* Column Transformer
-
-### Train Test Split
-
-```python
-80% Training
-20% Testing
-```
+### Resilient Dual-Mode Serving
+The system incorporates an intelligent fallback mechanism in [`ehr_utils.py`](ehr_utils.py):
+1. **Cloud API Mode:** Queries the FastAPI REST endpoint deployed on Render with a 2.5-second timeout.
+2. **Local Resilient Fallback:** If the remote API is sleeping or offline, execution falls back instantly to the local [`insurance_premium_model.pkl`](insurance_premium_model.pkl) pipeline, ensuring **zero downtime and 100% availability**.
 
 ---
 
-# 📈 Model Performance
+## 💻 Installation & Quick Start
 
-### Classification Report
+### 1. Prerequisites
+- Python 3.12 or higher
+- Git
 
-| Class  | Precision | Recall | F1   |
-| ------ | --------- | ------ | ---- |
-| High   | 0.91      | 0.90   | 0.91 |
-| Low    | 0.91      | 0.93   | 0.92 |
-| Medium | 0.88      | 0.87   | 0.87 |
-
-### Overall Metrics
-
-```text
-Accuracy        : 89.63%
-Macro F1 Score  : 0.90
-```
-
-### Cross Validation
-
-```text
-Fold 1 : 89.25%
-Fold 2 : 89.63%
-Fold 3 : 87.25%
-Fold 4 : 90.75%
-Fold 5 : 91.75%
-
-Mean CV Accuracy : 89.73%
-```
-
----
-
-# 🔥 Feature Importance
-
-Top contributing features:
-
-```text
-1. Health Risk Index
-2. BMI
-3. Age
-4. Weight Height Ratio
-5. Smoker Income
-6. Income (LPA)
-7. Income × BMI
-8. Income Per Age
-```
-
-Key Insight:
-
-Insurance premium category is primarily influenced by:
-
-* Health Risk
-* BMI
-* Age
-* Smoking Status
-* Income
-
-while City Tier and Occupation contribute less to prediction.
-
----
-
-# ⚡ FastAPI Backend
-
-The backend API is developed using:
-
-* FastAPI
-* Pydantic
-* Uvicorn
-
-### Features
-
-* Request Validation
-* JSON Response
-* Interactive Swagger Documentation
-* Fast Prediction Serving
-
-### API Endpoint
-
-```http
-POST /predict
-```
-
-### Sample Request
-
-```json
-{
-  "age": 30,
-  "weight": 70,
-  "height": 1.75,
-  "income_lpa": 12,
-  "smoker": 0,
-  "city": "Pune",
-  "occupation": "Software Engineer"
-}
-```
-
-### Sample Response
-
-```json
-{
-  "predicted_insurance_premium_category": "Low"
-}
-```
-
----
-
-# 🎨 Streamlit Frontend
-
-The project includes an interactive Streamlit application featuring:
-
-* Modern Insurance Dashboard
-* Dynamic Background Design
-* Interactive Form Inputs
-* Real-Time Predictions
-* Personalized Recommendations
-* Category-Based Visual Cards
-
-### Premium Category Visualization
-
-🟢 Low Premium
-
-* Low Risk
-* High Savings
-* Healthy Lifestyle
-
-🟡 Medium Premium
-
-* Balanced Risk
-* Balanced Coverage
-
-🔴 High Premium
-
-* Higher Risk
-* Enhanced Protection
-
----
-
-# 💡 Personalized Recommendation Engine
-
-The application generates dynamic recommendations based on:
-
-* BMI
-* Age
-* Income
-* Occupation
-* Smoking Status
-* Predicted Premium Category
-
-Examples:
-
-```text
-🚭 Quit smoking to reduce risk.
-
-🏃 Maintain a healthy BMI.
-
-🩺 Schedule annual checkups.
-
-💰 Build an emergency healthcare fund.
-```
-
----
-
-# 🛠️ Installation
-
-Clone Repository
-
+### 2. Clone Repository & Setup Virtual Environment
 ```bash
-git clone https://github.com/yourusername/insurance-premium-prediction.git
+git clone https://github.com/omikalix/insurance-premium-app.git
+cd insurance-premium-app
+
+python -m venv venv
+# On Windows:
+.\venv\Scripts\activate
+# On Linux/macOS:
+source venv/bin/activate
 ```
 
-Move into Project
-
-```bash
-cd insurance-premium-prediction
-```
-
-Install Dependencies
-
+### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
----
+### 4. Launch the Applications
 
-# ▶️ Run FastAPI Server
-
-```bash
-uvicorn insurance_premium_api:app --reload
-```
-
-API Docs
-
-```text
-http://127.0.0.1:8000/docs
-```
-
----
-
-# ▶️ Run Streamlit UI
-
+#### Run the Multi-Page Streamlit Intelligence Portal:
 ```bash
 streamlit run UI.py
 ```
+Open your browser to: **http://localhost:8501**
+
+#### Run the FastAPI Model Serving Backend (Optional):
+```bash
+uvicorn insurance_premium_api:app --host 127.0.0.1 --port 8000 --reload
+```
+Interactive Swagger API documentation: **http://127.0.0.1:8000/docs**
 
 ---
 
-# ☁️ Deployment
+## 🐳 Docker Deployment
 
-This project is fully deployed on Render.
+Run both the FastAPI backend and Streamlit frontend in a unified container managed by `supervisord`:
 
-### Services
+### Pull Pre-built Image:
+```bash
+docker pull omikalix/insurance-premium-app
+```
 
-✅ FastAPI Backend
+### Run Container:
+```bash
+docker run -p 8000:8000 -p 8501:8501 omikalix/insurance-premium-app
+```
 
-✅ Streamlit Frontend
-
-### Deployment Stack
-
-* Render
-* FastAPI
-* Streamlit
-* Uvicorn
-* Random Forest Model
+### Access Services:
+- **Streamlit Application:** http://localhost:8501
+- **FastAPI Documentation:** http://localhost:8000/docs
 
 ---
 
-# 👨‍💻 Author
+## 📊 Core Data Schema & Clean Files
 
-**OMKAR SAWANT**
+All production data is located in [`clean/`](clean/) and validated against [`clean/DATA_DICTIONARY.md`](clean/DATA_DICTIONARY.md):
 
-Building intelligent machine learning systems with scalable deployment architectures.
+| File | Records | Key Columns | Description |
+| :--- | :--- | :--- | :--- |
+| [`clean_patients.csv`](clean/clean_patients.csv) | 1,200 | `patient_id`, `name`, `gender`, `birth_date`, `city`, `height_cm`, `weight_kg`, `bmi`, `blood_group` | Patient master demographic registry |
+| [`clean_conditions.csv`](clean/clean_conditions.csv) | 1,770 | `patient_id`, `condition`, `icd10`, `diagnosis_date` | Longitudinal clinical diagnoses |
+| [`clean_encounters.csv`](clean/clean_encounters.csv) | 2,423 | `patient_id`, `encounter_date`, `encounter_type`, `systolic_bp`, `diastolic_bp`, `glucose`, `length_of_stay_days`, `cost_inr` | Inpatient, outpatient & emergency visits |
+| [`clean_labs.csv`](clean/clean_labs.csv) | 2,398 | `patient_id`, `lab_date`, `hba1c_pct`, `total_cholesterol`, `ldl`, `hdl`, `creatinine_mg_dl`, `hemoglobin_g_dl` | Biomarker laboratory panels |
+| [`clean_medications.csv`](clean/clean_medications.csv) | 1,770 | `patient_id`, `icd10`, `drug_name`, `dose`, `frequency`, `start_date` | Pharmacotherapy prescriptions |
+| [`charlson_mapping.csv`](clean/charlson_mapping.csv) | 10 | `icd10`, `description`, `charlson_weight` | Clinical weights for Charlson Comorbidity Index |
+| [`patient_risk_table.csv`](clean/patient_risk_table.csv) | 1,200 | `patient_id`, `age`, `gender`, `condition_count`, `charlson_score`, `risk_group` | Precomputed comorbidity stratification |
+| [`healthsure_ehr_master_clean.csv`](clean/healthsure_ehr_master_clean.csv) | 1,200 | 31 features | Longitudinal patient-level analytical master file |
+
 ---
-Dataset: **Health Insurance Dataset** by **Parth Patel**  
-Source: https://www.kaggle.com/datasets/patelparth3399/indian-insurance-premium-prediction-dataset 
 
-License: MIT
+## 👨‍💻 Author & Acknowledgements
 
-Special thanks to the author for making the dataset publicly available.
----
+**Omkar Sawant**  
+*Building intelligent machine learning systems and scalable healthcare data architectures.*  
+GitHub: [@OMI-KALIX](https://github.com/OMI-KALIX)
+
+- **Dataset Credit:** Health Insurance Dataset by Parth Patel on Kaggle.
+- **License:** MIT License.

@@ -1,0 +1,1826 @@
+patient_id,icd10,drug_name,dose,frequency,start_date
+P00000,J45,Budesonide,200 mcg,twice daily,2020-01-10
+P00000,E03,Levothyroxine,50 mcg,once daily,2024-02-25
+P00002,E03,Levothyroxine,50 mcg,once daily,2017-03-21
+P00002,E11,Glimepiride,1 mg,once daily,2018-03-19
+P00002,J45,Budesonide,200 mcg,twice daily,2016-03-06
+P00003,I10,Telmisartan,40 mg,once daily,2024-04-10
+P00005,J45,Budesonide,200 mcg,twice daily,2023-10-09
+P00005,N18,Furosemide,40 mg,once daily,2021-01-21
+P00006,J18,Amoxicillin,500 mg,three times daily,2021-12-12
+P00007,I25,Aspirin,75 mg,once daily,2019-09-06
+P00007,J45,Salbutamol,100 mcg,as needed,2021-11-05
+P00008,J45,Salbutamol,100 mcg,as needed,2019-11-08
+P00009,I25,Aspirin,75 mg,once daily,2024-06-12
+P00009,N18,Furosemide,40 mg,once daily,2015-10-04
+P00009,D64,Ferrous sulfate,200 mg,once daily,2024-07-15
+P00010,I10,Telmisartan,40 mg,once daily,2017-10-15
+P00010,E03,Levothyroxine,50 mcg,once daily,2019-07-19
+P00010,J18,Amoxicillin,500 mg,three times daily,2020-05-31
+P00012,I10,Amlodipine,5 mg,once daily,2017-12-23
+P00013,I10,Amlodipine,5 mg,once daily,2019-08-09
+P00013,I10,Telmisartan,40 mg,once daily,2020-01-24
+P00013,E66,Orlistat,120 mg,three times daily,2022-12-05
+P00014,J45,Budesonide,200 mcg,twice daily,2018-03-14
+P00014,E11,Glimepiride,1 mg,once daily,2024-08-01
+P00014,E66,Orlistat,120 mg,three times daily,2018-07-12
+P00015,I10,Telmisartan,40 mg,once daily,2021-10-14
+P00015,E11,Glimepiride,1 mg,once daily,2018-06-19
+P00016,E66,Orlistat,120 mg,three times daily,2019-11-11
+P00021,I10,Amlodipine,5 mg,once daily,2022-09-09
+P00022,J45,Salbutamol,100 mcg,as needed,2020-06-20
+P00023,E03,Levothyroxine,50 mcg,once daily,2020-07-05
+P00024,D64,Ferrous sulfate,200 mg,once daily,2018-10-26
+P00024,I10,Telmisartan,40 mg,once daily,2016-01-22
+P00024,D64,Ferrous sulfate,200 mg,once daily,2015-05-06
+P00025,E11,Metformin,500 mg,twice daily,2018-08-08
+P00026,E11,Glimepiride,1 mg,once daily,2025-02-19
+P00026,E66,Orlistat,120 mg,three times daily,2023-12-26
+P00026,E03,Levothyroxine,50 mcg,once daily,2016-11-09
+P00028,I25,Aspirin,75 mg,once daily,2019-09-05
+P00028,E11,Glimepiride,1 mg,once daily,2015-08-16
+P00028,N18,Furosemide,40 mg,once daily,2019-03-22
+P00029,J18,Amoxicillin,500 mg,three times daily,2015-08-03
+P00029,E66,Orlistat,120 mg,three times daily,2024-08-05
+P00030,I25,Atorvastatin,20 mg,once daily,2016-09-25
+P00030,J45,Budesonide,200 mcg,twice daily,2022-04-18
+P00032,I10,Telmisartan,40 mg,once daily,2022-11-07
+P00032,J18,Amoxicillin,500 mg,three times daily,2018-01-28
+P00032,N18,Furosemide,40 mg,once daily,2020-12-31
+P00033,E11,Metformin,500 mg,twice daily,2017-05-12
+P00033,I10,Amlodipine,5 mg,once daily,2018-04-23
+P00033,E03,Levothyroxine,50 mcg,once daily,2019-04-17
+P00034,N18,Furosemide,40 mg,once daily,2015-01-21
+P00038,E66,Orlistat,120 mg,three times daily,2020-01-17
+P00038,D64,Ferrous sulfate,200 mg,once daily,2015-08-02
+P00038,E11,Glimepiride,1 mg,once daily,2021-04-17
+P00039,E66,Orlistat,120 mg,three times daily,2018-10-04
+P00039,I25,Aspirin,75 mg,once daily,2023-04-15
+P00039,I10,Amlodipine,5 mg,once daily,2024-11-18
+P00040,E11,Glimepiride,1 mg,once daily,2023-03-23
+P00041,N18,Furosemide,40 mg,once daily,2016-09-21
+P00041,I10,Amlodipine,5 mg,once daily,2018-02-03
+P00041,N18,Furosemide,40 mg,once daily,2021-07-10
+P00042,E03,Levothyroxine,50 mcg,once daily,2017-07-04
+P00042,I10,Amlodipine,5 mg,once daily,2024-11-24
+P00044,J45,Budesonide,200 mcg,twice daily,2022-08-10
+P00044,J45,Budesonide,200 mcg,twice daily,2016-01-17
+P00045,E11,Metformin,500 mg,twice daily,2016-10-12
+P00046,E66,Orlistat,120 mg,three times daily,2017-02-11
+P00047,N18,Furosemide,40 mg,once daily,2025-03-13
+P00047,N18,Furosemide,40 mg,once daily,2016-01-29
+P00049,E66,Orlistat,120 mg,three times daily,2021-05-23
+P00049,I25,Aspirin,75 mg,once daily,2021-08-10
+P00052,J18,Amoxicillin,500 mg,three times daily,2021-05-15
+P00052,N18,Furosemide,40 mg,once daily,2019-10-07
+P00053,E66,Orlistat,120 mg,three times daily,2020-03-31
+P00054,E11,Glimepiride,1 mg,once daily,2018-09-01
+P00054,I10,Telmisartan,40 mg,once daily,2016-03-18
+P00054,E66,Orlistat,120 mg,three times daily,2015-07-17
+P00055,I10,Telmisartan,40 mg,once daily,2015-10-26
+P00055,E66,Orlistat,120 mg,three times daily,2018-01-17
+P00056,I10,Amlodipine,5 mg,once daily,2022-02-20
+P00057,I25,Aspirin,75 mg,once daily,2023-05-22
+P00057,I25,Atorvastatin,20 mg,once daily,2020-09-09
+P00057,J18,Amoxicillin,500 mg,three times daily,2024-11-25
+P00058,I25,Aspirin,75 mg,once daily,2019-11-17
+P00058,J18,Amoxicillin,500 mg,three times daily,2018-09-04
+P00059,E03,Levothyroxine,50 mcg,once daily,2023-10-30
+P00060,E66,Orlistat,120 mg,three times daily,2023-12-21
+P00061,J45,Salbutamol,100 mcg,as needed,2016-11-07
+P00065,E66,Orlistat,120 mg,three times daily,2017-04-27
+P00066,I25,Aspirin,75 mg,once daily,2020-05-28
+P00067,D64,Ferrous sulfate,200 mg,once daily,2015-11-28
+P00067,J45,Salbutamol,100 mcg,as needed,2024-06-18
+P00068,E11,Metformin,500 mg,twice daily,2021-07-23
+P00068,I10,Amlodipine,5 mg,once daily,2020-07-28
+P00068,E11,Metformin,500 mg,twice daily,2022-11-13
+P00069,I10,Telmisartan,40 mg,once daily,2019-04-10
+P00069,I10,Amlodipine,5 mg,once daily,2017-01-14
+P00069,J18,Amoxicillin,500 mg,three times daily,2016-03-26
+P00071,J45,Salbutamol,100 mcg,as needed,2025-02-25
+P00072,N18,Furosemide,40 mg,once daily,2016-01-27
+P00073,I10,Telmisartan,40 mg,once daily,2018-10-17
+P00074,I10,Telmisartan,40 mg,once daily,2020-10-08
+P00075,N18,Furosemide,40 mg,once daily,2019-05-31
+P00075,N18,Furosemide,40 mg,once daily,2022-08-01
+P00076,I10,Telmisartan,40 mg,once daily,2022-01-19
+P00078,D64,Ferrous sulfate,200 mg,once daily,2021-01-29
+P00079,N18,Furosemide,40 mg,once daily,2020-03-05
+P00079,E11,Metformin,500 mg,twice daily,2023-03-22
+P00081,D64,Ferrous sulfate,200 mg,once daily,2024-07-15
+P00081,J18,Amoxicillin,500 mg,three times daily,2018-12-08
+P00082,E03,Levothyroxine,50 mcg,once daily,2024-08-10
+P00082,D64,Ferrous sulfate,200 mg,once daily,2015-04-04
+P00082,N18,Furosemide,40 mg,once daily,2018-11-07
+P00084,D64,Ferrous sulfate,200 mg,once daily,2022-08-13
+P00084,J18,Amoxicillin,500 mg,three times daily,2018-05-10
+P00085,I25,Atorvastatin,20 mg,once daily,2019-07-04
+P00085,I10,Amlodipine,5 mg,once daily,2025-04-20
+P00085,I25,Aspirin,75 mg,once daily,2016-10-12
+P00086,E66,Orlistat,120 mg,three times daily,2017-03-24
+P00086,D64,Ferrous sulfate,200 mg,once daily,2024-06-01
+P00086,D64,Ferrous sulfate,200 mg,once daily,2019-07-18
+P00087,E11,Glimepiride,1 mg,once daily,2025-03-23
+P00087,N18,Furosemide,40 mg,once daily,2015-06-18
+P00088,I25,Aspirin,75 mg,once daily,2025-05-07
+P00089,J45,Budesonide,200 mcg,twice daily,2016-09-26
+P00089,E11,Glimepiride,1 mg,once daily,2020-12-04
+P00089,N18,Furosemide,40 mg,once daily,2020-06-12
+P00090,J18,Amoxicillin,500 mg,three times daily,2020-05-16
+P00091,J45,Budesonide,200 mcg,twice daily,2017-09-10
+P00091,D64,Ferrous sulfate,200 mg,once daily,2022-03-18
+P00091,J45,Salbutamol,100 mcg,as needed,2020-09-12
+P00092,D64,Ferrous sulfate,200 mg,once daily,2021-08-15
+P00092,I10,Amlodipine,5 mg,once daily,2016-03-08
+P00093,I10,Amlodipine,5 mg,once daily,2020-09-20
+P00094,E11,Metformin,500 mg,twice daily,2023-08-01
+P00094,E03,Levothyroxine,50 mcg,once daily,2019-11-08
+P00097,J45,Budesonide,200 mcg,twice daily,2023-12-15
+P00097,D64,Ferrous sulfate,200 mg,once daily,2021-06-26
+P00097,J18,Amoxicillin,500 mg,three times daily,2024-04-09
+P00098,E66,Orlistat,120 mg,three times daily,2016-05-01
+P00099,I25,Aspirin,75 mg,once daily,2021-07-09
+P00099,J18,Amoxicillin,500 mg,three times daily,2019-09-04
+P00099,E11,Metformin,500 mg,twice daily,2023-06-19
+P00101,I25,Atorvastatin,20 mg,once daily,2019-12-02
+P00101,J45,Budesonide,200 mcg,twice daily,2020-03-15
+P00104,J18,Amoxicillin,500 mg,three times daily,2020-05-06
+P00105,J45,Budesonide,200 mcg,twice daily,2015-03-04
+P00105,J45,Salbutamol,100 mcg,as needed,2016-03-01
+P00105,N18,Furosemide,40 mg,once daily,2025-04-24
+P00106,I10,Amlodipine,5 mg,once daily,2021-01-27
+P00107,J18,Amoxicillin,500 mg,three times daily,2020-01-02
+P00110,I10,Telmisartan,40 mg,once daily,2022-03-03
+P00110,D64,Ferrous sulfate,200 mg,once daily,2019-11-27
+P00110,I25,Aspirin,75 mg,once daily,2025-03-27
+P00111,I10,Amlodipine,5 mg,once daily,2025-02-10
+P00111,I10,Amlodipine,5 mg,once daily,2023-06-14
+P00111,I25,Atorvastatin,20 mg,once daily,2019-03-23
+P00112,N18,Furosemide,40 mg,once daily,2016-04-24
+P00112,I10,Amlodipine,5 mg,once daily,2022-08-27
+P00113,I25,Atorvastatin,20 mg,once daily,2019-08-27
+P00113,I25,Atorvastatin,20 mg,once daily,2023-12-03
+P00115,J45,Salbutamol,100 mcg,as needed,2016-10-10
+P00115,I10,Telmisartan,40 mg,once daily,2019-04-11
+P00117,J45,Budesonide,200 mcg,twice daily,2023-12-05
+P00117,I10,Amlodipine,5 mg,once daily,2018-08-26
+P00118,E03,Levothyroxine,50 mcg,once daily,2018-01-30
+P00120,E66,Orlistat,120 mg,three times daily,2023-06-22
+P00121,E66,Orlistat,120 mg,three times daily,2022-12-30
+P00121,E03,Levothyroxine,50 mcg,once daily,2019-02-17
+P00122,E66,Orlistat,120 mg,three times daily,2024-08-20
+P00123,E11,Glimepiride,1 mg,once daily,2016-08-06
+P00123,N18,Furosemide,40 mg,once daily,2020-09-21
+P00124,J45,Budesonide,200 mcg,twice daily,2023-02-12
+P00124,J18,Amoxicillin,500 mg,three times daily,2017-03-03
+P00125,I10,Telmisartan,40 mg,once daily,2020-02-23
+P00125,J18,Amoxicillin,500 mg,three times daily,2018-02-21
+P00126,J18,Amoxicillin,500 mg,three times daily,2021-08-20
+P00127,I10,Telmisartan,40 mg,once daily,2022-06-18
+P00127,J45,Salbutamol,100 mcg,as needed,2017-12-20
+P00128,I25,Atorvastatin,20 mg,once daily,2018-09-29
+P00128,E66,Orlistat,120 mg,three times daily,2018-01-05
+P00128,E03,Levothyroxine,50 mcg,once daily,2020-05-30
+P00130,N18,Furosemide,40 mg,once daily,2022-07-20
+P00130,I25,Atorvastatin,20 mg,once daily,2017-07-02
+P00132,E66,Orlistat,120 mg,three times daily,2019-09-09
+P00132,I10,Telmisartan,40 mg,once daily,2023-07-22
+P00133,I25,Aspirin,75 mg,once daily,2023-10-31
+P00137,J18,Amoxicillin,500 mg,three times daily,2021-08-06
+P00138,I25,Aspirin,75 mg,once daily,2019-04-17
+P00138,I25,Aspirin,75 mg,once daily,2016-03-07
+P00138,N18,Furosemide,40 mg,once daily,2018-06-16
+P00139,E03,Levothyroxine,50 mcg,once daily,2024-01-23
+P00139,I10,Telmisartan,40 mg,once daily,2016-03-01
+P00139,I25,Atorvastatin,20 mg,once daily,2020-12-03
+P00140,D64,Ferrous sulfate,200 mg,once daily,2023-08-30
+P00140,J45,Budesonide,200 mcg,twice daily,2018-01-13
+P00141,I25,Atorvastatin,20 mg,once daily,2021-03-21
+P00142,I25,Atorvastatin,20 mg,once daily,2019-05-08
+P00142,E66,Orlistat,120 mg,three times daily,2018-07-28
+P00142,I10,Telmisartan,40 mg,once daily,2018-08-03
+P00144,E66,Orlistat,120 mg,three times daily,2023-06-06
+P00145,J45,Budesonide,200 mcg,twice daily,2019-05-03
+P00145,J18,Amoxicillin,500 mg,three times daily,2022-11-04
+P00145,I10,Telmisartan,40 mg,once daily,2023-10-19
+P00147,N18,Furosemide,40 mg,once daily,2021-10-22
+P00148,E03,Levothyroxine,50 mcg,once daily,2017-12-16
+P00148,I25,Aspirin,75 mg,once daily,2022-07-06
+P00148,E66,Orlistat,120 mg,three times daily,2024-01-11
+P00149,E03,Levothyroxine,50 mcg,once daily,2020-01-24
+P00149,E03,Levothyroxine,50 mcg,once daily,2015-10-16
+P00149,E66,Orlistat,120 mg,three times daily,2024-07-24
+P00150,N18,Furosemide,40 mg,once daily,2020-07-05
+P00150,I10,Amlodipine,5 mg,once daily,2017-02-20
+P00151,E11,Metformin,500 mg,twice daily,2022-02-24
+P00151,J45,Budesonide,200 mcg,twice daily,2016-06-15
+P00152,J45,Salbutamol,100 mcg,as needed,2019-08-27
+P00152,J18,Amoxicillin,500 mg,three times daily,2022-04-06
+P00153,I25,Aspirin,75 mg,once daily,2019-03-20
+P00153,E03,Levothyroxine,50 mcg,once daily,2016-05-26
+P00153,J18,Amoxicillin,500 mg,three times daily,2018-08-30
+P00154,N18,Furosemide,40 mg,once daily,2015-09-11
+P00155,I10,Amlodipine,5 mg,once daily,2021-05-11
+P00156,E11,Glimepiride,1 mg,once daily,2015-01-31
+P00156,J18,Amoxicillin,500 mg,three times daily,2018-06-25
+P00157,D64,Ferrous sulfate,200 mg,once daily,2023-02-25
+P00157,I25,Aspirin,75 mg,once daily,2018-02-27
+P00157,E03,Levothyroxine,50 mcg,once daily,2021-07-31
+P00158,I25,Aspirin,75 mg,once daily,2021-05-21
+P00158,I25,Aspirin,75 mg,once daily,2024-04-05
+P00159,I25,Aspirin,75 mg,once daily,2023-10-11
+P00159,E11,Glimepiride,1 mg,once daily,2023-08-24
+P00160,J45,Budesonide,200 mcg,twice daily,2023-08-22
+P00161,E11,Metformin,500 mg,twice daily,2017-10-11
+P00161,N18,Furosemide,40 mg,once daily,2021-07-16
+P00162,I25,Atorvastatin,20 mg,once daily,2023-05-31
+P00162,J18,Amoxicillin,500 mg,three times daily,2018-12-08
+P00162,E66,Orlistat,120 mg,three times daily,2024-10-27
+P00163,D64,Ferrous sulfate,200 mg,once daily,2024-01-15
+P00164,E03,Levothyroxine,50 mcg,once daily,2023-04-26
+P00164,D64,Ferrous sulfate,200 mg,once daily,2018-09-28
+P00165,J18,Amoxicillin,500 mg,three times daily,2018-04-28
+P00165,J18,Amoxicillin,500 mg,three times daily,2017-02-11
+P00166,E11,Glimepiride,1 mg,once daily,2023-11-20
+P00167,I10,Amlodipine,5 mg,once daily,2017-04-25
+P00167,N18,Furosemide,40 mg,once daily,2020-02-26
+P00169,N18,Furosemide,40 mg,once daily,2021-12-25
+P00169,E03,Levothyroxine,50 mcg,once daily,2016-10-05
+P00169,I25,Aspirin,75 mg,once daily,2022-08-22
+P00170,I10,Amlodipine,5 mg,once daily,2018-04-29
+P00170,J18,Amoxicillin,500 mg,three times daily,2018-07-30
+P00170,E11,Metformin,500 mg,twice daily,2020-03-06
+P00172,E66,Orlistat,120 mg,three times daily,2016-01-19
+P00172,J45,Budesonide,200 mcg,twice daily,2020-11-22
+P00174,I10,Telmisartan,40 mg,once daily,2021-08-13
+P00174,I25,Aspirin,75 mg,once daily,2024-08-18
+P00175,E66,Orlistat,120 mg,three times daily,2016-08-02
+P00175,E66,Orlistat,120 mg,three times daily,2015-03-01
+P00175,I10,Amlodipine,5 mg,once daily,2023-12-31
+P00176,J45,Budesonide,200 mcg,twice daily,2023-10-04
+P00176,E11,Metformin,500 mg,twice daily,2018-07-01
+P00176,E11,Glimepiride,1 mg,once daily,2020-05-19
+P00177,D64,Ferrous sulfate,200 mg,once daily,2020-06-10
+P00177,I10,Telmisartan,40 mg,once daily,2021-05-08
+P00177,J45,Salbutamol,100 mcg,as needed,2021-05-30
+P00179,N18,Furosemide,40 mg,once daily,2023-01-02
+P00179,E66,Orlistat,120 mg,three times daily,2024-06-05
+P00180,D64,Ferrous sulfate,200 mg,once daily,2021-10-18
+P00181,J18,Amoxicillin,500 mg,three times daily,2015-02-06
+P00181,J18,Amoxicillin,500 mg,three times daily,2019-12-30
+P00181,E66,Orlistat,120 mg,three times daily,2021-04-14
+P00182,I10,Telmisartan,40 mg,once daily,2024-11-16
+P00186,J45,Budesonide,200 mcg,twice daily,2021-01-16
+P00186,J18,Amoxicillin,500 mg,three times daily,2018-01-11
+P00188,D64,Ferrous sulfate,200 mg,once daily,2022-07-30
+P00190,D64,Ferrous sulfate,200 mg,once daily,2020-01-05
+P00190,J45,Salbutamol,100 mcg,as needed,2024-12-22
+P00190,I10,Amlodipine,5 mg,once daily,2019-09-02
+P00191,N18,Furosemide,40 mg,once daily,2017-05-28
+P00192,I25,Atorvastatin,20 mg,once daily,2022-05-30
+P00192,D64,Ferrous sulfate,200 mg,once daily,2017-02-10
+P00192,E66,Orlistat,120 mg,three times daily,2019-10-15
+P00193,D64,Ferrous sulfate,200 mg,once daily,2020-04-10
+P00193,D64,Ferrous sulfate,200 mg,once daily,2020-10-17
+P00194,N18,Furosemide,40 mg,once daily,2023-06-15
+P00194,D64,Ferrous sulfate,200 mg,once daily,2025-05-22
+P00195,D64,Ferrous sulfate,200 mg,once daily,2020-02-14
+P00195,I25,Aspirin,75 mg,once daily,2023-03-15
+P00196,I25,Aspirin,75 mg,once daily,2023-05-25
+P00196,E11,Glimepiride,1 mg,once daily,2015-08-25
+P00197,N18,Furosemide,40 mg,once daily,2023-04-14
+P00197,D64,Ferrous sulfate,200 mg,once daily,2023-02-12
+P00198,J45,Budesonide,200 mcg,twice daily,2017-08-13
+P00199,E03,Levothyroxine,50 mcg,once daily,2025-05-22
+P00199,I10,Amlodipine,5 mg,once daily,2016-02-02
+P00200,N18,Furosemide,40 mg,once daily,2018-10-25
+P00200,J45,Budesonide,200 mcg,twice daily,2024-03-11
+P00200,J18,Amoxicillin,500 mg,three times daily,2016-10-26
+P00201,J18,Amoxicillin,500 mg,three times daily,2022-08-19
+P00202,I10,Amlodipine,5 mg,once daily,2021-01-10
+P00202,E11,Glimepiride,1 mg,once daily,2019-09-08
+P00202,E11,Glimepiride,1 mg,once daily,2017-10-16
+P00203,I10,Telmisartan,40 mg,once daily,2023-11-03
+P00204,I10,Telmisartan,40 mg,once daily,2025-04-13
+P00207,N18,Furosemide,40 mg,once daily,2018-11-25
+P00207,J45,Budesonide,200 mcg,twice daily,2021-02-15
+P00207,I25,Aspirin,75 mg,once daily,2015-11-15
+P00208,E66,Orlistat,120 mg,three times daily,2016-10-31
+P00208,N18,Furosemide,40 mg,once daily,2019-09-20
+P00208,E11,Glimepiride,1 mg,once daily,2019-02-24
+P00209,E11,Metformin,500 mg,twice daily,2018-10-21
+P00209,J45,Salbutamol,100 mcg,as needed,2018-09-04
+P00210,I25,Aspirin,75 mg,once daily,2022-12-28
+P00211,J18,Amoxicillin,500 mg,three times daily,2016-07-10
+P00211,E66,Orlistat,120 mg,three times daily,2022-11-06
+P00215,I25,Aspirin,75 mg,once daily,2016-11-27
+P00215,J45,Budesonide,200 mcg,twice daily,2019-08-25
+P00217,E11,Glimepiride,1 mg,once daily,2021-09-26
+P00217,E11,Metformin,500 mg,twice daily,2023-03-25
+P00218,N18,Furosemide,40 mg,once daily,2019-01-06
+P00219,J18,Amoxicillin,500 mg,three times daily,2024-12-08
+P00219,E03,Levothyroxine,50 mcg,once daily,2025-02-25
+P00219,J45,Salbutamol,100 mcg,as needed,2018-04-29
+P00220,E11,Glimepiride,1 mg,once daily,2016-11-10
+P00220,E03,Levothyroxine,50 mcg,once daily,2019-02-28
+P00220,J45,Budesonide,200 mcg,twice daily,2018-02-27
+P00221,N18,Furosemide,40 mg,once daily,2015-01-20
+P00221,N18,Furosemide,40 mg,once daily,2023-02-01
+P00221,I10,Telmisartan,40 mg,once daily,2015-09-24
+P00222,J18,Amoxicillin,500 mg,three times daily,2015-09-26
+P00222,D64,Ferrous sulfate,200 mg,once daily,2023-02-07
+P00224,N18,Furosemide,40 mg,once daily,2021-05-10
+P00225,I10,Amlodipine,5 mg,once daily,2024-02-23
+P00225,I25,Aspirin,75 mg,once daily,2020-07-15
+P00226,N18,Furosemide,40 mg,once daily,2018-01-06
+P00226,J45,Salbutamol,100 mcg,as needed,2016-06-11
+P00227,J45,Budesonide,200 mcg,twice daily,2015-07-11
+P00227,E11,Glimepiride,1 mg,once daily,2025-01-26
+P00228,D64,Ferrous sulfate,200 mg,once daily,2020-07-22
+P00229,J18,Amoxicillin,500 mg,three times daily,2023-02-16
+P00229,E66,Orlistat,120 mg,three times daily,2017-04-08
+P00229,N18,Furosemide,40 mg,once daily,2018-01-03
+P00230,J45,Salbutamol,100 mcg,as needed,2023-04-07
+P00230,J45,Budesonide,200 mcg,twice daily,2022-03-18
+P00230,E11,Metformin,500 mg,twice daily,2023-03-16
+P00231,D64,Ferrous sulfate,200 mg,once daily,2020-08-05
+P00231,N18,Furosemide,40 mg,once daily,2021-02-24
+P00231,D64,Ferrous sulfate,200 mg,once daily,2020-02-12
+P00232,I10,Amlodipine,5 mg,once daily,2019-11-06
+P00232,I25,Aspirin,75 mg,once daily,2024-04-25
+P00233,E66,Orlistat,120 mg,three times daily,2024-04-12
+P00234,E03,Levothyroxine,50 mcg,once daily,2018-04-19
+P00234,I10,Telmisartan,40 mg,once daily,2023-03-21
+P00234,E03,Levothyroxine,50 mcg,once daily,2023-08-27
+P00235,E66,Orlistat,120 mg,three times daily,2015-11-07
+P00235,E11,Glimepiride,1 mg,once daily,2015-09-22
+P00236,I10,Amlodipine,5 mg,once daily,2015-06-04
+P00237,I10,Amlodipine,5 mg,once daily,2023-08-20
+P00237,D64,Ferrous sulfate,200 mg,once daily,2021-04-30
+P00237,I10,Amlodipine,5 mg,once daily,2015-03-01
+P00239,E66,Orlistat,120 mg,three times daily,2019-03-04
+P00241,I25,Aspirin,75 mg,once daily,2021-01-17
+P00242,E11,Glimepiride,1 mg,once daily,2023-01-22
+P00242,E11,Glimepiride,1 mg,once daily,2018-05-07
+P00242,D64,Ferrous sulfate,200 mg,once daily,2016-02-03
+P00243,D64,Ferrous sulfate,200 mg,once daily,2022-02-21
+P00245,I25,Atorvastatin,20 mg,once daily,2021-05-11
+P00245,I10,Telmisartan,40 mg,once daily,2025-04-18
+P00245,E03,Levothyroxine,50 mcg,once daily,2021-09-09
+P00247,I25,Aspirin,75 mg,once daily,2021-09-01
+P00247,D64,Ferrous sulfate,200 mg,once daily,2023-05-19
+P00247,J18,Amoxicillin,500 mg,three times daily,2019-01-24
+P00249,I25,Aspirin,75 mg,once daily,2018-06-27
+P00250,D64,Ferrous sulfate,200 mg,once daily,2021-06-26
+P00251,D64,Ferrous sulfate,200 mg,once daily,2025-04-11
+P00252,D64,Ferrous sulfate,200 mg,once daily,2017-12-21
+P00252,I25,Atorvastatin,20 mg,once daily,2015-07-16
+P00253,E11,Metformin,500 mg,twice daily,2023-02-14
+P00253,E66,Orlistat,120 mg,three times daily,2023-05-22
+P00255,I25,Aspirin,75 mg,once daily,2015-01-09
+P00255,E03,Levothyroxine,50 mcg,once daily,2024-01-14
+P00256,E66,Orlistat,120 mg,three times daily,2015-07-30
+P00257,E03,Levothyroxine,50 mcg,once daily,2021-12-25
+P00257,N18,Furosemide,40 mg,once daily,2015-04-13
+P00257,N18,Furosemide,40 mg,once daily,2024-11-21
+P00258,E11,Metformin,500 mg,twice daily,2020-02-21
+P00260,D64,Ferrous sulfate,200 mg,once daily,2015-09-12
+P00261,N18,Furosemide,40 mg,once daily,2022-11-08
+P00263,D64,Ferrous sulfate,200 mg,once daily,2015-01-16
+P00263,I10,Telmisartan,40 mg,once daily,2021-09-08
+P00264,J18,Amoxicillin,500 mg,three times daily,2022-12-31
+P00264,J18,Amoxicillin,500 mg,three times daily,2021-04-24
+P00264,I10,Telmisartan,40 mg,once daily,2020-07-12
+P00265,J45,Salbutamol,100 mcg,as needed,2016-03-30
+P00267,I10,Amlodipine,5 mg,once daily,2021-07-12
+P00267,J45,Budesonide,200 mcg,twice daily,2020-01-15
+P00267,I25,Aspirin,75 mg,once daily,2018-02-13
+P00268,J18,Amoxicillin,500 mg,three times daily,2020-03-30
+P00269,E66,Orlistat,120 mg,three times daily,2020-02-10
+P00269,J18,Amoxicillin,500 mg,three times daily,2016-04-17
+P00269,D64,Ferrous sulfate,200 mg,once daily,2019-11-04
+P00271,E03,Levothyroxine,50 mcg,once daily,2021-01-28
+P00271,E03,Levothyroxine,50 mcg,once daily,2022-11-05
+P00271,E03,Levothyroxine,50 mcg,once daily,2018-01-24
+P00272,I25,Atorvastatin,20 mg,once daily,2024-06-23
+P00274,I25,Atorvastatin,20 mg,once daily,2023-02-06
+P00274,I10,Amlodipine,5 mg,once daily,2023-10-11
+P00274,N18,Furosemide,40 mg,once daily,2025-03-31
+P00275,E66,Orlistat,120 mg,three times daily,2023-09-11
+P00277,I25,Aspirin,75 mg,once daily,2017-03-17
+P00278,E11,Metformin,500 mg,twice daily,2017-09-10
+P00278,J45,Salbutamol,100 mcg,as needed,2019-05-10
+P00278,E03,Levothyroxine,50 mcg,once daily,2015-01-27
+P00279,I25,Atorvastatin,20 mg,once daily,2021-06-13
+P00279,E11,Metformin,500 mg,twice daily,2023-12-06
+P00280,J45,Budesonide,200 mcg,twice daily,2023-03-20
+P00280,N18,Furosemide,40 mg,once daily,2019-01-23
+P00282,I10,Telmisartan,40 mg,once daily,2022-08-19
+P00283,I10,Amlodipine,5 mg,once daily,2022-05-10
+P00284,J18,Amoxicillin,500 mg,three times daily,2020-01-17
+P00284,J45,Salbutamol,100 mcg,as needed,2017-04-21
+P00284,I25,Aspirin,75 mg,once daily,2016-01-21
+P00285,J45,Salbutamol,100 mcg,as needed,2023-02-12
+P00285,I25,Aspirin,75 mg,once daily,2022-03-08
+P00285,E66,Orlistat,120 mg,three times daily,2019-03-28
+P00286,I25,Aspirin,75 mg,once daily,2017-08-25
+P00286,E03,Levothyroxine,50 mcg,once daily,2016-06-18
+P00286,E11,Metformin,500 mg,twice daily,2018-10-30
+P00287,N18,Furosemide,40 mg,once daily,2015-08-20
+P00287,N18,Furosemide,40 mg,once daily,2021-06-26
+P00288,D64,Ferrous sulfate,200 mg,once daily,2018-09-10
+P00290,I25,Aspirin,75 mg,once daily,2025-03-26
+P00290,I10,Amlodipine,5 mg,once daily,2015-01-29
+P00291,J18,Amoxicillin,500 mg,three times daily,2024-07-02
+P00291,E66,Orlistat,120 mg,three times daily,2018-04-10
+P00291,E03,Levothyroxine,50 mcg,once daily,2015-04-22
+P00292,E66,Orlistat,120 mg,three times daily,2021-08-07
+P00293,E66,Orlistat,120 mg,three times daily,2023-04-17
+P00293,E03,Levothyroxine,50 mcg,once daily,2018-09-16
+P00293,N18,Furosemide,40 mg,once daily,2015-10-30
+P00294,E66,Orlistat,120 mg,three times daily,2016-07-16
+P00294,N18,Furosemide,40 mg,once daily,2024-05-11
+P00295,D64,Ferrous sulfate,200 mg,once daily,2023-02-01
+P00296,E03,Levothyroxine,50 mcg,once daily,2015-08-27
+P00296,E11,Glimepiride,1 mg,once daily,2022-11-07
+P00296,E66,Orlistat,120 mg,three times daily,2017-10-14
+P00297,E11,Metformin,500 mg,twice daily,2016-12-16
+P00297,N18,Furosemide,40 mg,once daily,2015-03-02
+P00298,N18,Furosemide,40 mg,once daily,2015-12-19
+P00298,D64,Ferrous sulfate,200 mg,once daily,2019-09-27
+P00301,J18,Amoxicillin,500 mg,three times daily,2019-06-29
+P00301,D64,Ferrous sulfate,200 mg,once daily,2019-07-21
+P00302,E66,Orlistat,120 mg,three times daily,2019-05-25
+P00302,J45,Budesonide,200 mcg,twice daily,2020-12-28
+P00302,J18,Amoxicillin,500 mg,three times daily,2021-03-27
+P00303,E03,Levothyroxine,50 mcg,once daily,2016-11-13
+P00304,I10,Amlodipine,5 mg,once daily,2024-06-30
+P00305,E66,Orlistat,120 mg,three times daily,2015-03-30
+P00305,E66,Orlistat,120 mg,three times daily,2017-04-12
+P00305,E66,Orlistat,120 mg,three times daily,2018-07-17
+P00306,D64,Ferrous sulfate,200 mg,once daily,2023-03-22
+P00307,J18,Amoxicillin,500 mg,three times daily,2015-03-19
+P00308,N18,Furosemide,40 mg,once daily,2020-08-01
+P00308,J18,Amoxicillin,500 mg,three times daily,2015-07-28
+P00308,J18,Amoxicillin,500 mg,three times daily,2017-02-10
+P00309,E03,Levothyroxine,50 mcg,once daily,2018-07-25
+P00309,E11,Glimepiride,1 mg,once daily,2016-04-10
+P00309,I10,Telmisartan,40 mg,once daily,2015-09-22
+P00310,J18,Amoxicillin,500 mg,three times daily,2023-04-27
+P00310,E03,Levothyroxine,50 mcg,once daily,2025-03-14
+P00311,E11,Metformin,500 mg,twice daily,2020-03-02
+P00311,E03,Levothyroxine,50 mcg,once daily,2019-10-04
+P00312,N18,Furosemide,40 mg,once daily,2023-02-16
+P00313,I25,Aspirin,75 mg,once daily,2019-12-09
+P00314,I10,Amlodipine,5 mg,once daily,2017-11-29
+P00316,I10,Telmisartan,40 mg,once daily,2025-03-07
+P00316,E66,Orlistat,120 mg,three times daily,2021-12-29
+P00316,E66,Orlistat,120 mg,three times daily,2023-12-26
+P00317,I25,Aspirin,75 mg,once daily,2023-09-17
+P00317,I25,Atorvastatin,20 mg,once daily,2016-01-29
+P00317,D64,Ferrous sulfate,200 mg,once daily,2016-04-12
+P00320,E11,Glimepiride,1 mg,once daily,2019-02-08
+P00320,E03,Levothyroxine,50 mcg,once daily,2023-05-06
+P00320,E11,Glimepiride,1 mg,once daily,2024-04-19
+P00321,E66,Orlistat,120 mg,three times daily,2021-10-21
+P00321,N18,Furosemide,40 mg,once daily,2016-10-11
+P00321,I10,Telmisartan,40 mg,once daily,2023-07-04
+P00322,J18,Amoxicillin,500 mg,three times daily,2021-06-07
+P00322,D64,Ferrous sulfate,200 mg,once daily,2017-01-05
+P00322,E11,Glimepiride,1 mg,once daily,2017-02-02
+P00323,J45,Salbutamol,100 mcg,as needed,2020-09-15
+P00324,E03,Levothyroxine,50 mcg,once daily,2023-08-13
+P00324,J45,Budesonide,200 mcg,twice daily,2024-09-25
+P00324,J18,Amoxicillin,500 mg,three times daily,2018-08-18
+P00325,J18,Amoxicillin,500 mg,three times daily,2025-05-21
+P00326,I10,Amlodipine,5 mg,once daily,2021-04-23
+P00327,N18,Furosemide,40 mg,once daily,2016-05-17
+P00327,E03,Levothyroxine,50 mcg,once daily,2022-11-25
+P00327,J18,Amoxicillin,500 mg,three times daily,2023-12-21
+P00328,J45,Salbutamol,100 mcg,as needed,2016-09-20
+P00330,E66,Orlistat,120 mg,three times daily,2021-09-10
+P00330,E66,Orlistat,120 mg,three times daily,2018-03-14
+P00330,E03,Levothyroxine,50 mcg,once daily,2019-02-17
+P00331,D64,Ferrous sulfate,200 mg,once daily,2016-05-25
+P00332,I25,Atorvastatin,20 mg,once daily,2019-06-25
+P00333,J45,Budesonide,200 mcg,twice daily,2016-08-01
+P00333,D64,Ferrous sulfate,200 mg,once daily,2015-03-05
+P00334,E66,Orlistat,120 mg,three times daily,2018-12-26
+P00334,E03,Levothyroxine,50 mcg,once daily,2020-05-26
+P00334,E03,Levothyroxine,50 mcg,once daily,2017-04-13
+P00335,J18,Amoxicillin,500 mg,three times daily,2020-06-01
+P00335,J18,Amoxicillin,500 mg,three times daily,2018-04-23
+P00335,J18,Amoxicillin,500 mg,three times daily,2024-06-17
+P00336,E66,Orlistat,120 mg,three times daily,2017-03-24
+P00336,E11,Glimepiride,1 mg,once daily,2020-06-24
+P00337,D64,Ferrous sulfate,200 mg,once daily,2018-10-09
+P00338,I10,Telmisartan,40 mg,once daily,2025-01-10
+P00338,I10,Telmisartan,40 mg,once daily,2018-05-26
+P00338,E11,Glimepiride,1 mg,once daily,2022-01-23
+P00339,E66,Orlistat,120 mg,three times daily,2016-02-11
+P00339,N18,Furosemide,40 mg,once daily,2024-03-26
+P00341,J45,Budesonide,200 mcg,twice daily,2018-09-15
+P00341,E03,Levothyroxine,50 mcg,once daily,2023-06-01
+P00343,I25,Atorvastatin,20 mg,once daily,2022-11-01
+P00343,J18,Amoxicillin,500 mg,three times daily,2024-02-18
+P00345,E66,Orlistat,120 mg,three times daily,2023-02-08
+P00345,I25,Atorvastatin,20 mg,once daily,2022-08-05
+P00345,E11,Metformin,500 mg,twice daily,2018-12-05
+P00346,D64,Ferrous sulfate,200 mg,once daily,2017-10-04
+P00346,D64,Ferrous sulfate,200 mg,once daily,2015-01-07
+P00346,E66,Orlistat,120 mg,three times daily,2020-09-23
+P00347,I25,Atorvastatin,20 mg,once daily,2017-04-22
+P00347,J45,Budesonide,200 mcg,twice daily,2019-10-06
+P00348,I25,Aspirin,75 mg,once daily,2020-04-14
+P00349,J45,Budesonide,200 mcg,twice daily,2021-01-16
+P00351,E03,Levothyroxine,50 mcg,once daily,2017-12-04
+P00351,E03,Levothyroxine,50 mcg,once daily,2025-01-30
+P00351,E03,Levothyroxine,50 mcg,once daily,2023-02-10
+P00354,J45,Salbutamol,100 mcg,as needed,2016-04-02
+P00354,E66,Orlistat,120 mg,three times daily,2018-08-04
+P00355,E03,Levothyroxine,50 mcg,once daily,2016-06-28
+P00355,I10,Telmisartan,40 mg,once daily,2021-01-30
+P00355,D64,Ferrous sulfate,200 mg,once daily,2017-11-18
+P00357,J45,Budesonide,200 mcg,twice daily,2016-10-21
+P00357,I25,Aspirin,75 mg,once daily,2018-08-30
+P00358,I25,Atorvastatin,20 mg,once daily,2020-11-19
+P00359,E11,Metformin,500 mg,twice daily,2017-06-28
+P00359,N18,Furosemide,40 mg,once daily,2022-07-28
+P00361,E11,Glimepiride,1 mg,once daily,2021-08-28
+P00361,I10,Amlodipine,5 mg,once daily,2024-05-24
+P00361,E03,Levothyroxine,50 mcg,once daily,2023-03-23
+P00362,E11,Glimepiride,1 mg,once daily,2023-10-24
+P00362,E11,Metformin,500 mg,twice daily,2020-08-24
+P00362,D64,Ferrous sulfate,200 mg,once daily,2024-05-12
+P00363,E03,Levothyroxine,50 mcg,once daily,2025-01-26
+P00363,E11,Metformin,500 mg,twice daily,2015-01-13
+P00366,J18,Amoxicillin,500 mg,three times daily,2019-02-01
+P00367,D64,Ferrous sulfate,200 mg,once daily,2019-10-31
+P00367,J18,Amoxicillin,500 mg,three times daily,2020-01-13
+P00367,E11,Metformin,500 mg,twice daily,2023-11-18
+P00369,I10,Amlodipine,5 mg,once daily,2023-03-12
+P00370,E66,Orlistat,120 mg,three times daily,2024-01-06
+P00370,J45,Salbutamol,100 mcg,as needed,2017-08-17
+P00371,I10,Telmisartan,40 mg,once daily,2024-10-06
+P00373,J45,Salbutamol,100 mcg,as needed,2015-03-01
+P00374,N18,Furosemide,40 mg,once daily,2024-02-18
+P00374,D64,Ferrous sulfate,200 mg,once daily,2020-02-28
+P00374,J45,Salbutamol,100 mcg,as needed,2021-02-24
+P00375,E11,Glimepiride,1 mg,once daily,2017-06-04
+P00375,I25,Aspirin,75 mg,once daily,2016-03-30
+P00378,N18,Furosemide,40 mg,once daily,2023-06-19
+P00379,I25,Atorvastatin,20 mg,once daily,2020-07-04
+P00379,E11,Metformin,500 mg,twice daily,2023-11-01
+P00379,J45,Salbutamol,100 mcg,as needed,2015-09-01
+P00380,I25,Aspirin,75 mg,once daily,2019-04-12
+P00380,I25,Aspirin,75 mg,once daily,2021-07-14
+P00381,D64,Ferrous sulfate,200 mg,once daily,2021-05-09
+P00381,J18,Amoxicillin,500 mg,three times daily,2023-03-03
+P00381,I10,Telmisartan,40 mg,once daily,2018-07-10
+P00382,E66,Orlistat,120 mg,three times daily,2021-04-25
+P00383,J18,Amoxicillin,500 mg,three times daily,2024-07-10
+P00383,N18,Furosemide,40 mg,once daily,2017-09-25
+P00383,I25,Atorvastatin,20 mg,once daily,2015-01-25
+P00384,D64,Ferrous sulfate,200 mg,once daily,2016-09-19
+P00384,N18,Furosemide,40 mg,once daily,2022-06-14
+P00385,E03,Levothyroxine,50 mcg,once daily,2016-01-06
+P00385,I25,Atorvastatin,20 mg,once daily,2021-03-12
+P00385,E11,Glimepiride,1 mg,once daily,2017-01-25
+P00386,N18,Furosemide,40 mg,once daily,2021-01-06
+P00386,I10,Telmisartan,40 mg,once daily,2021-08-06
+P00386,E66,Orlistat,120 mg,three times daily,2024-12-26
+P00389,J18,Amoxicillin,500 mg,three times daily,2015-01-22
+P00389,J45,Salbutamol,100 mcg,as needed,2016-08-17
+P00390,N18,Furosemide,40 mg,once daily,2022-06-08
+P00390,E11,Glimepiride,1 mg,once daily,2016-05-17
+P00390,N18,Furosemide,40 mg,once daily,2019-05-15
+P00392,E03,Levothyroxine,50 mcg,once daily,2015-02-22
+P00393,I10,Telmisartan,40 mg,once daily,2022-11-22
+P00393,D64,Ferrous sulfate,200 mg,once daily,2015-08-29
+P00393,E03,Levothyroxine,50 mcg,once daily,2020-03-01
+P00394,I10,Amlodipine,5 mg,once daily,2016-03-14
+P00395,J45,Salbutamol,100 mcg,as needed,2023-09-26
+P00396,E11,Metformin,500 mg,twice daily,2024-02-15
+P00396,J45,Budesonide,200 mcg,twice daily,2021-04-23
+P00397,E03,Levothyroxine,50 mcg,once daily,2019-03-23
+P00397,E11,Metformin,500 mg,twice daily,2017-06-13
+P00397,D64,Ferrous sulfate,200 mg,once daily,2024-11-16
+P00400,J18,Amoxicillin,500 mg,three times daily,2024-11-19
+P00402,E66,Orlistat,120 mg,three times daily,2025-05-22
+P00402,J18,Amoxicillin,500 mg,three times daily,2023-02-06
+P00403,J45,Budesonide,200 mcg,twice daily,2025-03-26
+P00404,I10,Amlodipine,5 mg,once daily,2015-09-20
+P00404,J18,Amoxicillin,500 mg,three times daily,2016-05-07
+P00405,J45,Budesonide,200 mcg,twice daily,2016-10-22
+P00405,I10,Amlodipine,5 mg,once daily,2020-09-07
+P00406,E11,Metformin,500 mg,twice daily,2022-04-28
+P00406,D64,Ferrous sulfate,200 mg,once daily,2023-04-07
+P00406,D64,Ferrous sulfate,200 mg,once daily,2016-04-23
+P00407,E66,Orlistat,120 mg,three times daily,2023-07-30
+P00408,E66,Orlistat,120 mg,three times daily,2015-01-28
+P00409,E03,Levothyroxine,50 mcg,once daily,2022-01-05
+P00409,I10,Amlodipine,5 mg,once daily,2016-07-08
+P00410,E66,Orlistat,120 mg,three times daily,2022-12-13
+P00410,J18,Amoxicillin,500 mg,three times daily,2024-06-21
+P00411,J18,Amoxicillin,500 mg,three times daily,2023-02-04
+P00411,J18,Amoxicillin,500 mg,three times daily,2018-05-12
+P00411,N18,Furosemide,40 mg,once daily,2017-04-22
+P00412,N18,Furosemide,40 mg,once daily,2015-09-18
+P00412,E11,Metformin,500 mg,twice daily,2024-11-21
+P00413,E11,Glimepiride,1 mg,once daily,2018-11-06
+P00413,E66,Orlistat,120 mg,three times daily,2022-07-29
+P00414,D64,Ferrous sulfate,200 mg,once daily,2022-04-15
+P00414,J45,Budesonide,200 mcg,twice daily,2023-10-05
+P00414,E03,Levothyroxine,50 mcg,once daily,2017-06-28
+P00415,E03,Levothyroxine,50 mcg,once daily,2017-08-02
+P00416,I25,Aspirin,75 mg,once daily,2017-12-26
+P00416,I10,Telmisartan,40 mg,once daily,2022-07-05
+P00417,D64,Ferrous sulfate,200 mg,once daily,2017-09-14
+P00420,J45,Salbutamol,100 mcg,as needed,2020-12-29
+P00420,N18,Furosemide,40 mg,once daily,2018-11-06
+P00420,J18,Amoxicillin,500 mg,three times daily,2024-06-23
+P00423,E11,Glimepiride,1 mg,once daily,2015-04-22
+P00424,E11,Metformin,500 mg,twice daily,2015-09-25
+P00424,I25,Atorvastatin,20 mg,once daily,2020-11-28
+P00424,N18,Furosemide,40 mg,once daily,2022-10-04
+P00425,E11,Glimepiride,1 mg,once daily,2022-12-10
+P00425,E11,Metformin,500 mg,twice daily,2024-07-05
+P00426,E66,Orlistat,120 mg,three times daily,2025-05-25
+P00428,I10,Amlodipine,5 mg,once daily,2025-01-28
+P00429,J18,Amoxicillin,500 mg,three times daily,2021-02-17
+P00430,D64,Ferrous sulfate,200 mg,once daily,2015-07-04
+P00430,N18,Furosemide,40 mg,once daily,2021-10-24
+P00430,E66,Orlistat,120 mg,three times daily,2023-08-31
+P00431,J18,Amoxicillin,500 mg,three times daily,2024-09-24
+P00431,J18,Amoxicillin,500 mg,three times daily,2025-04-13
+P00432,I25,Atorvastatin,20 mg,once daily,2015-02-24
+P00434,J45,Budesonide,200 mcg,twice daily,2019-07-26
+P00434,I25,Aspirin,75 mg,once daily,2024-08-22
+P00434,J18,Amoxicillin,500 mg,three times daily,2022-09-10
+P00435,N18,Furosemide,40 mg,once daily,2016-10-06
+P00435,D64,Ferrous sulfate,200 mg,once daily,2015-03-18
+P00435,I25,Atorvastatin,20 mg,once daily,2023-08-23
+P00437,E03,Levothyroxine,50 mcg,once daily,2022-10-25
+P00437,D64,Ferrous sulfate,200 mg,once daily,2018-06-14
+P00440,J45,Budesonide,200 mcg,twice daily,2021-10-05
+P00440,E11,Glimepiride,1 mg,once daily,2018-01-13
+P00441,E03,Levothyroxine,50 mcg,once daily,2016-01-13
+P00442,N18,Furosemide,40 mg,once daily,2018-05-06
+P00443,E66,Orlistat,120 mg,three times daily,2015-06-30
+P00443,E66,Orlistat,120 mg,three times daily,2024-04-30
+P00443,J18,Amoxicillin,500 mg,three times daily,2016-04-12
+P00444,D64,Ferrous sulfate,200 mg,once daily,2017-02-14
+P00446,J18,Amoxicillin,500 mg,three times daily,2016-09-10
+P00446,E11,Glimepiride,1 mg,once daily,2025-05-12
+P00447,E11,Metformin,500 mg,twice daily,2025-01-03
+P00448,I10,Amlodipine,5 mg,once daily,2021-12-15
+P00449,I10,Amlodipine,5 mg,once daily,2022-07-24
+P00449,I25,Atorvastatin,20 mg,once daily,2018-04-27
+P00449,E03,Levothyroxine,50 mcg,once daily,2015-08-18
+P00451,E66,Orlistat,120 mg,three times daily,2024-05-31
+P00451,J18,Amoxicillin,500 mg,three times daily,2016-04-30
+P00451,J45,Budesonide,200 mcg,twice daily,2023-10-27
+P00452,J18,Amoxicillin,500 mg,three times daily,2019-04-10
+P00452,D64,Ferrous sulfate,200 mg,once daily,2022-09-01
+P00453,E03,Levothyroxine,50 mcg,once daily,2015-05-31
+P00453,I10,Telmisartan,40 mg,once daily,2020-02-29
+P00453,E03,Levothyroxine,50 mcg,once daily,2025-01-22
+P00454,E03,Levothyroxine,50 mcg,once daily,2021-11-28
+P00455,I10,Amlodipine,5 mg,once daily,2021-06-27
+P00456,I10,Amlodipine,5 mg,once daily,2017-04-10
+P00460,I10,Telmisartan,40 mg,once daily,2019-04-03
+P00460,N18,Furosemide,40 mg,once daily,2022-04-22
+P00460,J45,Budesonide,200 mcg,twice daily,2023-08-08
+P00461,N18,Furosemide,40 mg,once daily,2024-04-20
+P00461,I25,Aspirin,75 mg,once daily,2020-01-27
+P00461,D64,Ferrous sulfate,200 mg,once daily,2016-12-27
+P00463,E11,Glimepiride,1 mg,once daily,2015-06-28
+P00463,E11,Metformin,500 mg,twice daily,2020-09-19
+P00463,J45,Budesonide,200 mcg,twice daily,2017-04-14
+P00464,E66,Orlistat,120 mg,three times daily,2024-02-11
+P00464,J45,Salbutamol,100 mcg,as needed,2015-11-21
+P00464,E66,Orlistat,120 mg,three times daily,2020-09-04
+P00465,I10,Amlodipine,5 mg,once daily,2024-10-23
+P00465,J45,Salbutamol,100 mcg,as needed,2023-04-01
+P00465,E11,Metformin,500 mg,twice daily,2022-09-17
+P00466,E66,Orlistat,120 mg,three times daily,2016-07-15
+P00468,J18,Amoxicillin,500 mg,three times daily,2024-03-29
+P00468,I10,Amlodipine,5 mg,once daily,2015-01-27
+P00469,E11,Glimepiride,1 mg,once daily,2019-03-07
+P00470,E66,Orlistat,120 mg,three times daily,2015-05-07
+P00471,I25,Atorvastatin,20 mg,once daily,2020-10-08
+P00472,D64,Ferrous sulfate,200 mg,once daily,2023-11-01
+P00473,D64,Ferrous sulfate,200 mg,once daily,2016-04-01
+P00473,J18,Amoxicillin,500 mg,three times daily,2020-10-25
+P00475,N18,Furosemide,40 mg,once daily,2024-05-25
+P00475,D64,Ferrous sulfate,200 mg,once daily,2024-12-16
+P00476,J45,Budesonide,200 mcg,twice daily,2018-01-14
+P00476,I10,Telmisartan,40 mg,once daily,2017-05-26
+P00476,E03,Levothyroxine,50 mcg,once daily,2024-11-15
+P00477,J18,Amoxicillin,500 mg,three times daily,2022-09-26
+P00478,J18,Amoxicillin,500 mg,three times daily,2019-12-26
+P00480,J18,Amoxicillin,500 mg,three times daily,2017-07-21
+P00480,J45,Salbutamol,100 mcg,as needed,2022-08-14
+P00481,J45,Salbutamol,100 mcg,as needed,2019-06-23
+P00481,E03,Levothyroxine,50 mcg,once daily,2023-11-14
+P00481,E11,Glimepiride,1 mg,once daily,2017-01-29
+P00482,N18,Furosemide,40 mg,once daily,2022-11-21
+P00482,E11,Glimepiride,1 mg,once daily,2015-12-12
+P00482,E03,Levothyroxine,50 mcg,once daily,2018-11-29
+P00483,I25,Aspirin,75 mg,once daily,2023-10-09
+P00483,N18,Furosemide,40 mg,once daily,2022-01-29
+P00483,D64,Ferrous sulfate,200 mg,once daily,2016-03-27
+P00484,E66,Orlistat,120 mg,three times daily,2019-01-10
+P00484,I25,Atorvastatin,20 mg,once daily,2021-03-19
+P00484,D64,Ferrous sulfate,200 mg,once daily,2018-12-27
+P00485,E66,Orlistat,120 mg,three times daily,2023-08-10
+P00486,I25,Aspirin,75 mg,once daily,2018-08-31
+P00486,I25,Atorvastatin,20 mg,once daily,2021-03-03
+P00488,D64,Ferrous sulfate,200 mg,once daily,2016-07-03
+P00488,J45,Salbutamol,100 mcg,as needed,2017-11-19
+P00489,E66,Orlistat,120 mg,three times daily,2023-02-23
+P00489,E03,Levothyroxine,50 mcg,once daily,2024-11-26
+P00489,E03,Levothyroxine,50 mcg,once daily,2019-01-21
+P00490,D64,Ferrous sulfate,200 mg,once daily,2019-04-02
+P00491,E66,Orlistat,120 mg,three times daily,2024-06-17
+P00492,J45,Salbutamol,100 mcg,as needed,2019-08-08
+P00492,J45,Salbutamol,100 mcg,as needed,2019-05-12
+P00493,N18,Furosemide,40 mg,once daily,2020-03-06
+P00494,J18,Amoxicillin,500 mg,three times daily,2020-07-01
+P00494,I10,Amlodipine,5 mg,once daily,2016-12-05
+P00495,E66,Orlistat,120 mg,three times daily,2018-03-08
+P00495,E11,Glimepiride,1 mg,once daily,2015-11-11
+P00496,E66,Orlistat,120 mg,three times daily,2023-02-14
+P00497,J45,Salbutamol,100 mcg,as needed,2024-11-26
+P00497,I25,Atorvastatin,20 mg,once daily,2019-03-02
+P00497,E66,Orlistat,120 mg,three times daily,2022-11-16
+P00498,D64,Ferrous sulfate,200 mg,once daily,2018-08-24
+P00499,I10,Telmisartan,40 mg,once daily,2015-06-03
+P00499,E66,Orlistat,120 mg,three times daily,2015-09-30
+P00500,I10,Amlodipine,5 mg,once daily,2015-02-26
+P00501,J45,Salbutamol,100 mcg,as needed,2023-04-22
+P00501,N18,Furosemide,40 mg,once daily,2021-09-25
+P00502,I10,Amlodipine,5 mg,once daily,2019-09-29
+P00502,E03,Levothyroxine,50 mcg,once daily,2017-06-09
+P00504,E66,Orlistat,120 mg,three times daily,2018-05-08
+P00505,I10,Telmisartan,40 mg,once daily,2022-07-25
+P00506,I10,Amlodipine,5 mg,once daily,2016-01-23
+P00507,I10,Amlodipine,5 mg,once daily,2020-02-26
+P00508,N18,Furosemide,40 mg,once daily,2018-10-25
+P00510,N18,Furosemide,40 mg,once daily,2016-12-01
+P00510,E11,Metformin,500 mg,twice daily,2024-10-10
+P00510,E66,Orlistat,120 mg,three times daily,2016-12-18
+P00511,D64,Ferrous sulfate,200 mg,once daily,2019-07-27
+P00512,D64,Ferrous sulfate,200 mg,once daily,2017-10-05
+P00512,J18,Amoxicillin,500 mg,three times daily,2024-02-07
+P00512,E11,Metformin,500 mg,twice daily,2023-11-10
+P00513,E66,Orlistat,120 mg,three times daily,2024-06-22
+P00513,E11,Metformin,500 mg,twice daily,2019-07-27
+P00516,J45,Salbutamol,100 mcg,as needed,2015-08-19
+P00516,E66,Orlistat,120 mg,three times daily,2019-03-30
+P00516,I10,Amlodipine,5 mg,once daily,2017-08-26
+P00518,E66,Orlistat,120 mg,three times daily,2019-01-26
+P00518,J18,Amoxicillin,500 mg,three times daily,2018-07-27
+P00519,I10,Telmisartan,40 mg,once daily,2015-01-21
+P00521,E11,Metformin,500 mg,twice daily,2023-07-01
+P00521,E66,Orlistat,120 mg,three times daily,2017-12-23
+P00522,I10,Amlodipine,5 mg,once daily,2019-04-07
+P00523,I25,Aspirin,75 mg,once daily,2022-12-28
+P00523,J45,Budesonide,200 mcg,twice daily,2019-08-30
+P00523,N18,Furosemide,40 mg,once daily,2024-06-01
+P00524,D64,Ferrous sulfate,200 mg,once daily,2023-11-21
+P00525,E66,Orlistat,120 mg,three times daily,2016-01-28
+P00525,I10,Telmisartan,40 mg,once daily,2019-07-17
+P00525,I25,Atorvastatin,20 mg,once daily,2022-01-25
+P00526,I25,Atorvastatin,20 mg,once daily,2015-12-10
+P00527,D64,Ferrous sulfate,200 mg,once daily,2022-03-27
+P00529,D64,Ferrous sulfate,200 mg,once daily,2017-12-09
+P00529,E66,Orlistat,120 mg,three times daily,2019-08-15
+P00530,E03,Levothyroxine,50 mcg,once daily,2016-12-17
+P00531,E03,Levothyroxine,50 mcg,once daily,2019-09-18
+P00531,I10,Amlodipine,5 mg,once daily,2017-09-15
+P00534,J18,Amoxicillin,500 mg,three times daily,2021-11-03
+P00534,D64,Ferrous sulfate,200 mg,once daily,2022-06-18
+P00535,D64,Ferrous sulfate,200 mg,once daily,2016-06-02
+P00535,D64,Ferrous sulfate,200 mg,once daily,2019-08-25
+P00537,J18,Amoxicillin,500 mg,three times daily,2019-10-20
+P00538,J45,Salbutamol,100 mcg,as needed,2023-05-21
+P00540,E66,Orlistat,120 mg,three times daily,2016-11-05
+P00540,D64,Ferrous sulfate,200 mg,once daily,2021-02-04
+P00541,E11,Metformin,500 mg,twice daily,2023-07-15
+P00541,E03,Levothyroxine,50 mcg,once daily,2017-03-31
+P00544,N18,Furosemide,40 mg,once daily,2020-10-22
+P00544,E11,Glimepiride,1 mg,once daily,2019-07-29
+P00545,D64,Ferrous sulfate,200 mg,once daily,2016-11-22
+P00545,E66,Orlistat,120 mg,three times daily,2016-02-16
+P00546,E66,Orlistat,120 mg,three times daily,2022-10-24
+P00546,D64,Ferrous sulfate,200 mg,once daily,2017-01-02
+P00546,J45,Budesonide,200 mcg,twice daily,2020-09-16
+P00548,E66,Orlistat,120 mg,three times daily,2022-09-22
+P00548,E66,Orlistat,120 mg,three times daily,2019-12-08
+P00549,E11,Glimepiride,1 mg,once daily,2019-07-12
+P00551,J18,Amoxicillin,500 mg,three times daily,2016-02-27
+P00551,N18,Furosemide,40 mg,once daily,2020-08-02
+P00552,I10,Telmisartan,40 mg,once daily,2022-06-04
+P00555,E11,Metformin,500 mg,twice daily,2018-03-24
+P00555,E11,Glimepiride,1 mg,once daily,2020-09-22
+P00557,I25,Atorvastatin,20 mg,once daily,2020-01-28
+P00558,E66,Orlistat,120 mg,three times daily,2021-04-11
+P00558,N18,Furosemide,40 mg,once daily,2021-01-27
+P00559,E11,Metformin,500 mg,twice daily,2020-02-16
+P00559,E03,Levothyroxine,50 mcg,once daily,2023-11-29
+P00561,E11,Metformin,500 mg,twice daily,2015-04-27
+P00561,E11,Metformin,500 mg,twice daily,2016-03-24
+P00563,E66,Orlistat,120 mg,three times daily,2022-11-28
+P00563,E03,Levothyroxine,50 mcg,once daily,2016-03-20
+P00564,N18,Furosemide,40 mg,once daily,2015-04-30
+P00564,D64,Ferrous sulfate,200 mg,once daily,2022-05-01
+P00564,I25,Atorvastatin,20 mg,once daily,2022-06-11
+P00565,D64,Ferrous sulfate,200 mg,once daily,2018-07-25
+P00565,E66,Orlistat,120 mg,three times daily,2021-06-25
+P00566,E03,Levothyroxine,50 mcg,once daily,2017-07-11
+P00567,E03,Levothyroxine,50 mcg,once daily,2021-08-24
+P00567,J45,Salbutamol,100 mcg,as needed,2018-08-29
+P00567,E66,Orlistat,120 mg,three times daily,2022-07-03
+P00569,I10,Telmisartan,40 mg,once daily,2019-04-25
+P00569,I25,Aspirin,75 mg,once daily,2018-10-09
+P00569,N18,Furosemide,40 mg,once daily,2016-08-02
+P00570,E03,Levothyroxine,50 mcg,once daily,2023-11-11
+P00570,N18,Furosemide,40 mg,once daily,2020-07-09
+P00572,D64,Ferrous sulfate,200 mg,once daily,2019-05-02
+P00573,J45,Salbutamol,100 mcg,as needed,2015-07-15
+P00573,J18,Amoxicillin,500 mg,three times daily,2020-05-12
+P00573,E11,Metformin,500 mg,twice daily,2024-09-26
+P00575,I25,Aspirin,75 mg,once daily,2018-07-22
+P00575,I10,Telmisartan,40 mg,once daily,2016-10-14
+P00575,J18,Amoxicillin,500 mg,three times daily,2019-05-18
+P00576,J45,Salbutamol,100 mcg,as needed,2019-05-29
+P00576,N18,Furosemide,40 mg,once daily,2018-03-25
+P00577,N18,Furosemide,40 mg,once daily,2022-12-29
+P00577,E03,Levothyroxine,50 mcg,once daily,2021-08-06
+P00579,E03,Levothyroxine,50 mcg,once daily,2022-08-27
+P00579,D64,Ferrous sulfate,200 mg,once daily,2020-05-24
+P00579,D64,Ferrous sulfate,200 mg,once daily,2016-03-29
+P00580,J18,Amoxicillin,500 mg,three times daily,2024-06-18
+P00580,E03,Levothyroxine,50 mcg,once daily,2017-10-03
+P00580,I25,Aspirin,75 mg,once daily,2024-01-07
+P00582,D64,Ferrous sulfate,200 mg,once daily,2016-11-26
+P00582,E11,Glimepiride,1 mg,once daily,2015-05-08
+P00583,J45,Budesonide,200 mcg,twice daily,2017-05-12
+P00583,E66,Orlistat,120 mg,three times daily,2021-03-05
+P00583,E11,Glimepiride,1 mg,once daily,2018-02-27
+P00584,N18,Furosemide,40 mg,once daily,2023-02-26
+P00585,E11,Glimepiride,1 mg,once daily,2017-12-26
+P00585,D64,Ferrous sulfate,200 mg,once daily,2015-05-06
+P00585,D64,Ferrous sulfate,200 mg,once daily,2015-10-22
+P00586,E11,Glimepiride,1 mg,once daily,2022-09-07
+P00586,N18,Furosemide,40 mg,once daily,2024-11-23
+P00588,I25,Aspirin,75 mg,once daily,2020-01-28
+P00588,E03,Levothyroxine,50 mcg,once daily,2021-06-22
+P00588,J18,Amoxicillin,500 mg,three times daily,2023-08-26
+P00590,J18,Amoxicillin,500 mg,three times daily,2023-06-06
+P00591,E66,Orlistat,120 mg,three times daily,2021-07-05
+P00591,E66,Orlistat,120 mg,three times daily,2022-09-02
+P00591,J18,Amoxicillin,500 mg,three times daily,2020-01-10
+P00592,E11,Metformin,500 mg,twice daily,2024-06-11
+P00592,E66,Orlistat,120 mg,three times daily,2023-03-18
+P00592,E66,Orlistat,120 mg,three times daily,2019-05-18
+P00593,I10,Telmisartan,40 mg,once daily,2017-01-13
+P00594,E11,Metformin,500 mg,twice daily,2017-01-30
+P00594,N18,Furosemide,40 mg,once daily,2018-09-28
+P00594,E66,Orlistat,120 mg,three times daily,2015-04-24
+P00596,D64,Ferrous sulfate,200 mg,once daily,2018-09-14
+P00597,E11,Metformin,500 mg,twice daily,2018-12-13
+P00597,D64,Ferrous sulfate,200 mg,once daily,2021-05-14
+P00597,N18,Furosemide,40 mg,once daily,2019-08-14
+P00601,J18,Amoxicillin,500 mg,three times daily,2015-12-05
+P00601,E11,Glimepiride,1 mg,once daily,2022-02-15
+P00602,J45,Budesonide,200 mcg,twice daily,2015-03-10
+P00602,J18,Amoxicillin,500 mg,three times daily,2021-11-10
+P00603,J45,Salbutamol,100 mcg,as needed,2024-09-23
+P00603,E11,Metformin,500 mg,twice daily,2022-09-04
+P00604,E03,Levothyroxine,50 mcg,once daily,2021-04-06
+P00604,J45,Salbutamol,100 mcg,as needed,2019-09-28
+P00605,J18,Amoxicillin,500 mg,three times daily,2022-10-04
+P00606,E03,Levothyroxine,50 mcg,once daily,2025-01-31
+P00607,I25,Aspirin,75 mg,once daily,2015-01-31
+P00607,J18,Amoxicillin,500 mg,three times daily,2015-03-07
+P00608,E11,Metformin,500 mg,twice daily,2024-02-24
+P00608,E11,Glimepiride,1 mg,once daily,2022-02-10
+P00609,E03,Levothyroxine,50 mcg,once daily,2020-09-09
+P00609,D64,Ferrous sulfate,200 mg,once daily,2020-04-02
+P00609,E03,Levothyroxine,50 mcg,once daily,2015-11-22
+P00610,E03,Levothyroxine,50 mcg,once daily,2025-01-28
+P00610,E11,Metformin,500 mg,twice daily,2017-03-05
+P00610,I10,Amlodipine,5 mg,once daily,2019-04-17
+P00611,J18,Amoxicillin,500 mg,three times daily,2022-03-16
+P00611,I25,Aspirin,75 mg,once daily,2015-12-18
+P00611,E03,Levothyroxine,50 mcg,once daily,2015-10-08
+P00613,E03,Levothyroxine,50 mcg,once daily,2021-04-11
+P00616,D64,Ferrous sulfate,200 mg,once daily,2021-11-03
+P00616,I25,Atorvastatin,20 mg,once daily,2023-06-25
+P00616,D64,Ferrous sulfate,200 mg,once daily,2015-11-05
+P00617,J45,Budesonide,200 mcg,twice daily,2023-10-10
+P00617,D64,Ferrous sulfate,200 mg,once daily,2017-01-14
+P00622,I10,Telmisartan,40 mg,once daily,2019-08-24
+P00622,J45,Salbutamol,100 mcg,as needed,2021-11-04
+P00624,J18,Amoxicillin,500 mg,three times daily,2017-07-24
+P00625,I10,Telmisartan,40 mg,once daily,2022-06-02
+P00625,J45,Budesonide,200 mcg,twice daily,2018-09-16
+P00625,N18,Furosemide,40 mg,once daily,2022-05-09
+P00626,D64,Ferrous sulfate,200 mg,once daily,2018-01-04
+P00626,D64,Ferrous sulfate,200 mg,once daily,2015-09-27
+P00629,D64,Ferrous sulfate,200 mg,once daily,2018-08-17
+P00629,D64,Ferrous sulfate,200 mg,once daily,2017-10-20
+P00629,E03,Levothyroxine,50 mcg,once daily,2019-01-25
+P00630,J45,Salbutamol,100 mcg,as needed,2015-05-15
+P00630,E66,Orlistat,120 mg,three times daily,2021-10-18
+P00631,D64,Ferrous sulfate,200 mg,once daily,2024-04-29
+P00631,E11,Metformin,500 mg,twice daily,2024-11-22
+P00632,D64,Ferrous sulfate,200 mg,once daily,2024-10-03
+P00633,I25,Aspirin,75 mg,once daily,2024-06-02
+P00633,E11,Metformin,500 mg,twice daily,2016-07-24
+P00633,J45,Salbutamol,100 mcg,as needed,2017-10-19
+P00634,I25,Atorvastatin,20 mg,once daily,2023-11-06
+P00634,D64,Ferrous sulfate,200 mg,once daily,2021-04-19
+P00635,I25,Aspirin,75 mg,once daily,2018-08-04
+P00635,E11,Glimepiride,1 mg,once daily,2023-10-08
+P00635,J45,Salbutamol,100 mcg,as needed,2021-10-22
+P00636,I25,Aspirin,75 mg,once daily,2016-09-13
+P00636,E03,Levothyroxine,50 mcg,once daily,2018-05-20
+P00636,J18,Amoxicillin,500 mg,three times daily,2019-08-20
+P00637,E03,Levothyroxine,50 mcg,once daily,2019-01-10
+P00638,E03,Levothyroxine,50 mcg,once daily,2024-03-14
+P00638,I25,Atorvastatin,20 mg,once daily,2015-11-27
+P00638,I10,Amlodipine,5 mg,once daily,2015-01-20
+P00639,J45,Salbutamol,100 mcg,as needed,2017-02-04
+P00639,D64,Ferrous sulfate,200 mg,once daily,2017-07-25
+P00639,E66,Orlistat,120 mg,three times daily,2024-01-11
+P00640,D64,Ferrous sulfate,200 mg,once daily,2019-01-09
+P00641,N18,Furosemide,40 mg,once daily,2018-12-21
+P00642,I10,Telmisartan,40 mg,once daily,2021-10-12
+P00644,E66,Orlistat,120 mg,three times daily,2017-03-01
+P00644,E11,Metformin,500 mg,twice daily,2019-12-27
+P00644,E11,Glimepiride,1 mg,once daily,2019-03-13
+P00645,J45,Salbutamol,100 mcg,as needed,2024-04-19
+P00645,E11,Metformin,500 mg,twice daily,2022-05-20
+P00645,N18,Furosemide,40 mg,once daily,2017-07-08
+P00646,J45,Budesonide,200 mcg,twice daily,2021-06-14
+P00647,N18,Furosemide,40 mg,once daily,2022-04-14
+P00647,D64,Ferrous sulfate,200 mg,once daily,2023-08-12
+P00647,D64,Ferrous sulfate,200 mg,once daily,2019-08-24
+P00649,E66,Orlistat,120 mg,three times daily,2025-03-15
+P00649,E03,Levothyroxine,50 mcg,once daily,2018-09-17
+P00649,E03,Levothyroxine,50 mcg,once daily,2018-05-02
+P00650,E11,Metformin,500 mg,twice daily,2024-05-06
+P00650,E03,Levothyroxine,50 mcg,once daily,2024-04-01
+P00650,J45,Salbutamol,100 mcg,as needed,2020-04-14
+P00651,E03,Levothyroxine,50 mcg,once daily,2021-07-29
+P00652,E03,Levothyroxine,50 mcg,once daily,2015-06-20
+P00652,I25,Aspirin,75 mg,once daily,2017-08-17
+P00653,N18,Furosemide,40 mg,once daily,2016-09-06
+P00653,I25,Atorvastatin,20 mg,once daily,2020-06-26
+P00653,J45,Salbutamol,100 mcg,as needed,2021-06-03
+P00654,D64,Ferrous sulfate,200 mg,once daily,2021-01-08
+P00654,D64,Ferrous sulfate,200 mg,once daily,2017-12-29
+P00654,D64,Ferrous sulfate,200 mg,once daily,2015-07-14
+P00655,I25,Atorvastatin,20 mg,once daily,2023-06-21
+P00655,J45,Budesonide,200 mcg,twice daily,2025-03-03
+P00655,N18,Furosemide,40 mg,once daily,2024-10-10
+P00656,N18,Furosemide,40 mg,once daily,2022-06-06
+P00657,J45,Budesonide,200 mcg,twice daily,2019-03-10
+P00657,J45,Budesonide,200 mcg,twice daily,2021-10-08
+P00658,E11,Metformin,500 mg,twice daily,2018-01-16
+P00659,D64,Ferrous sulfate,200 mg,once daily,2024-07-07
+P00660,E03,Levothyroxine,50 mcg,once daily,2024-05-29
+P00660,E11,Glimepiride,1 mg,once daily,2023-12-14
+P00660,N18,Furosemide,40 mg,once daily,2018-11-16
+P00661,I25,Atorvastatin,20 mg,once daily,2023-06-01
+P00662,I10,Amlodipine,5 mg,once daily,2024-05-17
+P00663,I25,Atorvastatin,20 mg,once daily,2022-05-29
+P00663,I25,Atorvastatin,20 mg,once daily,2021-03-12
+P00665,I25,Atorvastatin,20 mg,once daily,2023-04-03
+P00666,J18,Amoxicillin,500 mg,three times daily,2019-12-25
+P00666,I25,Atorvastatin,20 mg,once daily,2020-06-30
+P00666,J45,Salbutamol,100 mcg,as needed,2020-07-01
+P00667,E66,Orlistat,120 mg,three times daily,2018-10-29
+P00667,I10,Amlodipine,5 mg,once daily,2018-08-05
+P00668,N18,Furosemide,40 mg,once daily,2017-08-18
+P00668,J18,Amoxicillin,500 mg,three times daily,2021-12-26
+P00669,E11,Metformin,500 mg,twice daily,2022-06-04
+P00669,E11,Glimepiride,1 mg,once daily,2015-12-02
+P00669,J18,Amoxicillin,500 mg,three times daily,2018-07-07
+P00670,I10,Telmisartan,40 mg,once daily,2016-02-17
+P00671,N18,Furosemide,40 mg,once daily,2021-03-22
+P00671,I10,Telmisartan,40 mg,once daily,2025-03-22
+P00673,N18,Furosemide,40 mg,once daily,2016-02-05
+P00674,D64,Ferrous sulfate,200 mg,once daily,2020-07-09
+P00674,I25,Atorvastatin,20 mg,once daily,2024-09-03
+P00676,I25,Aspirin,75 mg,once daily,2019-01-11
+P00676,J45,Budesonide,200 mcg,twice daily,2022-01-07
+P00678,N18,Furosemide,40 mg,once daily,2015-02-06
+P00679,J45,Salbutamol,100 mcg,as needed,2024-03-19
+P00679,D64,Ferrous sulfate,200 mg,once daily,2017-09-16
+P00679,D64,Ferrous sulfate,200 mg,once daily,2019-08-31
+P00680,J18,Amoxicillin,500 mg,three times daily,2021-09-02
+P00681,E66,Orlistat,120 mg,three times daily,2023-11-04
+P00681,N18,Furosemide,40 mg,once daily,2020-02-21
+P00681,J18,Amoxicillin,500 mg,three times daily,2024-01-20
+P00682,E03,Levothyroxine,50 mcg,once daily,2021-03-27
+P00686,E66,Orlistat,120 mg,three times daily,2018-04-20
+P00687,I25,Aspirin,75 mg,once daily,2019-10-08
+P00687,J45,Salbutamol,100 mcg,as needed,2021-11-19
+P00687,D64,Ferrous sulfate,200 mg,once daily,2018-03-04
+P00688,E03,Levothyroxine,50 mcg,once daily,2022-05-26
+P00688,N18,Furosemide,40 mg,once daily,2021-09-25
+P00688,I25,Aspirin,75 mg,once daily,2025-05-25
+P00689,J45,Budesonide,200 mcg,twice daily,2019-09-28
+P00690,E66,Orlistat,120 mg,three times daily,2018-09-13
+P00690,J18,Amoxicillin,500 mg,three times daily,2018-03-07
+P00690,I10,Telmisartan,40 mg,once daily,2017-04-22
+P00691,J45,Budesonide,200 mcg,twice daily,2018-02-11
+P00692,E11,Metformin,500 mg,twice daily,2018-12-05
+P00693,I25,Atorvastatin,20 mg,once daily,2020-01-09
+P00693,J45,Budesonide,200 mcg,twice daily,2016-04-18
+P00694,E66,Orlistat,120 mg,three times daily,2019-03-30
+P00694,E03,Levothyroxine,50 mcg,once daily,2016-06-17
+P00694,I10,Telmisartan,40 mg,once daily,2020-05-29
+P00695,E03,Levothyroxine,50 mcg,once daily,2018-07-18
+P00695,J18,Amoxicillin,500 mg,three times daily,2021-08-01
+P00696,N18,Furosemide,40 mg,once daily,2018-02-06
+P00699,E11,Glimepiride,1 mg,once daily,2025-01-02
+P00700,E03,Levothyroxine,50 mcg,once daily,2022-10-21
+P00700,D64,Ferrous sulfate,200 mg,once daily,2022-08-15
+P00700,J18,Amoxicillin,500 mg,three times daily,2020-05-02
+P00701,J45,Budesonide,200 mcg,twice daily,2024-03-29
+P00701,E03,Levothyroxine,50 mcg,once daily,2016-02-18
+P00701,I10,Amlodipine,5 mg,once daily,2016-05-06
+P00703,J18,Amoxicillin,500 mg,three times daily,2025-05-10
+P00703,I10,Amlodipine,5 mg,once daily,2020-11-07
+P00703,J18,Amoxicillin,500 mg,three times daily,2025-01-12
+P00705,E11,Glimepiride,1 mg,once daily,2015-11-21
+P00705,J18,Amoxicillin,500 mg,three times daily,2024-08-20
+P00707,E66,Orlistat,120 mg,three times daily,2020-07-29
+P00707,I10,Amlodipine,5 mg,once daily,2022-09-27
+P00707,N18,Furosemide,40 mg,once daily,2018-08-28
+P00708,D64,Ferrous sulfate,200 mg,once daily,2017-10-01
+P00708,I25,Atorvastatin,20 mg,once daily,2018-03-20
+P00708,N18,Furosemide,40 mg,once daily,2017-10-26
+P00709,N18,Furosemide,40 mg,once daily,2015-07-24
+P00709,E11,Metformin,500 mg,twice daily,2015-12-31
+P00712,D64,Ferrous sulfate,200 mg,once daily,2015-03-21
+P00712,I25,Atorvastatin,20 mg,once daily,2018-01-21
+P00713,D64,Ferrous sulfate,200 mg,once daily,2020-03-16
+P00713,I25,Atorvastatin,20 mg,once daily,2015-06-03
+P00714,J18,Amoxicillin,500 mg,three times daily,2023-12-11
+P00714,E03,Levothyroxine,50 mcg,once daily,2018-05-29
+P00714,E03,Levothyroxine,50 mcg,once daily,2024-05-18
+P00716,D64,Ferrous sulfate,200 mg,once daily,2025-04-01
+P00716,N18,Furosemide,40 mg,once daily,2024-02-25
+P00717,J18,Amoxicillin,500 mg,three times daily,2016-01-04
+P00717,N18,Furosemide,40 mg,once daily,2022-10-08
+P00717,I10,Amlodipine,5 mg,once daily,2025-01-02
+P00718,J18,Amoxicillin,500 mg,three times daily,2021-08-01
+P00718,E66,Orlistat,120 mg,three times daily,2024-05-13
+P00720,N18,Furosemide,40 mg,once daily,2020-02-01
+P00720,J45,Salbutamol,100 mcg,as needed,2019-03-17
+P00720,N18,Furosemide,40 mg,once daily,2020-07-17
+P00721,E03,Levothyroxine,50 mcg,once daily,2022-10-08
+P00721,D64,Ferrous sulfate,200 mg,once daily,2025-04-26
+P00722,E66,Orlistat,120 mg,three times daily,2022-07-14
+P00722,J45,Salbutamol,100 mcg,as needed,2025-01-13
+P00722,E66,Orlistat,120 mg,three times daily,2018-02-01
+P00723,N18,Furosemide,40 mg,once daily,2022-07-12
+P00723,I25,Atorvastatin,20 mg,once daily,2017-09-06
+P00723,I25,Atorvastatin,20 mg,once daily,2016-12-16
+P00725,E66,Orlistat,120 mg,three times daily,2015-05-29
+P00726,J45,Budesonide,200 mcg,twice daily,2017-02-28
+P00729,I25,Atorvastatin,20 mg,once daily,2021-05-31
+P00729,J18,Amoxicillin,500 mg,three times daily,2016-02-27
+P00730,J18,Amoxicillin,500 mg,three times daily,2017-06-15
+P00733,J45,Budesonide,200 mcg,twice daily,2020-03-18
+P00735,J18,Amoxicillin,500 mg,three times daily,2018-04-27
+P00735,N18,Furosemide,40 mg,once daily,2022-06-02
+P00737,D64,Ferrous sulfate,200 mg,once daily,2017-08-18
+P00738,N18,Furosemide,40 mg,once daily,2024-09-28
+P00740,E66,Orlistat,120 mg,three times daily,2024-06-02
+P00740,N18,Furosemide,40 mg,once daily,2019-01-15
+P00742,J18,Amoxicillin,500 mg,three times daily,2015-04-12
+P00743,E66,Orlistat,120 mg,three times daily,2019-06-24
+P00743,J18,Amoxicillin,500 mg,three times daily,2025-03-27
+P00744,N18,Furosemide,40 mg,once daily,2020-11-14
+P00744,I10,Amlodipine,5 mg,once daily,2016-05-16
+P00744,J18,Amoxicillin,500 mg,three times daily,2020-05-27
+P00745,E03,Levothyroxine,50 mcg,once daily,2017-09-24
+P00745,E66,Orlistat,120 mg,three times daily,2015-01-26
+P00745,E11,Glimepiride,1 mg,once daily,2021-05-04
+P00746,E03,Levothyroxine,50 mcg,once daily,2021-09-24
+P00746,J45,Salbutamol,100 mcg,as needed,2016-07-18
+P00747,I25,Atorvastatin,20 mg,once daily,2016-09-29
+P00747,E11,Glimepiride,1 mg,once daily,2023-05-03
+P00747,J18,Amoxicillin,500 mg,three times daily,2024-02-12
+P00748,I10,Amlodipine,5 mg,once daily,2015-02-24
+P00748,N18,Furosemide,40 mg,once daily,2020-04-13
+P00748,E11,Metformin,500 mg,twice daily,2024-02-13
+P00749,E03,Levothyroxine,50 mcg,once daily,2020-09-07
+P00749,E66,Orlistat,120 mg,three times daily,2023-02-05
+P00750,N18,Furosemide,40 mg,once daily,2023-09-08
+P00750,I25,Atorvastatin,20 mg,once daily,2023-12-16
+P00754,N18,Furosemide,40 mg,once daily,2024-04-28
+P00755,E11,Metformin,500 mg,twice daily,2022-12-20
+P00755,I10,Telmisartan,40 mg,once daily,2019-02-02
+P00755,J18,Amoxicillin,500 mg,three times daily,2025-03-27
+P00756,I10,Amlodipine,5 mg,once daily,2015-05-25
+P00756,E66,Orlistat,120 mg,three times daily,2017-06-13
+P00756,J45,Salbutamol,100 mcg,as needed,2020-06-05
+P00758,J18,Amoxicillin,500 mg,three times daily,2018-08-08
+P00758,N18,Furosemide,40 mg,once daily,2024-05-12
+P00759,E11,Metformin,500 mg,twice daily,2022-10-13
+P00759,E11,Metformin,500 mg,twice daily,2016-08-18
+P00759,D64,Ferrous sulfate,200 mg,once daily,2016-04-08
+P00761,I25,Aspirin,75 mg,once daily,2020-11-03
+P00762,I25,Aspirin,75 mg,once daily,2018-03-09
+P00762,I10,Telmisartan,40 mg,once daily,2024-02-15
+P00762,I10,Telmisartan,40 mg,once daily,2015-01-16
+P00763,E03,Levothyroxine,50 mcg,once daily,2015-02-24
+P00763,D64,Ferrous sulfate,200 mg,once daily,2019-07-27
+P00764,E11,Glimepiride,1 mg,once daily,2024-05-02
+P00764,J18,Amoxicillin,500 mg,three times daily,2022-02-21
+P00764,D64,Ferrous sulfate,200 mg,once daily,2022-04-29
+P00766,E03,Levothyroxine,50 mcg,once daily,2022-11-10
+P00766,N18,Furosemide,40 mg,once daily,2016-06-19
+P00766,N18,Furosemide,40 mg,once daily,2020-09-01
+P00767,E66,Orlistat,120 mg,three times daily,2019-02-05
+P00768,J18,Amoxicillin,500 mg,three times daily,2015-10-12
+P00768,I10,Amlodipine,5 mg,once daily,2019-01-31
+P00768,D64,Ferrous sulfate,200 mg,once daily,2016-03-07
+P00770,N18,Furosemide,40 mg,once daily,2020-10-13
+P00770,N18,Furosemide,40 mg,once daily,2025-01-30
+P00770,I10,Telmisartan,40 mg,once daily,2020-06-03
+P00773,E66,Orlistat,120 mg,three times daily,2019-04-05
+P00774,E66,Orlistat,120 mg,three times daily,2015-01-24
+P00774,E03,Levothyroxine,50 mcg,once daily,2024-05-07
+P00775,E03,Levothyroxine,50 mcg,once daily,2024-08-28
+P00775,D64,Ferrous sulfate,200 mg,once daily,2015-03-14
+P00775,E66,Orlistat,120 mg,three times daily,2024-02-26
+P00777,D64,Ferrous sulfate,200 mg,once daily,2019-09-17
+P00777,J18,Amoxicillin,500 mg,three times daily,2021-08-13
+P00777,J18,Amoxicillin,500 mg,three times daily,2018-08-07
+P00778,E11,Metformin,500 mg,twice daily,2024-04-02
+P00779,I10,Amlodipine,5 mg,once daily,2015-11-03
+P00781,J18,Amoxicillin,500 mg,three times daily,2015-01-20
+P00781,E11,Glimepiride,1 mg,once daily,2017-05-19
+P00782,E11,Glimepiride,1 mg,once daily,2024-01-11
+P00783,N18,Furosemide,40 mg,once daily,2023-05-10
+P00783,I10,Amlodipine,5 mg,once daily,2015-04-28
+P00783,E66,Orlistat,120 mg,three times daily,2023-06-21
+P00784,J18,Amoxicillin,500 mg,three times daily,2022-05-22
+P00784,J18,Amoxicillin,500 mg,three times daily,2025-01-23
+P00784,J18,Amoxicillin,500 mg,three times daily,2024-04-05
+P00785,J18,Amoxicillin,500 mg,three times daily,2017-06-28
+P00786,J18,Amoxicillin,500 mg,three times daily,2018-10-12
+P00787,N18,Furosemide,40 mg,once daily,2017-11-09
+P00787,I25,Aspirin,75 mg,once daily,2021-01-15
+P00787,E11,Glimepiride,1 mg,once daily,2020-10-17
+P00789,J45,Salbutamol,100 mcg,as needed,2021-05-01
+P00790,E11,Glimepiride,1 mg,once daily,2015-11-20
+P00790,N18,Furosemide,40 mg,once daily,2022-11-04
+P00790,J45,Budesonide,200 mcg,twice daily,2023-02-21
+P00792,N18,Furosemide,40 mg,once daily,2021-07-07
+P00793,J18,Amoxicillin,500 mg,three times daily,2019-06-27
+P00794,I10,Amlodipine,5 mg,once daily,2024-09-01
+P00794,N18,Furosemide,40 mg,once daily,2019-11-22
+P00795,D64,Ferrous sulfate,200 mg,once daily,2015-01-03
+P00796,J18,Amoxicillin,500 mg,three times daily,2023-02-03
+P00797,I25,Atorvastatin,20 mg,once daily,2020-06-29
+P00797,I10,Telmisartan,40 mg,once daily,2021-06-21
+P00799,E03,Levothyroxine,50 mcg,once daily,2016-04-12
+P00800,I25,Aspirin,75 mg,once daily,2024-11-04
+P00801,I25,Atorvastatin,20 mg,once daily,2021-04-30
+P00801,J45,Budesonide,200 mcg,twice daily,2023-03-26
+P00801,I25,Aspirin,75 mg,once daily,2024-05-21
+P00802,J45,Budesonide,200 mcg,twice daily,2019-04-05
+P00802,E66,Orlistat,120 mg,three times daily,2016-01-01
+P00802,D64,Ferrous sulfate,200 mg,once daily,2020-05-15
+P00803,D64,Ferrous sulfate,200 mg,once daily,2020-03-27
+P00803,I25,Aspirin,75 mg,once daily,2019-11-17
+P00804,E11,Glimepiride,1 mg,once daily,2016-09-01
+P00804,E11,Glimepiride,1 mg,once daily,2021-07-05
+P00804,J45,Budesonide,200 mcg,twice daily,2015-06-20
+P00806,E11,Metformin,500 mg,twice daily,2022-12-24
+P00808,E66,Orlistat,120 mg,three times daily,2024-07-17
+P00808,I10,Telmisartan,40 mg,once daily,2017-05-17
+P00808,E66,Orlistat,120 mg,three times daily,2021-06-25
+P00809,J18,Amoxicillin,500 mg,three times daily,2016-12-29
+P00809,I25,Atorvastatin,20 mg,once daily,2016-07-06
+P00810,I10,Telmisartan,40 mg,once daily,2016-05-15
+P00810,I25,Aspirin,75 mg,once daily,2020-11-14
+P00810,I10,Telmisartan,40 mg,once daily,2024-05-13
+P00811,E66,Orlistat,120 mg,three times daily,2018-10-26
+P00811,I25,Atorvastatin,20 mg,once daily,2020-06-25
+P00811,E66,Orlistat,120 mg,three times daily,2020-03-19
+P00812,D64,Ferrous sulfate,200 mg,once daily,2016-05-18
+P00813,E03,Levothyroxine,50 mcg,once daily,2019-08-13
+P00813,E11,Metformin,500 mg,twice daily,2018-05-11
+P00813,D64,Ferrous sulfate,200 mg,once daily,2025-02-18
+P00814,E66,Orlistat,120 mg,three times daily,2020-05-22
+P00815,E11,Glimepiride,1 mg,once daily,2023-04-20
+P00815,J45,Salbutamol,100 mcg,as needed,2019-03-28
+P00815,J45,Budesonide,200 mcg,twice daily,2020-08-09
+P00816,I25,Aspirin,75 mg,once daily,2015-08-06
+P00816,D64,Ferrous sulfate,200 mg,once daily,2019-05-16
+P00817,E03,Levothyroxine,50 mcg,once daily,2018-11-22
+P00817,E11,Metformin,500 mg,twice daily,2020-07-26
+P00817,J18,Amoxicillin,500 mg,three times daily,2023-01-23
+P00818,I10,Telmisartan,40 mg,once daily,2015-10-07
+P00819,J45,Salbutamol,100 mcg,as needed,2023-01-26
+P00819,D64,Ferrous sulfate,200 mg,once daily,2015-07-18
+P00820,J45,Budesonide,200 mcg,twice daily,2024-01-27
+P00820,E11,Metformin,500 mg,twice daily,2018-10-24
+P00822,N18,Furosemide,40 mg,once daily,2020-07-18
+P00822,E03,Levothyroxine,50 mcg,once daily,2024-04-27
+P00823,D64,Ferrous sulfate,200 mg,once daily,2021-06-18
+P00824,I10,Telmisartan,40 mg,once daily,2020-06-12
+P00824,J18,Amoxicillin,500 mg,three times daily,2017-12-05
+P00824,I25,Aspirin,75 mg,once daily,2019-09-03
+P00825,E03,Levothyroxine,50 mcg,once daily,2016-05-08
+P00825,I10,Amlodipine,5 mg,once daily,2023-07-06
+P00826,N18,Furosemide,40 mg,once daily,2019-05-17
+P00826,E66,Orlistat,120 mg,three times daily,2024-03-07
+P00827,I25,Aspirin,75 mg,once daily,2024-01-31
+P00828,I25,Aspirin,75 mg,once daily,2024-07-16
+P00830,E03,Levothyroxine,50 mcg,once daily,2018-12-11
+P00830,I10,Telmisartan,40 mg,once daily,2023-12-16
+P00831,E66,Orlistat,120 mg,three times daily,2022-11-14
+P00831,J45,Salbutamol,100 mcg,as needed,2020-01-04
+P00832,N18,Furosemide,40 mg,once daily,2016-12-16
+P00833,N18,Furosemide,40 mg,once daily,2021-12-02
+P00833,D64,Ferrous sulfate,200 mg,once daily,2021-11-29
+P00834,D64,Ferrous sulfate,200 mg,once daily,2020-05-13
+P00834,D64,Ferrous sulfate,200 mg,once daily,2021-07-26
+P00834,J18,Amoxicillin,500 mg,three times daily,2019-12-13
+P00835,J45,Salbutamol,100 mcg,as needed,2016-11-20
+P00836,E03,Levothyroxine,50 mcg,once daily,2018-04-20
+P00836,N18,Furosemide,40 mg,once daily,2018-11-14
+P00837,E66,Orlistat,120 mg,three times daily,2025-01-15
+P00837,J18,Amoxicillin,500 mg,three times daily,2024-01-09
+P00837,D64,Ferrous sulfate,200 mg,once daily,2020-09-11
+P00838,E03,Levothyroxine,50 mcg,once daily,2018-05-01
+P00839,E66,Orlistat,120 mg,three times daily,2015-02-26
+P00841,E03,Levothyroxine,50 mcg,once daily,2023-02-17
+P00841,N18,Furosemide,40 mg,once daily,2015-01-31
+P00841,J45,Salbutamol,100 mcg,as needed,2023-12-26
+P00842,J18,Amoxicillin,500 mg,three times daily,2015-02-05
+P00842,J45,Salbutamol,100 mcg,as needed,2022-02-23
+P00844,J18,Amoxicillin,500 mg,three times daily,2016-09-06
+P00846,J45,Salbutamol,100 mcg,as needed,2016-11-29
+P00846,N18,Furosemide,40 mg,once daily,2021-04-22
+P00847,E11,Glimepiride,1 mg,once daily,2023-02-18
+P00847,E03,Levothyroxine,50 mcg,once daily,2022-02-01
+P00847,J45,Budesonide,200 mcg,twice daily,2023-08-15
+P00849,I10,Telmisartan,40 mg,once daily,2021-08-20
+P00849,N18,Furosemide,40 mg,once daily,2016-09-29
+P00851,I25,Atorvastatin,20 mg,once daily,2019-09-12
+P00852,E11,Metformin,500 mg,twice daily,2019-06-20
+P00853,I25,Atorvastatin,20 mg,once daily,2017-05-12
+P00856,N18,Furosemide,40 mg,once daily,2023-06-13
+P00856,J45,Salbutamol,100 mcg,as needed,2019-03-30
+P00858,J18,Amoxicillin,500 mg,three times daily,2016-07-19
+P00858,J18,Amoxicillin,500 mg,three times daily,2024-08-10
+P00858,D64,Ferrous sulfate,200 mg,once daily,2025-04-22
+P00860,D64,Ferrous sulfate,200 mg,once daily,2020-08-07
+P00861,E66,Orlistat,120 mg,three times daily,2017-06-05
+P00861,J18,Amoxicillin,500 mg,three times daily,2016-05-20
+P00862,I25,Atorvastatin,20 mg,once daily,2023-05-22
+P00863,J18,Amoxicillin,500 mg,three times daily,2016-08-05
+P00864,I10,Telmisartan,40 mg,once daily,2021-02-26
+P00864,N18,Furosemide,40 mg,once daily,2015-12-11
+P00864,N18,Furosemide,40 mg,once daily,2024-02-02
+P00865,E03,Levothyroxine,50 mcg,once daily,2025-03-20
+P00865,J45,Salbutamol,100 mcg,as needed,2015-05-31
+P00866,J18,Amoxicillin,500 mg,three times daily,2016-06-25
+P00866,I25,Aspirin,75 mg,once daily,2018-09-23
+P00867,J18,Amoxicillin,500 mg,three times daily,2022-08-26
+P00867,J45,Salbutamol,100 mcg,as needed,2021-06-13
+P00867,J45,Budesonide,200 mcg,twice daily,2021-07-26
+P00868,D64,Ferrous sulfate,200 mg,once daily,2023-03-03
+P00868,E03,Levothyroxine,50 mcg,once daily,2019-12-16
+P00868,I10,Telmisartan,40 mg,once daily,2025-02-24
+P00869,J18,Amoxicillin,500 mg,three times daily,2023-10-05
+P00870,N18,Furosemide,40 mg,once daily,2017-11-06
+P00870,I10,Amlodipine,5 mg,once daily,2024-01-30
+P00871,E03,Levothyroxine,50 mcg,once daily,2025-04-11
+P00871,I10,Amlodipine,5 mg,once daily,2020-05-02
+P00871,I10,Amlodipine,5 mg,once daily,2020-07-19
+P00872,J45,Budesonide,200 mcg,twice daily,2019-05-19
+P00872,N18,Furosemide,40 mg,once daily,2019-10-29
+P00872,E66,Orlistat,120 mg,three times daily,2019-06-09
+P00873,J45,Salbutamol,100 mcg,as needed,2018-03-03
+P00874,E66,Orlistat,120 mg,three times daily,2020-05-02
+P00875,I10,Amlodipine,5 mg,once daily,2025-02-12
+P00877,E03,Levothyroxine,50 mcg,once daily,2015-01-18
+P00878,E66,Orlistat,120 mg,three times daily,2015-04-02
+P00881,E11,Metformin,500 mg,twice daily,2015-06-30
+P00881,N18,Furosemide,40 mg,once daily,2022-10-14
+P00882,I10,Telmisartan,40 mg,once daily,2020-12-12
+P00882,J18,Amoxicillin,500 mg,three times daily,2022-08-04
+P00882,E66,Orlistat,120 mg,three times daily,2015-10-15
+P00884,I25,Aspirin,75 mg,once daily,2022-09-07
+P00884,E03,Levothyroxine,50 mcg,once daily,2019-08-09
+P00885,J18,Amoxicillin,500 mg,three times daily,2018-10-11
+P00885,E11,Metformin,500 mg,twice daily,2025-05-08
+P00885,E66,Orlistat,120 mg,three times daily,2024-05-09
+P00887,E66,Orlistat,120 mg,three times daily,2018-12-22
+P00887,E03,Levothyroxine,50 mcg,once daily,2020-08-02
+P00888,E03,Levothyroxine,50 mcg,once daily,2021-01-14
+P00889,J45,Salbutamol,100 mcg,as needed,2017-12-31
+P00889,D64,Ferrous sulfate,200 mg,once daily,2020-10-18
+P00890,J18,Amoxicillin,500 mg,three times daily,2018-07-21
+P00891,J45,Budesonide,200 mcg,twice daily,2020-11-21
+P00892,J45,Budesonide,200 mcg,twice daily,2023-01-18
+P00892,I10,Amlodipine,5 mg,once daily,2023-01-05
+P00894,I25,Aspirin,75 mg,once daily,2019-05-29
+P00895,E66,Orlistat,120 mg,three times daily,2022-11-28
+P00895,N18,Furosemide,40 mg,once daily,2015-11-16
+P00896,J45,Budesonide,200 mcg,twice daily,2021-06-14
+P00896,J18,Amoxicillin,500 mg,three times daily,2022-04-12
+P00896,I10,Telmisartan,40 mg,once daily,2017-09-13
+P00897,E03,Levothyroxine,50 mcg,once daily,2021-08-01
+P00897,N18,Furosemide,40 mg,once daily,2024-10-12
+P00897,E03,Levothyroxine,50 mcg,once daily,2022-08-07
+P00898,E66,Orlistat,120 mg,three times daily,2023-12-11
+P00898,D64,Ferrous sulfate,200 mg,once daily,2017-05-19
+P00898,J45,Budesonide,200 mcg,twice daily,2016-08-08
+P00899,I25,Atorvastatin,20 mg,once daily,2017-05-09
+P00899,E03,Levothyroxine,50 mcg,once daily,2020-11-17
+P00899,J45,Salbutamol,100 mcg,as needed,2018-11-18
+P00900,J18,Amoxicillin,500 mg,three times daily,2015-01-26
+P00901,E11,Metformin,500 mg,twice daily,2023-12-27
+P00901,I10,Telmisartan,40 mg,once daily,2017-07-27
+P00901,I25,Aspirin,75 mg,once daily,2025-05-18
+P00902,J18,Amoxicillin,500 mg,three times daily,2017-09-01
+P00903,N18,Furosemide,40 mg,once daily,2016-04-30
+P00905,J18,Amoxicillin,500 mg,three times daily,2016-02-08
+P00906,D64,Ferrous sulfate,200 mg,once daily,2017-11-07
+P00906,I10,Telmisartan,40 mg,once daily,2020-09-23
+P00906,I25,Aspirin,75 mg,once daily,2016-02-18
+P00907,J18,Amoxicillin,500 mg,three times daily,2019-09-18
+P00907,N18,Furosemide,40 mg,once daily,2024-03-04
+P00908,J45,Budesonide,200 mcg,twice daily,2023-10-25
+P00909,E66,Orlistat,120 mg,three times daily,2024-07-02
+P00909,J18,Amoxicillin,500 mg,three times daily,2018-09-04
+P00910,N18,Furosemide,40 mg,once daily,2022-12-14
+P00910,E66,Orlistat,120 mg,three times daily,2022-08-15
+P00911,E66,Orlistat,120 mg,three times daily,2023-12-29
+P00913,N18,Furosemide,40 mg,once daily,2017-08-31
+P00913,J45,Budesonide,200 mcg,twice daily,2023-03-06
+P00913,I25,Aspirin,75 mg,once daily,2021-10-20
+P00914,E66,Orlistat,120 mg,three times daily,2016-06-02
+P00915,I25,Aspirin,75 mg,once daily,2023-04-01
+P00915,E66,Orlistat,120 mg,three times daily,2018-08-06
+P00916,D64,Ferrous sulfate,200 mg,once daily,2015-07-29
+P00916,J18,Amoxicillin,500 mg,three times daily,2020-09-26
+P00916,E66,Orlistat,120 mg,three times daily,2019-10-11
+P00917,I10,Telmisartan,40 mg,once daily,2015-10-27
+P00918,E66,Orlistat,120 mg,three times daily,2021-09-24
+P00918,D64,Ferrous sulfate,200 mg,once daily,2015-04-18
+P00920,N18,Furosemide,40 mg,once daily,2019-06-06
+P00921,J45,Budesonide,200 mcg,twice daily,2025-03-29
+P00921,J45,Salbutamol,100 mcg,as needed,2018-05-22
+P00921,J45,Salbutamol,100 mcg,as needed,2023-02-19
+P00922,N18,Furosemide,40 mg,once daily,2016-02-28
+P00923,I10,Telmisartan,40 mg,once daily,2022-11-21
+P00924,J45,Budesonide,200 mcg,twice daily,2025-04-12
+P00924,I25,Aspirin,75 mg,once daily,2023-09-08
+P00924,J45,Budesonide,200 mcg,twice daily,2023-12-09
+P00926,I25,Atorvastatin,20 mg,once daily,2016-12-08
+P00927,J45,Budesonide,200 mcg,twice daily,2019-05-11
+P00927,E11,Metformin,500 mg,twice daily,2022-02-09
+P00927,I10,Telmisartan,40 mg,once daily,2017-12-19
+P00928,J18,Amoxicillin,500 mg,three times daily,2016-03-12
+P00928,D64,Ferrous sulfate,200 mg,once daily,2022-10-10
+P00928,E66,Orlistat,120 mg,three times daily,2017-07-04
+P00929,J45,Salbutamol,100 mcg,as needed,2020-08-06
+P00930,I10,Amlodipine,5 mg,once daily,2015-03-28
+P00930,I10,Telmisartan,40 mg,once daily,2017-03-04
+P00931,I10,Amlodipine,5 mg,once daily,2023-05-11
+P00931,D64,Ferrous sulfate,200 mg,once daily,2017-01-29
+P00932,E03,Levothyroxine,50 mcg,once daily,2024-01-20
+P00932,E03,Levothyroxine,50 mcg,once daily,2021-11-14
+P00932,N18,Furosemide,40 mg,once daily,2021-10-29
+P00933,E66,Orlistat,120 mg,three times daily,2021-03-06
+P00933,E03,Levothyroxine,50 mcg,once daily,2024-11-05
+P00933,D64,Ferrous sulfate,200 mg,once daily,2022-12-12
+P00935,E66,Orlistat,120 mg,three times daily,2018-10-05
+P00935,J18,Amoxicillin,500 mg,three times daily,2023-06-09
+P00935,J45,Salbutamol,100 mcg,as needed,2025-04-27
+P00936,I10,Telmisartan,40 mg,once daily,2016-02-15
+P00936,N18,Furosemide,40 mg,once daily,2020-06-01
+P00937,N18,Furosemide,40 mg,once daily,2019-02-16
+P00937,J45,Budesonide,200 mcg,twice daily,2020-04-15
+P00937,J45,Budesonide,200 mcg,twice daily,2022-10-11
+P00939,I10,Telmisartan,40 mg,once daily,2017-01-28
+P00939,E66,Orlistat,120 mg,three times daily,2019-01-26
+P00939,E03,Levothyroxine,50 mcg,once daily,2019-02-08
+P00940,I10,Telmisartan,40 mg,once daily,2019-11-05
+P00940,E11,Glimepiride,1 mg,once daily,2020-12-10
+P00940,E03,Levothyroxine,50 mcg,once daily,2019-11-16
+P00941,E03,Levothyroxine,50 mcg,once daily,2024-11-26
+P00941,E66,Orlistat,120 mg,three times daily,2024-12-12
+P00942,E11,Metformin,500 mg,twice daily,2015-11-09
+P00942,I25,Atorvastatin,20 mg,once daily,2020-10-15
+P00944,E03,Levothyroxine,50 mcg,once daily,2022-03-19
+P00944,E66,Orlistat,120 mg,three times daily,2018-10-15
+P00946,N18,Furosemide,40 mg,once daily,2021-07-23
+P00946,N18,Furosemide,40 mg,once daily,2020-01-25
+P00946,I10,Telmisartan,40 mg,once daily,2020-11-13
+P00947,I10,Amlodipine,5 mg,once daily,2019-02-08
+P00947,E66,Orlistat,120 mg,three times daily,2019-05-17
+P00947,I10,Telmisartan,40 mg,once daily,2025-01-03
+P00950,I25,Atorvastatin,20 mg,once daily,2019-05-02
+P00951,D64,Ferrous sulfate,200 mg,once daily,2019-12-29
+P00951,E03,Levothyroxine,50 mcg,once daily,2021-04-11
+P00951,D64,Ferrous sulfate,200 mg,once daily,2019-12-21
+P00952,J45,Salbutamol,100 mcg,as needed,2019-04-21
+P00952,I10,Amlodipine,5 mg,once daily,2015-11-09
+P00953,J18,Amoxicillin,500 mg,three times daily,2017-11-11
+P00953,N18,Furosemide,40 mg,once daily,2025-05-17
+P00953,N18,Furosemide,40 mg,once daily,2015-02-08
+P00954,J18,Amoxicillin,500 mg,three times daily,2017-05-26
+P00954,E66,Orlistat,120 mg,three times daily,2022-12-09
+P00956,D64,Ferrous sulfate,200 mg,once daily,2017-03-31
+P00956,J18,Amoxicillin,500 mg,three times daily,2023-07-19
+P00956,D64,Ferrous sulfate,200 mg,once daily,2025-01-11
+P00957,J45,Salbutamol,100 mcg,as needed,2016-05-18
+P00957,J18,Amoxicillin,500 mg,three times daily,2024-11-14
+P00957,J45,Salbutamol,100 mcg,as needed,2020-09-22
+P00958,I25,Aspirin,75 mg,once daily,2020-08-07
+P00958,N18,Furosemide,40 mg,once daily,2025-04-02
+P00959,I10,Amlodipine,5 mg,once daily,2019-09-27
+P00962,J18,Amoxicillin,500 mg,three times daily,2016-03-15
+P00962,I25,Atorvastatin,20 mg,once daily,2016-11-27
+P00963,D64,Ferrous sulfate,200 mg,once daily,2024-06-18
+P00964,E66,Orlistat,120 mg,three times daily,2019-05-25
+P00964,J18,Amoxicillin,500 mg,three times daily,2018-01-09
+P00964,E11,Metformin,500 mg,twice daily,2024-09-03
+P00965,I10,Telmisartan,40 mg,once daily,2016-12-18
+P00965,E66,Orlistat,120 mg,three times daily,2019-07-24
+P00965,J18,Amoxicillin,500 mg,three times daily,2024-05-24
+P00966,E11,Metformin,500 mg,twice daily,2021-03-30
+P00966,I10,Amlodipine,5 mg,once daily,2022-02-27
+P00967,I25,Aspirin,75 mg,once daily,2019-11-13
+P00967,E66,Orlistat,120 mg,three times daily,2019-01-20
+P00968,J18,Amoxicillin,500 mg,three times daily,2025-05-13
+P00968,E66,Orlistat,120 mg,three times daily,2021-06-18
+P00968,E66,Orlistat,120 mg,three times daily,2022-04-15
+P00971,N18,Furosemide,40 mg,once daily,2024-01-25
+P00971,N18,Furosemide,40 mg,once daily,2017-07-02
+P00972,N18,Furosemide,40 mg,once daily,2024-12-04
+P00972,E11,Glimepiride,1 mg,once daily,2015-03-11
+P00972,I10,Amlodipine,5 mg,once daily,2024-12-15
+P00974,E03,Levothyroxine,50 mcg,once daily,2024-02-26
+P00974,D64,Ferrous sulfate,200 mg,once daily,2015-03-21
+P00977,I25,Atorvastatin,20 mg,once daily,2015-09-16
+P00977,E11,Metformin,500 mg,twice daily,2017-02-07
+P00978,E66,Orlistat,120 mg,three times daily,2023-08-10
+P00979,J45,Salbutamol,100 mcg,as needed,2023-02-17
+P00980,J45,Budesonide,200 mcg,twice daily,2020-03-06
+P00980,E11,Glimepiride,1 mg,once daily,2016-05-07
+P00980,J18,Amoxicillin,500 mg,three times daily,2017-05-09
+P00982,I25,Atorvastatin,20 mg,once daily,2017-02-13
+P00983,D64,Ferrous sulfate,200 mg,once daily,2021-02-26
+P00983,E66,Orlistat,120 mg,three times daily,2024-08-27
+P00984,E66,Orlistat,120 mg,three times daily,2022-01-22
+P00986,J45,Budesonide,200 mcg,twice daily,2023-04-26
+P00987,J18,Amoxicillin,500 mg,three times daily,2016-07-11
+P00987,N18,Furosemide,40 mg,once daily,2020-08-22
+P00988,I25,Atorvastatin,20 mg,once daily,2015-08-28
+P00988,J18,Amoxicillin,500 mg,three times daily,2019-06-09
+P00989,I25,Aspirin,75 mg,once daily,2017-09-10
+P00989,N18,Furosemide,40 mg,once daily,2015-12-30
+P00989,D64,Ferrous sulfate,200 mg,once daily,2025-04-24
+P00990,I10,Amlodipine,5 mg,once daily,2016-06-03
+P00992,J45,Salbutamol,100 mcg,as needed,2022-06-06
+P00993,I25,Atorvastatin,20 mg,once daily,2016-07-15
+P00994,J45,Salbutamol,100 mcg,as needed,2022-05-05
+P00994,E11,Glimepiride,1 mg,once daily,2021-09-08
+P00995,E03,Levothyroxine,50 mcg,once daily,2017-09-28
+P00995,E03,Levothyroxine,50 mcg,once daily,2023-07-05
+P00995,N18,Furosemide,40 mg,once daily,2021-09-24
+P00996,N18,Furosemide,40 mg,once daily,2016-07-20
+P00996,E66,Orlistat,120 mg,three times daily,2018-05-26
+P00996,I25,Atorvastatin,20 mg,once daily,2021-05-18
+P00998,D64,Ferrous sulfate,200 mg,once daily,2022-08-19
+P01000,J45,Budesonide,200 mcg,twice daily,2024-07-03
+P01000,E66,Orlistat,120 mg,three times daily,2022-05-26
+P01000,E66,Orlistat,120 mg,three times daily,2016-08-30
+P01001,I10,Amlodipine,5 mg,once daily,2019-12-23
+P01002,D64,Ferrous sulfate,200 mg,once daily,2015-10-16
+P01002,E11,Metformin,500 mg,twice daily,2025-05-20
+P01003,N18,Furosemide,40 mg,once daily,2021-01-12
+P01005,D64,Ferrous sulfate,200 mg,once daily,2017-03-21
+P01006,D64,Ferrous sulfate,200 mg,once daily,2025-04-15
+P01006,D64,Ferrous sulfate,200 mg,once daily,2023-04-30
+P01006,J45,Salbutamol,100 mcg,as needed,2022-03-22
+P01007,J18,Amoxicillin,500 mg,three times daily,2023-02-03
+P01007,N18,Furosemide,40 mg,once daily,2021-03-15
+P01007,D64,Ferrous sulfate,200 mg,once daily,2017-03-06
+P01008,D64,Ferrous sulfate,200 mg,once daily,2021-08-16
+P01009,D64,Ferrous sulfate,200 mg,once daily,2021-01-17
+P01009,N18,Furosemide,40 mg,once daily,2021-08-21
+P01010,I10,Telmisartan,40 mg,once daily,2022-01-16
+P01011,E03,Levothyroxine,50 mcg,once daily,2024-04-07
+P01012,I10,Amlodipine,5 mg,once daily,2015-01-04
+P01013,J18,Amoxicillin,500 mg,three times daily,2024-05-04
+P01013,E66,Orlistat,120 mg,three times daily,2015-02-23
+P01015,E03,Levothyroxine,50 mcg,once daily,2024-03-10
+P01015,E66,Orlistat,120 mg,three times daily,2022-06-10
+P01015,I25,Atorvastatin,20 mg,once daily,2022-05-18
+P01016,J18,Amoxicillin,500 mg,three times daily,2023-12-17
+P01016,I10,Telmisartan,40 mg,once daily,2024-02-29
+P01017,E03,Levothyroxine,50 mcg,once daily,2018-07-29
+P01017,N18,Furosemide,40 mg,once daily,2024-02-10
+P01019,I10,Amlodipine,5 mg,once daily,2016-09-26
+P01020,J45,Budesonide,200 mcg,twice daily,2024-03-03
+P01020,J18,Amoxicillin,500 mg,three times daily,2024-12-03
+P01021,J45,Budesonide,200 mcg,twice daily,2020-06-28
+P01023,J18,Amoxicillin,500 mg,three times daily,2016-10-06
+P01023,I10,Amlodipine,5 mg,once daily,2018-02-23
+P01024,J45,Salbutamol,100 mcg,as needed,2022-08-03
+P01024,E66,Orlistat,120 mg,three times daily,2019-07-24
+P01024,I10,Amlodipine,5 mg,once daily,2024-07-12
+P01025,D64,Ferrous sulfate,200 mg,once daily,2024-12-24
+P01026,J18,Amoxicillin,500 mg,three times daily,2018-09-05
+P01026,E03,Levothyroxine,50 mcg,once daily,2018-06-23
+P01026,N18,Furosemide,40 mg,once daily,2018-07-05
+P01027,E03,Levothyroxine,50 mcg,once daily,2024-11-05
+P01027,J45,Budesonide,200 mcg,twice daily,2024-08-12
+P01027,J45,Salbutamol,100 mcg,as needed,2021-08-25
+P01029,E03,Levothyroxine,50 mcg,once daily,2023-01-25
+P01029,J45,Budesonide,200 mcg,twice daily,2023-06-03
+P01031,N18,Furosemide,40 mg,once daily,2016-11-14
+P01031,E66,Orlistat,120 mg,three times daily,2022-11-26
+P01033,E03,Levothyroxine,50 mcg,once daily,2017-01-29
+P01034,E11,Glimepiride,1 mg,once daily,2015-03-27
+P01036,N18,Furosemide,40 mg,once daily,2018-03-19
+P01036,J45,Salbutamol,100 mcg,as needed,2023-05-13
+P01037,J18,Amoxicillin,500 mg,three times daily,2025-01-12
+P01037,D64,Ferrous sulfate,200 mg,once daily,2015-06-17
+P01038,I10,Telmisartan,40 mg,once daily,2022-05-18
+P01038,J45,Salbutamol,100 mcg,as needed,2022-12-23
+P01038,J18,Amoxicillin,500 mg,three times daily,2023-04-02
+P01039,D64,Ferrous sulfate,200 mg,once daily,2016-12-28
+P01040,I10,Amlodipine,5 mg,once daily,2023-10-03
+P01040,I10,Amlodipine,5 mg,once daily,2018-01-01
+P01040,E03,Levothyroxine,50 mcg,once daily,2024-12-21
+P01041,I25,Aspirin,75 mg,once daily,2018-03-28
+P01041,D64,Ferrous sulfate,200 mg,once daily,2019-09-04
+P01043,I25,Atorvastatin,20 mg,once daily,2025-02-22
+P01043,E11,Metformin,500 mg,twice daily,2022-09-24
+P01044,J18,Amoxicillin,500 mg,three times daily,2022-04-14
+P01044,E66,Orlistat,120 mg,three times daily,2018-03-21
+P01044,I25,Atorvastatin,20 mg,once daily,2024-09-20
+P01046,E03,Levothyroxine,50 mcg,once daily,2021-02-15
+P01046,I10,Telmisartan,40 mg,once daily,2021-05-11
+P01046,I25,Atorvastatin,20 mg,once daily,2015-11-30
+P01047,J18,Amoxicillin,500 mg,three times daily,2020-10-22
+P01047,I10,Telmisartan,40 mg,once daily,2018-10-27
+P01048,N18,Furosemide,40 mg,once daily,2021-02-25
+P01048,J45,Budesonide,200 mcg,twice daily,2023-04-14
+P01050,I25,Aspirin,75 mg,once daily,2023-08-17
+P01050,E11,Glimepiride,1 mg,once daily,2021-12-18
+P01050,E66,Orlistat,120 mg,three times daily,2024-12-28
+P01051,I25,Aspirin,75 mg,once daily,2024-03-06
+P01052,E66,Orlistat,120 mg,three times daily,2017-06-09
+P01052,N18,Furosemide,40 mg,once daily,2018-04-03
+P01053,J18,Amoxicillin,500 mg,three times daily,2024-04-18
+P01054,E11,Metformin,500 mg,twice daily,2019-08-06
+P01054,N18,Furosemide,40 mg,once daily,2022-06-05
+P01055,D64,Ferrous sulfate,200 mg,once daily,2022-10-31
+P01056,J18,Amoxicillin,500 mg,three times daily,2017-08-17
+P01056,D64,Ferrous sulfate,200 mg,once daily,2019-09-28
+P01057,I25,Aspirin,75 mg,once daily,2020-10-09
+P01058,D64,Ferrous sulfate,200 mg,once daily,2024-12-27
+P01058,D64,Ferrous sulfate,200 mg,once daily,2020-09-08
+P01059,J45,Budesonide,200 mcg,twice daily,2017-08-04
+P01059,I10,Amlodipine,5 mg,once daily,2017-02-04
+P01059,E11,Metformin,500 mg,twice daily,2016-12-23
+P01060,E03,Levothyroxine,50 mcg,once daily,2021-09-27
+P01060,E66,Orlistat,120 mg,three times daily,2023-12-03
+P01061,I10,Amlodipine,5 mg,once daily,2019-05-18
+P01062,E66,Orlistat,120 mg,three times daily,2017-02-17
+P01062,I10,Amlodipine,5 mg,once daily,2022-09-03
+P01062,J18,Amoxicillin,500 mg,three times daily,2024-11-19
+P01063,J45,Budesonide,200 mcg,twice daily,2023-04-27
+P01063,E03,Levothyroxine,50 mcg,once daily,2018-07-02
+P01063,E11,Glimepiride,1 mg,once daily,2021-10-19
+P01064,J45,Salbutamol,100 mcg,as needed,2015-02-06
+P01068,E11,Glimepiride,1 mg,once daily,2019-01-17
+P01068,E66,Orlistat,120 mg,three times daily,2016-03-22
+P01068,D64,Ferrous sulfate,200 mg,once daily,2017-08-08
+P01069,I25,Atorvastatin,20 mg,once daily,2021-01-09
+P01070,D64,Ferrous sulfate,200 mg,once daily,2015-03-20
+P01070,I10,Telmisartan,40 mg,once daily,2021-07-12
+P01070,J45,Budesonide,200 mcg,twice daily,2015-08-16
+P01071,J45,Salbutamol,100 mcg,as needed,2023-09-27
+P01071,E66,Orlistat,120 mg,three times daily,2016-05-07
+P01072,J18,Amoxicillin,500 mg,three times daily,2021-08-31
+P01072,D64,Ferrous sulfate,200 mg,once daily,2019-10-30
+P01072,N18,Furosemide,40 mg,once daily,2015-10-28
+P01074,N18,Furosemide,40 mg,once daily,2016-10-23
+P01077,N18,Furosemide,40 mg,once daily,2019-10-17
+P01077,E11,Metformin,500 mg,twice daily,2015-10-31
+P01077,D64,Ferrous sulfate,200 mg,once daily,2018-02-22
+P01078,I10,Telmisartan,40 mg,once daily,2022-11-03
+P01079,J45,Salbutamol,100 mcg,as needed,2017-07-12
+P01079,J18,Amoxicillin,500 mg,three times daily,2020-04-08
+P01079,J18,Amoxicillin,500 mg,three times daily,2022-10-03
+P01080,I10,Amlodipine,5 mg,once daily,2020-07-26
+P01080,I25,Aspirin,75 mg,once daily,2024-01-08
+P01080,D64,Ferrous sulfate,200 mg,once daily,2022-10-02
+P01081,E03,Levothyroxine,50 mcg,once daily,2021-10-21
+P01081,N18,Furosemide,40 mg,once daily,2015-11-01
+P01081,E03,Levothyroxine,50 mcg,once daily,2018-05-06
+P01083,I25,Aspirin,75 mg,once daily,2019-01-15
+P01084,E66,Orlistat,120 mg,three times daily,2024-03-11
+P01086,J45,Salbutamol,100 mcg,as needed,2023-10-31
+P01087,D64,Ferrous sulfate,200 mg,once daily,2015-11-25
+P01088,N18,Furosemide,40 mg,once daily,2024-02-08
+P01088,E11,Metformin,500 mg,twice daily,2018-02-25
+P01089,J45,Salbutamol,100 mcg,as needed,2017-10-23
+P01089,J45,Budesonide,200 mcg,twice daily,2020-06-10
+P01089,E11,Metformin,500 mg,twice daily,2021-06-07
+P01090,J45,Salbutamol,100 mcg,as needed,2016-10-12
+P01090,I25,Aspirin,75 mg,once daily,2021-09-18
+P01090,N18,Furosemide,40 mg,once daily,2021-04-13
+P01091,E66,Orlistat,120 mg,three times daily,2019-09-17
+P01091,E03,Levothyroxine,50 mcg,once daily,2020-02-09
+P01091,I10,Telmisartan,40 mg,once daily,2021-03-14
+P01092,I25,Atorvastatin,20 mg,once daily,2020-08-14
+P01092,E03,Levothyroxine,50 mcg,once daily,2023-08-20
+P01092,E11,Metformin,500 mg,twice daily,2015-08-05
+P01093,I10,Amlodipine,5 mg,once daily,2024-08-08
+P01094,D64,Ferrous sulfate,200 mg,once daily,2021-01-27
+P01094,N18,Furosemide,40 mg,once daily,2015-07-08
+P01095,N18,Furosemide,40 mg,once daily,2019-02-02
+P01095,I25,Aspirin,75 mg,once daily,2019-11-11
+P01095,E66,Orlistat,120 mg,three times daily,2017-01-11
+P01098,E11,Metformin,500 mg,twice daily,2023-03-29
+P01098,E03,Levothyroxine,50 mcg,once daily,2022-05-18
+P01099,I25,Atorvastatin,20 mg,once daily,2024-10-09
+P01100,I10,Telmisartan,40 mg,once daily,2017-09-10
+P01100,J45,Budesonide,200 mcg,twice daily,2019-12-02
+P01100,D64,Ferrous sulfate,200 mg,once daily,2017-04-20
+P01102,N18,Furosemide,40 mg,once daily,2021-12-29
+P01104,I10,Amlodipine,5 mg,once daily,2018-01-19
+P01104,N18,Furosemide,40 mg,once daily,2016-02-04
+P01105,E11,Metformin,500 mg,twice daily,2017-03-16
+P01105,D64,Ferrous sulfate,200 mg,once daily,2017-10-27
+P01106,J45,Salbutamol,100 mcg,as needed,2020-03-16
+P01109,J45,Salbutamol,100 mcg,as needed,2022-03-15
+P01109,E11,Metformin,500 mg,twice daily,2016-02-26
+P01109,J18,Amoxicillin,500 mg,three times daily,2018-09-19
+P01110,I10,Amlodipine,5 mg,once daily,2017-10-09
+P01112,E66,Orlistat,120 mg,three times daily,2015-05-13
+P01112,I10,Amlodipine,5 mg,once daily,2021-07-11
+P01112,J18,Amoxicillin,500 mg,three times daily,2018-04-19
+P01113,E11,Glimepiride,1 mg,once daily,2022-09-26
+P01113,E66,Orlistat,120 mg,three times daily,2020-03-02
+P01113,D64,Ferrous sulfate,200 mg,once daily,2017-09-08
+P01114,J18,Amoxicillin,500 mg,three times daily,2023-09-02
+P01114,J18,Amoxicillin,500 mg,three times daily,2015-10-21
+P01114,N18,Furosemide,40 mg,once daily,2020-04-19
+P01116,I10,Telmisartan,40 mg,once daily,2019-06-03
+P01116,E11,Glimepiride,1 mg,once daily,2023-03-19
+P01116,I10,Telmisartan,40 mg,once daily,2020-05-16
+P01117,E11,Metformin,500 mg,twice daily,2023-11-20
+P01117,E11,Glimepiride,1 mg,once daily,2021-10-18
+P01119,J45,Budesonide,200 mcg,twice daily,2022-10-13
+P01119,D64,Ferrous sulfate,200 mg,once daily,2021-08-28
+P01120,I25,Aspirin,75 mg,once daily,2022-11-23
+P01120,J18,Amoxicillin,500 mg,three times daily,2018-05-18
+P01120,J45,Budesonide,200 mcg,twice daily,2022-05-06
+P01121,E11,Metformin,500 mg,twice daily,2016-03-17
+P01121,I10,Amlodipine,5 mg,once daily,2021-08-20
+P01121,I25,Atorvastatin,20 mg,once daily,2020-03-16
+P01122,I25,Atorvastatin,20 mg,once daily,2023-01-22
+P01123,I25,Atorvastatin,20 mg,once daily,2015-06-10
+P01124,E03,Levothyroxine,50 mcg,once daily,2016-06-05
+P01125,J45,Salbutamol,100 mcg,as needed,2019-12-17
+P01126,J18,Amoxicillin,500 mg,three times daily,2018-12-29
+P01126,D64,Ferrous sulfate,200 mg,once daily,2023-07-04
+P01126,J18,Amoxicillin,500 mg,three times daily,2021-04-08
+P01128,J45,Budesonide,200 mcg,twice daily,2022-01-28
+P01131,E11,Glimepiride,1 mg,once daily,2023-02-17
+P01131,E66,Orlistat,120 mg,three times daily,2023-09-05
+P01131,N18,Furosemide,40 mg,once daily,2020-11-30
+P01132,I10,Telmisartan,40 mg,once daily,2019-05-27
+P01132,I25,Atorvastatin,20 mg,once daily,2017-11-03
+P01133,I25,Atorvastatin,20 mg,once daily,2015-03-14
+P01133,E11,Metformin,500 mg,twice daily,2021-08-27
+P01134,J18,Amoxicillin,500 mg,three times daily,2015-10-06
+P01134,J45,Budesonide,200 mcg,twice daily,2019-01-12
+P01135,I25,Atorvastatin,20 mg,once daily,2020-01-12
+P01135,E66,Orlistat,120 mg,three times daily,2015-01-16
+P01136,J45,Salbutamol,100 mcg,as needed,2015-06-03
+P01136,E03,Levothyroxine,50 mcg,once daily,2022-11-25
+P01137,J18,Amoxicillin,500 mg,three times daily,2016-12-08
+P01138,E11,Metformin,500 mg,twice daily,2021-09-04
+P01139,E03,Levothyroxine,50 mcg,once daily,2018-10-19
+P01139,J18,Amoxicillin,500 mg,three times daily,2021-09-24
+P01140,I10,Amlodipine,5 mg,once daily,2023-10-04
+P01140,E03,Levothyroxine,50 mcg,once daily,2024-02-10
+P01141,N18,Furosemide,40 mg,once daily,2015-07-19
+P01142,N18,Furosemide,40 mg,once daily,2023-07-09
+P01142,E03,Levothyroxine,50 mcg,once daily,2025-04-21
+P01143,I10,Telmisartan,40 mg,once daily,2025-02-06
+P01143,E11,Metformin,500 mg,twice daily,2019-10-01
+P01143,E66,Orlistat,120 mg,three times daily,2021-05-14
+P01144,D64,Ferrous sulfate,200 mg,once daily,2022-02-02
+P01144,N18,Furosemide,40 mg,once daily,2024-08-24
+P01144,I10,Telmisartan,40 mg,once daily,2019-01-19
+P01145,N18,Furosemide,40 mg,once daily,2025-01-16
+P01145,D64,Ferrous sulfate,200 mg,once daily,2016-04-26
+P01146,J45,Budesonide,200 mcg,twice daily,2019-11-21
+P01146,E11,Metformin,500 mg,twice daily,2024-01-17
+P01147,J18,Amoxicillin,500 mg,three times daily,2020-01-05
+P01148,I25,Atorvastatin,20 mg,once daily,2016-02-09
+P01148,N18,Furosemide,40 mg,once daily,2015-05-11
+P01148,J18,Amoxicillin,500 mg,three times daily,2024-07-23
+P01151,E03,Levothyroxine,50 mcg,once daily,2023-04-03
+P01151,D64,Ferrous sulfate,200 mg,once daily,2021-01-17
+P01151,J45,Budesonide,200 mcg,twice daily,2018-04-13
+P01152,E66,Orlistat,120 mg,three times daily,2018-03-21
+P01152,I25,Atorvastatin,20 mg,once daily,2021-02-16
+P01154,I10,Telmisartan,40 mg,once daily,2022-02-09
+P01154,E66,Orlistat,120 mg,three times daily,2024-07-13
+P01156,N18,Furosemide,40 mg,once daily,2020-02-07
+P01156,E03,Levothyroxine,50 mcg,once daily,2025-04-23
+P01157,N18,Furosemide,40 mg,once daily,2021-10-18
+P01157,N18,Furosemide,40 mg,once daily,2018-08-18
+P01158,D64,Ferrous sulfate,200 mg,once daily,2020-11-18
+P01158,E11,Glimepiride,1 mg,once daily,2017-11-12
+P01158,J45,Budesonide,200 mcg,twice daily,2021-10-04
+P01160,N18,Furosemide,40 mg,once daily,2022-09-15
+P01162,N18,Furosemide,40 mg,once daily,2022-09-09
+P01162,I10,Amlodipine,5 mg,once daily,2021-03-29
+P01163,J45,Salbutamol,100 mcg,as needed,2015-10-10
+P01164,I25,Aspirin,75 mg,once daily,2015-07-13
+P01165,E03,Levothyroxine,50 mcg,once daily,2018-04-19
+P01165,E11,Glimepiride,1 mg,once daily,2022-05-08
+P01165,E11,Glimepiride,1 mg,once daily,2019-06-07
+P01168,J45,Budesonide,200 mcg,twice daily,2017-07-22
+P01168,J45,Budesonide,200 mcg,twice daily,2016-07-19
+P01168,E03,Levothyroxine,50 mcg,once daily,2020-02-26
+P01170,E66,Orlistat,120 mg,three times daily,2021-01-06
+P01171,J18,Amoxicillin,500 mg,three times daily,2019-03-05
+P01171,I25,Aspirin,75 mg,once daily,2025-05-20
+P01172,I10,Amlodipine,5 mg,once daily,2023-12-06
+P01172,E03,Levothyroxine,50 mcg,once daily,2019-03-03
+P01173,D64,Ferrous sulfate,200 mg,once daily,2020-08-27
+P01176,J18,Amoxicillin,500 mg,three times daily,2024-06-06
+P01176,I25,Atorvastatin,20 mg,once daily,2022-04-29
+P01176,D64,Ferrous sulfate,200 mg,once daily,2017-10-08
+P01177,I25,Atorvastatin,20 mg,once daily,2015-04-25
+P01177,I10,Telmisartan,40 mg,once daily,2025-01-26
+P01177,E11,Metformin,500 mg,twice daily,2020-06-18
+P01178,J18,Amoxicillin,500 mg,three times daily,2023-07-18
+P01179,D64,Ferrous sulfate,200 mg,once daily,2023-06-28
+P01180,J18,Amoxicillin,500 mg,three times daily,2022-05-11
+P01180,I25,Aspirin,75 mg,once daily,2020-10-25
+P01180,E03,Levothyroxine,50 mcg,once daily,2018-01-31
+P01181,I25,Aspirin,75 mg,once daily,2022-11-17
+P01181,N18,Furosemide,40 mg,once daily,2024-12-15
+P01181,E03,Levothyroxine,50 mcg,once daily,2022-08-31
+P01182,J45,Budesonide,200 mcg,twice daily,2018-08-19
+P01182,J18,Amoxicillin,500 mg,three times daily,2019-10-23
+P01182,D64,Ferrous sulfate,200 mg,once daily,2020-05-22
+P01184,I10,Telmisartan,40 mg,once daily,2015-11-26
+P01185,J45,Salbutamol,100 mcg,as needed,2022-09-26
+P01186,J18,Amoxicillin,500 mg,three times daily,2017-03-09
+P01187,N18,Furosemide,40 mg,once daily,2015-09-13
+P01187,E11,Glimepiride,1 mg,once daily,2015-10-02
+P01187,I25,Aspirin,75 mg,once daily,2018-02-11
+P01189,J18,Amoxicillin,500 mg,three times daily,2023-10-06
+P01189,I10,Telmisartan,40 mg,once daily,2024-01-17
+P01190,I10,Telmisartan,40 mg,once daily,2016-05-21
+P01191,J45,Budesonide,200 mcg,twice daily,2021-08-31
+P01191,N18,Furosemide,40 mg,once daily,2024-08-22
+P01191,E03,Levothyroxine,50 mcg,once daily,2023-01-15
+P01192,N18,Furosemide,40 mg,once daily,2016-07-21
+P01193,E03,Levothyroxine,50 mcg,once daily,2018-03-17
+P01193,I10,Telmisartan,40 mg,once daily,2023-03-07
+P01193,E03,Levothyroxine,50 mcg,once daily,2023-02-16
+P01195,I25,Aspirin,75 mg,once daily,2017-07-10
+P01195,N18,Furosemide,40 mg,once daily,2023-11-01
+P01195,J18,Amoxicillin,500 mg,three times daily,2016-10-04
+P01196,E03,Levothyroxine,50 mcg,once daily,2024-09-15
+P01196,E66,Orlistat,120 mg,three times daily,2020-06-19
+P01196,E11,Metformin,500 mg,twice daily,2015-10-02
+P01197,E11,Glimepiride,1 mg,once daily,2021-11-11
+P01197,E11,Glimepiride,1 mg,once daily,2023-06-25
+P01198,E11,Metformin,500 mg,twice daily,2018-07-16
+P01199,N18,Furosemide,40 mg,once daily,2025-05-04
+P01199,J45,Salbutamol,100 mcg,as needed,2021-12-29
+P01199,I10,Telmisartan,40 mg,once daily,2019-06-22
