@@ -10,24 +10,29 @@ def enable_pwa() -> None:
         <script>
         const appWindow = window.parent;
         const appDocument = appWindow.document;
-        let manifestLink = appDocument.querySelector('link[rel="manifest"]');
-        if (!manifestLink) {
-            manifestLink = appDocument.createElement("link");
-            manifestLink.rel = "manifest";
-            appDocument.head.appendChild(manifestLink);
-        }
-        manifestLink.href = new URL(
-            "app/static/manifest.json",
-            appWindow.location.href
-        ).href;
 
-        let themeColor = appDocument.querySelector('meta[name="theme-color"]');
-        if (!themeColor) {
-            themeColor = appDocument.createElement("meta");
-            themeColor.name = "theme-color";
-            appDocument.head.appendChild(themeColor);
+        function addManifest() {
+            if (!appDocument.head) return;
+
+            let manifestLink = appDocument.querySelector(
+                'link[rel="manifest"]'
+            );
+
+            if (!manifestLink) {
+                manifestLink = appDocument.createElement("link");
+                manifestLink.rel = "manifest";
+                appDocument.head.appendChild(manifestLink);
+            }
+
+            manifestLink.href = new URL(
+                "/app/static/manifest.json",
+                appWindow.location.origin
+            ).href;
         }
-        themeColor.content = "#0f172a";
+
+        addManifest();
+        appWindow.setTimeout(addManifest, 500);
+        appWindow.setTimeout(addManifest, 1500);
         </script>
         """,
         height=0,
