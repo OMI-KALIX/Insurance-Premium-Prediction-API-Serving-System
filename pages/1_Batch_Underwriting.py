@@ -19,6 +19,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
+from pwa import enable_pwa
+
 from ehr_utils import (
     generate_portfolio_executive_summary,
     get_active_portfolio,
@@ -39,6 +41,8 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed"
 )
+
+enable_pwa()
 
 render_sidebar_branding()
 

@@ -31,6 +31,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
+from pwa import enable_pwa
+
 from ehr_utils import load_ehr, render_sidebar_branding, render_sidebar_footer
 
 
@@ -44,6 +46,8 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed"
 )
+
+enable_pwa()
 
 render_sidebar_branding()
 
@@ -858,4 +862,3 @@ for rec in recommendations:
     st.markdown(f'<div class="{css_class}">{rec}</div>', unsafe_allow_html=True)
 
 render_sidebar_footer()
-

@@ -16,6 +16,8 @@ from typing import Optional
 import pandas as pd
 import streamlit as st
 
+from pwa import enable_pwa
+
 # Shared EHR and ML Underwriting Utilities
 from ehr_utils import (
     ALL_CITIES,
@@ -41,6 +43,8 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed"
 )
+
+enable_pwa()
 
 # Render unified sidebar branding & navigation styling
 render_sidebar_branding()

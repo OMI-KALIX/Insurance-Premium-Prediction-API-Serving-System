@@ -21,6 +21,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
+from pwa import enable_pwa
+
 # Import core EHR loader and clinical classification utilities
 from ehr_utils import (
     classify_bp,
@@ -52,6 +54,8 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed"
 )
+
+enable_pwa()
 
 render_sidebar_branding()
 
@@ -1119,4 +1123,3 @@ with d_col2:
     st.caption("Exports a formalized, one-page clinical patient chart summary complete with demographics, medical history, active medications, and utilization metrics.")
 
 render_sidebar_footer()
-

@@ -17,6 +17,8 @@ import plotly.graph_objects as go
 import requests
 import streamlit as st
 
+from pwa import enable_pwa
+
 from ehr_utils import (
     ALL_CITIES,
     OCCUPATIONS,
@@ -37,6 +39,8 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed"
 )
+
+enable_pwa()
 
 render_sidebar_branding()
 
