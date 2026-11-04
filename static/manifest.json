@@ -1,38 +1,26 @@
 {
-  "background_color": "#ffffff",
+  "background_color": "#0f172a",
   "dir": "ltr",
   "display": "standalone",
-  "name": "insurance-premium-prediction-api-serving-98v3.onrender",
+  "id": "/",
+  "name": "HealthSure InsurTech",
   "orientation": "any",
   "scope": "/",
-  "short_name": "insurance-premium-prediction-api-serving-98v3.onrender",
+  "short_name": "HealthSure",
   "start_url": "/",
-  "theme_color": "#ffffff",
+  "theme_color": "#0f172a",
   "icons": [
     {
-      "src": "https://insurance-premium-prediction-api-serving-98v3.onrender.com/favicon.png",
+      "src": "/app/static/icons/healthsure-192.png",
       "type": "image/png",
-      "sizes": "32x32",
-      "isSquare": true,
-      "isPng": true,
-      "isWebp": false,
-      "isJpg": false,
-      "width": 32,
-      "is512x512": false,
-      "is256x256": false,
-      "is192x192": false
+      "sizes": "192x192",
+      "purpose": "any"
     },
     {
-      "src": "https://insurance-premium-prediction-api-serving-98v3.onrender.com/favicon.ico",
-      "type": "image/x-icon",
-      "isSquare": false,
-      "isPng": false,
-      "isWebp": false,
-      "isJpg": false,
-      "width": 0,
-      "is512x512": false,
-      "is256x256": false,
-      "is192x192": false
+      "src": "/app/static/icons/healthsure-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
     }
   ]
 }

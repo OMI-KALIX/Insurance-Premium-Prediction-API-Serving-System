@@ -190,7 +190,7 @@ $env:GEMINI_API_KEY="AIzaSy..."
 *(If no API key is provided, the platform automatically runs in resilient offline mode with comprehensive rule-based actuarial summaries.)*
 
 ### Progressive Web App
-The Streamlit portal serves its web app manifest and install icons from `static/` and exposes them on every page. Deploy it over HTTPS for browser installation prompts. The app does not cache clinical or underwriting data for offline use.
+The Streamlit portal serves its web app manifest and install icons from `static/`. The `Dockerfile.ui` deployment uses Nginx to add the manifest link to the initial HTML response, where browser install tools can discover it. Deploy over HTTPS for browser installation prompts. The app does not cache clinical or underwriting data for offline use.
 
 ---
 

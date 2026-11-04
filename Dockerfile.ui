@@ -2,12 +2,21 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends nginx gettext-base \
+    && rm -f /etc/nginx/sites-enabled/default \
+    && rm -rf /var/lib/apt/lists/*
+
 COPY requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
+COPY nginx.conf.template /etc/nginx/templates/default.conf.template
+COPY start-ui.sh /usr/local/bin/start-ui
 
-EXPOSE 8501
+RUN chmod +x /usr/local/bin/start-ui
 
-CMD ["sh", "-c", "streamlit run UI.py --server.address=0.0.0.0 --server.port=${PORT:-8501}"]
+EXPOSE 10000
+
+CMD ["/usr/local/bin/start-ui"]
