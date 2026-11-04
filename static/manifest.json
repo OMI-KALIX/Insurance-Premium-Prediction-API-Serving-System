@@ -1,34 +1,22 @@
 {
-  "id": "../../",
+  "id": "/",
   "name": "HealthSure InsurTech",
   "short_name": "HealthSure",
-  "description": "HealthSure healthcare data intelligence and insurance underwriting platform.",
-  "start_url": "../../",
-  "scope": "../../",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
-  "display_override": ["standalone", "minimal-ui"],
   "background_color": "#0f172a",
   "theme_color": "#0f172a",
-  "lang": "en-US",
-  "categories": ["health", "finance", "productivity"],
   "icons": [
     {
-      "src": "icons/healthsure-192.png",
+      "src": "/app/static/icons/healthsure-192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
+      "type": "image/png"
     },
     {
-      "src": "icons/healthsure-512.png",
+      "src": "/app/static/icons/healthsure-512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/healthsure.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "maskable"
+      "type": "image/png"
     }
   ]
 }
